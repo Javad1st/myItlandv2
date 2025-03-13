@@ -1,0 +1,773 @@
+* {
+  text-decoration: none;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: iranSans;
+  font-weight: 700;
+  -webkit-touch-callout: none; 
+  -webkit-user-select: none; 
+   -khtml-user-select: none; 
+     -moz-user-select: none; 
+      -ms-user-select: none; 
+          user-select: none;
+}
+
+a {
+  
+    width: inherit;
+    text-decoration: none;
+  
+}
+
+@font-face {
+  font-family: iranSans;
+  font-style: normal;
+  font-weight: bolder;
+  src: url(../yekan/Yekan-Bakh-FaNum-07-Heavy.woff);
+}
+
+@font-face {
+  font-family: iranSans;
+  font-style: normal;
+  font-weight: bold;
+  src: url(../yekan/Yekan-Bakh-FaNum-06-Bold.woff);
+}
+
+@font-face {
+  font-family: iranSans;
+  font-style: normal;
+  font-weight: 900;
+  src: url(../yekan/Yekan-Bakh-FaNum-08-Fat.woff);
+}
+
+@font-face {
+  font-family: iranSans;
+  font-style: normal;
+  font-weight: 700;
+  src: url(../yekan/Yekan-Bakh-FaNum-05-Medium.woff);
+}
+
+
+
+@font-face {
+  font-family: iranSans;
+  font-style: normal;
+  font-weight: 300;
+  src: url(../yekan/Yekan-Bakh-FaNum-04-Regular.woff);
+}
+
+:root {
+  --base-color: #defffa; 
+  --base-variant: #e0f7fa; 
+  --text-color: #2c3e50; 
+  --secondary-text: #34495e; 
+  --primary-color: #1afff452; 
+  --accent-color: #16a085; 
+  --footer-color: #2c3e50; 
+  --darkMode: #27ae60; 
+  --zed: #2ecc71;
+  --zed2: #27ae60; 
+  --box: rgba(255, 255, 255, 0.205);
+  --grad2: #1b8aa6;
+}
+
+
+.darkmode {
+  --base-color: #00182f; 
+  --base-variant: #1c2329; 
+  --text-color: #ecf0f1; 
+  --secondary-text: #bdc3c7; 
+  --primary-color: #167ba0; 
+  --accent-color: #1abc9c; 
+  --footer-color: #2c3e50; 
+  --darkMode: #1abc9c; 
+  transition: all ease-in-out .5s;
+  --zed: #2ecc71; 
+  --zed2: #27ae60; 
+  --box: rgba(0, 0, 0, 0.1);
+  --grad2: #1fd2ffd4;
+}
+
+
+body {
+  background-color: white;
+
+ 
+  /* height: 100vh;  */
+}
+
+.categories {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 1rem;
+  gap: 3rem;
+  margin-right: 2rem;
+  margin-top: 1rem;
+}
+
+.cats {
+  /* display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr; */
+  gap: 1rem;
+  display: flex;
+  gap: 0.4rem;
+  flex-wrap: wrap;
+}
+
+
+.cats .cat {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  gap: 6px;
+  padding: 0.2rem 0.4rem; 
+  border-radius: 15px; 
+  font-size: 1.5rem; 
+  background-color: var(--base-color);
+  color: var(--text-color);
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2); 
+  transition: background-color 0.3s ease, transform 0.3s ease; 
+}
+.cats1 .cat a {
+
+  color: var(--text-color);
+
+}
+
+.cat:hover {
+  background-color: var(--primary-color); 
+  transform: translateY(-5px); 
+}
+.cats2 .cat {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  gap: 2px;
+  position: relative;
+  background: none;
+  width: fit-content;
+  background-color: var(--text-color);
+  color: var(--base-color);
+}
+
+.cat:active {
+  transform: translateY(1px); 
+}
+
+
+.click {
+  background-color: var(--footer-colorcolor);
+}
+
+.block {
+  animation: appear linear;
+  animation-timeline: view();
+  animation-range: entry 0 cover 30%;
+}
+.hamburger-menu {
+  position: absolute;
+  left: 30px;
+}
+
+.hamburger-icon{
+  cursor: pointer;
+  background-color: #19764a;
+  padding: 10px;
+  border-radius: 5px;
+  display: flex;
+}
+
+.menu {
+  background-attachment: fixed;
+  isolation: isolate;
+  position: fixed;
+  top: 0;
+  left: -300px; /* منو در ابتدا بیرون صفحه است */
+  width: 300px;
+  height: 100vh;
+  /* background-color: var(--base-color); */
+  border-radius: 0 5px 5px 0;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  transition: left 0.3s ease; /* انیمیشن برای حرکت منو */
+}
+.menu::before{
+  content: '';
+   position: absolute;
+  z-index: -20;
+  inset: 0;
+  background: var(--base-color);
+}
+
+.menu-item {
+  margin: 20px 10px;
+  transition: left 0.3s ease;
+}
+
+.menu-btn {
+  background-color: var(--accent-color);
+  color: var(--text-color);
+  padding: 10px;
+  border: none;
+  width: 100%;
+  text-align: left;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  opacity: 100%;
+}
+
+.menu-btn:hover {
+  background-color: #45a049;
+}
+
+.icon {
+  transition: transform 0.3s ease;
+}
+
+.rotate {
+  transform: rotate(180deg);
+}
+
+.dropdown-content {
+  display: none;
+  flex-direction: column;
+  margin-top: 5px;
+}
+
+.dropdown-content a {
+  background-color: var(--base-color);
+  color: var(--secondary-text);
+  padding: 10px;
+  text-decoration: none;
+  display: block;
+  transition: background-color 0.3s ease;
+  border-radius: 5px;
+}
+
+.dropdown-content a:hover {
+  background-color: var(--base-variant);
+}
+
+
+.show {
+  display: flex;
+  animation: dropdown 0.5s ease forwards;
+}
+
+.menu-open {
+  left: 0; /* وقتی منو باز می‌شود */
+}
+.close-icon {
+  cursor: pointer;
+  padding: 10px;
+  background-color: #19764a;
+  color: var(--base-color);
+  border-radius: 5px;
+  text-align: right;
+  margin: 10px;
+  display: flex;
+  width: fit-content;
+}
+.close-icon:hover {
+  background-color: #4CAF50;
+}
+.dropdown-content {
+  overflow: hidden;
+  transition: max-height 0.3s ease-out; /* انیمیشن کشویی */
+}
+
+.show-dropdown {
+  max-height: 300px; /* ارتفاعی که محتوا به خود می‌گیرد هنگام باز شدن */
+}
+
+.blogs {
+  display: flex;
+  gap: 2rem;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-top: 2rem;
+
+  /* border: 1px solid var(--text-color); */
+
+
+  border-radius: 25px;
+  margin: 2rem 0rem;
+  padding: 1rem;
+  position: relative; 
+  /* background-color: var(--base-color); */
+}
+
+.blogs::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  /* background-image: url(../tasavir/kamHagm.jpg); */
+  background-size: cover;
+  background-position: center; 
+  opacity: 0.3; 
+  z-index: 1; 
+}
+
+.blogs > * {
+  position: relative;
+  z-index: 2; 
+}
+
+.blog {
+  background: var(--box);
+  backdrop-filter: blur(3px);
+  transition: all ease-in 200ms;
+  /* border: 1px solid var(--text-color);  */
+  color: var(--text-color);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  width: 350px; 
+  height: 490px;
+  border-radius: 10px;
+  padding: 1.5rem; 
+  text-align: center;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1); 
+  /* position: relative; */
+  margin-top: 3rem;
+}
+
+
+
+.blog::before {
+  content: '';
+  /* position: absolute; */
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(255, 255, 255, 0.1); /* لایه نیمه شفاف */
+  border-radius: 20px;
+  opacity: 0; /* شروع با شفافیت صفر */
+  transition: opacity 200ms ease-in; /* انیمیشن برای شفافیت */
+}
+
+.blog:hover::before {
+  opacity: 1; /* افزایش شفافیت در حالت hover */
+}
+.blog img.article-image {
+width: 450px;
+  height: 225px;
+}
+.blog img.article-image {
+  transition: all ease-out 200ms;
+  position: relative;
+top: -85px;
+  width: 450px;
+  height: 225px;
+  /* border: 1px solid var(--text-color);  */
+  border-radius: 10px;
+  object-fit: cover;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2); 
+}
+.blog img:hover{
+  transform: scale(1.02);
+}
+.blog h2 {
+  align-self: flex-start;
+  margin-top: -4rem;
+  margin-bottom: 2rem;
+  color: var(--text-color);
+  font-weight: 900;
+  font-size: 2rem;
+  line-height: 1.4rem;
+ 
+}
+h2>a{
+  font-weight: 900;
+  color: var(--text-color);
+  transition: .5s;
+
+}
+h2>a:hover{
+  color: var( --primary-color);
+
+}
+
+.blog .discreption{
+  font-weight: bolder;
+  align-self: flex-start;
+  font-size: 1.2rem;
+  color: var(--secondary-text);
+  overflow: inherit;
+  /* text-overflow: ellipsis; */
+  /* display: -webkit-box; */
+  /* -webkit-line-clamp: 3; */
+  /* -webkit-box-orient: vertical; */
+  margin-bottom: 2rem;
+}
+.catSec{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.categ{
+
+  display: flex;
+  gap: 4px;
+  justify-content: center;
+  align-items: center;
+  color: var(--text-color);
+  background-color: rgba(0, 157, 255, 0.171);
+  border-radius: 4px;
+  padding: 0.3rem 0.3rem;
+
+}
+.categ p{
+  font-size: small;
+}
+.categ svg{
+  fill: var(--text-color);
+}
+.writer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 0.8rem;
+  padding: 0.3rem 0.3rem;
+}
+.iconsSec{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  
+}
+.icons{
+ 
+  display: flex;
+  gap: 0.8rem;
+  font-size: 0.8rem;
+  /* margin-bottom: 1rem; */
+  /* margin-right: 1rem; */
+}
+.icon{
+  font-size: 1.2rem ;
+  display: flex;
+  gap: 0.2rem;
+}
+.like{
+  color: rgb(0, 0, 0);
+  background-color: rgba(255, 0, 13, 0.211);
+  border-radius: 4px;
+  padding: 0.1rem 0.3rem;
+}
+.like:hover{
+  background-color: rgba(133, 60, 60, 0.171);
+}
+#like-icon-0{
+  fill: rgba(255, 0, 60, 0.653);
+}
+#like-count-0{
+  color:rgba(255, 0, 60, 0.854); ;
+}
+#liked-icon{
+  display: none;
+  
+}
+
+.comment{
+  color: var(--text-color);
+  background-color: rgba(0, 115, 255, 0.16);
+  border-radius: 4px;
+  padding: 0.1rem 0.3rem;
+}
+.comment:hover{
+  background-color: rgba(133, 60, 60, 0.171);
+}
+.comment svg{
+  fill:#1c9bc9
+}
+.save{
+  color: rgb(0, 0, 0);
+  background-color: rgba(0, 0, 0, 0.178);
+  border-radius: 4px;
+  padding: 0.3rem 0.4rem;
+}
+.save:hover{
+  background-color: rgba(133, 60, 60, 0.171);
+
+}
+
+.save svg{
+  fill: var(--text-color);
+}
+.blog .view {
+  transition: all ease-out 300ms;
+  color: var(--text-color);
+  padding: 0.5rem 0;
+  font-size: 1.2rem;
+  width: inherit;
+  margin-bottom: -2rem;
+  padding-top: 2rem;
+  border-top: 2px solid rgba(71, 115, 128, 0.187);
+}
+
+.blog .view:hover {
+    /* background-color: #1c262977; */
+    color: var(--grad2);
+}
+
+
+
+.icon {
+  display: flex;
+  align-items: center;
+
+}
+
+.icon svg {
+  cursor: pointer;
+  transition: fill 0.2s;
+}
+
+
+/* .comment:hover svg{
+  padding-top: 1rem;
+  border-top: 2px solid rgba(42, 71, 79, 0.2);
+
+} */
+
+
+
+
+.disNone{
+  display: none;
+}
+
+.disOn{
+  display: inline;
+}
+
+
+
+
+
+.categories{
+  position: relative;
+}
+.cats1 .cat6{
+  background-color: var(--text-color);
+  color: var(--base-color);
+  position: absolute;
+  left: 1rem;
+  top: 0;
+  z-index: 1000;
+}
+  @media (max-width: 900px) {
+  
+  .partOfHeader5 form{
+    display: none;
+  }
+}
+
+
+
+ 
+
+.blogs {
+  display: flex;
+  gap: 2rem;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-top: 2rem;
+  border-radius: 25px;
+  margin: 2rem 1rem;
+  padding: 3rem;
+  position: relative; 
+  /* background-color: var(--base-color); */
+}
+
+.blogs::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  /* background-image: url(../tasavir/kamHagm.jpg); */
+  background-size: cover;
+  background-position: center; 
+  opacity: 0.3; 
+  z-index: 1; 
+}
+
+.blogs > * {
+  position: relative;
+  z-index: 2; 
+}
+
+.blog {
+  background: var(--box);
+  backdrop-filter: blur(3px);
+  transition: all ease-in 200ms;
+  /* border: 1px solid var(--text-color);  */
+  color: var(--text-color);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  width: 350px; 
+  height: 490px;
+  border-radius: 10px;
+  padding: 1.5rem; 
+  text-align: center;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1); 
+  /* position: relative; */
+  margin-top: 2rem;
+}
+
+
+
+.blog::before {
+  content: '';
+  /* position: absolute; */
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(255, 255, 255, 0.1); /* لایه نیمه شفاف */
+  border-radius: 20px;
+  opacity: 0; /* شروع با شفافیت صفر */
+  transition: opacity 200ms ease-in; /* انیمیشن برای شفافیت */
+}
+
+.blog:hover::before {
+  opacity: 1; /* افزایش شفافیت در حالت hover */
+}
+
+
+.blog img.article-image {
+  transition: all ease-out 200ms;
+  position: relative;
+top: -85px;
+  width: 300px;
+  height: 150px;
+  /* border: 1px solid var(--text-color);  */
+  border-radius: 10px;
+  object-fit: cover;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2); 
+}
+.blog img:hover{
+  transform: scale(1.02);
+}
+.blog h2 {
+  align-self: flex-start;
+  margin-top: -4rem;
+  margin-bottom: 2rem;
+  color: var(--text-color);
+  font-weight: 900;
+  font-size: 2rem;
+  line-height: 1.4rem;
+ 
+}
+
+.blog .discreption{
+  font-weight: bolder;
+  align-self: flex-start;
+  font-size: 1.2rem;
+  color: var(--secondary-text);
+  overflow: inherit;
+  /* text-overflow: ellipsis; */
+  /* display: -webkit-box; */
+  /* -webkit-line-clamp: 3; */
+  /* -webkit-box-orient: vertical; */
+  margin-bottom: 2rem;
+}
+
+.icons{
+  display: flex;
+  gap: 0.8rem;
+  justify-content: flex-start;
+  align-items: center;
+  font-size: 0.8rem;
+  align-self: self-start;
+  /* margin-bottom: 1rem; */
+  /* margin-right: 1rem; */
+}
+.icon{
+  font-size: 1.2rem ;
+  display: flex;
+  gap: 0.2rem;
+}
+.like{
+  /* color: red; */
+}
+#liked-icon{
+  display: none;
+  
+}
+.blog .view {
+  color: var(--text-color);
+  
+  font-size: 1.2rem;
+  width: inherit;
+  margin-bottom: -2rem;
+
+  border-top: 2px solid rgba(222, 222, 222, 0.2);
+}
+
+
+.blog>a{
+  width: inherit;
+
+  text-decoration: none;
+}
+#all{
+  text-decoration: none;
+  color: var(--secondary-text);
+}
+#all:hover{
+  text-decoration: none;
+  color: var( --darkMode);
+}
+h2>a{
+color: var(--text-color);
+transition: .5s;
+text-decoration: none;
+}
+h2>a:hover{
+color: var( --accent-color);
+
+}
+@media screen and (max-width: 400px) {
+  .blog{
+    width: 300px;
+  }
+  .blog img.article-image{
+    
+  }
+}
+@media screen and (max-width: 350px){
+
+  .blog{
+  
+    
+  }
+  .blog img.article-image{
+   
+    
+  }
+}

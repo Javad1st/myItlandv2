@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>صفحه در حال ساخت</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <style>
+        @font-face {
+            font-family: iranSans;
+            font-style: normal;
+            font-weight: bolder;
+            src: url(yekan/Yekan-Bakh-FaNum-07-Heavy.woff);
+        }
+
+        @font-face {
+            font-family: iranSans;
+            font-style: normal;
+            font-weight: bold;
+            src: url(yekan/Yekan-Bakh-FaNum-06-Bold.woff);
+        }
+
+        @font-face {
+            font-family: iranSans;
+            font-style: normal;
+            font-weight: 900;
+            src: url(yekan/Yekan-Bakh-FaNum-08-Fat.woff);
+        }
+
+        @font-face {
+            font-family: iranSans;
+            font-style: normal;
+            font-weight: 700;
+            src: url(yekan/Yekan-Bakh-FaNum-05-Medium.woff);
+        }
+
+        @font-face {
+            font-family: iranSans;
+            font-style: normal;
+            font-weight: 300;
+            src: url(yekan/Yekan-Bakh-FaNum-04-Regular.woff);
+        }
+
+        * {
+            font-family: iranSans;
+        }
+
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background: linear-gradient(135deg, #00b09b, #96c93d); /* گرادیانت آبی و سبز */
+            color: white;
+            text-align: center;
+        }
+
+        .container {
+            background: rgba(255, 255, 255, 0.1); /* پس‌زمینه نیمه شفاف */
+            border-radius: 15px;
+            padding: 40px;
+            box-shadow: 0 4px 30px rgba(0, 0, 0, 0.5);
+            backdrop-filter: blur(10px);
+            width: 350px;
+        }
+
+        h1 {
+            margin: 0 0 20px;
+            font-size: 24px;
+        }
+
+        p {
+            margin: 0 0 20px;
+            font-size: 16px;
+        }
+
+        .icon {
+            font-size: 40px;
+            margin: 10px;
+           
+        }
+        .charkh{
+            animation: spin 2s linear infinite; /* انیمیشن چرخش */
+        }
+
+        @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1><i class="fas fa-tools icon"></i>   این صفحه در حال ساخت است</h1>
+        <p><i class="fas fa-cog icon charkh"></i> در حال به‌روزرسانی</p>
+    </div>
+</body>
+</html>

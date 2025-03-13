@@ -1,0 +1,465 @@
+[28-Jan-2025 19:05:09 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/myitland/public_html/index.php on line 4
+[28-Jan-2025 19:07:21 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/myitland/public_html/index.php on line 4
+[28-Jan-2025 19:08:01 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/myitland/public_html/index.php on line 4
+[28-Jan-2025 19:08:02 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/myitland/public_html/index.php on line 4
+[28-Jan-2025 19:08:03 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/myitland/public_html/index.php on line 4
+[28-Jan-2025 19:08:04 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/myitland/public_html/index.php on line 4
+[28-Jan-2025 19:08:05 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/myitland/public_html/index.php on line 4
+[28-Jan-2025 19:08:06 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/myitland/public_html/index.php on line 4
+[28-Jan-2025 19:08:19 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/myitland/public_html/index.php on line 4
+[28-Jan-2025 19:10:52 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/myitland/public_html/index.php on line 4
+[28-Jan-2025 19:12:24 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/myitland/public_html/index.php on line 4
+[28-Jan-2025 19:13:31 UTC] PHP Fatal error:  Uncaught Error: Undefined constant "۲۰" in /home/myitland/public_html/ai.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/myitland/public_html/ai.php on line 22
+[28-Jan-2025 19:22:35 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/myitland/public_html/index.php on line 4
+[28-Jan-2025 19:23:35 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/myitland/public_html/index.php on line 4
+[28-Jan-2025 19:24:51 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/myitland/public_html/index.php on line 4
+[28-Jan-2025 19:25:22 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/myitland/public_html/index.php on line 4
+[28-Jan-2025 19:25:44 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/myitland/public_html/index.php on line 4
+[28-Jan-2025 19:26:04 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/myitland/public_html/index.php on line 4
+[28-Jan-2025 19:26:55 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/myitland/public_html/index.php on line 4
+[28-Jan-2025 19:28:24 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/myitland/public_html/index.php on line 4
+[28-Jan-2025 19:28:59 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/myitland/public_html/index.php on line 4
+[28-Jan-2025 19:29:01 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/myitland/public_html/index.php on line 4
+[28-Jan-2025 19:29:01 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/myitland/public_html/index.php on line 4
+[28-Jan-2025 19:39:53 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/myitland/public_html/index.php on line 4
+[28-Jan-2025 19:39:56 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/myitland/public_html/index.php on line 4
+[28-Jan-2025 19:44:43 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/myitland/public_html/index.php on line 4
+[28-Jan-2025 19:52:37 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/myitland/public_html/index.php on line 4
+[28-Jan-2025 19:52:43 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/myitland/public_html/index.php on line 4
+[28-Jan-2025 20:17:59 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/myitland/public_html/index.php on line 4
+[28-Jan-2025 20:18:36 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/myitland/public_html/index.php on line 4
+[28-Jan-2025 20:18:46 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/myitland/public_html/index.php on line 4
+[28-Jan-2025 20:30:35 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/myitland/public_html/index.php on line 4
+[28-Jan-2025 20:34:11 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/myitland/public_html/index.php on line 4
+[28-Jan-2025 20:36:14 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/myitland/public_html/index.php on line 4
+[28-Jan-2025 20:38:04 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/myitland/public_html/index.php on line 4
+[28-Jan-2025 20:43:25 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/myitland/public_html/index.php on line 4
+[28-Jan-2025 20:46:36 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/myitland/public_html/index.php on line 4
+[28-Jan-2025 20:49:16 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/myitland/public_html/index.php on line 4
+[28-Jan-2025 20:53:15 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/myitland/public_html/index.php on line 4
+[28-Jan-2025 20:55:01 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/myitland/public_html/index.php on line 4
+[28-Jan-2025 20:55:11 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/myitland/public_html/index.php on line 4
+[28-Jan-2025 20:55:47 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/myitland/public_html/index.php on line 4
+[28-Jan-2025 20:56:20 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/myitland/public_html/index.php on line 4
+[28-Jan-2025 20:56:28 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/myitland/public_html/index.php on line 4
+[28-Jan-2025 20:56:28 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/myitland/public_html/index.php on line 4
+[28-Jan-2025 20:59:40 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/myitland/public_html/index.php on line 4
+[28-Jan-2025 20:59:42 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/myitland/public_html/index.php on line 4
+[28-Jan-2025 20:59:45 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/myitland/public_html/index.php on line 4
+[28-Jan-2025 21:01:31 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/myitland/public_html/index.php on line 4
+[28-Jan-2025 21:03:47 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/myitland/public_html/index.php on line 4
+[28-Jan-2025 21:03:49 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/myitland/public_html/index.php on line 4
+[28-Jan-2025 21:03:50 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/myitland/public_html/index.php on line 4
+[28-Jan-2025 21:03:54 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/myitland/public_html/index.php on line 4
+[28-Jan-2025 21:03:56 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/myitland/public_html/index.php on line 4
+[28-Jan-2025 21:04:22 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/myitland/public_html/index.php on line 4
+[28-Jan-2025 21:04:24 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/myitland/public_html/index.php on line 4
+[28-Jan-2025 21:04:26 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/myitland/public_html/index.php on line 4
+[28-Jan-2025 21:04:30 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/myitland/public_html/index.php on line 4
+[28-Jan-2025 21:04:35 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/myitland/public_html/index.php on line 4
+[28-Jan-2025 21:04:39 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/myitland/public_html/index.php on line 4
+[28-Jan-2025 21:04:46 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/myitland/public_html/index.php on line 4
+[28-Jan-2025 21:04:57 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/myitland/public_html/index.php on line 4
+[28-Jan-2025 21:05:24 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/myitland/public_html/index.php on line 4
+[28-Jan-2025 21:07:25 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/myitland/public_html/index.php on line 4
+[28-Jan-2025 21:07:31 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/myitland/public_html/index.php on line 4
+[28-Jan-2025 21:07:34 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/myitland/public_html/index.php on line 4
+[28-Jan-2025 21:07:35 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/myitland/public_html/index.php on line 4
+[28-Jan-2025 21:07:37 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/myitland/public_html/index.php on line 4
+[28-Jan-2025 21:07:40 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/myitland/public_html/index.php on line 4
+[28-Jan-2025 21:07:45 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/myitland/public_html/index.php on line 4
+[28-Jan-2025 21:07:47 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/myitland/public_html/index.php on line 4
+[28-Jan-2025 21:09:42 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/myitland/public_html/index.php on line 4
+[28-Jan-2025 21:11:33 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/myitland/public_html/index.php on line 4
+[28-Jan-2025 21:13:14 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/myitland/public_html/index.php on line 4
+[28-Jan-2025 21:13:20 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/myitland/public_html/index.php on line 4
+[28-Jan-2025 21:13:32 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/myitland/public_html/index.php on line 4
+[28-Jan-2025 21:14:06 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/myitland/public_html/index.php on line 4
+[28-Jan-2025 21:15:19 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/myitland/public_html/index.php on line 4
+[28-Jan-2025 21:15:36 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/myitland/public_html/index.php on line 4
+[28-Jan-2025 21:17:40 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/myitland/public_html/index.php on line 4
+[28-Jan-2025 21:17:49 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/myitland/public_html/index.php on line 4
+[28-Jan-2025 21:19:43 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/myitland/public_html/index.php on line 4
+[28-Jan-2025 21:20:06 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/myitland/public_html/index.php on line 4
+[28-Jan-2025 21:24:07 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/myitland/public_html/index.php on line 4
+[28-Jan-2025 21:24:14 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/myitland/public_html/index.php on line 4
+[28-Jan-2025 21:27:20 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/myitland/public_html/index.php on line 4
+[28-Jan-2025 21:28:45 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/myitland/public_html/index.php on line 4
+[28-Jan-2025 21:29:31 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/myitland/public_html/index.php on line 4
+[28-Jan-2025 21:29:40 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/myitland/public_html/index.php on line 4
+[28-Jan-2025 21:30:14 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/myitland/public_html/index.php on line 4
+[28-Jan-2025 21:30:24 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/myitland/public_html/index.php on line 4
+[28-Jan-2025 21:36:14 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/myitland/public_html/index.php on line 4
+[28-Jan-2025 21:37:13 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/myitland/public_html/index.php on line 4
+[28-Jan-2025 21:41:35 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/myitland/public_html/index.php on line 4
+[28-Jan-2025 21:42:10 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/myitland/public_html/index.php on line 4
+[28-Jan-2025 21:44:57 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/myitland/public_html/index.php on line 4
+[28-Jan-2025 21:45:10 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/myitland/public_html/index.php on line 4
+[28-Jan-2025 21:47:40 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/myitland/public_html/index.php on line 4
+[28-Jan-2025 21:47:44 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/myitland/public_html/index.php on line 4
+[28-Jan-2025 21:47:46 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/myitland/public_html/index.php on line 4
+[28-Jan-2025 21:47:48 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/myitland/public_html/index.php on line 4
+[28-Jan-2025 21:47:49 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/myitland/public_html/index.php on line 4
+[28-Jan-2025 21:49:34 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/myitland/public_html/index.php on line 4
+[28-Jan-2025 21:49:44 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/myitland/public_html/index.php on line 4
+[28-Jan-2025 21:49:51 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/myitland/public_html/index.php on line 4
+[28-Jan-2025 21:50:26 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/myitland/public_html/index.php on line 4
+[28-Jan-2025 21:50:39 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/myitland/public_html/index.php on line 4
+[28-Jan-2025 21:51:34 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/myitland/public_html/index.php on line 4
+[28-Jan-2025 21:52:20 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/myitland/public_html/index.php on line 4
+[28-Jan-2025 21:55:30 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/myitland/public_html/index.php on line 4
+[28-Jan-2025 21:58:44 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/myitland/public_html/index.php on line 4
+[28-Jan-2025 21:58:54 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/myitland/public_html/index.php on line 4
+[28-Jan-2025 21:58:54 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/myitland/public_html/index.php on line 4
+[28-Jan-2025 21:58:54 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/myitland/public_html/index.php on line 4
+[28-Jan-2025 21:58:54 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/myitland/public_html/index.php on line 4
+[28-Jan-2025 21:58:55 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/myitland/public_html/index.php on line 4
+[28-Jan-2025 21:59:21 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/myitland/public_html/index.php on line 4
+[28-Jan-2025 21:59:32 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/myitland/public_html/index.php on line 4
+[28-Jan-2025 22:02:14 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/myitland/public_html/index.php on line 4
+[28-Jan-2025 22:02:16 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/myitland/public_html/index.php on line 4
+[28-Jan-2025 22:02:18 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/myitland/public_html/index.php on line 4
+[28-Jan-2025 22:02:20 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/myitland/public_html/index.php on line 4
+[28-Jan-2025 22:02:21 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/myitland/public_html/index.php on line 4
+[28-Jan-2025 22:03:15 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/myitland/public_html/index.php on line 4
+[28-Jan-2025 22:03:17 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/myitland/public_html/index.php on line 4
+[28-Jan-2025 22:03:19 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/myitland/public_html/index.php on line 4
+[28-Jan-2025 22:03:21 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/myitland/public_html/index.php on line 4
+[28-Jan-2025 22:04:23 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/myitland/public_html/index.php on line 4
+[28-Jan-2025 22:04:25 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/myitland/public_html/index.php on line 4
+[28-Jan-2025 22:05:32 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/myitland/public_html/index.php on line 4
+[28-Jan-2025 22:06:29 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/myitland/public_html/index.php on line 4
+[28-Jan-2025 22:12:07 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/myitland/public_html/index.php on line 4
+[28-Jan-2025 22:12:14 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/myitland/public_html/index.php on line 4
+[28-Jan-2025 22:12:18 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/myitland/public_html/index.php on line 4
+[28-Jan-2025 22:13:04 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/myitland/public_html/index.php on line 4
+[28-Jan-2025 22:13:06 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/myitland/public_html/index.php on line 4
+[28-Jan-2025 22:13:07 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/myitland/public_html/index.php on line 4
+[28-Jan-2025 22:13:39 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/myitland/public_html/index.php on line 4
+[28-Jan-2025 22:15:18 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/myitland/public_html/index.php on line 4
+[28-Jan-2025 22:15:19 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/myitland/public_html/index.php on line 4
+[28-Jan-2025 22:15:23 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/myitland/public_html/index.php on line 4
+[28-Jan-2025 22:15:37 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/myitland/public_html/index.php on line 4
+[28-Jan-2025 22:17:14 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/myitland/public_html/index.php on line 4
+[28-Jan-2025 22:17:14 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/myitland/public_html/header.php on line 171
+[28-Jan-2025 22:17:16 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/myitland/public_html/index.php on line 4
+[28-Jan-2025 22:17:16 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/myitland/public_html/header.php on line 171
+[28-Jan-2025 22:17:41 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/myitland/public_html/index.php on line 4
+[28-Jan-2025 22:17:43 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/myitland/public_html/index.php on line 4
+[28-Jan-2025 22:17:50 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/myitland/public_html/index.php on line 4
+[28-Jan-2025 22:17:52 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/myitland/public_html/index.php on line 4
+[28-Jan-2025 22:18:56 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/myitland/public_html/index.php on line 4
+[28-Jan-2025 22:20:37 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/myitland/public_html/index.php on line 4
+[28-Jan-2025 22:20:40 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/myitland/public_html/index.php on line 4
+[28-Jan-2025 22:24:19 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/myitland/public_html/index.php on line 4
+[28-Jan-2025 22:24:20 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/myitland/public_html/index.php on line 4
+[28-Jan-2025 22:25:23 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/myitland/public_html/index.php on line 4
+[28-Jan-2025 22:26:20 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/myitland/public_html/index.php on line 4
+[28-Jan-2025 22:26:39 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/myitland/public_html/index.php on line 4
+[28-Jan-2025 22:26:40 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/myitland/public_html/index.php on line 4
+[28-Jan-2025 22:26:51 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/myitland/public_html/index.php on line 4
+[28-Jan-2025 22:27:10 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/myitland/public_html/index.php on line 4
+[28-Jan-2025 22:27:14 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/myitland/public_html/index.php on line 4
+[28-Jan-2025 22:27:37 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/myitland/public_html/index.php on line 4
+[28-Jan-2025 22:28:44 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/myitland/public_html/index.php on line 4
+[28-Jan-2025 22:29:04 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/myitland/public_html/index.php on line 4
+[28-Jan-2025 22:31:05 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/myitland/public_html/index.php on line 4
+[28-Jan-2025 22:31:08 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/myitland/public_html/index.php on line 4
+[28-Jan-2025 22:31:10 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/myitland/public_html/index.php on line 4
+[28-Jan-2025 22:31:33 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/myitland/public_html/index.php on line 4
+[28-Jan-2025 22:31:42 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/myitland/public_html/index.php on line 4
+[28-Jan-2025 22:31:51 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/myitland/public_html/index.php on line 4
+[28-Jan-2025 22:56:09 UTC] PHP Warning:  unlink(./profile/): Is a directory in /home/myitland/public_html/profile.php on line 21
+[29-Jan-2025 14:19:38 UTC] PHP Warning:  unlink(./profile/): Is a directory in /home/myitland/public_html/profile.php on line 21
+[29-Jan-2025 19:31:20 UTC] PHP Warning:  unlink(./profile/): Is a directory in /home/myitland/public_html/profile.php on line 21
+[29-Jan-2025 19:34:41 UTC] PHP Warning:  unlink(./profile/): Is a directory in /home/myitland/public_html/profile.php on line 21
+[29-Jan-2025 19:43:27 UTC] PHP Parse error:  syntax error, unexpected token "}" in /home/myitland/public_html/ai.php on line 30
+[29-Jan-2025 19:43:28 UTC] PHP Parse error:  syntax error, unexpected token "}" in /home/myitland/public_html/ai.php on line 30
+[29-Jan-2025 20:09:47 UTC] PHP Warning:  Undefined array key "user_email" in /home/myitland/public_html/dashboard.php on line 5
+[29-Jan-2025 20:36:33 UTC] PHP Warning:  Undefined array key "user_email" in /home/myitland/public_html/dashboard.php on line 5
+[30-Jan-2025 15:02:51 UTC] PHP Warning:  unlink(./profile/): Is a directory in /home/myitland/public_html/profile.php on line 21
+[30-Jan-2025 15:37:17 UTC] PHP Warning:  unlink(./profile/): Is a directory in /home/myitland/public_html/profile.php on line 21
+[30-Jan-2025 21:40:26 UTC] PHP Warning:  unlink(./profile/): Is a directory in /home/myitland/public_html/profile.php on line 21
+[08-Feb-2025 00:25:44 UTC] PHP Warning:  unlink(./profile/): Is a directory in /home/myitland/public_html/profile.php on line 21
+[04-Mar-2025 22:11:00 UTC] PHP Warning:  Undefined variable $conn in /home/myitland/public_html/index.php on line 8
+[04-Mar-2025 22:11:00 UTC] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/myitland/public_html/index.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/myitland/public_html/index.php on line 8
+[12-Mar-2025 22:36:34 UTC] PHP Warning:  Undefined variable $conn in /home/myitland/public_html/hosi/index.php on line 8
+[12-Mar-2025 22:36:34 UTC] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/myitland/public_html/hosi/index.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/myitland/public_html/hosi/index.php on line 8
+[12-Mar-2025 23:47:32 UTC] PHP Parse error:  syntax error, unexpected token "<", expecting end of file in /home/myitland/public_html/hosi/order.php on line 3
+[12-Mar-2025 23:47:38 UTC] PHP Parse error:  syntax error, unexpected token "<", expecting end of file in /home/myitland/public_html/hosi/order.php on line 3
+[12-Mar-2025 23:47:54 UTC] PHP Parse error:  syntax error, unexpected token "<", expecting end of file in /home/myitland/public_html/hosi/order.php on line 3
+[12-Mar-2025 23:47:58 UTC] PHP Parse error:  syntax error, unexpected token "<", expecting end of file in /home/myitland/public_html/hosi/order.php on line 3
+[12-Mar-2025 23:50:17 UTC] PHP Parse error:  syntax error, unexpected token "<", expecting end of file in /home/myitland/public_html/hosi/order.php on line 13
+[12-Mar-2025 23:50:20 UTC] PHP Parse error:  syntax error, unexpected token "<", expecting end of file in /home/myitland/public_html/hosi/order.php on line 13
+[12-Mar-2025 23:52:20 UTC] PHP Parse error:  syntax error, unexpected token "<", expecting end of file in /home/myitland/public_html/hosi/order.php on line 13
+[12-Mar-2025 23:52:24 UTC] PHP Parse error:  syntax error, unexpected token "<", expecting end of file in /home/myitland/public_html/hosi/order.php on line 13
+[12-Mar-2025 23:52:35 UTC] PHP Parse error:  syntax error, unexpected token "<", expecting end of file in /home/myitland/public_html/hosi/order.php on line 5
+[12-Mar-2025 23:52:53 UTC] PHP Parse error:  syntax error, unexpected token "<", expecting end of file in /home/myitland/public_html/hosi/order.php on line 5
+[13-Mar-2025 00:12:43 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home/myitland/public_html/hosi/order.php:9
+Stack trace:
+#0 /home/myitland/public_html/hosi/order.php(9): mysqli->__construct('localhost', 'root', '', 'project_orders')
+#1 {main}
+  thrown in /home/myitland/public_html/hosi/order.php on line 9
+[13-Mar-2025 00:12:45 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home/myitland/public_html/hosi/order.php:9
+Stack trace:
+#0 /home/myitland/public_html/hosi/order.php(9): mysqli->__construct('localhost', 'root', '', 'project_orders')
+#1 {main}
+  thrown in /home/myitland/public_html/hosi/order.php on line 9
+[13-Mar-2025 00:12:48 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home/myitland/public_html/hosi/order.php:9
+Stack trace:
+#0 /home/myitland/public_html/hosi/order.php(9): mysqli->__construct('localhost', 'root', '', 'project_orders')
+#1 {main}
+  thrown in /home/myitland/public_html/hosi/order.php on line 9
+[13-Mar-2025 00:12:58 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home/myitland/public_html/hosi/order.php:9
+Stack trace:
+#0 /home/myitland/public_html/hosi/order.php(9): mysqli->__construct('localhost', 'root', '', 'project_orders')
+#1 {main}
+  thrown in /home/myitland/public_html/hosi/order.php on line 9
+[13-Mar-2025 00:14:55 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home/myitland/public_html/hosi/order.php:330
+Stack trace:
+#0 /home/myitland/public_html/hosi/order.php(330): mysqli->__construct('localhost', 'root', '', 'project_orders')
+#1 {main}
+  thrown in /home/myitland/public_html/hosi/order.php on line 330
+[13-Mar-2025 00:14:56 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home/myitland/public_html/hosi/order.php:330
+Stack trace:
+#0 /home/myitland/public_html/hosi/order.php(330): mysqli->__construct('localhost', 'root', '', 'project_orders')
+#1 {main}
+  thrown in /home/myitland/public_html/hosi/order.php on line 330
+[13-Mar-2025 00:14:59 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home/myitland/public_html/hosi/order.php:330
+Stack trace:
+#0 /home/myitland/public_html/hosi/order.php(330): mysqli->__construct('localhost', 'root', '', 'project_orders')
+#1 {main}
+  thrown in /home/myitland/public_html/hosi/order.php on line 330
+[13-Mar-2025 00:15:24 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home/myitland/public_html/hosi/order.php:330
+Stack trace:
+#0 /home/myitland/public_html/hosi/order.php(330): mysqli->__construct('localhost', 'root', '', 'project_orders')
+#1 {main}
+  thrown in /home/myitland/public_html/hosi/order.php on line 330
+[13-Mar-2025 00:15:35 UTC] PHP Warning:  Undefined property: PDOStatement::$num_rows in /home/myitland/public_html/hosi/admin.php on line 93
+[13-Mar-2025 00:15:35 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method PDO::close() in /home/myitland/public_html/hosi/admin.php:124
+Stack trace:
+#0 {main}
+  thrown in /home/myitland/public_html/hosi/admin.php on line 124
+[13-Mar-2025 00:15:38 UTC] PHP Warning:  Undefined property: PDOStatement::$num_rows in /home/myitland/public_html/hosi/admin.php on line 93
+[13-Mar-2025 00:15:38 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method PDO::close() in /home/myitland/public_html/hosi/admin.php:124
+Stack trace:
+#0 {main}
+  thrown in /home/myitland/public_html/hosi/admin.php on line 124
+[13-Mar-2025 00:15:39 UTC] PHP Warning:  Undefined property: PDOStatement::$num_rows in /home/myitland/public_html/hosi/admin.php on line 93
+[13-Mar-2025 00:15:39 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method PDO::close() in /home/myitland/public_html/hosi/admin.php:124
+Stack trace:
+#0 {main}
+  thrown in /home/myitland/public_html/hosi/admin.php on line 124
+[13-Mar-2025 00:15:39 UTC] PHP Warning:  Undefined property: PDOStatement::$num_rows in /home/myitland/public_html/hosi/admin.php on line 93
+[13-Mar-2025 00:15:39 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method PDO::close() in /home/myitland/public_html/hosi/admin.php:124
+Stack trace:
+#0 {main}
+  thrown in /home/myitland/public_html/hosi/admin.php on line 124
+[13-Mar-2025 00:16:02 UTC] PHP Warning:  Undefined property: PDOStatement::$num_rows in /home/myitland/public_html/hosi/admin.php on line 93
+[13-Mar-2025 00:16:02 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method PDO::close() in /home/myitland/public_html/hosi/admin.php:124
+Stack trace:
+#0 {main}
+  thrown in /home/myitland/public_html/hosi/admin.php on line 124
+[13-Mar-2025 00:16:28 UTC] PHP Warning:  Undefined property: PDOStatement::$num_rows in /home/myitland/public_html/hosi/admin.php on line 93
+[13-Mar-2025 00:16:28 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method PDO::close() in /home/myitland/public_html/hosi/admin.php:124
+Stack trace:
+#0 {main}
+  thrown in /home/myitland/public_html/hosi/admin.php on line 124
+[13-Mar-2025 00:16:29 UTC] PHP Warning:  Undefined property: PDOStatement::$num_rows in /home/myitland/public_html/hosi/admin.php on line 93
+[13-Mar-2025 00:16:29 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method PDO::close() in /home/myitland/public_html/hosi/admin.php:124
+Stack trace:
+#0 {main}
+  thrown in /home/myitland/public_html/hosi/admin.php on line 124
+[13-Mar-2025 00:16:44 UTC] PHP Warning:  Undefined property: PDOStatement::$num_rows in /home/myitland/public_html/hosi/admin.php on line 94
+[13-Mar-2025 00:16:44 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method PDO::close() in /home/myitland/public_html/hosi/admin.php:125
+Stack trace:
+#0 {main}
+  thrown in /home/myitland/public_html/hosi/admin.php on line 125
+[13-Mar-2025 00:16:45 UTC] PHP Warning:  Undefined property: PDOStatement::$num_rows in /home/myitland/public_html/hosi/admin.php on line 94
+[13-Mar-2025 00:16:45 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method PDO::close() in /home/myitland/public_html/hosi/admin.php:125
+Stack trace:
+#0 {main}
+  thrown in /home/myitland/public_html/hosi/admin.php on line 125
+[13-Mar-2025 00:16:45 UTC] PHP Warning:  Undefined property: PDOStatement::$num_rows in /home/myitland/public_html/hosi/admin.php on line 94
+[13-Mar-2025 00:16:45 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method PDO::close() in /home/myitland/public_html/hosi/admin.php:125
+Stack trace:
+#0 {main}
+  thrown in /home/myitland/public_html/hosi/admin.php on line 125
+[13-Mar-2025 00:16:45 UTC] PHP Warning:  Undefined property: PDOStatement::$num_rows in /home/myitland/public_html/hosi/admin.php on line 94
+[13-Mar-2025 00:16:45 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method PDO::close() in /home/myitland/public_html/hosi/admin.php:125
+Stack trace:
+#0 {main}
+  thrown in /home/myitland/public_html/hosi/admin.php on line 125
+[13-Mar-2025 00:16:46 UTC] PHP Warning:  Undefined property: PDOStatement::$num_rows in /home/myitland/public_html/hosi/admin.php on line 94
+[13-Mar-2025 00:16:46 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method PDO::close() in /home/myitland/public_html/hosi/admin.php:125
+Stack trace:
+#0 {main}
+  thrown in /home/myitland/public_html/hosi/admin.php on line 125
+[13-Mar-2025 00:17:37 UTC] PHP Warning:  Undefined property: PDOStatement::$num_rows in /home/myitland/public_html/hosi/admin.php on line 94
+[13-Mar-2025 00:17:37 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method PDO::close() in /home/myitland/public_html/hosi/admin.php:125
+Stack trace:
+#0 {main}
+  thrown in /home/myitland/public_html/hosi/admin.php on line 125
+[13-Mar-2025 00:19:24 UTC] PHP Warning:  Undefined property: PDOStatement::$num_rows in /home/myitland/public_html/hosi/admin.php on line 9
+[13-Mar-2025 00:19:24 UTC] PHP Warning:  Undefined property: PDOStatement::$num_rows in /home/myitland/public_html/hosi/admin.php on line 105
+[13-Mar-2025 00:19:24 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method PDO::close() in /home/myitland/public_html/hosi/admin.php:136
+Stack trace:
+#0 {main}
+  thrown in /home/myitland/public_html/hosi/admin.php on line 136
+[13-Mar-2025 00:19:27 UTC] PHP Warning:  Undefined property: PDOStatement::$num_rows in /home/myitland/public_html/hosi/admin.php on line 9
+[13-Mar-2025 00:19:27 UTC] PHP Warning:  Undefined property: PDOStatement::$num_rows in /home/myitland/public_html/hosi/admin.php on line 105
+[13-Mar-2025 00:19:27 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method PDO::close() in /home/myitland/public_html/hosi/admin.php:136
+Stack trace:
+#0 {main}
+  thrown in /home/myitland/public_html/hosi/admin.php on line 136
+[13-Mar-2025 00:20:00 UTC] PHP Warning:  Undefined property: PDOStatement::$num_rows in /home/myitland/public_html/hosi/admin.php on line 100
+[13-Mar-2025 00:20:00 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method PDO::close() in /home/myitland/public_html/hosi/admin.php:131
+Stack trace:
+#0 {main}
+  thrown in /home/myitland/public_html/hosi/admin.php on line 131
+[13-Mar-2025 00:20:01 UTC] PHP Warning:  Undefined property: PDOStatement::$num_rows in /home/myitland/public_html/hosi/admin.php on line 100
+[13-Mar-2025 00:20:01 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method PDO::close() in /home/myitland/public_html/hosi/admin.php:131
+Stack trace:
+#0 {main}
+  thrown in /home/myitland/public_html/hosi/admin.php on line 131
+[13-Mar-2025 00:20:03 UTC] PHP Warning:  Undefined property: PDOStatement::$num_rows in /home/myitland/public_html/hosi/admin.php on line 100
+[13-Mar-2025 00:20:03 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method PDO::close() in /home/myitland/public_html/hosi/admin.php:131
+Stack trace:
+#0 {main}
+  thrown in /home/myitland/public_html/hosi/admin.php on line 131
+[13-Mar-2025 00:20:16 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home/myitland/public_html/hosi/order.php:330
+Stack trace:
+#0 /home/myitland/public_html/hosi/order.php(330): mysqli->__construct('localhost', 'root', '', 'project_orders')
+#1 {main}
+  thrown in /home/myitland/public_html/hosi/order.php on line 330
+[13-Mar-2025 00:20:34 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home/myitland/public_html/hosi/order.php:330
+Stack trace:
+#0 /home/myitland/public_html/hosi/order.php(330): mysqli->__construct('localhost', 'root', '', 'project_orders')
+#1 {main}
+  thrown in /home/myitland/public_html/hosi/order.php on line 330
+[13-Mar-2025 00:20:36 UTC] PHP Warning:  Undefined property: PDOStatement::$num_rows in /home/myitland/public_html/hosi/admin.php on line 100
+[13-Mar-2025 00:20:36 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method PDO::close() in /home/myitland/public_html/hosi/admin.php:131
+Stack trace:
+#0 {main}
+  thrown in /home/myitland/public_html/hosi/admin.php on line 131
+[13-Mar-2025 00:20:37 UTC] PHP Warning:  Undefined property: PDOStatement::$num_rows in /home/myitland/public_html/hosi/admin.php on line 100
+[13-Mar-2025 00:20:37 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method PDO::close() in /home/myitland/public_html/hosi/admin.php:131
+Stack trace:
+#0 {main}
+  thrown in /home/myitland/public_html/hosi/admin.php on line 131
+[13-Mar-2025 00:20:57 UTC] PHP Warning:  Undefined property: PDOStatement::$num_rows in /home/myitland/public_html/hosi/admin.php on line 100
+[13-Mar-2025 00:20:57 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method PDO::close() in /home/myitland/public_html/hosi/admin.php:131
+Stack trace:
+#0 {main}
+  thrown in /home/myitland/public_html/hosi/admin.php on line 131
+[13-Mar-2025 00:20:58 UTC] PHP Warning:  Undefined property: PDOStatement::$num_rows in /home/myitland/public_html/hosi/admin.php on line 100
+[13-Mar-2025 00:20:58 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method PDO::close() in /home/myitland/public_html/hosi/admin.php:131
+Stack trace:
+#0 {main}
+  thrown in /home/myitland/public_html/hosi/admin.php on line 131
+[13-Mar-2025 00:20:58 UTC] PHP Warning:  Undefined property: PDOStatement::$num_rows in /home/myitland/public_html/hosi/admin.php on line 100
+[13-Mar-2025 00:20:58 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method PDO::close() in /home/myitland/public_html/hosi/admin.php:131
+Stack trace:
+#0 {main}
+  thrown in /home/myitland/public_html/hosi/admin.php on line 131
+[13-Mar-2025 00:21:56 UTC] PHP Warning:  Undefined property: PDOStatement::$num_rows in /home/myitland/public_html/hosi/admin.php on line 12
+[13-Mar-2025 00:21:56 UTC] PHP Warning:  Undefined property: PDOStatement::$num_rows in /home/myitland/public_html/hosi/admin.php on line 116
+[13-Mar-2025 00:21:56 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method PDO::close() in /home/myitland/public_html/hosi/admin.php:147
+Stack trace:
+#0 {main}
+  thrown in /home/myitland/public_html/hosi/admin.php on line 147
+[13-Mar-2025 00:21:57 UTC] PHP Warning:  Undefined property: PDOStatement::$num_rows in /home/myitland/public_html/hosi/admin.php on line 12
+[13-Mar-2025 00:21:57 UTC] PHP Warning:  Undefined property: PDOStatement::$num_rows in /home/myitland/public_html/hosi/admin.php on line 116
+[13-Mar-2025 00:21:57 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method PDO::close() in /home/myitland/public_html/hosi/admin.php:147
+Stack trace:
+#0 {main}
+  thrown in /home/myitland/public_html/hosi/admin.php on line 147
+[13-Mar-2025 00:22:47 UTC] PHP Warning:  Undefined variable $row in /home/myitland/public_html/hosi/admin.php on line 9
+[13-Mar-2025 00:22:47 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/myitland/public_html/hosi/admin.php on line 9
+[13-Mar-2025 00:22:47 UTC] PHP Deprecated:  strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in /home/myitland/public_html/hosi/admin.php on line 9
+[13-Mar-2025 00:22:47 UTC] PHP Warning:  Undefined property: PDOStatement::$num_rows in /home/myitland/public_html/hosi/admin.php on line 98
+[13-Mar-2025 00:22:47 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method PDO::close() in /home/myitland/public_html/hosi/admin.php:129
+Stack trace:
+#0 {main}
+  thrown in /home/myitland/public_html/hosi/admin.php on line 129
+[13-Mar-2025 00:23:57 UTC] PHP Warning:  Undefined variable $row in /home/myitland/public_html/hosi/admin.php on line 9
+[13-Mar-2025 00:23:57 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/myitland/public_html/hosi/admin.php on line 9
+[13-Mar-2025 00:23:57 UTC] PHP Deprecated:  strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in /home/myitland/public_html/hosi/admin.php on line 9
+[13-Mar-2025 00:23:57 UTC] PHP Warning:  Undefined property: PDOStatement::$num_rows in /home/myitland/public_html/hosi/admin.php on line 19
+[13-Mar-2025 00:23:57 UTC] PHP Warning:  Undefined property: PDOStatement::$num_rows in /home/myitland/public_html/hosi/admin.php on line 21
+[13-Mar-2025 00:23:57 UTC] PHP Warning:  Undefined property: PDOStatement::$num_rows in /home/myitland/public_html/hosi/admin.php on line 38
+[13-Mar-2025 00:23:57 UTC] PHP Warning:  Undefined property: PDOStatement::$num_rows in /home/myitland/public_html/hosi/admin.php on line 40
+[13-Mar-2025 00:23:57 UTC] PHP Warning:  Undefined property: PDOStatement::$num_rows in /home/myitland/public_html/hosi/admin.php on line 134
+[13-Mar-2025 00:23:57 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method PDO::close() in /home/myitland/public_html/hosi/admin.php:165
+Stack trace:
+#0 {main}
+  thrown in /home/myitland/public_html/hosi/admin.php on line 165
+[13-Mar-2025 00:23:58 UTC] PHP Warning:  Undefined variable $row in /home/myitland/public_html/hosi/admin.php on line 9
+[13-Mar-2025 00:23:58 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/myitland/public_html/hosi/admin.php on line 9
+[13-Mar-2025 00:23:58 UTC] PHP Deprecated:  strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in /home/myitland/public_html/hosi/admin.php on line 9
+[13-Mar-2025 00:23:58 UTC] PHP Warning:  Undefined property: PDOStatement::$num_rows in /home/myitland/public_html/hosi/admin.php on line 19
+[13-Mar-2025 00:23:58 UTC] PHP Warning:  Undefined property: PDOStatement::$num_rows in /home/myitland/public_html/hosi/admin.php on line 21
+[13-Mar-2025 00:23:58 UTC] PHP Warning:  Undefined property: PDOStatement::$num_rows in /home/myitland/public_html/hosi/admin.php on line 38
+[13-Mar-2025 00:23:58 UTC] PHP Warning:  Undefined property: PDOStatement::$num_rows in /home/myitland/public_html/hosi/admin.php on line 40
+[13-Mar-2025 00:23:58 UTC] PHP Warning:  Undefined property: PDOStatement::$num_rows in /home/myitland/public_html/hosi/admin.php on line 134
+[13-Mar-2025 00:23:58 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method PDO::close() in /home/myitland/public_html/hosi/admin.php:165
+Stack trace:
+#0 {main}
+  thrown in /home/myitland/public_html/hosi/admin.php on line 165
+[13-Mar-2025 00:24:41 UTC] PHP Warning:  Undefined property: PDOStatement::$num_rows in /home/myitland/public_html/hosi/admin.php on line 15
+[13-Mar-2025 00:24:41 UTC] PHP Warning:  Undefined property: PDOStatement::$num_rows in /home/myitland/public_html/hosi/admin.php on line 17
+[13-Mar-2025 00:24:41 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method PDO::close() in /home/myitland/public_html/hosi/admin.php:28
+Stack trace:
+#0 {main}
+  thrown in /home/myitland/public_html/hosi/admin.php on line 28
+[13-Mar-2025 00:24:43 UTC] PHP Warning:  Undefined property: PDOStatement::$num_rows in /home/myitland/public_html/hosi/admin.php on line 15
+[13-Mar-2025 00:24:43 UTC] PHP Warning:  Undefined property: PDOStatement::$num_rows in /home/myitland/public_html/hosi/admin.php on line 17
+[13-Mar-2025 00:24:43 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method PDO::close() in /home/myitland/public_html/hosi/admin.php:28
+Stack trace:
+#0 {main}
+  thrown in /home/myitland/public_html/hosi/admin.php on line 28
+[13-Mar-2025 00:24:44 UTC] PHP Warning:  Undefined property: PDOStatement::$num_rows in /home/myitland/public_html/hosi/admin.php on line 15
+[13-Mar-2025 00:24:44 UTC] PHP Warning:  Undefined property: PDOStatement::$num_rows in /home/myitland/public_html/hosi/admin.php on line 17
+[13-Mar-2025 00:24:44 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method PDO::close() in /home/myitland/public_html/hosi/admin.php:28
+Stack trace:
+#0 {main}
+  thrown in /home/myitland/public_html/hosi/admin.php on line 28
+[13-Mar-2025 00:29:11 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home/myitland/public_html/hosi/order.php:330
+Stack trace:
+#0 /home/myitland/public_html/hosi/order.php(330): mysqli->__construct('localhost', 'root', '', 'project_orders')
+#1 {main}
+  thrown in /home/myitland/public_html/hosi/order.php on line 330
+[13-Mar-2025 00:29:59 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home/myitland/public_html/hosi/order.php:330
+Stack trace:
+#0 /home/myitland/public_html/hosi/order.php(330): mysqli->__construct('localhost', 'root', '', 'project_orders')
+#1 {main}
+  thrown in /home/myitland/public_html/hosi/order.php on line 330
+[13-Mar-2025 00:31:12 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home/myitland/public_html/hosi/order.php:330
+Stack trace:
+#0 /home/myitland/public_html/hosi/order.php(330): mysqli->__construct('localhost', 'root', '', 'project_orders')
+#1 {main}
+  thrown in /home/myitland/public_html/hosi/order.php on line 330
+[13-Mar-2025 00:31:32 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home/myitland/public_html/hosi/order.php:330
+Stack trace:
+#0 /home/myitland/public_html/hosi/order.php(330): mysqli->__construct('localhost', 'root', '', 'project_orders')
+#1 {main}
+  thrown in /home/myitland/public_html/hosi/order.php on line 330
+[13-Mar-2025 00:33:47 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home/myitland/public_html/hosi/order.php:330
+Stack trace:
+#0 /home/myitland/public_html/hosi/order.php(330): mysqli->__construct('localhost', 'root', '', 'project_orders')
+#1 {main}
+  thrown in /home/myitland/public_html/hosi/order.php on line 330
+[13-Mar-2025 00:43:28 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home/myitland/public_html/hosi/order.php:330
+Stack trace:
+#0 /home/myitland/public_html/hosi/order.php(330): mysqli->__construct('localhost', 'root', '', 'project_orders')
+#1 {main}
+  thrown in /home/myitland/public_html/hosi/order.php on line 330
