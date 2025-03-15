@@ -234,7 +234,7 @@ tr.row-1.odd {
 <body class="overflow-x-hidden flex flex-col items-center rtl home page-template page-template-templates page-template-templates-home page-template-templatestemplates-home-php page page-id-73" data-aos-easing="ease" data-aos-duration="400" data-aos-delay="0">
 
 <?php
-require_once('./header-maqale.php');
+// require_once('./header-maqale.php');
 ?>
 
 <div class="categories">

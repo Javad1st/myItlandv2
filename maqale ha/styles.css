@@ -117,6 +117,9 @@ body {
   flex-wrap: wrap;
 }
 
+.cats1{
+  overflow-x: scroll;
+}
 
 .cats .cat {
   display: flex;
