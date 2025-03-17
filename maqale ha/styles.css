@@ -114,13 +114,17 @@ body {
   gap: 1rem;
   display: flex;
   gap: 0.4rem;
-  flex-wrap: wrap;
+  /* flex-wrap: wrap; */
+
+  padding: 0.3rem;
 }
+
 
 .cats1{
+  width: 99%;
   overflow-x: scroll;
+  height: fit-content;
 }
-
 .cats .cat {
   display: flex;
   justify-content: center;
@@ -130,10 +134,13 @@ body {
   padding: 0.2rem 0.4rem; 
   border-radius: 15px; 
   font-size: 1.5rem; 
-  background-color: var(--base-color);
+  background-color: white;
   color: var(--text-color);
-  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2); 
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1); 
   transition: background-color 0.3s ease, transform 0.3s ease; 
+  height: 3rem;
+  width: auto;
+  
 }
 .cats1 .cat a {
 
@@ -142,7 +149,7 @@ body {
 }
 
 .cat:hover {
-  background-color: var(--primary-color); 
+  background-color: rgba(0, 0, 0, 0.186); 
   transform: translateY(-5px); 
 }
 .cats2 .cat {
@@ -154,8 +161,11 @@ body {
   position: relative;
   background: none;
   width: fit-content;
-  background-color: var(--text-color);
-  color: var(--base-color);
+  background-color: #1c2329;
+  
+}
+.cats2 .cat6 p{
+  color: white !important;
 }
 
 .cat:active {
@@ -432,7 +442,7 @@ h2>a:hover{
   justify-content: center;
   align-items: center;
   color: var(--text-color);
-  background-color: rgba(0, 157, 255, 0.171);
+  background-color: rgba(86, 86, 86, 0.133);
   border-radius: 4px;
   padding: 0.3rem 0.3rem;
 
@@ -441,7 +451,7 @@ h2>a:hover{
   font-size: small;
 }
 .categ svg{
-  fill: var(--text-color);
+  fill: #00df7b;
 }
 .writer{
   display: flex;

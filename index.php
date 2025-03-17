@@ -338,8 +338,8 @@ tr.row-1.odd {
 					<!-- .site-branding -->
 
 					<div class="site-branding flex items-center md:ml-14 ml-6">
-						<a href="https://myitland.ir/" title="آکادمی راوین" rel="home">
-							<img width="96" height="55" src="tasavir/Untitled-2.png" class="w-20 md:w-24" alt="آکادمی راوین" decoding="async">
+						<a href="https://myitland.ir/" title=" آیتی لند" rel="home">
+							<img width="96" height="55" src="tasavir/ItLogo.png" class="w-20 md:w-24" alt="آکادمی راوین" decoding="async">
 						</a>
 					</div>
 
@@ -395,10 +395,10 @@ tr.row-1.odd {
 								<use href="#icon-drawer-menu"></use>
 							</svg>
 						</button>
-						<a class="btn secondary hidden lg:block font-bold" href="https://myitland.ir/contact-us">
-							<span class="font-serif tracking-normal text-base">تماس با ما</span>
+						<a class="btn primary hidden lg:block font-bold" href="https://myitland.ir/login.php">
+							<span class="font-serif tracking-normal text-base"> ورود </span>
 						</a>
-						<!--                <a class="btn primary" href="#">تماس با ما</a>-->
+						              <!-- <a class="btn primary" href="#"> ثبت نام</a> -->
 					</div>
 
 					<!--    Search menu      -->
@@ -1532,7 +1532,7 @@ tr.row-1.odd {
 		</div>
   </div>
 
-  <div class="slider-path mb-8 w-full container mx-auto flex flex-wrap justify-between items-center flex-col-reverse md:flex-row-reverse mt-12 md:mt-0">
+  <div class="slider-path mb-8 w-full container mx-auto flex flex-wrap justify-between items-center flex-col-reverse md:flex-row-reverse mt-12 md:mt-0 rounded-lg px-10 py-10"  style="background-color: rgba(2, 114, 20, 0.04);">
     <div class="scr-media md:pt-[80%] md:pt-[50%] group w-full relative md:absolote basis-full mb-8 md:mb-0 rounded-lg overflow-hidden md:basis-6/12 lg:basis-7/12 ">
         <div class="flex justify-center md:absolute left-0 right-0 top-0 bottom-0 reletive flex-col-reverse md:flex-row">
             <div id="path_sh_points" class="flex flex-row md:!flex-col md:absolute top-0 bottom-0 left-0 justify-center reletive gap-2 md:gap-0">
@@ -1565,9 +1565,9 @@ tr.row-1.odd {
             <div class="flex justify-center md:!justify-start">
                 <span class="">طراحی ⁮⁮</span>
                 <span class=" relative h-20 text-right" style="display: inline; width: 200px;">
-                    <span class="absolute transition duration-500 animRed opacity-0" style="color:var(--color-red); display: inline; width: 3600px;">وب سایت</span>
-                    <span class="absolute transition duration-500 animBlue opacity-0" style="color:var(--color-blue);  display: inline; width: 360px;">رابط کاربری</span>
-                    <span class="absolute transition duration-500 animPurple" style="color:var(--color-purple);  display: inline; width: 360px;">موشن گرافیک</span>
+                    <span class="absolute transition duration-500 animRed opacity-0" style="color:var(--color-red); display: inline; width: 340px;">وب سایت</span>
+                    <span class="absolute transition duration-500 animBlue opacity-0" style="color:var(--color-blue);  display: inline; width: 340px;">رابط کاربری</span>
+                    <span class="absolute transition duration-500 animPurple" style="color:var(--color-purple);  display: inline; width: 340px;">موشن گرافیک</span>
                 </span>
             </div>
             <span class="relative inline-block"> حرفه ای رو</span>

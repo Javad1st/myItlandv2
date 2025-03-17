@@ -52,7 +52,7 @@ foreach ($blogs as $b) {
 
 <!DOCTYPE html>
 <html lang="fa">
-<head>
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title><?= htmlspecialchars($blogs[0]['title']) ?></title>
@@ -77,8 +77,178 @@ justify-content: center;
   height: 200px;
  }
     </style>
+     <style>img:is([sizes="auto" i], [sizes^="auto," i]) { contain-intrinsic-size: 3000px 1500px }</style>
+	<style id="wp-emoji-styles-inline-css" type="text/css">
+
+	img.wp-smiley, img.emoji {
+		display: inline !important;
+		border: none !important;
+		box-shadow: none !important;
+		height: 1em !important;
+		width: 1em !important;
+		margin: 0 0.07em !important;
+		vertical-align: -0.1em !important;
+		background: none !important;
+		padding: 0 !important;
+	}
+    *{
+        font-family: iranSans !important;
+    }
+</style>
+<style id="safe-svg-svg-icon-style-inline-css" type="text/css">
+.safe-svg-cover{text-align:center}.safe-svg-cover .safe-svg-inside{display:inline-block;max-width:100%}.safe-svg-cover svg{height:100%;max-height:100%;max-width:100%;width:100%}
+
+</style>
+<style id="classic-theme-styles-inline-css" type="text/css">
+/*! This file is auto-generated */
+.wp-block-button__link{color:#fff;background-color:#32373c;border-radius:9999px;box-shadow:none;text-decoration:none;padding:calc(.667em + 2px) calc(1.333em + 2px);font-size:1.125em}.wp-block-file__button{background:#32373c;color:#fff;text-decoration:none}
+</style>
+<link rel="stylesheet" id="simple-image-popup-css" href="../../srcfiles/simple-image-popup.css" type="text/css" media="all">
+<script type="text/javascript" src="../../srcfiles/jquery.js" id="jquery-js"></script>
+<!-- <link rel="https://api.w.org/" href="https://ravinacademy.com/wp-json/"><link rel="alternate" title="JSON" type="application/json" href="https://ravinacademy.com/wp-json/wp/v2/pages/73"><link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://ravinacademy.com/xmlrpc.php?rsd"> -->
+
+<!-- <link rel="canonical" href="https://ravinacademy.com/">
+<link rel="shortlink" href="https://ravinacademy.com/"> -->
+<!-- <link rel="alternate" title="oEmbed (JSON)" type="application/json+oembed" href="https://ravinacademy.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fravinacademy.com%2F">
+<link rel="alternate" title="oEmbed (XML)" type="text/xml+oembed" href="https://ravinacademy.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fravinacademy.com%2F&amp;format=xml"> -->
+<link rel="stylesheet" href="../../srcfiles/classic.css"><link rel="stylesheet" href="../../srcfiles/style.7a857bdd.css">	<link rel="stylesheet" as="style" href="../../srcfiles/font.css" onload="this.onload=null;this.rel='stylesheet'">
+	<!-- <link rel="icon" href="https://ravinacademy.com/wp-content/uploads/2024/01/favicon.png" sizes="32x32"> -->
+<!-- <link rel="icon" href="https://ravinacademy.com/wp-content/uploads/2024/01/favicon.png" sizes="192x192"> -->
+<!-- <link rel="apple-touch-icon" href="https://ravinacademy.com/wp-content/uploads/2024/01/favicon.png"> -->
+<!-- <meta name="msapplication-TileImage" content="https://ravinacademy.com/wp-content/uploads/2024/01/favicon.png"> -->
+		<style type="text/css" id="wp-custom-css">
+			figure table tbody tr td, table, td {
+border: 1px solid #d2d2d2;
+padding: 15px;
+}
+th.has-text-align-center, thead {
+border: 1px solid #d2d2d2;
+padding: 15px;
+}
+table {
+	width: -webkit-fill-available;
+}
+code {
+	  background: #f4f4f4;
+    border: 1px solid #ddd;
+    border-left: 3px solid #262626!important;
+    color: #666;
+    page-break-inside: avoid;
+    font-family: monospace;
+    font-size: 15px;
+    line-height: 1.6;
+    margin-bottom: 1.6em;
+    max-width: 100%;
+    overflow: auto;
+    padding: 1em 1.5em;
+    display: block;
+    word-wrap: break-word;
+}
+thead:first-child {
+    background-color: #d2d2d2;
+}
+th.has-text-align-center {
+    border-left-color: #fff;
+}
+.post-content.figure-img-m-auto.basis-full.lg\:basis-8\/12.text-lg.font-serif.pt-0 {
+    overflow: hidden;
+}
+figure.wp-block-table {
+overflow: scroll;
+}
+td.has-text-align-right {
+    width: 50% !important;
+}
+img.aligncenter {
+    margin: 0 auto;
+}
+.simple-image-popup-plugin__inner, .simple-image-popup-plugin__image {
+	border-radius: 15px;
+}
+tr.row-1.odd {
+    background-color: #d8d8d8;
+}
+.tracking-wide {
+    letter-spacing: 0px!important;
+}		</style>
+		
+	<link rel="stylesheet" href="../../srcfiles/aos.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+	<noscript>
+		<!-- <link rel="stylesheet" href="https://ravinacademy.com/wp-content/themes/ravinacademy/assets/css/aos-noscripy.css "> -->
+	</noscript>
+<style id="safe-svg-svg-icon-style-inline-css" type="text/css">
+.safe-svg-cover{text-align:center}.safe-svg-cover .safe-svg-inside{display:inline-block;max-width:100%}.safe-svg-cover svg{height:100%;max-height:100%;max-width:100%;width:100%}
+
+</style>
+<style id="classic-theme-styles-inline-css" type="text/css">
+/*! This file is auto-generated */
+.wp-block-button__link{color:#fff;background-color:#32373c;border-radius:9999px;box-shadow:none;text-decoration:none;padding:calc(.667em + 2px) calc(1.333em + 2px);font-size:1.125em}.wp-block-file__button{background:#32373c;color:#fff;text-decoration:none}
+</style>
+<link rel="stylesheet" id="simple-image-popup-css" href="../../srcfiles/simple-image-popup.css" type="text/css" media="all">
+<script type="text/javascript" src="../../srcfiles/jquery.js" id="jquery-js"></script>
+
+
+<link rel="stylesheet" href="../../srcfiles/classic.css"><link rel="stylesheet" href="../../srcfiles/style.7a857bdd.css">	<link rel="stylesheet" as="style" href="../../srcfiles/font.css" onload="this.onload=null;this.rel='stylesheet'">
+
+		<style type="text/css" id="wp-custom-css">
+			figure table tbody tr td, table, td {
+border: 1px solid #d2d2d2;
+padding: 15px;
+}
+th.has-text-align-center, thead {
+border: 1px solid #d2d2d2;
+padding: 15px;
+}
+table {
+	width: -webkit-fill-available;
+}
+code {
+	  background: #f4f4f4;
+    border: 1px solid #ddd;
+    border-left: 3px solid #262626!important;
+    color: #666;
+    page-break-inside: avoid;
+    font-family: monospace;
+    font-size: 15px;
+    line-height: 1.6;
+    margin-bottom: 1.6em;
+    max-width: 100%;
+    overflow: auto;
+    padding: 1em 1.5em;
+    display: block;
+    word-wrap: break-word;
+}
+thead:first-child {
+    background-color: #d2d2d2;
+}
+th.has-text-align-center {
+    border-left-color: #fff;
+}
+.post-content.figure-img-m-auto.basis-full.lg\:basis-8\/12.text-lg.font-serif.pt-0 {
+    overflow: hidden;
+}
+figure.wp-block-table {
+overflow: scroll;
+}
+td.has-text-align-right {
+    width: 50% !important;
+}
+img.aligncenter {
+    margin: 0 auto;
+}
+.simple-image-popup-plugin__inner, .simple-image-popup-plugin__image {
+	border-radius: 15px;
+}
+tr.row-1.odd {
+    background-color: #d8d8d8;
+}
+.tracking-wide {
+    letter-spacing: 0px!important;
+}		</style>
+
+
 </head>
-<body>
+<body style="background-color: rgba(0, 0, 0, 0.05);">
 
 
     <div class="container" dir="rtl">

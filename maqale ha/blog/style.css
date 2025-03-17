@@ -81,21 +81,17 @@ body {
     max-width: 800px;
     margin: auto;
     margin-top: 1rem;
-    background: var(--base-variant);
+    background: white;
     padding: 30px;
     border-radius: 15px;
     box-shadow: 0 8px 30px rgba(0, 0, 0, 0.1);
     transition: transform 0.3s, box-shadow 0.3s;
 }
 
-.container:hover {
-  z-index: -10;
-    transform: translateY(-5px);
-    box-shadow: 0 12px 40px rgba(0, 0, 0, 0.2);
-}
+
 
 h1 {
-    color: var(--secondary-text);
+    color: black;
     font-size: 2.5em;
     margin-bottom: 15px;
     text-align: center;
@@ -106,7 +102,7 @@ h1 {
     height: auto;
     border-radius: 15px;
     margin-bottom: 20px;
-    border: 5px solid var(--zed);
+    border: 5px solid #05f599;
 }
 
 p {
@@ -118,7 +114,7 @@ p {
 }
 
 h2 {
-    color: var(--zed);
+    color: #1b372b !important;
     margin-top: 20px;
     font-size: 1.8em;
 }
@@ -129,8 +125,8 @@ h2 {
 .read-more {
   font-family: iranSans;
   text-decoration: none;
-    background-color: var(--footer-color);
-    color: var(--primary-color);
+    background-color: black;
+    color: white;
     border: none;
     padding: 12px 25px;
     border-radius: 5px;
@@ -143,6 +139,7 @@ h2 {
 }
 .secCom{
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
   justify-content: center;
   gap: 2rem;
@@ -364,7 +361,7 @@ h2 {
     transition: all ease-out 200ms;
     padding: 0.5rem;
     font-size: x-large;
-    background-color: var(--base-color);
+    background-color: rgba(0, 0, 0, 0.08);
     color: var(--text-color);
     border-radius: 8px;
     display: flex;
@@ -372,7 +369,7 @@ h2 {
     gap: 4px;
   }
   .down:hover{
-    background-color: var(--primary-color);
+    background-color: rgba(0, 0, 0, 0.2);
   }
 
   @media screen and (max-width : 900px) {

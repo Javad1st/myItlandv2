@@ -231,7 +231,7 @@ tr.row-1.odd {
 }		</style>
 
 </head>
-<body class="overflow-x-hidden flex flex-col items-center rtl home page-template page-template-templates page-template-templates-home page-template-templatestemplates-home-php page page-id-73" data-aos-easing="ease" data-aos-duration="400" data-aos-delay="0">
+<body class="overflow-x-hidden flex flex-col items-center rtl home page-template page-template-templates page-template-templates-home page-template-templatestemplates-home-php page page-id-73" data-aos-easing="ease" data-aos-duration="400" data-aos-delay="0" style="background-color: rgba(0, 0, 0, 0.1);">
 
 <?php
 // require_once('./header-maqale.php');
@@ -252,134 +252,79 @@ tr.row-1.odd {
         </div>
 </div>
 
-<div class="blogs block">
-        <?php function limit_words($string, $word_limit)
+<div class="flex w-full" style=" transition-duration: 0ms;  align-items: center; justify-content: center; flex-wrap:wrap;">
+
+
+<?php
+ function limit_words($string, $word_limit)
 {
-    $words = explode(" ",$string);
-    return implode(" ",array_splice($words,0,$word_limit));
+$words = explode(" ",$string);
+return implode(" ",array_splice($words,0,$word_limit));
 } foreach ($blogs as $blog): 
 
 
-    $rowcoment = $conn->prepare("SELECT COUNT(*) FROM coment WHERE post = ? ");
-    $rowcoment->bindValue(1, $blog['id'], PDO::PARAM_INT);
-    $rowcoment->execute();
-    $count = $rowcoment->fetchColumn(); // استفاده از fetchColumn برای شمارش
+$rowcoment = $conn->prepare("SELECT COUNT(*) FROM coment WHERE post = ? ");
+$rowcoment->bindValue(1, $blog['id'], PDO::PARAM_INT);
+$rowcoment->execute();
+$count = $rowcoment->fetchColumn(); // استفاده از fetchColumn برای شمارش
+
+?>                       
+<article id="post-1936" class="course-item transition select-none duration-500 hover:-translate-y-2 swiper-slide ml-6 md:ml-7 2xl:ml-8 last:ml-0 w-[275px] transition-all" data-filter="blue-path" style="margin-top: 1rem;">
+                <a class="hover:text-black active:text-black" href="https://myitland.ir/courses/soc-tier-1-operations-zero-to-hero/" rel="bookmark" style="cursor:pointer">
+                    <div class="overflow-hidden bg-white rounded-2xl w-full md:w-[275px]">
+                        <div class="relative bg-[#eee] pt-[63%] rounded-xl overflow-hidden m-1.5">
+                            
+                            <img  src="../uploads/<?= ($blog['image']) ?>" style="position: absolute;" class="rounded-lg left-0 right-0 top-0 bottom-0 m-auto object-cover" alt="SOC Tier 1 Operations Zero to Hero" decoding="async" fetchpriority="high"  sizes="(max-width: 736px) 1vw, 736px">                                        </div>
+
+                     
+                      
+
+                        <header class=" border-b border-black border-opacity-5 pb-3">
+                            <h2 dir="ltr" class="px-3 text-lg font-medium font-serif text-center mb-1 pt-0 leading-5 h-10 2xl:leading-6 2xl:h-12 overflow-hidden">
+                            <a href="./blog/index.php?id=<?=$blog['id'] ?>"><?= htmlspecialchars($blog['title']) ?></a></h2>
+                            <ul class="px-3 flex flex-wrap pb-2 text-xs text-gray-500 font-light items-center justify-center">
+                            <?php
+     
+
+     
+     
+     
+     $content = $blog['caption'];
+     
+     
+     echo   limit_words($content,4); 
+     
+     ?>
+                                                        
+</li>
+                            </ul>
+                                                        
     
-?>
-             <div class="blog">
-                <img src="../uploads/<?= ($blog['image']) ?>" alt="تصویر مقاله" class="article-image">
-             <h2>  <a href="blog/index.php?id=<?=$blog['id'] ?>"><?= htmlspecialchars($blog['title']) ?></a></h2> 
-                <div class="discreption">
-                    <?php
-                     
+                                                        
+                                                        
+<div class="price flex justify-center items-center leading-5 h-5">
+<div class="categ"> <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" ><path d="M11 10H9v3H6v2h3v3h2v-3h3v-2h-3z"></path><path d="M4 22h12c1.103 0 2-.897 2-2V8c0-1.103-.897-2-2-2H4c-1.103 0-2 .897-2 2v12c0 1.103.897 2 2 2zM4 8h12l.002 12H4V8z"></path><path d="M20 2H8v2h12v12h2V4c0-1.103-.897-2-2-2z"></path></svg> <p><?= $blog['tags']?></p>  </div>
+                                        </div>
+                                                        
+                                                        
+                        </header>
 
-                     
-                     
-                     
-                     $content = $blog['caption'];
-                     
-                     
-                     echo   limit_words($content,5); 
-                     
-                     ?>
-                </div>
-                <div class="catSec">
-
-                    <div class="writer">
-                        نویسنده: <?= htmlspecialchars($blog['writer']) ?>
+                        <footer class="flex items-center justify-between py-0.5 px-3" style="background-color: unset;">
+                            <div class="group btn border-transparent px-0 mr-auto">
+                                <span class="font-medium text-sm font-serif pt-1">
+<a href="./blog/index.php?id=<?=$blog['id'] ?>">
+<div class="view">مشاهده</div>
+ </a></span>
+                                <svg class="group-hover:-translate-x-0.5 transition duration-300 mr-3 w-2.5 h-2.5 lg:w-3 lg:h-3">
+                                    <use href="#icon-btn-arrow"></use>
+                                </svg>
+                            </div>
+                        </footer>
                     </div>
-
-                    <div class="categ"> <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" ><path d="M11 10H9v3H6v2h3v3h2v-3h3v-2h-3z"></path><path d="M4 22h12c1.103 0 2-.897 2-2V8c0-1.103-.897-2-2-2H4c-1.103 0-2 .897-2 2v12c0 1.103.897 2 2 2zM4 8h12l.002 12H4V8z"></path><path d="M20 2H8v2h12v12h2V4c0-1.103-.897-2-2-2z"></path></svg> <p><?= $blog['tags']?></p>  </div>
-
-                </div>
-                <div class="iconsSec">
-
-                    <div class="icons">
-                    <div class="like icon like-button" id="like-button-0">
-       <p id="like-count-0"> 0 </p> 
-       <svg id="like-icon-0"  xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
-           <path d="M12 4.595a5.904 5.904 0 0 0-3.996-1.558 5.942 5.942 0 0 0-4.213 1.758c-2.353 2.363-2.352 6.059.002 8.412l7.332 7.332c.17.299.498.492.875.492a.99.99 0 0 0 .792-.409l7.415-7.415c2.354-2.354 2.354-6.049-.002-8.416a5.938 5.938 0 0 0-4.209-1.754A5.906 5.906 0 0 0 12 4.595zm6.791 1.61c1.563 1.571 1.564 4.025.002 5.588L12 18.586l-6.793-6.793c-1.562-1.563-1.561-4.017-.002-5.584.76-.756 1.754-1.172 2.799-1.172s2.035.416 2.789 1.17l.5.5a.999.999 0 0 0 1.414 0l.5-.5c1.512-1.509 4.074-1.505 5.584-.002z"/>
-       </svg>
-       <svg id="liked-icon-0" xmlns="http://www.w3.org/2000/svg" fill="red" width="24" height="24" viewBox="0 0 24 24" style="display: none;">
-           <path d="M20.205 4.791a5.938 5.938 0 0 0-4.209-1.754A5.906 5.906 0 0 0 12 4.595a5.904 5.904 0 0 0-3.996-1.558 5.942 5.942 0 0 0-4.213 1.758c-2.353 2.363-2.352 6.059.002 8.412L12 21.414l8.207-8.207c2.354-2.353 2.355-6.049-.002-8.416z"></path>
-       </svg>
-    </div>
-    
-    
-    
-    
-    
-    
-    
-    
-    <div class="comment icon"><?=$count ?> <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" style=";transform: ;msFilter:;"><path d="M20 2H4c-1.103 0-2 .897-2 2v18l5.333-4H20c1.103 0 2-.897 2-2V4c0-1.103-.897-2-2-2zm0 14H6.667L4 18V4h16v12z"></path><circle cx="15" cy="10" r="2"></circle><circle cx="9" cy="10" r="2"></circle></svg></div>
-                    </div>
-                    <div class="save icons">
-    <div class="saveIcon icon" data-id="<?= $blog['id'] ?>">
-        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
-            <path d="M18 2H6c-1.103 0-2 .897-2 2v18l8-4.572L20 22V4c0-1.103-.897-2-2-2zm0 16.553-6-3.428-6 3.428V4h12v14.553z"></path>
-        </svg>
-    </div>
-    <div class="savedIcon icon" data-id="<?= $blog['id'] ?>" style="display: none;">
-        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
-            <path d="M19 10.132v-6c0-1.103-.897-2-2-2H7c-1.103 0-2 .897-2 2V22l7-4.666L19 22V10.132z"></path>
-        </svg>
-    </div>
-</div>
-
-<script>
-    // گرفتن همه آیکون‌های ذخیره و ذخیره‌شده
-    const saveIcons = document.querySelectorAll('.saveIcon');
-    const savedIcons = document.querySelectorAll('.savedIcon');
-
-    // به‌روزرسانی وضعیت آیکون‌ها بر اساس localStorage
-    function updateIcons() {
-        saveIcons.forEach(saveIcon => {
-            const articleId = saveIcon.dataset.id;
-            const isSaved = localStorage.getItem(`isSaved-${articleId}`) === 'true';
-            const savedIcon = document.querySelector(`.savedIcon[data-id="${articleId}"]`);
-
-            if (isSaved) {
-                saveIcon.style.display = "none";
-                savedIcon.style.display = "flex";
-            } else {
-                saveIcon.style.display = "flex";
-                savedIcon.style.display = "none";
-            }
-        });
-    }
-
-    // به‌روزرسانی وضعیت آیکون‌ها در بارگذاری صفحه
-    updateIcons();
-
-    // افزودن رویداد به هر آیکون ذخیره
-    saveIcons.forEach(saveIcon => {
-        const articleId = saveIcon.dataset.id;
-        const savedIcon = document.querySelector(`.savedIcon[data-id="${articleId}"]`);
-
-        saveIcon.addEventListener("click", () => {
-            saveIcon.style.display = "none";
-            savedIcon.style.display = "flex";
-            localStorage.setItem(`isSaved-${articleId}`, 'true'); // ذخیره وضعیت
-        });
-
-        savedIcon.addEventListener("click", () => {
-            savedIcon.style.display = "none";
-            saveIcon.style.display = "flex";
-            localStorage.setItem(`isSaved-${articleId}`, 'false'); // ذخیره وضعیت
-        });
-    });
-</script>
-                </div>
-                
-                <a href="blog/index.php?id=<?=$blog['id'] ?>">
-                <div class="view">مشاهده</div>
-                 </a>
-                
-            </div>
-        <?php endforeach; ?>
-      
-    </div>
+                </a>
+            </article>
+            <?php endforeach; ?>     
+                                            </div>
       
 <script src="script.js"></script>
     <script src="save.js"></script>
