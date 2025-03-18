@@ -277,7 +277,7 @@ tr.row-1.odd {
 </div>
 <?php else:?>
 <div class="not-login">
-<a  target="_blank" href="../../login/login.php"><button id="login-pdf" class="down" >برای دانلود مقاله باید ورود کنید</button></a>
+<a  target="_blank" href="../../login/login.php"><button id="login-pdf" class="down" >برای دانلود مقاله باید وارد شوید</button></a>
 
 </div> 
 <?php endif;?>
@@ -311,7 +311,7 @@ tr.row-1.odd {
 
 
                 <?php else:?>
-                  <h4> <a style="text-decoration: none;"  href="../../login/login.php">برای ثبت نظر ورود کنید </a></h4>
+                  <h4> <a style="text-decoration: none;"  href="../../login/login.php">برای ثبت نظر  وارد شوید </a></h4>
                 <?php endif;?>
 
 

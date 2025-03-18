@@ -136,82 +136,6 @@ tr.row-1.odd {
 		<!-- <link rel="stylesheet" href="https://myitland.ir/wp-content/themes/ravinacademy/assets/css/aos-noscripy.css "> -->
 	</noscript>
     
-	
-<style id="safe-svg-svg-icon-style-inline-css" type="text/css">
-.safe-svg-cover{text-align:center}.safe-svg-cover .safe-svg-inside{display:inline-block;max-width:100%}.safe-svg-cover svg{height:100%;max-height:100%;max-width:100%;width:100%}
-
-</style>
-
-<style id="classic-theme-styles-inline-css" type="text/css">
-/*! This file is auto-generated */
-.wp-block-button__link{color:#fff;background-color:#32373c;border-radius:9999px;box-shadow:none;text-decoration:none;padding:calc(.667em + 2px) calc(1.333em + 2px);font-size:1.125em}.wp-block-file__button{background:#32373c;color:#fff;text-decoration:none}
-</style>
-
-<link rel="stylesheet" id="simple-image-popup-css" href="srcfiles/simple-image-popup.css" type="text/css" media="all">
-<script type="text/javascript" src="srcfiles/jquery.js" id="jquery-js"></script>
-
-
-<link rel="stylesheet" href="srcfiles/classic.css"><link rel="stylesheet" href="srcfiles/style.7a857bdd.css">	<link rel="stylesheet" as="style" href="srcfiles/font.css" onload="this.onload=null;this.rel='stylesheet'">
-
-		<style type="text/css" id="wp-custom-css">
-			figure table tbody tr td, table, td {
-border: 1px solid #d2d2d2;
-padding: 15px;
-}
-th.has-text-align-center, thead {
-border: 1px solid #d2d2d2;
-padding: 15px;
-}
-table {
-	width: -webkit-fill-available;
-}
-code {
-	  background: #f4f4f4;
-    border: 1px solid #ddd;
-    border-left: 3px solid #262626!important;
-    color: #666;
-    page-break-inside: avoid;
-    font-family: monospace;
-    font-size: 15px;
-    line-height: 1.6;
-    margin-bottom: 1.6em;
-    max-width: 100%;
-    overflow: auto;
-    padding: 1em 1.5em;
-    display: block;
-    word-wrap: break-word;
-}
-thead:first-child {
-    background-color: #d2d2d2;
-}
-th.has-text-align-center {
-    border-left-color: #fff;
-}
-.post-content.figure-img-m-auto.basis-full.lg\:basis-8\/12.text-lg.font-serif.pt-0 {
-    overflow: hidden;
-}
-figure.wp-block-table {
-overflow: scroll;
-}
-td.has-text-align-right {
-    width: 50% !important;
-}
-img.aligncenter {
-    margin: 0 auto;
-}
-.simple-image-popup-plugin__inner, .simple-image-popup-plugin__image {
-	border-radius: 15px;
-}
-tr.row-1.odd {
-    background-color: #d8d8d8;
-}
-.tracking-wide {
-    letter-spacing: 0px!important;
-}		</style>
-		
-	<link rel="stylesheet" href="srcfiles/aos.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
- 
-
 
     <meta name="description" content="آیتی‌لند (IT Land) پلتفرمی برای آموزش فناوری، امنیت شبکه، برنامه‌نویسی و خدمات نوین دیجیتال است. در دنیای آی‌تی پیشرو باشید!">
     <meta name="keywords" content="آیتی‌لند, IT Land, آی‌تی لند, myitland, فناوری, تکنولوژی, آموزش آی‌تی, امنیت شبکه, برنامه‌نویسی, دیجیتال مارکتینگ, آموزش فناوری, خدمات آی‌تی">
@@ -315,7 +239,7 @@ tr.row-1.odd {
 
 
 
-  <div class="container">
+  <div class="container overflow-x-hidden">
     <!-- صفحه لودینگ -->
     <!-- <div id="loading">
       <div id="loading-text"><div class="ring">ITLand
@@ -338,8 +262,8 @@ tr.row-1.odd {
 					<!-- .site-branding -->
 
 					<div class="site-branding flex items-center md:ml-14 ml-6">
-						<a href="https://myitland.ir/" title=" آیتی لند" rel="home">
-							<img width="96" height="55" src="tasavir/ItLogo.png" class="w-20 md:w-24" alt="آکادمی راوین" decoding="async">
+						<a href="https://myitland.ir" title=" آیتی لند" rel="home">
+							<img width="96" height="55" src="tasavir/ItLogo.png" class="w-20 md:w-24" alt=" ابتی لند" decoding="async">
 						</a>
 					</div>
 
@@ -1532,7 +1456,7 @@ tr.row-1.odd {
 		</div>
   </div>
 
-  <div class="slider-path mb-8 w-full container mx-auto flex flex-wrap justify-between items-center flex-col-reverse md:flex-row-reverse mt-12 md:mt-0 rounded-lg px-10 py-10"  style="background-color: rgba(2, 114, 20, 0.04);">
+  <div class="slider-path features mb-8 w-full container mx-auto flex flex-wrap justify-between items-center flex-col-reverse md:flex-row-reverse mt-12 md:mt-0 rounded-lg px-10 py-10"  style="background-color: rgba(0, 0, 0, 0.07);">
     <div class="scr-media md:pt-[80%] md:pt-[50%] group w-full relative md:absolote basis-full mb-8 md:mb-0 rounded-lg overflow-hidden md:basis-6/12 lg:basis-7/12 ">
         <div class="flex justify-center md:absolute left-0 right-0 top-0 bottom-0 reletive flex-col-reverse md:flex-row">
             <div id="path_sh_points" class="flex flex-row md:!flex-col md:absolute top-0 bottom-0 left-0 justify-center reletive gap-2 md:gap-0">
@@ -1562,23 +1486,43 @@ tr.row-1.odd {
     </div>
     <div class="content basis-full text-center md:text-right md:basis-6/12 lg:basis-5/12 mb-10 md:mb-0">
         <h2 class="text-5xl lg:text-6xl leading-snug lg:leading-snug font-black mb-6 uppercase">
-            <div class="flex justify-center md:!justify-start">
+            <div class="flex justify-center md:!justify-start flex-wrap">
                 <span class="">طراحی ⁮⁮</span>
-                <span class=" relative h-20 text-right" style="display: inline; width: 200px;">
-                    <span class="absolute transition duration-500 animRed opacity-0" style="color:var(--color-red); display: inline; width: 340px;">وب سایت</span>
-                    <span class="absolute transition duration-500 animBlue opacity-0" style="color:var(--color-blue);  display: inline; width: 340px;">رابط کاربری</span>
-                    <span class="absolute transition duration-500 animPurple" style="color:var(--color-purple);  display: inline; width: 340px;">موشن گرافیک</span>
+                <span class=" relative h-16 text-right" style="display: inline; width: 200px; ">
+                    <span class="absolute transition duration-500 animRed opacity-0" style="color:var(--color-red); display: inline; width: 340px; font-weight: 900;">وب سایت</span>
+                    <span class="absolute transition duration-500 animBlue opacity-0" style="color:var(--color-blue);  display: inline; width: 340px; font-weight: 900;">رابط کاربری</span>
+                    <span class="absolute transition duration-500 animPurple" style="color:var(--color-purple);  display: inline; width: 340px; font-weight: 900;">موشن گرافیک</span>
                 </span>
+                <style>
+                    @media screen and (max-width:423px) {
+                        .animPurple{
+                            margin-right: -1.5rem;
+                        }
+                        .animRed{
+                            margin-right: 1rem;
+                        }
+                    
+                    }
+                  
+						.features:after {
+						content: "";
+						background-image: var(--bg-noise);
+						position: absolute;
+						left: 0;
+						right: 0;
+						top: 0;
+						bottom: -120px;
+						opacity: 0.05;
+						z-index: -1;
+						}
+
+                </style>
             </div>
             <span class="relative inline-block"> حرفه ای رو</span>
             <br>
             <span class="relative inline-block">به ما بسپارید.</span>
         </h2>
-        <p class="max-w-sm text-lg mb-8 text-gray-700">
-            برای حفظ و ارتقای امنیت یک سازمان، مسیرهای تخصصی متفاوتی در 
-امنیت سایبری وجود دارد. متخصصان هر مسیر، از طریق روش‌های متفاوت و با 
-همکاری هم، وظیفه‌ی‌ دفاع از سازمان را بر عهده خواهند داشت.
-        </p>
+      
         <div>
             <a href="https://myitland.ir/paths" class="pt-3 pb-2.5 2xl:pt-3.5 2xl:pb-3 font-medium text-lg btn group ml-2 last:ml-0 primary w-full flex justify-center md:!w-fit">
                 <span>مشاهده‌ی مسیرها</span>
@@ -1801,220 +1745,9 @@ tr.row-1.odd {
 <div style="height:100px" aria-hidden="true" class="wp-block-spacer"></div>
 <div class="container mx-auto">
 
-    <div style="background-color: rgba(0, 0, 0, 0.05);" class="rounded-3xl py-20 relative ravin-companies">
-        <svg class="absolute left-0 right-0 mx-auto h-10 -top-10" viewBox="0 0 80 32" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <symbol id="com_top_bottom_shapes">
-                <rect width="16" height="16" transform="matrix(1 0 0 -1 0 32)" fill="white"></rect>
-                <rect width="16" height="16" transform="matrix(1 0 0 -1 32 32)" fill="white"></rect>
-                <rect width="16" height="16" transform="matrix(1 0 0 -1 64 32)" fill="white"></rect>
-                <rect width="16" height="16" transform="matrix(1 0 0 -1 16 16)" fill="white"></rect>
-                <rect width="16" height="16" transform="matrix(1 0 0 -1 48 16)" fill="white"></rect>
-            </symbol>
 
-            <use xlink:href="#com_top_bottom_shapes"></use>
-        </svg>
-
-        <svg class="absolute left-0 right-0 mx-auto h-10 -bottom-10 rotate-180" viewBox="0 0 80 32">
-            <use xlink:href="#com_top_bottom_shapes"></use>
-        </svg>
-        <div class="absolute rounded-2xl overflow-hidden left-0 right-0 top-0 bottom-0 z-0" style="background-image: url('https://myitland.ir/wp-content/themes/ravinacademy/public/dotdotbg.png');background-size: 450px; opacity:.08"></div>
-        <h3 class="text-center font-bold mb-10">در کنار این سازمان‌ها بوده‌ایم</h3>
-        <div class="relative px-10 lg:px-0">
-
-                        <div class="swiper lg:max-w-screen-md mx-auto swiper-initialized swiper-horizontal swiper-pointer-events swiper-rtl">
-                <div class="swiper-wrapper" style="transform: translate3d(1057.33px, 0px, 0px); transition-duration: 0ms;"><div class="swiper-slide w-32 px-0 justify-center swiper-slide-duplicate" data-swiper-slide-index="43" style="width: 107.167px; margin-left: 25px;">
-                                    <img decoding="async" src="srcfiles/darmani.svg" alt="partner-logo" class="w-full">
-                                </div><div class="swiper-slide w-32 px-0 justify-center swiper-slide-duplicate" data-swiper-slide-index="44" style="width: 107.167px; margin-left: 25px;">
-                                    <img decoding="async" src="srcfiles/chargoon.svg" alt="partner-logo" class="w-full">
-                                </div><div class="swiper-slide w-32 px-0 justify-center swiper-slide-duplicate" data-swiper-slide-index="45" style="width: 107.167px; margin-left: 25px;">
-                                    <img decoding="async" src="srcfiles/neyshekar.svg" alt="partner-logo" class="w-full">
-                                </div><div class="swiper-slide w-32 px-0 justify-center swiper-slide-duplicate" data-swiper-slide-index="46" style="width: 107.167px; margin-left: 25px;">
-                                    <img decoding="async" src="srcfiles/irisa.svg" alt="partner-logo" class="w-full">
-                                </div><div class="swiper-slide w-32 px-0 justify-center swiper-slide-duplicate" data-swiper-slide-index="47" style="width: 107.167px; margin-left: 25px;">
-                                    <img decoding="async" src="srcfiles/itech.svg" alt="partner-logo" class="w-full">
-                                </div><div class="swiper-slide w-32 px-0 justify-center swiper-slide-duplicate" data-swiper-slide-index="48" style="width: 107.167px; margin-left: 25px;">
-                                    <img decoding="async" src="srcfiles/bima-cina.svg" alt="partner-logo" class="w-full">
-                                </div>
-                                                    <div class="swiper-slide w-32 px-0 justify-center" data-swiper-slide-index="0" style="width: 107.167px; margin-left: 25px;">
-                                    <img decoding="async" src="srcfiles/bank-meli-1.svg" alt="partner-logo" class="w-full">
-                                </div>
-                                                    <div class="swiper-slide w-32 px-0 justify-center swiper-slide-prev" data-swiper-slide-index="1" style="width: 107.167px; margin-left: 25px;">
-                                    <img decoding="async" src="srcfiles/bank-Saderat.svg" alt="partner-logo" class="w-full">
-                                </div>
-                                                    <div class="swiper-slide w-32 px-0 justify-center swiper-slide-active" data-swiper-slide-index="2" style="width: 107.167px; margin-left: 25px;">
-                                    <img decoding="async" src="srcfiles/bank-Melat.svg" alt="partner-logo" class="w-full">
-                                </div>
-                                                    <div class="swiper-slide w-32 px-0 justify-center swiper-slide-next" data-swiper-slide-index="3" style="width: 107.167px; margin-left: 25px;">
-                                    <img decoding="async" src="srcfiles/bank-Sina.svg" alt="partner-logo" class="w-full">
-                                </div>
-                                                    <div class="swiper-slide w-32 px-0 justify-center" data-swiper-slide-index="4" style="width: 107.167px; margin-left: 25px;">
-                                    <img decoding="async" src="srcfiles/bank-pasagad.svg" alt="partner-logo" class="w-full">
-                                </div>
-                                                    <div class="swiper-slide w-32 px-0 justify-center" data-swiper-slide-index="5" style="width: 107.167px; margin-left: 25px;">
-                                    <img decoding="async" src="srcfiles/moasse-melall.svg" alt="partner-logo" class="w-full">
-                                </div>
-                                                    <div class="swiper-slide w-32 px-0 justify-center" data-swiper-slide-index="6" style="width: 107.167px; margin-left: 25px;">
-                                    <img decoding="async" src="srcfiles/vezarat-ooloom.svg" alt="partner-logo" class="w-full">
-                                </div>
-                                                    <div class="swiper-slide w-32 px-0 justify-center" data-swiper-slide-index="7" style="width: 107.167px; margin-left: 25px;">
-                                    <img decoding="async" src="srcfiles/vezarat-oomoor-khareje.svg" alt="partner-logo" class="w-full">
-                                </div>
-                                                    <div class="swiper-slide w-32 px-0 justify-center" data-swiper-slide-index="8" style="width: 107.167px; margin-left: 25px;">
-                                    <img decoding="async" src="srcfiles/Daraei.svg" alt="partner-logo" class="w-full">
-                                </div>
-                                                    <div class="swiper-slide w-32 px-0 justify-center" data-swiper-slide-index="9" style="width: 107.167px; margin-left: 25px;">
-                                    <img decoding="async" src="srcfiles/Emam.svg" alt="partner-logo" class="w-full">
-                                </div>
-                                                    <div class="swiper-slide w-32 px-0 justify-center" data-swiper-slide-index="10" style="width: 107.167px; margin-left: 25px;">
-                                    <img decoding="async" src="srcfiles/padafand-1.svg" alt="partner-logo" class="w-full">
-                                </div>
-                                                    <div class="swiper-slide w-32 px-0 justify-center" data-swiper-slide-index="11" style="width: 107.167px; margin-left: 25px;">
-                                    <img decoding="async" src="srcfiles/vezarat-etelaat.svg" alt="partner-logo" class="w-full">
-                                </div>
-                                                    <div class="swiper-slide w-32 px-0 justify-center" data-swiper-slide-index="12" style="width: 107.167px; margin-left: 25px;">
-                                    <img decoding="async" src="srcfiles/maliati.svg" alt="partner-logo" class="w-full">
-                                </div>
-                                                    <div class="swiper-slide w-32 px-0 justify-center" data-swiper-slide-index="13" style="width: 107.167px; margin-left: 25px;">
-                                    <img decoding="async" src="srcfiles/jomhoori-eslami.svg" alt="partner-logo" class="w-full">
-                                </div>
-                                                    <div class="swiper-slide w-32 px-0 justify-center" data-swiper-slide-index="14" style="width: 107.167px; margin-left: 25px;">
-                                    <img decoding="async" src="srcfiles/bonyad-mostazafan.svg" alt="partner-logo" class="w-full">
-                                </div>
-                                                    <div class="swiper-slide w-32 px-0 justify-center" data-swiper-slide-index="15" style="width: 107.167px; margin-left: 25px;">
-                                    <img decoding="async" src="srcfiles/sedasima.svg" alt="partner-logo" class="w-full">
-                                </div>
-                                                    <div class="swiper-slide w-32 px-0 justify-center" data-swiper-slide-index="16" style="width: 107.167px; margin-left: 25px;">
-                                    <img decoding="async" src="srcfiles/Astan-ghods.svg" alt="partner-logo" class="w-full">
-                                </div>
-                                                    <div class="swiper-slide w-32 px-0 justify-center" data-swiper-slide-index="17" style="width: 107.167px; margin-left: 25px;">
-                                    <img decoding="async" src="srcfiles/Hamrah-aval.svg" alt="partner-logo" class="w-full">
-                                </div>
-                                                    <div class="swiper-slide w-32 px-0 justify-center" data-swiper-slide-index="18" style="width: 107.167px; margin-left: 25px;">
-                                    <img decoding="async" src="srcfiles/irancel.svg" alt="partner-logo" class="w-full">
-                                </div>
-                                                    <div class="swiper-slide w-32 px-0 justify-center" data-swiper-slide-index="19" style="width: 107.167px; margin-left: 25px;">
-                                    <img decoding="async" src="srcfiles/Rightel.svg" alt="partner-logo" class="w-full">
-                                </div>
-                                                    <div class="swiper-slide w-32 px-0 justify-center" data-swiper-slide-index="20" style="width: 107.167px; margin-left: 25px;">
-                                    <img decoding="async" src="srcfiles/Asia-Tech.svg" alt="partner-logo" class="w-full">
-                                </div>
-                                                    <div class="swiper-slide w-32 px-0 justify-center" data-swiper-slide-index="21" style="width: 107.167px; margin-left: 25px;">
-                                    <img decoding="async" src="srcfiles/Hamrah-cart.svg" alt="partner-logo" class="w-full">
-                                </div>
-                                                    <div class="swiper-slide w-32 px-0 justify-center" data-swiper-slide-index="22" style="width: 107.167px; margin-left: 25px;">
-                                    <img decoding="async" src="srcfiles/Enerzhi-atomi.svg" alt="partner-logo" class="w-full">
-                                </div>
-                                                    <div class="swiper-slide w-32 px-0 justify-center" data-swiper-slide-index="23" style="width: 107.167px; margin-left: 25px;">
-                                    <img decoding="async" src="srcfiles/niroo-havaei.svg" alt="partner-logo" class="w-full">
-                                </div>
-                                                    <div class="swiper-slide w-32 px-0 justify-center" data-swiper-slide-index="24" style="width: 107.167px; margin-left: 25px;">
-                                    <img decoding="async" src="srcfiles/niroo-daryaei.svg" alt="partner-logo" class="w-full">
-                                </div>
-                                                    <div class="swiper-slide w-32 px-0 justify-center" data-swiper-slide-index="25" style="width: 107.167px; margin-left: 25px;">
-                                    <img decoding="async" src="srcfiles/fanap1.svg" alt="partner-logo" class="w-full">
-                                </div>
-                                                    <div class="swiper-slide w-32 px-0 justify-center" data-swiper-slide-index="26" style="width: 107.167px; margin-left: 25px;">
-                                    <img decoding="async" src="srcfiles/mashhad.svg" alt="partner-logo" class="w-full">
-                                </div>
-                                                    <div class="swiper-slide w-32 px-0 justify-center" data-swiper-slide-index="27" style="width: 107.167px; margin-left: 25px;">
-                                    <img decoding="async" src="srcfiles/ghom.svg" alt="partner-logo" class="w-full">
-                                </div>
-                                                    <div class="swiper-slide w-32 px-0 justify-center" data-swiper-slide-index="28" style="width: 107.167px; margin-left: 25px;">
-                                    <img decoding="async" src="srcfiles/tehran.svg" alt="partner-logo" class="w-full">
-                                </div>
-                                                    <div class="swiper-slide w-32 px-0 justify-center" data-swiper-slide-index="29" style="width: 107.167px; margin-left: 25px;">
-                                    <img decoding="async" src="srcfiles/vezarat-etelaat-1.svg" alt="partner-logo" class="w-full">
-                                </div>
-                                                    <div class="swiper-slide w-32 px-0 justify-center" data-swiper-slide-index="30" style="width: 107.167px; margin-left: 25px;">
-                                    <img decoding="async" src="srcfiles/jahan-foolad.svg" alt="partner-logo" class="w-full">
-                                </div>
-                                                    <div class="swiper-slide w-32 px-0 justify-center" data-swiper-slide-index="31" style="width: 107.167px; margin-left: 25px;">
-                                    <img decoding="async" src="srcfiles/golgohar.svg" alt="partner-logo" class="w-full">
-                                </div>
-                                                    <div class="swiper-slide w-32 px-0 justify-center" data-swiper-slide-index="32" style="width: 107.167px; margin-left: 25px;">
-                                    <img decoding="async" src="srcfiles/mpna1.svg" alt="partner-logo" class="w-full">
-                                </div>
-                                                    <div class="swiper-slide w-32 px-0 justify-center" data-swiper-slide-index="33" style="width: 107.167px; margin-left: 25px;">
-                                    <img decoding="async" src="srcfiles/foolad-golgohar1.svg" alt="partner-logo" class="w-full">
-                                </div>
-                                                    <div class="swiper-slide w-32 px-0 justify-center" data-swiper-slide-index="34" style="width: 107.167px; margin-left: 25px;">
-                                    <img decoding="async" src="srcfiles/midhco1.svg" alt="partner-logo" class="w-full">
-                                </div>
-                                                    <div class="swiper-slide w-32 px-0 justify-center" data-swiper-slide-index="35" style="width: 107.167px; margin-left: 25px;">
-                                    <img decoding="async" src="srcfiles/setare-khalij-fars.svg" alt="partner-logo" class="w-full">
-                                </div>
-                                                    <div class="swiper-slide w-32 px-0 justify-center" data-swiper-slide-index="36" style="width: 107.167px; margin-left: 25px;">
-                                    <img decoding="async" src="srcfiles/zir-sakht-amn.svg" alt="partner-logo" class="w-full">
-                                </div>
-                                                    <div class="swiper-slide w-32 px-0 justify-center" data-swiper-slide-index="37" style="width: 107.167px; margin-left: 25px;">
-                                    <img decoding="async" src="srcfiles/iziran.svg" alt="partner-logo" class="w-full">
-                                </div>
-                                                    <div class="swiper-slide w-32 px-0 justify-center" data-swiper-slide-index="38" style="width: 107.167px; margin-left: 25px;">
-                                    <img decoding="async" src="srcfiles/shatel.svg" alt="partner-logo" class="w-full">
-                                </div>
-                                                    <div class="swiper-slide w-32 px-0 justify-center" data-swiper-slide-index="39" style="width: 107.167px; margin-left: 25px;">
-                                    <img decoding="async" src="srcfiles/tap30.svg" alt="partner-logo" class="w-full">
-                                </div>
-                                                    <div class="swiper-slide w-32 px-0 justify-center" data-swiper-slide-index="40" style="width: 107.167px; margin-left: 25px;">
-                                    <img decoding="async" src="srcfiles/mahan.svg" alt="partner-logo" class="w-full">
-                                </div>
-                                                    <div class="swiper-slide w-32 px-0 justify-center" data-swiper-slide-index="41" style="width: 107.167px; margin-left: 25px;">
-                                    <img decoding="async" src="srcfiles/datin.svg" alt="partner-logo" class="w-full">
-                                </div>
-                                                    <div class="swiper-slide w-32 px-0 justify-center" data-swiper-slide-index="42" style="width: 107.167px; margin-left: 25px;">
-                                    <img decoding="async" src="srcfiles/pardis.svg" alt="partner-logo" class="w-full">
-                                </div>
-                                                    <div class="swiper-slide w-32 px-0 justify-center" data-swiper-slide-index="43" style="width: 107.167px; margin-left: 25px;">
-                                    <img decoding="async" src="srcfiles/darmani.svg" alt="partner-logo" class="w-full">
-                                </div>
-                                                    <div class="swiper-slide w-32 px-0 justify-center" data-swiper-slide-index="44" style="width: 107.167px; margin-left: 25px;">
-                                    <img decoding="async" src="srcfiles/chargoon.svg" alt="partner-logo" class="w-full">
-                                </div>
-                                                    <div class="swiper-slide w-32 px-0 justify-center" data-swiper-slide-index="45" style="width: 107.167px; margin-left: 25px;">
-                                    <img decoding="async" src="srcfiles/neyshekar.svg" alt="partner-logo" class="w-full">
-                                </div>
-                                                    <div class="swiper-slide w-32 px-0 justify-center" data-swiper-slide-index="46" style="width: 107.167px; margin-left: 25px;">
-                                    <img decoding="async" src="srcfiles/irisa.svg" alt="partner-logo" class="w-full">
-                                </div>
-                                                    <div class="swiper-slide w-32 px-0 justify-center" data-swiper-slide-index="47" style="width: 107.167px; margin-left: 25px;">
-                                    <img decoding="async" src="srcfiles/itech.svg" alt="partner-logo" class="w-full">
-                                </div>
-                                                    <div class="swiper-slide w-32 px-0 justify-center" data-swiper-slide-index="48" style="width: 107.167px; margin-left: 25px;">
-                                    <img decoding="async" src="srcfiles/bima-cina.svg" alt="partner-logo" class="w-full">
-                                </div>
-                                    <div class="swiper-slide w-32 px-0 justify-center swiper-slide-duplicate" data-swiper-slide-index="0" style="width: 107.167px; margin-left: 25px;">
-                                    <img decoding="async" src="srcfiles/bank-meli-1.svg" alt="partner-logo" class="w-full">
-                                </div><div class="swiper-slide w-32 px-0 justify-center swiper-slide-duplicate swiper-slide-duplicate-prev" data-swiper-slide-index="1" style="width: 107.167px; margin-left: 25px;">
-                                    <img decoding="async" src="srcfiles/bank-Saderat.svg" alt="partner-logo" class="w-full">
-                                </div><div class="swiper-slide w-32 px-0 justify-center swiper-slide-duplicate swiper-slide-duplicate-active" data-swiper-slide-index="2" style="width: 107.167px; margin-left: 25px;">
-                                    <img decoding="async" src="srcfiles/bank-Melat.svg" alt="partner-logo" class="w-full">
-                                </div><div class="swiper-slide w-32 px-0 justify-center swiper-slide-duplicate swiper-slide-duplicate-next" data-swiper-slide-index="3" style="width: 107.167px; margin-left: 25px;">
-                                    <img decoding="async" src="srcfiles/bank-Sina.svg" alt="partner-logo" class="w-full">
-                                </div><div class="swiper-slide w-32 px-0 justify-center swiper-slide-duplicate" data-swiper-slide-index="4" style="width: 107.167px; margin-left: 25px;">
-                                    <img decoding="async" src="srcfiles/bank-pasagad.svg" alt="partner-logo" class="w-full">
-                                </div><div class="swiper-slide w-32 px-0 justify-center swiper-slide-duplicate" data-swiper-slide-index="5" style="width: 107.167px; margin-left: 25px;">
-                                    <img decoding="async" src="srcfiles/moasse-melall.svg" alt="partner-logo" class="w-full">
-                                </div></div>
-            </div>
-            <div class="btn-prev transition absolute z-10 w-20 right-0 top-0 bottom-0 hidden md:block">
-                <button class="w-12 h-12 absolute top-0 bottom-0 my-auto right-0 xl:right-10 flex justify-center items-center rounded-lg bg-black bg-opacity-10">
-                    <svg class="w-2.5 h-2.5 lg:w-3 lg:h-3 rotate-180">
-                        <use href="#icon-btn-arrow"></use>
-                    </svg>
-                </button>
-            </div>
-            <div class="btn-next transition absolute z-10 w-20 left-0 top-0 bottom-0 hidden md:block">
-                <button class="w-12 h-12 absolute top-0 bottom-0 my-auto left-0 xl:left-10 flex justify-center items-center rounded-lg bg-black bg-opacity-10">
-                    <svg class="w-2.5 h-2.5 lg:w-3 lg:h-3">
-                        <use href="#icon-btn-arrow"></use>
-                    </svg>
-                </button>
-            </div>
-
-        </div>
-    </div>
 </div>
-<div style="height:200px" aria-hidden="true" class="wp-block-spacer"></div>
+
 
 <div class="container mx-auto">
 <h2 class="has-text-align-center font-bold mb-16" id="organization-s-services">آکادمی راویـن همراه سازمان شما</h2></div>
@@ -2175,577 +1908,8 @@ tr.row-1.odd {
     </div>
 </div>
 <div style="height:118px" aria-hidden="true" class="wp-block-spacer"></div>
-<div class="container mx-auto">
-    <h3 class="wp-block-heading has-text-align-center" style="font-size:48px;font-style:normal;font-weight:500">منابع و مقالات</h3>
-</div>
-<div class="overflow-x-hidden">
-    <div class="container mx-auto event-list">
-        <div class="relative md:!px-5 px-0">
-            <div class="swiper pt-10 pb-8 sm:pt-12 sm:pb-10 !-ml-3 md:!ml-0 swiper-initialized swiper-horizontal swiper-pointer-events swiper-rtl">
-                <!-- Additional required wrapper -->
-                <div class="swiper-wrapper" style="transition-duration: 0ms; transform: translate3d(751px, 0px, 0px);">
-                    <article id="post-2155" class="event-item transition select-none duration-500 hover:-translate-y-2 swiper-slide w-full md:max-w-md" style="width: 345.5px; margin-left: 30px;">
-    <div class="overflow-hidden form-subscribe-box bg-white rounded-xl relative w-full md:max-w-md">
-	    <div class="absolute rounded-2xl overflow-hidden left-0 right-0 top-0 bottom-0 z-0" style="background-image: url('https://myitland.ir/wp-content/themes/ravinacademy/public/dotdotbg.png');background-size: 450px; opacity:.08"></div>
-        <div class="relative pt-[63%] rounded-xl overflow-hidden m-3.5"></div>
-        <header class="px-3.5">
-            <ul class="mb-4 tracking-tight">
-                <li class="inline-block px-2 py-1.5 rounded-full text-gray-400 font-light text-sm">&nbsp;</li>
-            </ul>
-	        <h2 class="text-lg font-serif font-bold mb-2 pt-0 leading-7 h-20 overflow-hidden">&nbsp;</h2>
-
-            <p class="font-serif text-gray-500 leading-5 h-16 overflow-hidden text-sm"> </p>
-        </header>
-        <footer class="px-3.5 py-2 pb-4 text-gray-500 tracking-tight flex justify-between items-center">
-            <div class="flex items-center text-black">
-                <span class="font-bold text-xs font-serif pt-1">&nbsp;</span>
-            </div>
-        </footer>
-        <div class="loading transition invisible opacity-0 absolute left-0 right-0 top-0 bottom-0 flex items-center justify-center duration-300 z-10 bg-opacity-20 bg-black backdrop-blur-sm">
-            <div class="spinner bg-white rounded-full w-16 h-16"></div>
-        </div>
-        <div class="form mx-auto max-w-md flex flex-col justify-center px-8 absolute top-0 bottom-0 left-0 right-0">
-
-            <svg class="w-10 h-10 mx-auto mb-10">
-                <use href="#icon-email"></use></svg>
-
-            <h4 class="font-bold text-center text-xl mb-16">از آخرین رویدادها و مقالات
-                با خبر شوید</h4>
-
-            <form class="form-subscribe" data-page="73">
-                <div class="mb-6 flex flex-col">
-                    <input dir="ltr" type="email" placeholder="ایمیل خود را وارد کنید" name="email" required="" class="text-right" oninvalid="this.setCustomValidity('لطفا ایمیل رو به شکل درست وارد کنید')">
-                    <input type="text" name="form_page" value="73" hidden="">
-                </div>
-                <button type="submit" class="btn justify-center w-full primary group mx-auto">
-                    خبرم کن
-                </button>
-            </form>
-        </div>
-        <div class="success hidden mx-auto max-w-md flex flex-col justify-center px-8 absolute top-0 bottom-0 left-0 right-0">
-            <svg class="w-10 h-10 mx-auto mb-10"><use style="fill:var(--color-purple)" href="#icon-email"></use></svg>
-            <h4 class="font-bold text-center text-xl mb-16">سپاس از اشتراک در خبرنامه آکادمی راوین</h4>
-            <p class="text-gray-600 text-center">ما مشتاقیم که جدیدترین مقالات و رویدادهای خود را به ایمیل شما ارسال کنیم!</p>
-        </div>
-    </div>
-</article>
-<article id="post-2155" class="transition select-none duration-500 hover:-translate-y-2 swiper-slide w-full md:max-w-md swiper-slide-prev" style="width: 345.5px; margin-left: 30px;">
-    <div class="overflow-hidden bg-white rounded-xl w-full md:max-w-md">
-        <a class="hover:text-black active:text-black" href="https://myitland.ir/cybersecurity-101/attack-surface/" rel="bookmark">
-                        <div class="relative pt-[46%] rounded-xl overflow-hidden m-3.5 ">
-                                    <img class="absolute w-full h-full left-0 right-0 top-0 bottom-0 m-auto object-cover" src="srcfiles/Eng.jpg10.webp" alt="Attack Surface" loading="lazy">
-                                <div class="absolute bg-[#262626] bg-opacity-80 pt-1 pb-0.5 px-2 left-4 top-4 rounded-full text-xs text-gray-200 ">
-                    ۱۰ دقیقه خواندن </div>
-                <div class="absolute bg-white right-5 top-4 group pt-0.5 px-2 rounded-full">
-                    <span class="text-gradient text-sm">مقاله</span>
-                </div>
-            </div>
-
-            <header class="px-3.5">
-                <ul class="mb-4 tracking-tight">
-                    <li class="inline-block text-sm px-2 py-1.5 font-serif"> ۱۳ اسفند  ۱۴۰۳</li>
-                    <li class="inline-block pt-1.5">
-                        <div class="inline-block w-0.5 h-3 bg-black bg-opacity-10"></div>
-                    </li>
-                                            <li class="inline-block px-2 py-1.5 rounded-full text-gray-400 font-light text-sm">
-                            Cybersecurity 101                        </li>
-                                    </ul>
-                <h2 class="text-lg font-serif font-bold mb-2 pt-0 leading-7 h-20 overflow-hidden">Attack Surface</h2>
-                <p class="font-serif leading-relaxed text-gray-500 pb-3 text-sm">
-                    ۴۵درصد از کسب‌و‌کارها اعلام کرده‌اند که اقدامات 
-امنیتی کافی برای پیشگیری از حمله‌های سایبری ندارند. کسب‌وکارهای کوچک و 
-متوسط می‌توانند نقاط ضعف احتمالی را شناسایی کنند و و امنیت سایبری خود را
- تقویت کنند.                </p>
-            </header>
-        </a>
-        <footer class="px-3.5 py-2 pb-4 text-gray-500 tracking-tight flex justify-between items-center">
-
-                                        <div class="flex items-center">
-                    <div class="relative grow-0 shrink-0 mb-0.5 bg-[#d9d9d9] rounded-full w-6 h-6 border-2 border-white mx-auto overflow-hidden ">
-                        <svg class="img w-2 h-2 absolute left-0 right-0 top-0 bottom-0 m-auto">
-                            <use href="#icon-user"></use>
-                        </svg>
-                    </div>
-                    <span class="text-gray-500 mr-2 text-xs">آکادمی راوین</span>
-                </div>
-                        <!--	        <span class="ml-1 opacity-50">--><!--</span>-->
-            <svg class="img w-4 h-4 lg:w-5 lg:h-5 mr-1">
-                <use href="#icon-left-arrow-post-item"></use>
-            </svg>
-            <!--            <span class="text-sm text-gray-400 font-serif">--><!--</span>-->
-        </footer>
-    </div>
-</article><article id="post-2160" class="transition select-none duration-500 hover:-translate-y-2 swiper-slide w-full md:max-w-md swiper-slide-active" style="width: 345.5px; margin-left: 30px;">
-    <div class="overflow-hidden bg-white rounded-xl w-full md:max-w-md">
-        <a class="hover:text-black active:text-black" href="https://myitland.ir/cybersecurity-101/application-monitoring/" rel="bookmark">
-                        <div class="relative pt-[46%] rounded-xl overflow-hidden m-3.5 ">
-                                    <img class="absolute w-full h-full left-0 right-0 top-0 bottom-0 m-auto object-cover" src="srcfiles/Eng-3.webp" alt="Application Monitoring" loading="lazy">
-                                <div class="absolute bg-[#262626] bg-opacity-80 pt-1 pb-0.5 px-2 left-4 top-4 rounded-full text-xs text-gray-200 ">
-                    ۵ دقیقه خواندن </div>
-                <div class="absolute bg-white right-5 top-4 group pt-0.5 px-2 rounded-full">
-                    <span class="text-gradient text-sm">مقاله</span>
-                </div>
-            </div>
-
-            <header class="px-3.5">
-                <ul class="mb-4 tracking-tight">
-                    <li class="inline-block text-sm px-2 py-1.5 font-serif"> ۲۲ بهمن  ۱۴۰۳</li>
-                    <li class="inline-block pt-1.5">
-                        <div class="inline-block w-0.5 h-3 bg-black bg-opacity-10"></div>
-                    </li>
-                                            <li class="inline-block px-2 py-1.5 rounded-full text-gray-400 font-light text-sm">
-                            Cybersecurity 101                        </li>
-                                    </ul>
-                <h2 class="text-lg font-serif font-bold mb-2 pt-0 leading-7 h-20 overflow-hidden">Application Monitoring</h2>
-                <p class="font-serif leading-relaxed text-gray-500 pb-3 text-sm">
-                    پایش برنامه‌‌ها، فرایند جمع‌آوری داده‌های لاگ است که
- به توسعه‌دهندگان در ردیابی دسترسی‌پذیری، باگ‌ها، استفاده از منابع و 
-تغییرات در عملکرد برنامه‌ها که بر تجربۀ کاربر نهایی تأثیر می‌گذارند، کمک
- می‌کند.                </p>
-            </header>
-        </a>
-        <footer class="px-3.5 py-2 pb-4 text-gray-500 tracking-tight flex justify-between items-center">
-
-                                        <div class="flex items-center">
-                    <div class="relative grow-0 shrink-0 mb-0.5 bg-[#d9d9d9] rounded-full w-6 h-6 border-2 border-white mx-auto overflow-hidden ">
-                        <svg class="img w-2 h-2 absolute left-0 right-0 top-0 bottom-0 m-auto">
-                            <use href="#icon-user"></use>
-                        </svg>
-                    </div>
-                    <span class="text-gray-500 mr-2 text-xs">آکادمی راوین</span>
-                </div>
-                        <!--	        <span class="ml-1 opacity-50">--><!--</span>-->
-            <svg class="img w-4 h-4 lg:w-5 lg:h-5 mr-1">
-                <use href="#icon-left-arrow-post-item"></use>
-            </svg>
-            <!--            <span class="text-sm text-gray-400 font-serif">--><!--</span>-->
-        </footer>
-    </div>
-</article><article id="post-2162" class="transition select-none duration-500 hover:-translate-y-2 swiper-slide w-full md:max-w-md swiper-slide-next" style="width: 345.5px; margin-left: 30px;">
-    <div class="overflow-hidden bg-white rounded-xl w-full md:max-w-md">
-        <a class="hover:text-black active:text-black" href="https://myitland.ir/cybersecurity-101/application-log/" rel="bookmark">
-                        <div class="relative pt-[46%] rounded-xl overflow-hidden m-3.5 ">
-                                    <img class="absolute w-full h-full left-0 right-0 top-0 bottom-0 m-auto object-cover" src="srcfiles/Eng-2-1.webp" alt="Application Log" loading="lazy">
-                                <div class="absolute bg-[#262626] bg-opacity-80 pt-1 pb-0.5 px-2 left-4 top-4 rounded-full text-xs text-gray-200 ">
-                    ۹ دقیقه خواندن </div>
-                <div class="absolute bg-white right-5 top-4 group pt-0.5 px-2 rounded-full">
-                    <span class="text-gradient text-sm">مقاله</span>
-                </div>
-            </div>
-
-            <header class="px-3.5">
-                <ul class="mb-4 tracking-tight">
-                    <li class="inline-block text-sm px-2 py-1.5 font-serif"> ۱۴ بهمن  ۱۴۰۳</li>
-                    <li class="inline-block pt-1.5">
-                        <div class="inline-block w-0.5 h-3 bg-black bg-opacity-10"></div>
-                    </li>
-                                            <li class="inline-block px-2 py-1.5 rounded-full text-gray-400 font-light text-sm">
-                            Cybersecurity 101                        </li>
-                                    </ul>
-                <h2 class="text-lg font-serif font-bold mb-2 pt-0 leading-7 h-20 overflow-hidden">Application Log</h2>
-                <p class="font-serif leading-relaxed text-gray-500 pb-3 text-sm">
-                    در این مقاله، بررسی می‌کنیم که لاگ برنامه چیست، 
-انواع مختلف لاگ‌های برنامه کدام‌اند و چگونه یک ابزار مدیریت متمرکز لاگ، 
-به شما کمک می‌کند تا بینش‌های عملی کسب‌وکار را از این لاگ‌ها استخراج 
-کنید.                </p>
-            </header>
-        </a>
-        <footer class="px-3.5 py-2 pb-4 text-gray-500 tracking-tight flex justify-between items-center">
-
-                                        <div class="flex items-center">
-                    <div class="relative grow-0 shrink-0 mb-0.5 bg-[#d9d9d9] rounded-full w-6 h-6 border-2 border-white mx-auto overflow-hidden ">
-                        <svg class="img w-2 h-2 absolute left-0 right-0 top-0 bottom-0 m-auto">
-                            <use href="#icon-user"></use>
-                        </svg>
-                    </div>
-                    <span class="text-gray-500 mr-2 text-xs">آکادمی راوین</span>
-                </div>
-                        <!--	        <span class="ml-1 opacity-50">--><!--</span>-->
-            <svg class="img w-4 h-4 lg:w-5 lg:h-5 mr-1">
-                <use href="#icon-left-arrow-post-item"></use>
-            </svg>
-            <!--            <span class="text-sm text-gray-400 font-serif">--><!--</span>-->
-        </footer>
-    </div>
-</article><article id="post-2165" class="transition select-none duration-500 hover:-translate-y-2 swiper-slide w-full md:max-w-md" style="width: 345.5px; margin-left: 30px;">
-    <div class="overflow-hidden bg-white rounded-xl w-full md:max-w-md">
-        <a class="hover:text-black active:text-black" href="https://myitland.ir/cybersecurity-101/adware/" rel="bookmark">
-                        <div class="relative pt-[46%] rounded-xl overflow-hidden m-3.5 ">
-                                    <img class="absolute w-full h-full left-0 right-0 top-0 bottom-0 m-auto object-cover" src="srcfiles/Eng-1-1.webp" alt="Adware" loading="lazy">
-                                <div class="absolute bg-[#262626] bg-opacity-80 pt-1 pb-0.5 px-2 left-4 top-4 rounded-full text-xs text-gray-200 ">
-                    ۸ دقیقه خواندن </div>
-                <div class="absolute bg-white right-5 top-4 group pt-0.5 px-2 rounded-full">
-                    <span class="text-gradient text-sm">مقاله</span>
-                </div>
-            </div>
-
-            <header class="px-3.5">
-                <ul class="mb-4 tracking-tight">
-                    <li class="inline-block text-sm px-2 py-1.5 font-serif"> ۷ بهمن  ۱۴۰۳</li>
-                    <li class="inline-block pt-1.5">
-                        <div class="inline-block w-0.5 h-3 bg-black bg-opacity-10"></div>
-                    </li>
-                                            <li class="inline-block px-2 py-1.5 rounded-full text-gray-400 font-light text-sm">
-                            Cybersecurity 101                        </li>
-                                    </ul>
-                <h2 class="text-lg font-serif font-bold mb-2 pt-0 leading-7 h-20 overflow-hidden">Adware</h2>
-                <p class="font-serif leading-relaxed text-gray-500 pb-3 text-sm">
-                    Adware و پاپ‌آپ‌های مرتبط با آن، در بهترین حالت، 
-آزاردهنده هستند و در بدترین حالت، این قابلیت را دارند که دستگاه شما را 
-از کار بیندازند. مانند بیشتر خطرات امنیت سایبری، بهترین دفاع در برابر 
-Adware، پیشگیری است.                </p>
-            </header>
-        </a>
-        <footer class="px-3.5 py-2 pb-4 text-gray-500 tracking-tight flex justify-between items-center">
-
-                                        <div class="flex items-center">
-                    <div class="relative grow-0 shrink-0 mb-0.5 bg-[#d9d9d9] rounded-full w-6 h-6 border-2 border-white mx-auto overflow-hidden ">
-                        <svg class="img w-2 h-2 absolute left-0 right-0 top-0 bottom-0 m-auto">
-                            <use href="#icon-user"></use>
-                        </svg>
-                    </div>
-                    <span class="text-gray-500 mr-2 text-xs">آکادمی راوین</span>
-                </div>
-                        <!--	        <span class="ml-1 opacity-50">--><!--</span>-->
-            <svg class="img w-4 h-4 lg:w-5 lg:h-5 mr-1">
-                <use href="#icon-left-arrow-post-item"></use>
-            </svg>
-            <!--            <span class="text-sm text-gray-400 font-serif">--><!--</span>-->
-        </footer>
-    </div>
-</article><article id="post-2158" class="transition select-none duration-500 hover:-translate-y-2 swiper-slide w-full md:max-w-md" style="width: 345.5px; margin-left: 30px;">
-    <div class="overflow-hidden bg-white rounded-xl w-full md:max-w-md">
-        <a class="hover:text-black active:text-black" href="https://myitland.ir/cybersecurity-101/application-security/" rel="bookmark">
-                        <div class="relative pt-[46%] rounded-xl overflow-hidden m-3.5 ">
-                                    <img class="absolute w-full h-full left-0 right-0 top-0 bottom-0 m-auto object-cover" src="srcfiles/Eng-4.webp" alt="Application Security" loading="lazy">
-                                <div class="absolute bg-[#262626] bg-opacity-80 pt-1 pb-0.5 px-2 left-4 top-4 rounded-full text-xs text-gray-200 ">
-                    ۱۱ دقیقه خواندن </div>
-                <div class="absolute bg-white right-5 top-4 group pt-0.5 px-2 rounded-full">
-                    <span class="text-gradient text-sm">مقاله</span>
-                </div>
-            </div>
-
-            <header class="px-3.5">
-                <ul class="mb-4 tracking-tight">
-                    <li class="inline-block text-sm px-2 py-1.5 font-serif"> ۵ بهمن  ۱۴۰۳</li>
-                    <li class="inline-block pt-1.5">
-                        <div class="inline-block w-0.5 h-3 bg-black bg-opacity-10"></div>
-                    </li>
-                                            <li class="inline-block px-2 py-1.5 rounded-full text-gray-400 font-light text-sm">
-                            Cybersecurity 101                        </li>
-                                    </ul>
-                <h2 class="text-lg font-serif font-bold mb-2 pt-0 leading-7 h-20 overflow-hidden">Application Security</h2>
-                <p class="font-serif leading-relaxed text-gray-500 pb-3 text-sm">
-                    امنیت برنامه‌های کاربردی، مجموعه‌ای از اقدامات است 
-که برای جلوگیری از سرقت یا دست‌کاری داده‌ها یا کدها در سطح برنامه، طراحی
- شده‌اند. این مفهوم شامل امنیت در مراحل توسعه و طراحی برنامه‌های کاربردی
- و همچنین، سیستم‌ها است.                </p>
-            </header>
-        </a>
-        <footer class="px-3.5 py-2 pb-4 text-gray-500 tracking-tight flex justify-between items-center">
-
-                                        <div class="flex items-center">
-                    <div class="relative grow-0 shrink-0 mb-0.5 bg-[#d9d9d9] rounded-full w-6 h-6 border-2 border-white mx-auto overflow-hidden ">
-                        <svg class="img w-2 h-2 absolute left-0 right-0 top-0 bottom-0 m-auto">
-                            <use href="#icon-user"></use>
-                        </svg>
-                    </div>
-                    <span class="text-gray-500 mr-2 text-xs">آکادمی راوین</span>
-                </div>
-                        <!--	        <span class="ml-1 opacity-50">--><!--</span>-->
-            <svg class="img w-4 h-4 lg:w-5 lg:h-5 mr-1">
-                <use href="#icon-left-arrow-post-item"></use>
-            </svg>
-            <!--            <span class="text-sm text-gray-400 font-serif">--><!--</span>-->
-        </footer>
-    </div>
-</article><article id="post-10786" class="event-item transition select-none duration-500 hover:-translate-y-2 swiper-slide w-full md:max-w-md" style="width: 345.5px; margin-left: 30px;">
-    <div class="overflow-hidden bg-white rounded-xl w-full md:max-w-md">
-        <a class="hover:text-black active:text-black" href="https://myitland.ir/ravin-events/unmasking-hidden-exploits-in-android/" rel="bookmark">
-                        <div class="relative pt-[53%] rounded-xl overflow-hidden m-3.5 ">
-                                    <img class="absolute w-full h-full left-0 right-0 top-0 bottom-0 m-auto object-cover" src="srcfiles/Eng-15.webp" alt="Unmasking Hidden Exploits in Android" loading="lazy">
-                                <div dir="ltr" class="timer scale-90 text-sm z-20 text-gradient opacity-0 transition absolute left-4 top-4" data-time="2025-3-8">
-                    <span class="mx-1">۰</span> : <span class="mx-1">۲۱</span> : <span class="mx-1">۴۹</span>
-                </div>
-                <!--                <div class="absolute bg-[#262626] bg-opacity-80 pt-1 pb-0.5 px-2 left-4 top-4 rounded-full text-xs text-gray-200 ">-->
-                <!--					--><!-- دقیقه خواندن </div>-->
-                                    <div class="absolute bg-white right-5 top-4 group pt-0.5 px-2 rounded-full">
-                        <span class="text-gradient text-sm">وبینار</span>
-                    </div>
-                            </div>
-
-            <header class="px-3.5">
-                <ul class="mb-4 tracking-tight">
-                    <li class="inline-block text-sm px-2 py-1.5 font-serif"> ۱۸ اسفند  ۱۴۰۳</li>
-
-                                    </ul>
-                <h2 class="text-lg font-serif font-bold mb-2 pt-0 leading-7 h-20 overflow-hidden">Unmasking Hidden Exploits in Android</h2>
-                <p class="font-serif text-gray-500 leading-5 h-16 overflow-hidden text-sm">
-                    دربارۀ وبینار این وبینار، به بررسی جدیدترین 
-اکسپلویت‌های اندروید، ازجمله آسیب‌پذیری‌های روز صفر و یک می‌پردازد. در 
-این رویداد، روش‌های دور زدن مکانیزم‌هایی مثل Play Protect، سوءاستفاده از
- مجوزهای خودکار (Permissions) و عبور از محدودیت‌های جدید اندروید را 
-بررسی خواهیم کرد. برخی از این آسیب‌پذیری‌ها همچنان در بازارهای سیاه، 
-خرید‌وفروش می‌شوند و هنوز توسط گوگل […]                </p>
-            </header>
-            <footer class="px-3.5 py-2 pb-4 text-gray-500 tracking-tight flex justify-between items-center">
-                                                                            <div class="flex items-center ">
-                            <div dir="ltr" class="avatars relative pr-2 flex w-fit mx-auto">
-                                                                                                        <div class="relative -mr-2 grow-0 shrink-0 mb-0.5 bg-[#d9d9d9] rounded-full w-6 h-6 border-2 border-white mx-auto overflow-hidden ">
-                                                                                    <svg class="img w-2 h-2 absolute left-0 right-0 top-0 bottom-0 m-auto">
-                                                <use href="#icon-user"></use>
-                                            </svg>
-                                                                            </div>
-                                                            </div>
-                            <div class="instructor text-xs text-gray-500 text-center mr-2 ml-2  truncate text-right" style="width: 170px;">
-                                                                     
-محمدحسین آشفته یزدی                                                     
-                                           </div>
-                        </div>
-                                    
-                <div class="flex items-center text-black">
-                                            <span class="font-bold text-xs font-serif pt-1">تماشا</span>
-                                        <svg class="img w-4 h-4 lg:w-5 lg:h-5 mr-1">
-                        <use href="#icon-left-arrow-post-item"></use>
-                    </svg>
-                </div>
-            </footer>
-        </a>
-    </div>
-</article><article id="post-10773" class="event-item transition select-none duration-500 hover:-translate-y-2 swiper-slide w-full md:max-w-md" style="width: 345.5px; margin-left: 30px;">
-    <div class="overflow-hidden bg-white rounded-xl w-full md:max-w-md">
-        <a class="hover:text-black active:text-black" href="https://myitland.ir/ravin-events/ctrl-debug-impersonate/" rel="bookmark">
-                        <div class="relative pt-[53%] rounded-xl overflow-hidden m-3.5 ">
-                                    <img class="absolute w-full h-full left-0 right-0 top-0 bottom-0 m-auto object-cover" src="srcfiles/Eng-13.webp" alt="CTRL + Debug + Impersonate" loading="lazy">
-                                <div dir="ltr" class="timer scale-90 text-sm z-20 text-gradient opacity-0 transition absolute left-4 top-4" data-time="2025-3-15">
-                    <span class="mx-1">۷</span> : <span class="mx-1">۲۱</span> : <span class="mx-1">۴۹</span>
-                </div>
-                <!--                <div class="absolute bg-[#262626] bg-opacity-80 pt-1 pb-0.5 px-2 left-4 top-4 rounded-full text-xs text-gray-200 ">-->
-                <!--					--><!-- دقیقه خواندن </div>-->
-                                    <div class="absolute bg-white right-5 top-4 group pt-0.5 px-2 rounded-full">
-                        <span class="text-gradient text-sm">وبینار</span>
-                    </div>
-                            </div>
-
-            <header class="px-3.5">
-                <ul class="mb-4 tracking-tight">
-                    <li class="inline-block text-sm px-2 py-1.5 font-serif"> ۲۵ اسفند  ۱۴۰۳</li>
-
-                                    </ul>
-                <h2 class="text-lg font-serif font-bold mb-2 pt-0 leading-7 h-20 overflow-hidden">CTRL + Debug + Impersonate</h2>
-                <p class="font-serif text-gray-500 leading-5 h-16 overflow-hidden text-sm">
-                    دربارۀ وبینار در دنیای امنیت، Token Impersonation 
-یکی از تکنیک‌های پرکاربردی است که می‌تواند به مهاجم اجازه دهد سطح دسترسی
- خود را افزایش دهد و به منابعی دسترسی پیدا کند که در حالت عادی 
-امکان‌پذیر نیست. اما این‌بار، به‌جای روش‌های مرسوم، قرار است این حمله را
- از زاویه‌ای متفاوت بررسی کنیم: با استفاده از دیباگر! […]               
- </p>
-            </header>
-            <footer class="px-3.5 py-2 pb-4 text-gray-500 tracking-tight flex justify-between items-center">
-                                                                            <div class="flex items-center ">
-                            <div dir="ltr" class="avatars relative pr-2 flex w-fit mx-auto">
-                                                                                                        <div class="relative -mr-2 grow-0 shrink-0 mb-0.5 bg-[#d9d9d9] rounded-full w-6 h-6 border-2 border-white mx-auto overflow-hidden ">
-                                                                                    <svg class="img w-2 h-2 absolute left-0 right-0 top-0 bottom-0 m-auto">
-                                                <use href="#icon-user"></use>
-                                            </svg>
-                                                                            </div>
-                                                            </div>
-                            <div class="instructor text-xs text-gray-500 text-center mr-2 ml-2  truncate text-right" style="width: 170px;">
-                                                                     
-علیرضا کلانترزاده                                                       
-                                         </div>
-                        </div>
-                                    
-                <div class="flex items-center text-black">
-                                            <span class="font-bold text-xs font-serif pt-1">تماشا</span>
-                                        <svg class="img w-4 h-4 lg:w-5 lg:h-5 mr-1">
-                        <use href="#icon-left-arrow-post-item"></use>
-                    </svg>
-                </div>
-            </footer>
-        </a>
-    </div>
-</article><article id="post-10663" class="event-item transition select-none duration-500 hover:-translate-y-2 swiper-slide w-full md:max-w-md" style="width: 345.5px; margin-left: 30px;">
-    <div class="overflow-hidden bg-white rounded-xl w-full md:max-w-md">
-        <a class="hover:text-black active:text-black" href="https://myitland.ir/ravin-events/ravin-managed-threat-hunting/" rel="bookmark">
-                        <div class="relative pt-[53%] rounded-xl overflow-hidden m-3.5 ">
-                                    <img class="absolute w-full h-full left-0 right-0 top-0 bottom-0 m-auto object-cover" src="srcfiles/Ravin-Managed-Threat-Hunting.webp" alt="Ravin Managed Threat Hunting" loading="lazy">
-                                <div dir="ltr" class="timer scale-90 text-sm z-20 text-gradient opacity-0 transition absolute left-4 top-4" data-time="2025-3-12">
-                    <span class="mx-1">۴</span> : <span class="mx-1">۲۱</span> : <span class="mx-1">۴۹</span>
-                </div>
-                <!--                <div class="absolute bg-[#262626] bg-opacity-80 pt-1 pb-0.5 px-2 left-4 top-4 rounded-full text-xs text-gray-200 ">-->
-                <!--					--><!-- دقیقه خواندن </div>-->
-                                    <div class="absolute bg-white right-5 top-4 group pt-0.5 px-2 rounded-full">
-                        <span class="text-gradient text-sm">وبینار</span>
-                    </div>
-                            </div>
-
-            <header class="px-3.5">
-                <ul class="mb-4 tracking-tight">
-                    <li class="inline-block text-sm px-2 py-1.5 font-serif"> ۲۲ اسفند  ۱۴۰۳</li>
-
-                                            <li class="inline-block pt-1.5">
-                            <div class="inline-block w-0.5 h-3 bg-black bg-opacity-10"></div>
-                        </li>
-                                                    <li class="inline-block px-2 py-1.5 rounded-full text-gray-400 font-light text-sm">
-                                Threat Hunting                            </li>
-                                    </ul>
-                <h2 class="text-lg font-serif font-bold mb-2 pt-0 leading-7 h-20 overflow-hidden">Ravin Managed Threat Hunting</h2>
-                <p class="font-serif text-gray-500 leading-5 h-16 overflow-hidden text-sm">
-                    دربارۀ وبینار در این وبینار، به بررسی اهمیت انجام 
-شکار تهدید (Threat Hunting) برای سازمان‌ها و میزان تأثیر این فرایند در 
-کشف نفوذ، پرداخته می‌شود. همچنین برای اولین‌بار، خدمت شکار تهدید آکادمی 
-راوین به‌صورت عمومی معرفی می‌شود. توانمندی‌ها، ویژگی‌های فنی و روش انجام
- شکار تهدید تیم آکادمی راوین و همچنین خلاصه‌ای از حمله‌های بررسی‌شده 
-به‌همراه […]                </p>
-            </header>
-            <footer class="px-3.5 py-2 pb-4 text-gray-500 tracking-tight flex justify-between items-center">
-                                                    <div class="flex items-center">
-                        <div class="relative grow-0 shrink-0 mb-0.5 bg-[#d9d9d9] rounded-full w-6 h-6 border-2 border-white mx-auto overflow-hidden ">
-                            <svg class="img w-2 h-2 absolute left-0 right-0 top-0 bottom-0 m-auto">
-                                <use href="#icon-user"></use>
-                            </svg>
-                        </div>
-                        <!-- <span class="text-gray-500 mr-2 text-xs"></span> -->
-                    </div>
-                
-                <div class="flex items-center text-black">
-                                            <span class="font-bold text-xs font-serif pt-1">تماشا</span>
-                                        <svg class="img w-4 h-4 lg:w-5 lg:h-5 mr-1">
-                        <use href="#icon-left-arrow-post-item"></use>
-                    </svg>
-                </div>
-            </footer>
-        </a>
-    </div>
-</article><article id="post-1992" class="event-item transition select-none duration-500 hover:-translate-y-2 swiper-slide w-full md:max-w-md" style="width: 345.5px; margin-left: 30px;">
-    <div class="overflow-hidden bg-white rounded-xl w-full md:max-w-md">
-        <a class="hover:text-black active:text-black" href="https://myitland.ir/ravin-events/fileless-lateral-movement-using-servicemanager-svcctl/" rel="bookmark">
-                        <div class="relative pt-[53%] rounded-xl overflow-hidden m-3.5 ">
-                                    <img class="absolute w-full h-full left-0 right-0 top-0 bottom-0 m-auto object-cover" src="srcfiles/Red-1-1.webp" alt="Fileless Lateral Movement Using ServiceManager (SVCCTL)" loading="lazy">
-                                <div dir="ltr" class="timer scale-90 text-sm z-20 text-gradient opacity-0 transition absolute left-4 top-4" data-time="2022-5-19">
-                    <span class="mx-1">-۱۰۲۴</span> : <span class="mx-1">-۴</span> : <span class="mx-1">-۱۱</span>
-                </div>
-                <!--                <div class="absolute bg-[#262626] bg-opacity-80 pt-1 pb-0.5 px-2 left-4 top-4 rounded-full text-xs text-gray-200 ">-->
-                <!--					--><!-- دقیقه خواندن </div>-->
-                                    <div class="absolute bg-white right-5 top-4 group pt-0.5 px-2 rounded-full">
-                        <span class="text-gradient text-sm">وبینار</span>
-                    </div>
-                            </div>
-
-            <header class="px-3.5">
-                <ul class="mb-4 tracking-tight">
-                    <li class="inline-block text-sm px-2 py-1.5 font-serif"> ۲۹ اردیبهشت  ۱۴۰۱</li>
-
-                                    </ul>
-                <h2 class="text-lg font-serif font-bold mb-2 pt-0 leading-7 h-20 overflow-hidden">Fileless Lateral Movement Using ServiceManager (SVCCTL)</h2>
-                <p class="font-serif text-gray-500 leading-5 h-16 overflow-hidden text-sm">
-                    درباره‌ی وبینار یکی از چالش‌های بزرگ امنیت سایبری در
- سال‌های اخیر، موضوع Lateral Movement است که مرحله‌ی مهمی از حملات 
-سایبری APT نیز محسوب می‌شود. متخصصین تیم قرمز همواره تلاش می‌کنند تا در 
-فرایند Lateral Movement از روش‌ها و تکنیک‌هایی بهره ببرند که 
-هم‌پیاده‌سازی راحت‌تری داشته، و هم شناسایی آن دشوارتر باشد. در این 
-وبینار […]                </p>
-            </header>
-            <footer class="px-3.5 py-2 pb-4 text-gray-500 tracking-tight flex justify-between items-center">
-                                                                            <div class="flex items-center ">
-                            <div dir="ltr" class="avatars relative pr-2 flex w-fit mx-auto">
-                                                                                                        <div class="relative -mr-2 grow-0 shrink-0 mb-0.5 bg-[#d9d9d9] rounded-full w-6 h-6 border-2 border-white mx-auto overflow-hidden ">
-                                        <img width="150" height="150" src="srcfiles/teachers-avatar_002.webp" class="absolute w-full h-full left-0 right-0 top-0 bottom-0 m-auto object-cover" alt="پارسا صرافیان" decoding="async">                                    </div>
-                                                                                                        <div class="relative -mr-2 grow-0 shrink-0 mb-0.5 bg-[#d9d9d9] rounded-full w-6 h-6 border-2 border-white mx-auto overflow-hidden ">
-                                                                                    <svg class="img w-2 h-2 absolute left-0 right-0 top-0 bottom-0 m-auto">
-                                                <use href="#icon-user"></use>
-                                            </svg>
-                                                                            </div>
-                                                            </div>
-                            <div class="instructor text-xs text-gray-500 text-center mr-2 ml-2  truncate text-right" style="width: 170px;">
-                                                                     
-مهدی حاتمی                                    ،&nbsp;                   
-                                                  پارسا صرافیان         
-                                                                        
-               </div>
-                        </div>
-                                    
-                <div class="flex items-center text-black">
-                                            <span class="font-bold text-xs font-serif pt-1">تماشا</span>
-                                        <svg class="img w-4 h-4 lg:w-5 lg:h-5 mr-1">
-                        <use href="#icon-left-arrow-post-item"></use>
-                    </svg>
-                </div>
-            </footer>
-        </a>
-    </div>
-</article><article id="post-1994" class="event-item transition select-none duration-500 hover:-translate-y-2 swiper-slide w-full md:max-w-md" style="width: 345.5px; margin-left: 30px;">
-    <div class="overflow-hidden bg-white rounded-xl w-full md:max-w-md">
-        <a class="hover:text-black active:text-black" href="https://myitland.ir/ravin-events/persistence-detection-using-threat-intelligence/" rel="bookmark">
-                        <div class="relative pt-[53%] rounded-xl overflow-hidden m-3.5 ">
-                                    <img class="absolute w-full h-full left-0 right-0 top-0 bottom-0 m-auto object-cover" src="srcfiles/Red-12.webp" alt="Persistence Detection Using Threat Intelligence" loading="lazy">
-                                <div dir="ltr" class="timer scale-90 text-sm z-20 text-gradient opacity-0 transition absolute left-4 top-4" data-time="2022-7-7">
-                    <span class="mx-1">-۹۷۵</span> : <span class="mx-1">-۴</span> : <span class="mx-1">-۱۱</span>
-                </div>
-                <!--                <div class="absolute bg-[#262626] bg-opacity-80 pt-1 pb-0.5 px-2 left-4 top-4 rounded-full text-xs text-gray-200 ">-->
-                <!--					--><!-- دقیقه خواندن </div>-->
-                                    <div class="absolute bg-white right-5 top-4 group pt-0.5 px-2 rounded-full">
-                        <span class="text-gradient text-sm">وبینار</span>
-                    </div>
-                            </div>
-
-            <header class="px-3.5">
-                <ul class="mb-4 tracking-tight">
-                    <li class="inline-block text-sm px-2 py-1.5 font-serif"> ۱۶ تیر  ۱۴۰۱</li>
-
-                                    </ul>
-                <h2 class="text-lg font-serif font-bold mb-2 pt-0 leading-7 h-20 overflow-hidden">Persistence Detection Using Threat Intelligence</h2>
-                <p class="font-serif text-gray-500 leading-5 h-16 overflow-hidden text-sm">
-                    درباره‌ی وبینار حملات سایبری APT هر روزه گسترده‌تر و
- با پیچیدگی بیشتری بر روی سازمان‌های مختلف انجام می‌شود. به طور معمول 
-مجرمان سایبری پس از Initial Access و Privilege Escalation، برای ادامه 
-فرآیند نیاز به حفظ دسترسی خود روی سازمان تارگت را دارند. در این وبینار 
-به بررسی یکی از جدیدترین روش‌های persistence مشاهده شده […]             
-   </p>
-            </header>
-            <footer class="px-3.5 py-2 pb-4 text-gray-500 tracking-tight flex justify-between items-center">
-                                                    <div class="flex items-center">
-                        <div class="relative grow-0 shrink-0 mb-0.5 bg-[#d9d9d9] rounded-full w-6 h-6 border-2 border-white mx-auto overflow-hidden ">
-                            <svg class="img w-2 h-2 absolute left-0 right-0 top-0 bottom-0 m-auto">
-                                <use href="#icon-user"></use>
-                            </svg>
-                        </div>
-                        <!-- <span class="text-gray-500 mr-2 text-xs"></span> -->
-                    </div>
-                
-                <div class="flex items-center text-black">
-                                            <span class="font-bold text-xs font-serif pt-1">تماشا</span>
-                                        <svg class="img w-4 h-4 lg:w-5 lg:h-5 mr-1">
-                        <use href="#icon-left-arrow-post-item"></use>
-                    </svg>
-                </div>
-            </footer>
-        </a>
-    </div>
-</article>                </div>
-            </div>
-            <div class="btn-prev transition absolute w-20 right-0 top-0 bottom-0 hidden md:block z-0"><!-- bg-gradient-to-l from-[#F7F7F7]-->
-    <button class="w-12 h-12 absolute top-0 bottom-0 my-auto right-0 xl:-right-10 flex justify-center items-center rounded-lg bg-black bg-opacity-10">
-        <svg class="w-2.5 h-2.5 lg:w-3 lg:h-3 rotate-180">
-            <use href="#icon-btn-arrow"></use>
-        </svg>
-    </button>
-</div>
-<div class="btn-next transition absolute w-20 left-0 top-0 bottom-0 hidden md:block z-0"><!-- bg-gradient-to-r from-[#F7F7F7]-->
-    <button class="w-12 h-12 absolute top-0 bottom-0 my-auto left-0 xl:-left-10 flex justify-center items-center rounded-lg bg-black bg-opacity-10">
-        <svg class="w-2.5 h-2.5 lg:w-3 lg:h-3">
-            <use href="#icon-btn-arrow"></use>
-        </svg>
-    </button>
-</div>
-        </div>
 
 
-
-
-    </div>
-</div>
 
 
 <div class="overflow-x-hidden">
@@ -2775,11 +1939,11 @@ Adware، پیشگیری است.                </p>
     
 ?>                       
 				<article id="post-1936" class="course-item transition select-none duration-500 hover:-translate-y-2 swiper-slide ml-6 md:ml-7 2xl:ml-8 last:ml-0 w-[275px] transition-all" data-filter="blue-path">
-                                <a class="hover:text-black active:text-black" href="https://myitland.ir/courses/soc-tier-1-operations-zero-to-hero/" rel="bookmark" style="cursor:pointer">
+                                <a class="hover:text-black active:text-black" href="maqale ha/blog/index.php?id=<?=$blog['id'] ?>" rel="bookmark" style="cursor:pointer">
                                     <div class="overflow-hidden bg-white rounded-2xl w-full md:w-[275px]">
-                                        <div class="relative bg-[#eee] pt-[63%] rounded-xl overflow-hidden m-1.5">
+                                        <div class="relative bg-white pt-[63%] rounded-xl overflow-hidden m-1.5">
                                             
-                                            <img  src="./uploads/<?= ($blog['image']) ?>" style="position: absolute;" class="rounded-lg left-0 right-0 top-0 bottom-0 m-auto object-cover" alt="SOC Tier 1 Operations Zero to Hero" decoding="async" fetchpriority="high"  sizes="(max-width: 736px) 1vw, 736px">                                        </div>
+                                            <img  src="./uploads/<?= ($blog['image']) ?>" style="position: absolute;" class="rounded-lg left-0 right-0 top-0 bottom-0 m-auto object-cover"  decoding="async" fetchpriority="high"  sizes="(max-width: 736px) 1vw, 736px">                                        </div>
 
                                      
                                       

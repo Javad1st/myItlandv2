@@ -270,9 +270,9 @@ $count = $rowcoment->fetchColumn(); // استفاده از fetchColumn برای 
 
 ?>                       
 <article id="post-1936" class="course-item transition select-none duration-500 hover:-translate-y-2 swiper-slide ml-6 md:ml-7 2xl:ml-8 last:ml-0 w-[275px] transition-all" data-filter="blue-path" style="margin-top: 1rem;">
-                <a class="hover:text-black active:text-black" href="https://myitland.ir/courses/soc-tier-1-operations-zero-to-hero/" rel="bookmark" style="cursor:pointer">
+                <a class="hover:text-black active:text-black" href="blog/index.php?id=<?=$blog['id'] ?>" rel="bookmark" style="cursor:pointer">
                     <div class="overflow-hidden bg-white rounded-2xl w-full md:w-[275px]">
-                        <div class="relative bg-[#eee] pt-[63%] rounded-xl overflow-hidden m-1.5">
+                        <div class="relative bg-white pt-[63%] rounded-xl overflow-hidden m-1.5">
                             
                             <img  src="../uploads/<?= ($blog['image']) ?>" style="position: absolute;" class="rounded-lg left-0 right-0 top-0 bottom-0 m-auto object-cover" alt="SOC Tier 1 Operations Zero to Hero" decoding="async" fetchpriority="high"  sizes="(max-width: 736px) 1vw, 736px">                                        </div>
 
