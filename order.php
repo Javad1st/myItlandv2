@@ -43,26 +43,65 @@ $conn->close();
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>سفارش پروژه طراحی سایت</title>
     <style>
+        @font-face {
+  font-family: iranSans;
+  font-style: normal;
+  font-weight: bolder;
+  src: url(yekan/Yekan-Bakh-FaNum-07-Heavy.woff);
+}
+
+@font-face {
+  font-family: iranSans;
+  font-style: normal;
+  font-weight: bold;
+  src: url(yekan/Yekan-Bakh-FaNum-06-Bold.woff);
+}
+
+@font-face {
+  font-family: iranSans;
+  font-style: normal;
+  font-weight: 900;
+  src: url(yekan/Yekan-Bakh-FaNum-08-Fat.woff);
+}
+
+@font-face {
+  font-family: iranSans;
+  font-style: normal;
+  font-weight: 700;
+  src: url(yekan/Yekan-Bakh-FaNum-05-Medium.woff);
+}
+
+
+
+@font-face {
+  font-family: iranSans;
+  font-style: normal;
+  font-weight: 300;
+  src: url(yekan/Yekan-Bakh-FaNum-04-Regular.woff);
+}
+
         * {
+            font-family: iranSans;
             margin: 0;
             padding: 0;
             box-sizing: border-box;
         }
 
         body {
-            font-family: 'Tahoma', sans-serif;
+            
             background-color: #f5f5f5;
             direction: rtl;
             margin: 0;
             padding: 0;
+            overflow-x: hidden!important;
         }
 
         header {
-            background-color: #333;
+            background-color:rgb(25, 25, 25);
             color: white;
             padding: 20px;
             text-align: center;
-            border-bottom: 5px solid #28a745;
+            border-bottom: 2px solidrgb(255, 255, 255);
         }
 
         h1 {
@@ -81,30 +120,55 @@ $conn->close();
             border-radius: 10px;
             box-shadow: 0 2px 15px rgba(0, 0, 0, 0.1);
             transition: transform 0.3s ease;
+            display: flex;
+            flex-direction: column;
+            /* gap: 1rem; */
         }
 
-        .form-container:hover {
+        /* .form-container:hover {
             transform: translateY(-5px);
-        }
+        } */
 
         .step-container {
             display: flex;
             justify-content: space-between;
-            margin-bottom: 20px;
+            margin-bottom: 40px;
+            gap: 0px;
         }
-
+        .step:first-child{
+            border-radius: 0 20px 20px 0;
+        }
+        .step:last-child{
+            border-radius: 20px 0px 0px 20px;
+        }
+        @media screen and (max-width:770px) {
+            .step:first-child{
+            border-radius: 20px 20px 0px 0px;
+        }
+        .step:last-child{
+            border-radius: 0px 0px 20px 20px;
+        }
+        .form-container{
+            flex-direction: row;
+        }
+        .form-group button{
+            font-size: 12px!important;
+        }
+        }
         .step {
             width: 25%;
             text-align: center;
             padding: 10px;
             font-size: 18px;
-            background-color: #ccc;
-            border-radius: 5px;
+            background-color:rgb(52, 52, 52);
+            color: white;
+            /* border-radius: 5px; */
+            min-width: 50px;
             transition: background-color 0.3s ease;
         }
 
         .active-step {
-            background-color: #28a745;
+            background-color: #3cd972;
             color: white;
         }
 
@@ -130,23 +194,25 @@ $conn->close();
         }
 
         .form-group input:focus, .form-group textarea:focus, .form-group select:focus {
-            border-color: #28a745;
+            border-color: #3cd972;
             outline: none;
         }
 
         .form-group button {
-            background-color: #28a745;
+            background-color:rgb(0, 0, 0);
             color: white;
-            padding: 15px 25px;
+            padding: 10px 15px;
             font-size: 18px;
             border: none;
-            border-radius: 5px;
+            border-radius: 12px;
             cursor: pointer;
+            margin-top: 0.4rem;
             transition: background-color 0.3s ease;
+            
         }
 
         .form-group button:hover {
-            background-color: #218838;
+            background-color: #3cd972;
         }
 
         .footer {
@@ -158,7 +224,7 @@ $conn->close();
         }
 
         footer a {
-            color: #28a745;
+            color: #3cd972;
             text-decoration: none;
             font-weight: bold;
         }
@@ -385,7 +451,7 @@ $conn->close();
             color: white;
             padding: 20px;
             text-align: center;
-            border-bottom: 5px solid #28a745;
+            border-bottom: 5px solid #3cd972;
         }
 
         h1 {
@@ -427,7 +493,7 @@ $conn->close();
         }
 
         .active-step {
-            background-color: #28a745;
+            background-color: #3cd972;
             color: white;
         }
 
@@ -453,12 +519,12 @@ $conn->close();
         }
 
         .form-group input:focus, .form-group textarea:focus, .form-group select:focus {
-            border-color: #28a745;
+            border-color: #3cd972;
             outline: none;
         }
 
         .form-group button {
-            background-color: #28a745;
+            background-color: #3cd972;
             color: white;
             padding: 15px 25px;
             font-size: 18px;
@@ -469,7 +535,7 @@ $conn->close();
         }
 
         .form-group button:hover {
-            background-color: #218838;
+            background-color: #3cd972;
         }
 
         .footer {
@@ -481,7 +547,7 @@ $conn->close();
         }
 
         footer a {
-            color: #28a745;
+            color: #3cd972;
             text-decoration: none;
             font-weight: bold;
         }
@@ -708,7 +774,7 @@ $conn->close();
             color: white;
             padding: 20px;
             text-align: center;
-            border-bottom: 5px solid #28a745;
+            border-bottom: 5px solid #3cd972;
         }
 
         h1 {
@@ -750,7 +816,7 @@ $conn->close();
         }
 
         .active-step {
-            background-color: #28a745;
+            background-color: #3cd972;
             color: white;
         }
 
@@ -776,12 +842,12 @@ $conn->close();
         }
 
         .form-group input:focus, .form-group textarea:focus, .form-group select:focus {
-            border-color: #28a745;
+            border-color: #3cd972;
             outline: none;
         }
 
         .form-group button {
-            background-color: #28a745;
+            background-color: #3cd972;
             color: white;
             padding: 15px 25px;
             font-size: 18px;
@@ -792,7 +858,7 @@ $conn->close();
         }
 
         .form-group button:hover {
-            background-color: #218838;
+            background-color: #3cd972;
         }
 
         .footer {
@@ -804,7 +870,7 @@ $conn->close();
         }
 
         footer a {
-            color: #28a745;
+            color: #3cd972;
             text-decoration: none;
             font-weight: bold;
         }

@@ -1461,13 +1461,13 @@ tr.row-1.odd {
         <div class="flex justify-center md:absolute left-0 right-0 top-0 bottom-0 reletive flex-col-reverse md:flex-row">
             <div id="path_sh_points" class="flex flex-row md:!flex-col md:absolute top-0 bottom-0 left-0 justify-center reletive gap-2 md:gap-0">
                 <svg class="transition w-3 h-3 mb-1 navigationDot opacity-10">
-                    <use href="#icon-polygon"></use>
+                    <use href="#icon-list-item"></use>
                 </svg>
                 <svg class="transition w-3 h-3 mb-1 navigationDot opacity-10">
-                    <use href="#icon-polygon"></use>
+                    <use href="#icon-list-item"></use>
                 </svg>
                 <svg class="transition w-3 h-3 navigationDot">
-                    <use href="#icon-polygon"></use>
+                    <use href="#icon-list-item"></use>
                 </svg>
             </div>
                         <svg id="ravinpath" viewBox="0 0 646 529" class="w-full h-full">
@@ -1523,11 +1523,7 @@ tr.row-1.odd {
             <span class="relative inline-block">به ما بسپارید.</span>
         </h2>
       
-        <div>
-            <a href="https://myitland.ir/paths" class="pt-3 pb-2.5 2xl:pt-3.5 2xl:pb-3 font-medium text-lg btn group ml-2 last:ml-0 primary w-full flex justify-center md:!w-fit">
-                <span>مشاهده‌ی مسیرها</span>
-            </a>
-        </div>
+    
     </div>
 </div>
 <script>
@@ -1679,14 +1675,10 @@ tr.row-1.odd {
                 <!-- محل قرار گیری کانتنت -->
                 <div class="content relative z-10 flex flex-col items-center justify-start h-full p-0 md:!pt-12">
                     <div class="text-center relative mb-20 md:mb-0">
-                                                    <h2 class="z-10" style="position: inherit;">در مسیـر خودت باش.</h2>
+                                                    <h2 class="z-10" style="position: inherit;"> چرا مارا انتخاب کنید؟ </h2>
                                                 <img src="srcfiles/paths_002.webp" class="absolute w-full max-w-3xl -top-5 left-0 md:hidden z-0" alt="">
                     </div>
-                                            <p class="mb-8 lg:mb-12 text-lg max-w-lg text-center">یکی
- از اهداف اصلی آکادمی راوین، ارائه‌ی آموزش کاربردی به علاقه‌مندان امنیت 
-سایبری است تا این افراد با گذراندن موفقیت‌آمیز دوره‌های آموزشی، بتوانند 
-در موقعیت‌های شغلی دل‌خواه خود در داخل یا خارج از کشور مشغول به کار 
-شوند.</p>
+                                            <p class="mb-8 lg:mb-12 text-lg max-w-lg text-center">یکی از اهداف اصلی آیتی‌لند ارائه خدمات با بالا ترین کیفیت در زمان مطلوب است تا رضایت شما را جلب کند پس این فرصتو از دست ندید</p>
                     
 
                                             <a href="https://myitland.ir/paths" class="pt-3 pb-2.5 2xl:pt-3.5 2xl:pb-3 font-medium text-lg btn group ml-2 last:ml-0 primary">
