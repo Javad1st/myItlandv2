@@ -141,6 +141,12 @@ $conn->close();
         .step:last-child{
             border-radius: 20px 0px 0px 20px;
         }
+
+        .lamp{
+            position: absolute;
+            right: 40%;
+          top: -45px;
+        }
         @media screen and (max-width:770px) {
             .step:first-child{
             border-radius: 20px 20px 0px 0px;
@@ -154,8 +160,18 @@ $conn->close();
         .form-group button{
             font-size: 12px!important;
         }
+        
+        .lamp{
+            position: absolute;
+            right: -47px;
+          top: 10px;
+          rotate: 90deg;
+         
+        }
         }
         .step {
+            
+            position: relative;
             width: 25%;
             text-align: center;
             padding: 10px;
@@ -233,6 +249,8 @@ $conn->close();
             text-decoration: underline;
         }
 
+        
+
         /* Mobile responsive design */
         @media (max-width: 768px) {
             .container {
@@ -264,10 +282,22 @@ $conn->close();
             
             <!-- Step indicators -->
             <div class="step-container">
-                <div class="step active-step" id="step1">مرحله 1</div>
-                <div class="step" id="step2">مرحله 2</div>
-                <div class="step" id="step3">مرحله 3</div>
-                <div class="step" id="step4">مرحله 4</div>
+                <div class="step active-step" id="step1">مرحله 1
+                    <img id="lampOff1" style="display:none;" class="lamp lampOff" src="tasavir/lampOff.png" alt="" width="50px">
+                    <img id="lampOn1" class="lamp lampOn"  src="tasavir/lampOn.png" alt="" width="50px">
+                </div>
+                <div class="step" id="step2">مرحله 2
+                <img id="lampOff2" class="lamp lampOff" src="tasavir/lampOff.png" alt="" width="50px">
+                <img id="lampOn2" style="display:none;" class="lamp lampOn"  src="tasavir/lampOn.png" alt="" width="50px">
+                </div>
+                <div class="step" id="step3">مرحله 3
+                <img id="lampOff3"  class="lamp lampOff" src="tasavir/lampOff.png" alt="" width="50px">
+                <img id="lampOn3" style="display:none;" class="lamp lampOn"  src="tasavir/lampOn.png" alt="" width="50px">
+                </div>
+                <div class="step" id="step4">مرحله 4
+                <img id="lampOff4"   class="lamp lampOff" src="tasavir/lampOff.png" alt="" width="50px">
+                <img id="lampOn4" style="display:none;" class="lamp lampOn"  src="tasavir/lampOn.png" alt="" width="50px">
+                </div>
             </div>
 
             <form method="POST">
@@ -345,6 +375,10 @@ $conn->close();
             document.getElementById('step-2').style.display = 'block';
             document.getElementById('step1').classList.remove('active-step');
             document.getElementById('step2').classList.add('active-step');
+            document.getElementById('lampOff1').style.display ='block';
+            document.getElementById('lampOn1').style.display ='none';
+            document.getElementById('lampOn2').style.display ='block';
+
         });
 
         document.getElementById('back1').addEventListener('click', function() {
@@ -352,6 +386,9 @@ $conn->close();
             document.getElementById('step-1').style.display = 'block';
             document.getElementById('step2').classList.remove('active-step');
             document.getElementById('step1').classList.add('active-step');
+            document.getElementById('lampOn2').style.display ='none';
+            document.getElementById('lampOn1').style.display ='block';
+          
         });
 
         document.getElementById('next2').addEventListener('click', function() {
@@ -359,6 +396,9 @@ $conn->close();
             document.getElementById('step-3').style.display = 'block';
             document.getElementById('step2').classList.remove('active-step');
             document.getElementById('step3').classList.add('active-step');
+            document.getElementById('lampOff2').style.display ='block';
+            document.getElementById('lampOn2').style.display ='none';
+            document.getElementById('lampOn3').style.display ='block';
         });
 
         document.getElementById('back2').addEventListener('click', function() {
@@ -366,6 +406,8 @@ $conn->close();
             document.getElementById('step-2').style.display = 'block';
             document.getElementById('step3').classList.remove('active-step');
             document.getElementById('step2').classList.add('active-step');
+            document.getElementById('lampOn3').style.display ='none';
+            document.getElementById('lampOn2').style.display ='block';
         });
 
         document.getElementById('next3').addEventListener('click', function() {
@@ -373,6 +415,9 @@ $conn->close();
             document.getElementById('step-4').style.display = 'block';
             document.getElementById('step3').classList.remove('active-step');
             document.getElementById('step4').classList.add('active-step');
+            document.getElementById('lampOff3').style.display ='block';
+            document.getElementById('lampOn3').style.display ='none';
+            document.getElementById('lampOn4').style.display ='block';
         });
 
         document.getElementById('back3').addEventListener('click', function() {
@@ -380,6 +425,8 @@ $conn->close();
             document.getElementById('step-3').style.display = 'block';
             document.getElementById('step4').classList.remove('active-step');
             document.getElementById('step3').classList.add('active-step');
+            document.getElementById('lampOn4').style.display ='none';
+            document.getElementById('lampOn3').style.display ='block';
         });
     </script>
 
@@ -587,10 +634,22 @@ $conn->close();
             
             <!-- Step indicators -->
             <div class="step-container">
-                <div class="step active-step" id="step1">مرحله 1</div>
-                <div class="step" id="step2">مرحله 2</div>
-                <div class="step" id="step3">مرحله 3</div>
-                <div class="step" id="step4">مرحله 4</div>
+                <div class="step active-step" id="step1">مرحله 1
+                    <img  class="lamp lampOff" src="tasavir/lampOff.png" alt="" width="50px">
+                    <img class="lamp lampOff"  src="tasavir/lampOn.png" alt="" width="50px">
+                </div>
+                <div class="step" id="step2">مرحله 2
+                <img  class="lamp lampOff" src="tasavir/lampOff.png" alt="" width="50px">
+                <img class="lamp lampOff"  src="tasavir/lampOn.png" alt="" width="50px">
+                </div>
+                <div class="step" id="step3">مرحله 3
+                <img  class="lamp lampOff" src="tasavir/lampOff.png" alt="" width="50px">
+                <img class="lamp lampOff"  src="tasavir/lampOn.png" alt="" width="50px">
+                </div>
+                <div class="step" id="step4">مرحله 4
+                <img  class="lamp lampOff" src="tasavir/lampOff.png" alt="" width="50px">
+                <img class="lamp lampOff"  src="tasavir/lampOn.png" alt="" width="50px">
+                </div>
             </div>
 
             <form method="POST">
