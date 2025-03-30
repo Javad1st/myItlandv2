@@ -131,10 +131,13 @@ $conn->close();
 
         .step-container {
             display: flex;
-            justify-content: space-between;
+            justify-content: center;
             margin-bottom: 40px;
             gap: 0px;
+            position: relative;
+            margin-left: 1rem;
         }
+      
         .step:first-child{
             border-radius: 0 20px 20px 0;
         }
@@ -145,7 +148,8 @@ $conn->close();
         .lamp{
             position: absolute;
             right: 40%;
-          top: -45px;
+          top: -43px;
+          z-index: 1;
         }
         @media screen and (max-width:770px) {
             .step:first-child{
@@ -163,26 +167,27 @@ $conn->close();
         
         .lamp{
             position: absolute;
-            right: -47px;
-          top: 10px;
+            right: -43px;
+          top: 4px;
           rotate: 90deg;
          
         }
+    
         }
         .step {
-            
+            z-index: 1;
             position: relative;
             width: 25%;
             text-align: center;
             padding: 10px;
             font-size: 18px;
-            background-color:rgb(52, 52, 52);
+            background-color:#2a2a2a;
             color: white;
             /* border-radius: 5px; */
             min-width: 50px;
             transition: background-color 0.3s ease;
         }
-
+       
         .active-step {
             background-color: #3cd972;
             color: white;
@@ -264,14 +269,47 @@ $conn->close();
             .step-container {
                 flex-direction: column;
             }
+            .boxes{
+                flex-direction: column;
+            }
+            #graphCat{
+                margin-top: -2rem;
+            }
         }
+        .boxes{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 0.3rem;
+           
+        }
+        .catBox{
+            padding: 0.2rem 0.8rem;
+            text-align: center;
+            background-color: #333;
+            border-radius: 12px;
+            transition: all ease-out 200ms;
+            font-size: x-large;
+            color: #f5f5f5;
+            margin-bottom: 2rem;
+            cursor: pointer;
+        }
+        .catBox:hover{
+           
+            transform: translateY(-1px);
+        }
+        .activeBox
+        {
+            background-color:#3cd972;
+            transform: translateY(-1px);
 
+        }
     </style>
 </head>
 <body>
 
     <header>
-        <h1>سفارش پروژه طراحی سایت</h1>
+        <h1>سفارش پروژه  </h1>
     </header>
 
     <div class="container">
@@ -282,19 +320,20 @@ $conn->close();
             
             <!-- Step indicators -->
             <div class="step-container">
-                <div class="step active-step" id="step1">مرحله 1
+                <div class="step active-step" id="step1"> 1
                     <img id="lampOff1" style="display:none;" class="lamp lampOff" src="tasavir/lampOff.png" alt="" width="50px">
                     <img id="lampOn1" class="lamp lampOn"  src="tasavir/lampOn.png" alt="" width="50px">
                 </div>
-                <div class="step" id="step2">مرحله 2
+               
+                <div class="step" id="step2"> 2
                 <img id="lampOff2" class="lamp lampOff" src="tasavir/lampOff.png" alt="" width="50px">
                 <img id="lampOn2" style="display:none;" class="lamp lampOn"  src="tasavir/lampOn.png" alt="" width="50px">
                 </div>
-                <div class="step" id="step3">مرحله 3
+                <div class="step" id="step3"> 3
                 <img id="lampOff3"  class="lamp lampOff" src="tasavir/lampOff.png" alt="" width="50px">
                 <img id="lampOn3" style="display:none;" class="lamp lampOn"  src="tasavir/lampOn.png" alt="" width="50px">
                 </div>
-                <div class="step" id="step4">مرحله 4
+                <div class="step" id="step4"> 4
                 <img id="lampOff4"   class="lamp lampOff" src="tasavir/lampOff.png" alt="" width="50px">
                 <img id="lampOn4" style="display:none;" class="lamp lampOn"  src="tasavir/lampOn.png" alt="" width="50px">
                 </div>
@@ -318,15 +357,76 @@ $conn->close();
 
                 <!-- Step 2 -->
                 <div id="step-2" style="display: none;">
-                    <div class="form-group">
+
+                    <div class="boxes">
+                        <div id="webCat" class="catBox activeBox">وبسایت</div>
+                        <div id="graphCat" class="catBox">گرافیک</div>
+                    </div>
+
+
+
+
+
+                    <div id="webForm" class="form-group">
                         <label for="project-type">نوع پروژه:</label>
                         <select id="project-type" name="project-type" required>
-                            <option value="">انتخاب کنید</option>
+                            <option value="">انتخاب نشده</option>
                             <option value="website">وبسایت</option>
                             <option value="ecommerce">فروشگاه اینترنتی</option>
-                            <option value="portfolio">پورتفولیو</option>
+                            <option value="webAplication">وب اپلیکیشن</option>
+                            <option value="other"> سایر...  </option>
                         </select>
                     </div>
+                    <div id="graphForm" class="form-group" style="display: none;">
+                        <label for="project-type">نوع پروژه:</label>
+                        <select id="project-type" name="project-type" required>
+                            <option value="">انتخاب نشده</option>
+                            <option value="poster">پوستر</option>
+                            <option value="banner"> بنر</option>
+                            <option value="social">سوشال مدیا </option>
+                            <option value="motion"> موشن گرافیک </option>
+                            <option value="other"> سایر...  </option>
+                        </select>
+                    </div>
+                <script>
+                    let webCat = document.getElementById('webCat');
+let graphCat = document.getElementById('graphCat');
+let webForm = document.getElementById('webForm');
+let graphForm = document.getElementById('graphForm');
+let categ = 'web';
+
+webCat.addEventListener('click', () => {
+    activeBox(webCat);
+    graphCat.classList.remove('activeBox');
+    categ = 'web'; 
+    updateFormDisplay(); 
+});
+
+graphCat.addEventListener('click', () => {
+    activeBox(graphCat);
+    webCat.classList.remove('activeBox');
+    categ = 'graph'; 
+    updateFormDisplay();
+});
+
+function activeBox(e) {
+    e.classList.add('activeBox');
+}
+
+function updateFormDisplay() {
+    if (categ === 'web') { 
+        webForm.style.display = 'block'; 
+        graphForm.style.display = 'none'; 
+    } else {
+        webForm.style.display = 'none'; 
+        graphForm.style.display = 'block'; 
+    }
+}
+
+
+updateFormDisplay();
+
+                </script>
                     <div class="form-group">
                         <button type="button" id="back1">بازگشت</button>
                         <button type="button" id="next2">مرحله بعد</button>
