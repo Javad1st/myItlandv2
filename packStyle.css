@@ -1,232 +1,233 @@
+/* style.css */
 @font-face {
-    font-family: iranSans;
-    font-style: normal;
-    font-weight: bolder;
-    src: url(yekan/Yekan-Bakh-FaNum-07-Heavy.woff);
-  }
-  
-  @font-face {
-    font-family: iranSans;
-    font-style: normal;
-    font-weight: bold;
-    src: url(yekan/Yekan-Bakh-FaNum-06-Bold.woff);
-  }
-  
-  @font-face {
-    font-family: iranSans;
-    font-style: normal;
-    font-weight: 900;
-    src: url(yekan/Yekan-Bakh-FaNum-08-Fat.woff);
-  }
-  
-  @font-face {
-    font-family: iranSans;
-    font-style: normal;
-    font-weight: 700;
-    src: url(yekan/Yekan-Bakh-FaNum-05-Medium.woff);
-  }
-  
-  
-  
-  @font-face {
-    font-family: iranSans;
-    font-style: normal;
-    font-weight: 300;
-    src: url(yekan/Yekan-Bakh-FaNum-04-Regular.woff);
-  }
+  font-family: iranSans;
+  font-style: normal;
+  font-weight: bolder;
+  src: url(yekan/Yekan-Bakh-FaNum-07-Heavy.woff);
+}
 
-  
+@font-face {
+  font-family: iranSans;
+  font-style: normal;
+  font-weight: bold;
+  src: url(yekan/Yekan-Bakh-FaNum-06-Bold.woff);
+}
+
+@font-face {
+  font-family: iranSans;
+  font-style: normal;
+  font-weight: 900;
+  src: url(yekan/Yekan-Bakh-FaNum-08-Fat.woff);
+}
+
+@font-face {
+  font-family: iranSans;
+  font-style: normal;
+  font-weight: 700;
+  src: url(yekan/Yekan-Bakh-FaNum-05-Medium.woff);
+}
+
+
+
+@font-face {
+  font-family: iranSans;
+  font-style: normal;
+  font-weight: 300;
+  src: url(yekan/Yekan-Bakh-FaNum-04-Regular.woff);
+}
+
+:root {
+  --green: #4fd089;
+  --green-d: #2a7b4d;
+  --background: #f5f5f5;
+  --text: #333;
+  --border: #ccc;
+  --radius: 10px;
+  --transition: 0.4s ease;
+}
+
 * {
-    font-family: iranSans !important;
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  font-family: iranSans;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
 body {
-    font-family: 'Arial', sans-serif;
-    background-color: #f5f5f5;
-    color: #333;
-    line-height: 1.6;
-    padding: 20px;
-    direction: rtl;
-    text-align: right;
+  background: var(--background);
+  color: var(--text);
+  line-height: 1.6;
+  padding: 16px;
 }
 
 .container {
-    max-width: 800px;
-    margin: 0 auto;
-    background-color: #fff;
-    padding: 30px;
-    border-radius: 15px;
-    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
-    transition: transform 0.3s ease;
-}
-
-.container:hover {
-    transform: translateY(-5px);
+  max-width: 480px;
+  margin: 0 auto;
+  background: #fff;
+  padding: 24px;
+  border-radius: var(--radius);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
+  animation: fadeIn 0.8s var(--transition);
+  overflow: hidden
 }
 
 h1 {
-    text-align: center;
-    color: #3c9f69;
-    font-size: 2.5rem;
-    margin-bottom: 30px;
-    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
-    animation: fadeIn 1s ease-in-out;
+  text-align: center;
+  font-size: 1.8rem;
+  color: var(--text);
+  margin-bottom: 24px;
+  position: relative;
 }
 
 @keyframes fadeIn {
-    from {
-        opacity: 0;
-        transform: translateY(-20px);
-    }
-    to {
-        opacity: 1;
-        transform: translateY(0);
-    }
+  from {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }
 
-p {
-    font-size: 1.2rem;
-    margin: 10px 0;
-    
-}
-h2{
-    font-weight: 900;
-    margin-bottom: 0.5rem;
-}
-strong {
-    color: #3c9f69;
-    font-weight: bold;
+.form-group {
+  margin-bottom: 16px;
 }
 
-hr {
-    border: 0;
-    height: 2px;
-    background-color: #ddd;
-    margin: 20px 0;
+.form-group label {
+  display: block;
+  margin-bottom: 6px;
+  font-weight: bold;
 }
 
-.card {
-    background: white;
-    padding: 20px;
-    margin-bottom: 20px;
-    border-radius: 10px;
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
-    transition: all 0.2s ease;
+.form-group input,
+.form-group textarea {
+  width: 100%;
+  max-width: inherit;
+  padding: 10px 12px;
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  font-size: 1rem;
+  transition: border-color var(--transition), box-shadow var(--transition);
 }
 
-.card:hover {
-    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.461);
+.form-group input:focus,
+.form-group textarea:focus {
+  border-color: var(--green);
+  box-shadow: 0 0 0 3px rgba(60, 159, 105, 0.2);
+  outline: none;
 }
 
-ul {
-    padding-right: 20px;
+#description {
+  box-sizing: border-box;
+  width: 100%;
+  max-width: 100%;
+  resize: both;
+  max-height: 300px;
+  overflow: auto;
 }
 
-a {
-    display: inline-block;
-    padding: 10px 15px;
-    background: #000000;
-    color: white;
-    text-decoration: none;
-    margin-top: 10px;
-    border-radius: 5px;
-    transition: all 0.2s ease-out;
+.head {
+  width: 100%;
+  padding: 0px 12px;
+  display: flex;
+  flex-direction: column;
+  gap: 1px;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 2.3rem;
+
 }
 
-a:hover {
-    background: #404040;
-    transform: translateY(-2px);
-}
+.line {
+  width: 85%;
+  height: 6px;
+  border-radius: 2px;
+  background: linear-gradient(90deg, #4fd089, #14e06c);
+  margin-top: -4%;
 
-form input, form textarea {
-    width: 100%;
-    padding: 12px;
-    margin-bottom: 10px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    transition: border-color 0.3s ease;
-}
-
-form input:focus, form textarea:focus {
-    border-color: #3c9f69;
-    outline: none;
-}
-
-form button {
-    background: #28a745;
-    color: white;
-    padding: 12px 15px;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    transition: background-color 0.3s ease, transform 0.3s ease;
-}
-
-form button:hover {
-    background: #218838;
-    transform: scale(1.05);
-}
-
-.contact-info {
-    display: flex;
-    justify-content: space-between;
-    font-size: 1.1rem;
-    margin-top: 20px;
-    background-color: #f0f0f0;
-    padding: 15px;
-    border-radius: 5px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-}
-
-.contact-info p {
-    margin: 0;
-}
-
-.contact-info span {
-    color: #3c9f69;
-    font-weight: bold;
-}
-
-.footer {
-    text-align: center;
-    margin-top: 30px;
-    font-size: 1rem;
-    color: #777;
-}
-
-.footer a {
-    color: #3c9f69;
-    text-decoration: none;
-    transition: color 0.3s ease;
-}
-
-.footer a:hover {
-    color: #2a7b4d;
-    text-decoration: underline;
 }
 
 button {
-    display: block;
-    width: 100%;
-    padding: 12px;
-    background-color: #3c9f69; /* رنگ پس‌زمینه دکمه */
-    color: white; /* رنگ متن دکمه */
-    border: none; /* بدون حاشیه */
-    font-size: 1.1rem; /* اندازه فونت */
-    margin-top: 20px; /* فاصله بالای دکمه */
-    border-radius: 5px; /* گرد کردن گوشه‌ها */
-    cursor: pointer; /* نشانگر ماوس به شکل دست */
-    transition: background-color 0.3s ease, transform 0.3s ease; /* انیمیشن برای تغییر رنگ و اندازه */
+  width: 100%;
+  padding: 14px 0;
+  background: linear-gradient(115deg, #3fd37f, #33ad6a);
+  color: #fff;
+  border: none;
+  border-radius: var(--radius);
+  font-size: 1.1rem;
+  cursor: pointer;
+  transition: background var(--transition), transform var(--transition);
 }
 
 button:hover {
-    background-color: #358d5e; /* رنگ پس‌زمینه دکمه در حالت hover */
-    transform: scale(1.05); /* بزرگ شدن دکمه در حالت hover */
+  background: var(--green-d);
+  transform: translateY(-2px);
 }
 
 button:active {
-    transform: scale(0.95); /* کوچک شدن دکمه در حالت کلیک */
+  transform: scale(0.97);
+}
+
+.form-groups {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.background::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: url(./tasavir/93417d97782df14a03e29c9496eb85ef.jpg) no-repeat center center/cover;
+  background-position: center;
+  opacity: 0.10;
+  /* تنظیم اپاسیتی */
+  z-index: -1;
+  /* لایه پس‌زمینه */
+}
+
+.background::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+
+  /* ارتفاع ناحیه شفاف */
+  background: #eef3f0;
+  /* گرادینت شفاف */
+  z-index: 1;
+  /* لایه شفاف */
+}
+.svg-flex{
+  display: flex;
+  gap: 2px;
+}
+
+/* موبایل */
+@media (max-width: 500px) {
+  .form-groups {
+    display: block;
+  }
+}
+
+@media (max-width: 360px) {
+  .container {
+    padding: 16px;
+  }
+
+  h1 {
+    font-size: 1.6rem;
+  }
+
+  button {
+    font-size: 1rem;
+  }
 }

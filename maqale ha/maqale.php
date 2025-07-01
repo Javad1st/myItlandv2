@@ -238,19 +238,72 @@ tr.row-1.odd {
 ?>
 
 <div class="categories">
-    <div class="cats cats1">
-        <div class="cat cat1"><a href="?tag=همه">همه</a></div>
-        <?php foreach ($categories as $category): ?>
-            <div class="cat">
-                <a href="?tag=<?= htmlspecialchars($category) ?>"><?= htmlspecialchars($category) ?></a>
-            </div>
-        <?php endforeach; ?>
-    </div>
-    <div class="cats cats2">
-            <a href="../index.php" class="cat cat6"><p>بازگشت</p> <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 24 24" style="fill: var(--base-color)"><path d="m5 12 7 6v-5h6v-2h-6V6z"></path></svg></a>
-
-        </div>
+  <div class="cats cats1" id="cats1">
+    <div class="cat cat1"><a href="?tag=همه">همه</a></div>
+    <?php foreach ($categories as $category): ?>
+      <div class="cat">
+        <a href="?tag=<?= htmlspecialchars($category) ?>">
+          <?= htmlspecialchars($category) ?>
+        </a>
+      </div>
+    <?php endforeach; ?>
+  </div>
+  <div class="cats cats2">
+    <a href="../index.php" class="cat cat6">
+      <p>بازگشت</p>
+      <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 24 24" style="fill: var(--base-color)">
+        <path d="m5 12 7 6v-5h6v-2h-6V6z"></path>
+      </svg>
+    </a>
+  </div>
 </div>
+<script>
+    const slider = document.getElementById('cats1');
+let isDragging = false;
+let startX, startScroll;
+
+/* بررسی اینکه اسکرول در ابتدا یا انتها باشه */
+function atEdge() {
+  return slider.scrollLeft === 0
+      || slider.scrollLeft >= slider.scrollWidth - slider.clientWidth;
+}
+
+/* شروع درگ با pointer events */
+slider.addEventListener('pointerdown', e => {
+  if (!atEdge()) return;            // فقط وقتی در لبه‌ایم
+  isDragging = true;
+  startX = e.clientX;
+  startScroll = slider.scrollLeft;
+  slider.setPointerCapture(e.pointerId);
+  slider.style.cursor = 'grabbing';
+});
+
+slider.addEventListener('click', e => {
+  if (!atEdge()) return;            // فقط وقتی در لبه‌ایم
+  isDragging = true;
+  startX = e.clientX;
+  startScroll = slider.scrollLeft;
+  slider.setPointerCapture(e.pointerId);
+  slider.style.cursor = 'grabbing';
+});
+
+slider.addEventListener('pointermove', e => {
+  if (!isDragging) return;
+  const delta = e.clientX - startX;
+  slider.scrollLeft = startScroll - delta;
+});
+
+slider.addEventListener('pointerup', e => {
+  isDragging = false;
+  slider.releasePointerCapture(e.pointerId);
+  slider.style.cursor = 'grab';
+});
+
+slider.addEventListener('pointerleave', () => {
+  isDragging = false;
+  slider.style.cursor = 'grab';
+});
+</script>
 
 <div class="flex w-full" style=" transition-duration: 0ms;  align-items: center; justify-content: center; flex-wrap:wrap;">
 
