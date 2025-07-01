@@ -133,7 +133,7 @@ tr.row-1.odd {
 		
 	<link rel="stylesheet" href="srcfiles/aos.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
 	<noscript>
-		<!-- <link rel="stylesheet" href="https://myitland.ir/wp-content/themes/ravinacademy/assets/css/aos-noscripy.css "> -->
+		<!-- <link rel="stylesheet" href="https://myitland.ir/wp-content/themes/academy/assets/css/aos-noscripy.css "> -->
 	</noscript>
     
 
@@ -213,11 +213,11 @@ tr.row-1.odd {
     <symbol id="icon-list-item" viewBox="0 0 20 20"><path d="M8 7a1 1 0 0 0-1 1 1 1 0 0 0 1 1 1 1 0 0 0 1-1 1 1 0 0 0-1-1Zm0 4a1 1 0 0 0-1 1 1 1 0 0 0 1 1 1 1 0 0 0 1-1 1 1 0 0 0-1-1ZM5 7.5a.5.5 0 0 0-.5.5c0 .28.22.5.5.5a.5.5 0 0 0 .5-.5.5.5 0 0 0-.5-.5Zm3 7a.5.5 0 0 0-.5.5c0 .28.22.5.5.5a.5.5 0 0 0 .5-.5.5.5 0 0 0-.5-.5Zm-3-3a.5.5 0 0 0-.5.5c0 .28.22.5.5.5a.5.5 0 0 0 .5-.5.5.5 0 0 0-.5-.5Zm3-6a.5.5 0 0 0 .5-.5.5.5 0 0 0-.5-.5.5.5 0 0 0-.5.5c0 .28.22.5.5.5ZM12 7a1 1 0 0 0-1 1 1 1 0 0 0 1 1 1 1 0 0 0 1-1 1 1 0 0 0-1-1Zm0-1.5a.5.5 0 0 0 .5-.5.5.5 0 0 0-.5-.5.5.5 0 0 0-.5.5c0 .28.22.5.5.5Zm3 6a.5.5 0 0 0-.5.5c0 .28.22.5.5.5a.5.5 0 0 0 .5-.5.5.5 0 0 0-.5-.5Zm0-4a.5.5 0 0 0-.5.5c0 .28.22.5.5.5a.5.5 0 0 0 .5-.5.5.5 0 0 0-.5-.5ZM10 0a10 10 0 1 0 0 20 10 10 0 0 0 0-20Zm0 18a8 8 0 1 1 0-16 8 8 0 0 1 0 16Zm2-3.5a.5.5 0 0 0-.5.5c0 .28.22.5.5.5a.5.5 0 0 0 .5-.5.5.5 0 0 0-.5-.5Zm0-3.5a1 1 0 0 0-1 1 1 1 0 0 0 1 1 1 1 0 0 0 1-1 1 1 0 0 0-1-1Z" fill="#1B1819"></path></symbol>
     <symbol id="icon-polygon" viewBox="0 0 10 10"><path d="m5 0 4.33 2.5v5L5 10 .67 7.5v-5L5 0Z" fill="#1B1819"></path></symbol>
     <symbol id="icon-timer" viewBox="0 0 14 16"><path d="m12.26 5.158.758-.75a.836.836 0 1 0-1.183-1.183l-.75.758a6.667 6.667 0 0 0-8.159 0l-.758-.767A.84.84 0 1 0 .985 4.408l.766.758A6.6 6.6 0 0 0 .343 9.25 6.667 6.667 0 1 0 12.26 5.158ZM7.01 14.25a5 5 0 1 1 0-10 5 5 0 0 1 0 10ZM5.343 1.75h3.333a.833.833 0 1 0 0-1.667H5.343a.833.833 0 0 0 0 1.667Zm2.5 5a.833.833 0 0 0-1.667 0v1.575a1.25 1.25 0 1 0 1.667 0V6.75Z" fill="url(#a)"></path><defs><linearGradient id="a" x1="1.745" y1="15.294" x2="14.248" y2="13.447" gradientUnits="userSpaceOnUse"><stop stop-color="#F20F0F"></stop><stop offset=".359" stop-color="#04cc72"></stop><stop offset=".677" stop-color="#6047FF"></stop><stop offset="1" stop-color="#0088D1"></stop></linearGradient></defs></symbol>
-    <defs><linearGradient id="ravinbow_gradient" x1="1.8507" y1="8.67751" x2="9.28722" y2="7.37146" gradientUnits="userSpaceOnUse"><stop stop-color="#F20F0F"></stop><stop offset="0.359375" stop-color="#04cc72"></stop><stop offset="0.677083" stop-color="#6047FF"></stop><stop offset="1" stop-color="#0088D1"></stop></linearGradient></defs>
-    <symbol id="level_beginner" viewBox="0 0 10 8"><path d="M5.00977 1L8.47387 7H1.54566L5.00977 1Z" fill="none" stroke="url(#ravinbow_gradient)"></path></symbol>
-    <symbol id="level_midlvl" viewBox="0 0 11 10"><path d="M5.5 1L9.5 5L5.5 9L1.5 5L5.5 1Z" fill="none" stroke="url(#ravinbow_gradient)"></path></symbol>
-    <symbol id="level_advanced" viewBox="0 0 9 9"><path d="M4.5 1L8.30423 3.76393L6.85114 8.23607H2.14886L0.695774 3.76393L4.5 1Z" fill="none" stroke="url(#ravinbow_gradient)"></path></symbol>
-    <symbol id="level_expert" viewBox="0 0 10 8"><path d="M1 4L3 0.535898H7L9 4L7 7.4641H3L1 4Z" fill="none" stroke="url(#ravinbow_gradient)"></path></symbol>
+    <defs><linearGradient id="bow_gradient" x1="1.8507" y1="8.67751" x2="9.28722" y2="7.37146" gradientUnits="userSpaceOnUse"><stop stop-color="#F20F0F"></stop><stop offset="0.359375" stop-color="#04cc72"></stop><stop offset="0.677083" stop-color="#6047FF"></stop><stop offset="1" stop-color="#0088D1"></stop></linearGradient></defs>
+    <symbol id="level_beginner" viewBox="0 0 10 8"><path d="M5.00977 1L8.47387 7H1.54566L5.00977 1Z" fill="none" stroke="url(#bow_gradient)"></path></symbol>
+    <symbol id="level_midlvl" viewBox="0 0 11 10"><path d="M5.5 1L9.5 5L5.5 9L1.5 5L5.5 1Z" fill="none" stroke="url(#bow_gradient)"></path></symbol>
+    <symbol id="level_advanced" viewBox="0 0 9 9"><path d="M4.5 1L8.30423 3.76393L6.85114 8.23607H2.14886L0.695774 3.76393L4.5 1Z" fill="none" stroke="url(#bow_gradient)"></path></symbol>
+    <symbol id="level_expert" viewBox="0 0 10 8"><path d="M1 4L3 0.535898H7L9 4L7 7.4641H3L1 4Z" fill="none" stroke="url(#bow_gradient)"></path></symbol>
     <symbol id="icon-date" viewBox="0 0 16 16"><path d="M13.2598 2H11.7598V1.25C11.7598 1.05109 11.6807 0.860322 11.5401 0.71967C11.3994 0.579018 11.2087 0.5 11.0098 0.5C10.8109 0.5 10.6201 0.579018 10.4794 0.71967C10.3388 0.860322 10.2598 1.05109 10.2598 1.25V2H5.75977V1.25C5.75977 1.05109 5.68075 0.860322 5.5401 0.71967C5.39944 0.579018 5.20868 0.5 5.00977 0.5C4.81085 0.5 4.62009 0.579018 4.47944 0.71967C4.33878 0.860322 4.25977 1.05109 4.25977 1.25V2H2.75977C2.16303 2 1.59073 2.23705 1.16878 2.65901C0.746819 3.08097 0.509766 3.65326 0.509766 4.25V13.25C0.509766 13.8467 0.746819 14.419 1.16878 14.841C1.59073 15.2629 2.16303 15.5 2.75977 15.5H13.2598C13.8565 15.5 14.4288 15.2629 14.8508 14.841C15.2727 14.419 15.5098 13.8467 15.5098 13.25V4.25C15.5098 3.65326 15.2727 3.08097 14.8508 2.65901C14.4288 2.23705 13.8565 2 13.2598 2V2ZM14.0098 13.25C14.0098 13.4489 13.9307 13.6397 13.7901 13.7803C13.6494 13.921 13.4587 14 13.2598 14H2.75977C2.56085 14 2.37009 13.921 2.22944 13.7803C2.08878 13.6397 2.00977 13.4489 2.00977 13.25V8H14.0098V13.25ZM14.0098 6.5H2.00977V4.25C2.00977 4.05109 2.08878 3.86032 2.22944 3.71967C2.37009 3.57902 2.56085 3.5 2.75977 3.5H4.25977V4.25C4.25977 4.44891 4.33878 4.63968 4.47944 4.78033C4.62009 4.92098 4.81085 5 5.00977 5C5.20868 5 5.39944 4.92098 5.5401 4.78033C5.68075 4.63968 5.75977 4.44891 5.75977 4.25V3.5H10.2598V4.25C10.2598 4.44891 10.3388 4.63968 10.4794 4.78033C10.6201 4.92098 10.8109 5 11.0098 5C11.2087 5 11.3994 4.92098 11.5401 4.78033C11.6807 4.63968 11.7598 4.44891 11.7598 4.25V3.5H13.2598C13.4587 3.5 13.6494 3.57902 13.7901 3.71967C13.9307 3.86032 14.0098 4.05109 14.0098 4.25V6.5Z" fill="#262626"></path></symbol>
     <symbol id="icon-time" viewBox="0 0 16 16"><path d="M8.25977 0.5C6.77641 0.5 5.32636 0.939867 4.09299 1.76398C2.85962 2.58809 1.89833 3.75943 1.33067 5.12987C0.763015 6.50032 0.61449 8.00832 0.903879 9.46318C1.19327 10.918 1.90757 12.2544 2.95647 13.3033C4.00536 14.3522 5.34173 15.0665 6.79659 15.3559C8.25145 15.6453 9.75945 15.4968 11.1299 14.9291C12.5003 14.3614 13.6717 13.4001 14.4958 12.1668C15.3199 10.9334 15.7598 9.48336 15.7598 8C15.7598 7.01509 15.5658 6.03982 15.1889 5.12987C14.812 4.21993 14.2595 3.39314 13.5631 2.6967C12.8666 2.00026 12.0398 1.44781 11.1299 1.0709C10.22 0.693993 9.24468 0.5 8.25977 0.5ZM8.25977 14C7.07308 14 5.91304 13.6481 4.92635 12.9888C3.93965 12.3295 3.17062 11.3925 2.71649 10.2961C2.26237 9.19974 2.14355 7.99334 2.37506 6.82946C2.60657 5.66557 3.17801 4.59647 4.01713 3.75736C4.85624 2.91824 5.92534 2.3468 7.08923 2.11529C8.25311 1.88378 9.45951 2.0026 10.5559 2.45672C11.6522 2.91085 12.5893 3.67988 13.2486 4.66658C13.9079 5.65327 14.2598 6.81331 14.2598 8C14.2598 9.5913 13.6276 11.1174 12.5024 12.2426C11.3772 13.3679 9.85107 14 8.25977 14ZM10.5848 8.4725L9.00977 7.565V4.25C9.00977 4.05109 8.93075 3.86032 8.7901 3.71967C8.64945 3.57902 8.45868 3.5 8.25977 3.5C8.06086 3.5 7.87009 3.57902 7.72944 3.71967C7.58879 3.86032 7.50977 4.05109 7.50977 4.25V8C7.50977 8 7.50977 8.06 7.50977 8.09C7.51421 8.14168 7.52687 8.19231 7.54727 8.24C7.56271 8.2845 7.58283 8.32724 7.60727 8.3675C7.62779 8.41013 7.65294 8.45037 7.68227 8.4875L7.80227 8.585L7.86977 8.6525L9.81977 9.7775C9.93407 9.84229 10.0634 9.87591 10.1948 9.875C10.3608 9.87616 10.5226 9.82217 10.6547 9.7215C10.7867 9.62084 10.8817 9.47918 10.9246 9.31875C10.9675 9.15832 10.9559 8.98818 10.8917 8.83503C10.8275 8.68188 10.7143 8.55437 10.5698 8.4725H10.5848Z" fill="#262626"></path></symbol>
     <symbol id="icon-certificate" viewBox="0 0 14 16"><path d="M13.6623 11.9375L11.6298 8.4275C12.0457 7.66363 12.2624 6.80725 12.2598 5.9375C12.2598 4.54511 11.7067 3.20976 10.7221 2.22519C9.73757 1.24062 8.40221 0.6875 7.00982 0.6875C5.61743 0.6875 4.28208 1.24062 3.29751 2.22519C2.31294 3.20976 1.75982 4.54511 1.75982 5.9375C1.75724 6.80725 1.97391 7.66363 2.38982 8.4275L0.35732 11.9375C0.291366 12.0517 0.256706 12.1813 0.256836 12.3132C0.256967 12.4452 0.291883 12.5747 0.358063 12.6888C0.424242 12.8029 0.519344 12.8975 0.633775 12.9631C0.748205 13.0288 0.877915 13.063 1.00982 13.0625H3.16232L4.25732 14.9075C4.29423 14.9686 4.33969 15.0242 4.39232 15.0725C4.53135 15.2065 4.71672 15.2817 4.90982 15.2825H5.01482C5.12805 15.267 5.23624 15.2258 5.33113 15.1621C5.42601 15.0985 5.50509 15.0139 5.56232 14.915L7.00982 12.425L8.45732 14.9375C8.51539 15.035 8.59484 15.1181 8.68968 15.1805C8.78451 15.2428 8.89227 15.2828 9.00482 15.2975H9.10982C9.30552 15.2987 9.49392 15.2233 9.63482 15.0875C9.68526 15.042 9.72828 14.9888 9.76232 14.93L10.8573 13.085H13.0098C13.142 13.0855 13.2719 13.0511 13.3865 12.9853C13.5011 12.9194 13.5962 12.8245 13.6623 12.71C13.7324 12.5934 13.7694 12.4598 13.7694 12.3237C13.7694 12.1877 13.7324 12.0541 13.6623 11.9375ZM4.90232 13.085L4.23482 11.9675C4.16909 11.8566 4.0759 11.7646 3.96424 11.7002C3.85257 11.6358 3.7262 11.6013 3.59732 11.6H2.29982L3.37232 9.74C4.11086 10.4517 5.04168 10.9314 6.04982 11.12L4.90232 13.085ZM7.00982 9.6875C6.26814 9.6875 5.54312 9.46757 4.92643 9.05551C4.30975 8.64346 3.8291 8.05779 3.54527 7.37256C3.26144 6.68734 3.18718 5.93334 3.33188 5.20591C3.47657 4.47848 3.83372 3.8103 4.35817 3.28585C4.88262 2.7614 5.5508 2.40425 6.27823 2.25956C7.00566 2.11486 7.75966 2.18912 8.44488 2.47295C9.13011 2.75678 9.71578 3.23743 10.1278 3.85411C10.5399 4.4708 10.7598 5.19582 10.7598 5.9375C10.7598 6.93206 10.3647 7.88589 9.66147 8.58915C8.95821 9.29241 8.00438 9.6875 7.00982 9.6875ZM10.4223 11.6C10.2934 11.6013 10.1671 11.6358 10.0554 11.7002C9.94374 11.7646 9.85055 11.8566 9.78482 11.9675L9.11732 13.085L7.97732 11.0975C8.98193 10.905 9.9093 10.4257 10.6473 9.7175L11.7198 11.5775L10.4223 11.6Z" fill="#262626"></path></symbol>
@@ -302,14 +302,7 @@ tr.row-1.odd {
 					</nav>
 					<!-- #site-navigation -->
 					<div class="flex items-center">
-						<button onclick="window.showSearch()" class="btn-search ml-3 p-3">
-							<svg class="w-5 h-5">
-								<use href="#icon-search"></use>
-							</svg>
-							<svg class="w-5 h-5 hidden p-1">
-								<use href="#icon-close"></use>
-							</svg>
-						</button>
+						
 						<button onclick="window.showDrawer()" class="p-3 lg:hidden">
 							<svg class="w-6 h-6">
 								<use href="#icon-drawer-menu"></use>
@@ -317,6 +310,9 @@ tr.row-1.odd {
 						</button>
 						<a class="btn primary hidden lg:block font-bold" href="https://myitland.ir/login.php">
 							<span class="font-serif tracking-normal text-base"> ورود </span>
+						</a>
+						<a class="btn primary p-1 lg:hidden font-bold" href="https://myitland.ir/login.php">
+							<span class="font-serif tracking-normal text-base"><svg width="30px" height="30px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path opacity="0.5" d="M15.9998 2L14.9998 2C12.1714 2 10.7576 2.00023 9.87891 2.87891C9.00023 3.75759 9.00023 5.1718 9.00023 8.00023L9.00023 16.0002C9.00023 18.8287 9.00023 20.2429 9.87891 21.1215C10.7574 22 12.1706 22 14.9976 22L14.9998 22L15.9998 22C18.8282 22 20.2424 22 21.1211 21.1213C21.9998 20.2426 21.9998 18.8284 21.9998 16L21.9998 8L21.9998 7.99998C21.9998 5.17157 21.9998 3.75736 21.1211 2.87868C20.2424 2 18.8282 2 15.9998 2Z" fill="#cfcfcf"></path> <path fill-rule="evenodd" clip-rule="evenodd" d="M1.25098 11.999C1.25098 11.5848 1.58676 11.249 2.00098 11.249L13.9735 11.249L12.0129 9.56845C11.6984 9.29889 11.662 8.82541 11.9315 8.51092C12.2011 8.19642 12.6746 8.16 12.9891 8.42957L16.4891 11.4296C16.6553 11.5721 16.751 11.7801 16.751 11.999C16.751 12.218 16.6553 12.426 16.4891 12.5685L12.9891 15.5685C12.6746 15.838 12.2011 15.8016 11.9315 15.4871C11.662 15.1726 11.6984 14.6991 12.0129 14.4296L13.9735 12.749L2.00098 12.749C1.58676 12.749 1.25098 12.4132 1.25098 11.999Z" fill="#cfcfcf"></path> </g></svg></span>
 						</a>
 						              <!-- <a class="btn primary" href="#"> ثبت نام</a> -->
 					</div>
@@ -347,7 +343,7 @@ tr.row-1.odd {
 								<div class="submenus basis-6/6 font-serif">
 																			<div class="menu-35 flex hidden">
 																							<ul style="min-width:200px;max-width: 350px" class="ml-8 xl:ml-16 last:ml-0">
-													<li class="text-gray-500 mb-6">&nbsp;</li>
+													
 
 																											<ul>
 																															<li class="mb-10 last:mb-0">
@@ -398,7 +394,7 @@ tr.row-1.odd {
 
 										
 																							<ul style="min-width:200px;max-width: 350px" class="ml-8 xl:ml-16 last:ml-0">
-													<li class="text-gray-500 mb-6">&nbsp;</li>
+													
 
 																											<ul>
 																															<li class="mb-10 last:mb-0">
@@ -449,7 +445,7 @@ tr.row-1.odd {
 
 												
 																							<ul style="min-width:200px;max-width: 350px" class="ml-8 xl:ml-16 last:ml-0">
-													<li class="text-gray-500 mb-6">&nbsp;</li>
+													
 
 																											<ul>
 																															<li class="mb-10 last:mb-0">
@@ -567,7 +563,7 @@ tr.row-1.odd {
 
   <ul>
             <li class="mb-2">
-            <a href="https://myitland.ir/ravin-events/ravin-in-khuzestan/" rel="bookmark">
+            <a href="https://myitland.ir/-events/-in-khuzestan/" rel="bookmark">
             <div class="rounded-lg flex items-center bg-white py-4 px-6">
                 <div class="shrink-0 w-16 h-12 bg-[#eee] relative ml-5 rounded-lg overflow-hidden">
                                       <img class="w-full h-full absolute left-0 right-0 top-0 bottom-0 object-cover m-auto" src="srcfiles/Conference-3-1-150x150.webp" alt="آیتی‌لند در خوزستان">
@@ -581,13 +577,13 @@ tr.row-1.odd {
             </a>
         </li>
             <li class="mb-2">
-            <a href="https://myitland.ir/ravin-events/ravin-managed-threat-hunting/" rel="bookmark">
+            <a href="https://myitland.ir/-events/-managed-threat-hunting/" rel="bookmark">
             <div class="rounded-lg flex items-center bg-white py-4 px-6">
                 <div class="shrink-0 w-16 h-12 bg-[#eee] relative ml-5 rounded-lg overflow-hidden">
-                                      <img class="w-full h-full absolute left-0 right-0 top-0 bottom-0 object-cover m-auto" src="srcfiles/Ravin-Managed-Threat-Hunting-150x150.webp" alt="Ravin Managed Threat Hunting">
+                                      <img class="w-full h-full absolute left-0 right-0 top-0 bottom-0 object-cover m-auto" src="srcfiles/-Managed-Threat-Hunting-150x150.webp" alt=" Managed Threat Hunting">
                               </div>
                 <div>
-                    <div class="font-medium block mb-2">Ravin Managed Threat Hunting</div>
+                    <div class="font-medium block mb-2"> Managed Threat Hunting</div>
                     <p class="text-sm text-gray-400">
                   دربارۀ وبینار در این وبینار، به بررسی...                    </p>
                 </div>
@@ -606,7 +602,7 @@ tr.row-1.odd {
 
 </div>
 										</div>
-																		<div class="absolute w-full h-full top-0 bg-repeat left-0 z-0 " style="background: url(https://myitland.ir/wp-content/themes/ravinacademy/public/dotdotbg.png); opacity: 0.07; display: block; background-size: 400px; background-color: #dfdfdf;"></div>
+																		<div class="absolute w-full h-full top-0 bg-repeat left-0 z-0 " style="background: url(https://myitland.ir/wp-content/themes/academy/public/dotdotbg.png); opacity: 0.07; display: block; background-size: 400px; background-color: #dfdfdf;"></div>
 								</div>
 							</div>
 						</div>
@@ -888,9 +884,9 @@ tr.row-1.odd {
                     <use href="#icon-list-item"></use>
                 </svg>
             </div>
-                        <svg  id="ravinpath"  class="">
+                        <svg  id="path"  class="">
                 
-                <use xlink:href="https://myitland.ir/wp-content/themes/ravinacademy/public/ravinpath2.svg#path_sh_1" style="fill: rgb(134, 14, 254);" class="transition duration-500 thunder"></use>
+                <use xlink:href="https://myitland.ir/wp-content/themes/academy/public/path2.svg#path_sh_1" style="fill: rgb(134, 14, 254);" class="transition duration-500 thunder"></use>
                
                 
                   <style>
@@ -904,7 +900,7 @@ tr.row-1.odd {
                             padding: 1rem;
                             height: fit-content;
                         }
-                        #ravinpath{
+                        #path{
                           display: none;
                         }
 
@@ -1070,15 +1066,29 @@ tr.row-1.odd {
     <rect x="32" y="32" width="16" height="16" fill="#262626"></rect>
 </svg>
 
-
-<div  class="project-container">
-    <a href="order.php" class="project-box">
-        <img src="tasavir/sefaresh.png" alt="سفارش پروژه">
-    </a>
-    <p class="mb-12">برای سفارش پروژه اختصاصی کلیک کنید </p>
+<div class="container mx-auto">
+            <div>
+            <div class="w-full container mx-auto flex flex-wrap justify-between items-center py-10 flex-col-reverse md:flex-row lg:px-20 xl:px-28 gap-7">
+                <div class="scr-media group w-full relative basis-full
+                mb-8 md:mb-0 rounded-lg overflow-hidden md:basis-[48%]">
+                    <img width="528" height="448" src="tasavir/specialR.png" class="attachment-full size-full" alt="" decoding="async">                </div>
+                <div class="content basis-full md:basis-[38%] flex flex-col items-center">
+                    <h2 class="z-10" style="position: inherit;"> پکیج اختصاصی</h2>
+                    <style>
+                      .sefaresh:hover{
+                          scale: 1.1;
+                      }
+                    </style>
+                    <a class="sefaresh" href="order.php">
+        <img class="" src="tasavir/sefaresh.png" alt="">
+        </a>
+                
+                </div>
+            </div>
+        </div>
+    </div>
     
-    
-  </div>
+ 
 
 <div  class="project-container project-container2">
   
@@ -1221,7 +1231,7 @@ tr.row-1.odd {
                 <!-- شروع استیکر موج پایین -->
                 <div class="w-full md:absolute justify-center bottom-0 md:flex -mt-24 md:mt-0 z-10  p-5 md:p-0">
                     <svg viewBox="0 0 623 216" class="mx-auto w-full max-w-2xl z-10">
-                        <use xlink:href="https://myitland.ir/wp-content/themes/ravinacademy/public/index_be_in_ur_path.svg#bottom_shapes"></use>
+                        <use xlink:href="https://myitland.ir/wp-content/themes/academy/public/index_be_in_ur_path.svg#bottom_shapes"></use>
                     </svg>
                 </div>
                 <!-- پایان استیکر موج پایین -->
@@ -1229,26 +1239,26 @@ tr.row-1.odd {
 
                 <!--شروع شطرنجی-->
                 <svg viewBox="0 0 1248 32" class="h-12 absolute z-0 top-0 bottom-0 left-3/4 transition-all duration-1000 group-hover:left-2/3 my-auto hidden md:block">
-                    <use xlink:href="https://myitland.ir/wp-content/themes/ravinacademy/public/index_be_in_ur_path.svg#square_line"></use>
+                    <use xlink:href="https://myitland.ir/wp-content/themes/academy/public/index_be_in_ur_path.svg#square_line"></use>
                 </svg>
                 <!-- پایان شطرنجی-->
 
                 <!--شروع شطرنجی-->
                 <svg viewBox="0 0 1248 32" class="h-12 absolute z-0 top-0 bottom-0 right-3/4 transition-all duration-1000 group-hover:right-2/3 my-auto hidden md:block">
-                    <use xlink:href="https://myitland.ir/wp-content/themes/ravinacademy/public/index_be_in_ur_path.svg#square_line"></use>
+                    <use xlink:href="https://myitland.ir/wp-content/themes/academy/public/index_be_in_ur_path.svg#square_line"></use>
                 </svg>
                 <!-- پایان شطرنجی-->
 
 
                 <!--شروع شطرنجی-->
                 <svg viewBox="0 0 1248 32" class="h-12 absolute z-0 top-[-55%] transition-all duration-1000 rotate-90 my-auto md:hidden block">
-                    <use xlink:href="https://myitland.ir/wp-content/themes/ravinacademy/public/index_be_in_ur_path.svg#square_line"></use>
+                    <use xlink:href="https://myitland.ir/wp-content/themes/academy/public/index_be_in_ur_path.svg#square_line"></use>
                 </svg>
                 <!-- پایان شطرنجی-->
 
                 <!--شروع شطرنجی-->
                 <svg viewBox="0 0 1248 32" class="h-12 absolute z-0 bottom-[-45%] transition-all duration-1000 rotate-90 my-auto md:hidden block">
-                    <use xlink:href="https://myitland.ir/wp-content/themes/ravinacademy/public/index_be_in_ur_path.svg#square_line"></use>
+                    <use xlink:href="https://myitland.ir/wp-content/themes/academy/public/index_be_in_ur_path.svg#square_line"></use>
                 </svg>
                 <!-- پایان شطرنجی-->
             </div>
@@ -1942,14 +1952,7 @@ tr.row-1.odd {
     </ul>
   </div>
 
-  <div class="footerSection footerSection3">
-  <h1>محبوب ترین ها</h1>
 
-<ul>
-  <li>  <p style="color:#cfcfcf;">روانشناسی رنگ ها</p> </li>
-  <li>  <p style="color:#cfcfcf;">اينده برنامه نویسی</p></li>
-</ul>
-  </div>
 
 </div>
 
