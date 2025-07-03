@@ -135,7 +135,7 @@
 
     <!-- هدر با تصویر -->
     <header>
-      <img src="../tasavir/1048.jpg" alt="پشتیبانی و مشاوره" style="width: 100%; height: 300px;">
+      <img src="../tasavir/supportPic.jpg" alt="پشتیبانی و مشاوره" style="width: 100%; height: 300px;">
     </header>
 
     <!-- متن توضیحات -->
