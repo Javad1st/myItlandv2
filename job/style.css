@@ -1,0 +1,210 @@
+@font-face {
+    font-family: yekan;
+    font-weight: 900;
+    src: url(yekan/YekanBakh-ExtraBlack.woff2);
+  }
+  @font-face {
+    font-family: yekan;
+    font-weight: 800;
+    src: url(yekan/YekanBakh-Black.woff2);
+  }
+  @font-face {
+    font-family: yekan;
+    font-weight: 700;
+    src: url(yekan/YekanBakh-ExtraBold.woff2);
+  }
+  @font-face {
+    font-family: yekan;
+    font-weight: 600;
+    src: url(yekan/YekanBakh-Bold.woff2);
+  }
+  @font-face {
+    font-family: yekan;
+    font-weight: 500;
+    src: url(yekan/YekanBakh-SemiBold.woff2);
+  }
+  
+  @font-face {
+    font-family: yekan;
+    font-weight: 300;
+    src: url(yekan/YekanBakh-Regular.woff2);
+  }
+  @font-face {
+    font-family: yekan;
+    font-weight: 200;
+    src: url(yekan/YekanBakh-Light.woff2);
+  }
+  @font-face {
+    font-family: yekan;
+    font-weight: 100;
+    src: url(yekan/YekanBakh-Thin.woff2);
+  }
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: yekan;
+    }
+    html {
+      scroll-behavior: smooth;
+    }
+    body {
+      
+      background: #f7f7f7;
+      color: #444;
+      direction: rtl;
+      line-height: 1.5;
+    }
+    
+    header {
+    
+      color: #000000;
+      padding: 30px;
+      text-align: center;
+      font-size: 26px;
+      font-weight: bold;
+      letter-spacing: 0px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+      margin-bottom: 20px;
+    }
+    .container {
+      max-width: 1200px;
+      margin: auto;
+      padding: 0 20px 40px;
+    }
+    
+    .categories {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 15px;
+      margin-bottom: 40px;
+    }
+    .category {
+      position: relative;
+      padding: 12px 30px;
+      background: linear-gradient(45deg, #d8eedb, #e4ebe8);
+      border-radius: 30px;
+      cursor: pointer;
+      transition: transform 0.3s, box-shadow 0.3s;
+      color: #181717;
+      font-weight: bold;
+     
+    }
+    .category:hover {
+      transform: translateY(-5px);
+     
+    }
+    .category.active {
+      background: linear-gradient(45deg, #09e880, #16c103);
+      box-shadow: 0 0 15px rgba(0, 170, 71, 0.7);
+      color: white;
+    }
+  
+    .job-list {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 30px;
+    }
+    .job-card {
+      position: relative;
+      background: #fff;
+      border-radius: 15px;
+      padding: 25px;
+      box-shadow: 0 8px 15px rgba(0,0,0,0.1);
+      overflow: hidden;
+      transition: transform 0.3s, box-shadow 0.3s, opacity 0.3s;
+    }
+    .job-card:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 16px 30px rgba(0,0,0,0.150);
+    }
+    .job-card::before {
+      content: "";
+      position: absolute;
+      top: -50%;
+      left: -50%;
+      width: 200%;
+      height: 200%;
+      background: radial-gradient(circle, rgba(0, 255, 115, 0.082) 10%, transparent 40%);
+      transform: scale(0.95);
+      pointer-events: none;
+      transition: transform 0.5s ease-out;
+    }
+    .job-card:hover::before {
+      transform: scale(1);
+    }
+    .job-card .badge {
+      display: inline-block;
+      padding: 6px 12px;
+      font-size: 12px;
+      font-weight: bold;
+      color: #fff;
+      border-radius: 20px;
+      background: linear-gradient(45deg, #ff416c, #ff4b2b);
+      margin-bottom: 15px;
+      transition: transform 0.3s;
+    }
+  
+    .job-card .title {
+      font-size: 20px;
+      font-weight: bold;
+      margin-bottom: 12px;
+      color: #333;
+    }
+    .job-card .details {
+      font-size: 14px;
+      color: #666;
+      margin-bottom: 18px;
+      line-height: 1.7;
+    }
+    .job-card .details span {
+      display: block;
+      margin-bottom: 4px;
+    }
+    .job-card .apply-link {
+      text-decoration: none;
+      font-size: 20px;
+      
+      padding: 10px 20px;
+      border-radius: 30px;
+         color: white;
+      background: linear-gradient(45deg, #019e5a, #27b101);
+      
+      
+    }
+   
+   
+    @media (max-width: 600px) {
+      header {
+        font-size: 22px;
+        padding: 20px;
+    }
+    .job-card {
+      padding: 20px;
+    }
+    .job-card .title {
+      font-size: 18px;
+    }
+  }
+ .job-card a{
+    color: #019e26;
+    display: flex;
+    gap: 0.1rem;
+    transition: all ease-out 150ms;
+  }
+    .job-card svg{
+      transition: all ease-out 150ms;
+  }
+ .job-card a:hover svg{
+    margin-right: 0.4rem;
+  }
+.categMobile
+{
+    display:none;
+}
+ @media (min-width: 700px) {
+     .job-card {
+    max-width:400px;
+    }
+    }
