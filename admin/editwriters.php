@@ -1,3 +1,6 @@
+<?php include 'header.php' ?>
+
+
 <?php 
 include '../database/db.php';
 
@@ -53,7 +56,6 @@ if (isset($_POST['sub'])) {
 </head>
 <body dir="rtl">
     <div class="container">
-    <?php include 'header.php' ?>
 
     <h1>بخش ویرایش نویسنده</h1>
 

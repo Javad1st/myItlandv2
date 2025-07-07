@@ -1,0 +1,4525 @@
+Session at start of order.php: Array
+(
+    [user_id] => 7
+    [email] => amitata2380@gmail.com
+)
+
+User query result: Array
+(
+    [name] => ata
+    [email] => amitata2380@gmail.com
+)
+
+Session at start of order_form.php: Array
+(
+    [user_id] => 7
+    [email] => amitata2380@gmail.com
+    [csrf_token] => 28dbde723972cdfa79ebfe2b74d9c42d080175ccb59f43ed89c5f51c60b7d679
+)
+
+Session at start of order.php: Array
+(
+    [user_id] => 7
+    [email] => amitata2380@gmail.com
+    [csrf_token] => 28dbde723972cdfa79ebfe2b74d9c42d080175ccb59f43ed89c5f51c60b7d679
+    [error_message] => لطفاً ابتدا وارد حساب کاربری خود شوید.
+)
+
+User query result: Array
+(
+    [name] => ata
+    [email] => amitata2380@gmail.com
+)
+
+Session at start of order.php: Array
+(
+    [user_id] => 7
+    [email] => amitata2380@gmail.com
+    [csrf_token] => 28dbde723972cdfa79ebfe2b74d9c42d080175ccb59f43ed89c5f51c60b7d679
+    [error_message] => لطفاً ابتدا وارد حساب کاربری خود شوید.
+)
+
+User query result: Array
+(
+    [name] => ata
+    [email] => amitata2380@gmail.com
+)
+
+Error in order.php: خطای امنیتی: توکن نامعتبر است.
+Session at start of order.php: Array
+(
+    [user_id] => 7
+    [email] => amitata2380@gmail.com
+    [csrf_token] => 28dbde723972cdfa79ebfe2b74d9c42d080175ccb59f43ed89c5f51c60b7d679
+    [error_message] => لطفاً ابتدا وارد حساب کاربری خود شوید.
+)
+
+User query result: Array
+(
+    [name] => ata
+    [email] => amitata2380@gmail.com
+)
+
+Session at start of order.php: Array
+(
+    [user_id] => 7
+    [email] => amitata2380@gmail.com
+)
+
+User query result: Array
+(
+    [name] => ata
+    [email] => amitata2380@gmail.com
+)
+
+Session at start of order.php: Array
+(
+    [user_id] => 7
+    [email] => amitata2380@gmail.com
+    [csrf_token] => 1df6847e9d5a02c04f124509ae30743eb3c511e4771b949834c00f22ef0faffc
+)
+
+User query result: Array
+(
+    [name] => ata
+    [email] => amitata2380@gmail.com
+)
+
+Error in order.php: خطای امنیتی: توکن نامعتبر است.
+Session at start of order.php: Array
+(
+    [user_id] => 7
+    [email] => amitata2380@gmail.com
+    [csrf_token] => 1df6847e9d5a02c04f124509ae30743eb3c511e4771b949834c00f22ef0faffc
+)
+
+User query result: Array
+(
+    [name] => ata
+    [email] => amitata2380@gmail.com
+)
+
+Session at start of order.php: Array
+(
+    [user_id] => 8
+    [email] => hosigod30@gmail.com
+)
+
+User query result: Array
+(
+    [name] => محمد
+    [email] => hosigod30@gmail.com
+)
+
+Session at start of order.php: Array
+(
+    [user_id] => 8
+    [email] => hosigod30@gmail.com
+    [csrf_token] => c0ea3a8e57161d557292929f984103633875ea54d413d338f0e3e7999e68473b
+)
+
+User query result: Array
+(
+    [name] => محمد
+    [email] => hosigod30@gmail.com
+)
+
+Error in order.php: خطای امنیتی: توکن نامعتبر است.
+Session at start of order.php: Array
+(
+    [user_id] => 8
+    [email] => hosigod30@gmail.com
+    [csrf_token] => c0ea3a8e57161d557292929f984103633875ea54d413d338f0e3e7999e68473b
+)
+
+User query result: Array
+(
+    [name] => محمد
+    [email] => hosigod30@gmail.com
+)
+
+Session at start of order_form.php: Array
+(
+    [user_id] => 8
+    [email] => hosigod30@gmail.com
+    [csrf_token] => c0ea3a8e57161d557292929f984103633875ea54d413d338f0e3e7999e68473b
+)
+
+Session at start of order.php: Array
+(
+    [user_id] => 8
+    [email] => hosigod30@gmail.com
+    [csrf_token] => c0ea3a8e57161d557292929f984103633875ea54d413d338f0e3e7999e68473b
+    [error_message] => لطفاً ابتدا وارد حساب کاربری خود شوید.
+)
+
+User query result: Array
+(
+    [name] => محمد
+    [email] => hosigod30@gmail.com
+)
+
+Session at start of order.php: Array
+(
+    [user_id] => 8
+    [email] => hosigod30@gmail.com
+    [csrf_token] => c0ea3a8e57161d557292929f984103633875ea54d413d338f0e3e7999e68473b
+    [error_message] => لطفاً ابتدا وارد حساب کاربری خود شوید.
+)
+
+User query result: Array
+(
+    [name] => محمد
+    [email] => hosigod30@gmail.com
+)
+
+Error in order.php: خطای امنیتی: توکن نامعتبر است.
+Session at start of order.php: Array
+(
+    [user_id] => 8
+    [email] => hosigod30@gmail.com
+    [csrf_token] => c0ea3a8e57161d557292929f984103633875ea54d413d338f0e3e7999e68473b
+    [error_message] => لطفاً ابتدا وارد حساب کاربری خود شوید.
+)
+
+User query result: Array
+(
+    [name] => محمد
+    [email] => hosigod30@gmail.com
+)
+
+Session at start of order.php: Array
+(
+    [user_id] => 8
+    [email] => hosigod30@gmail.com
+    [csrf_token] => c0ea3a8e57161d557292929f984103633875ea54d413d338f0e3e7999e68473b
+    [error_message] => لطفاً ابتدا وارد حساب کاربری خود شوید.
+)
+
+User query result: Array
+(
+    [name] => محمد
+    [email] => hosigod30@gmail.com
+)
+
+Session at start of order.php: Array
+(
+    [user_id] => 8
+    [email] => hosigod30@gmail.com
+    [csrf_token] => c0ea3a8e57161d557292929f984103633875ea54d413d338f0e3e7999e68473b
+    [error_message] => لطفاً ابتدا وارد حساب کاربری خود شوید.
+)
+
+User query result: Array
+(
+    [name] => محمد
+    [email] => hosigod30@gmail.com
+)
+
+Session at start of order.php: Array
+(
+    [user_id] => 8
+    [email] => hosigod30@gmail.com
+    [csrf_token] => c0ea3a8e57161d557292929f984103633875ea54d413d338f0e3e7999e68473b
+    [error_message] => لطفاً ابتدا وارد حساب کاربری خود شوید.
+)
+
+User query result: Array
+(
+    [name] => محمد
+    [email] => hosigod30@gmail.com
+)
+
+Session at start of order.php: Array
+(
+    [user_id] => 8
+    [email] => hosigod30@gmail.com
+    [csrf_token] => c0ea3a8e57161d557292929f984103633875ea54d413d338f0e3e7999e68473b
+    [error_message] => لطفاً ابتدا وارد حساب کاربری خود شوید.
+)
+
+User query result: Array
+(
+    [name] => محمد
+    [email] => hosigod30@gmail.com
+)
+
+Session at start of order.php: Array
+(
+    [user_id] => 8
+    [email] => hosigod30@gmail.com
+    [csrf_token] => c0ea3a8e57161d557292929f984103633875ea54d413d338f0e3e7999e68473b
+    [error_message] => لطفاً ابتدا وارد حساب کاربری خود شوید.
+)
+
+User query result: Array
+(
+    [name] => محمد
+    [email] => hosigod30@gmail.com
+)
+
+Session at start of order.php: Array
+(
+    [user_id] => 8
+    [email] => hosigod30@gmail.com
+    [csrf_token] => c0ea3a8e57161d557292929f984103633875ea54d413d338f0e3e7999e68473b
+    [error_message] => لطفاً ابتدا وارد حساب کاربری خود شوید.
+)
+
+User query result: Array
+(
+    [name] => محمد
+    [email] => hosigod30@gmail.com
+)
+
+Session at start of order.php: Array
+(
+    [user_id] => 8
+    [email] => hosigod30@gmail.com
+    [csrf_token] => c0ea3a8e57161d557292929f984103633875ea54d413d338f0e3e7999e68473b
+    [error_message] => لطفاً ابتدا وارد حساب کاربری خود شوید.
+)
+
+User query result: Array
+(
+    [name] => محمد
+    [email] => hosigod30@gmail.com
+)
+
+Session at start of order_form.php: Array
+(
+    [user_id] => 8
+    [email] => hosigod30@gmail.com
+    [csrf_token] => c0ea3a8e57161d557292929f984103633875ea54d413d338f0e3e7999e68473b
+    [error_message] => لطفاً ابتدا وارد حساب کاربری خود شوید.
+)
+
+Session at start of order.php: Array
+(
+    [user_id] => 8
+    [email] => hosigod30@gmail.com
+    [csrf_token] => c0ea3a8e57161d557292929f984103633875ea54d413d338f0e3e7999e68473b
+)
+
+User query result: Array
+(
+    [name] => محمد
+    [email] => hosigod30@gmail.com
+)
+
+Session at start of order.php: Array
+(
+    [user_id] => 8
+    [email] => hosigod30@gmail.com
+    [csrf_token] => c0ea3a8e57161d557292929f984103633875ea54d413d338f0e3e7999e68473b
+)
+
+User query result: Array
+(
+    [name] => محمد
+    [email] => hosigod30@gmail.com
+)
+
+Session at start of order.php: Array
+(
+    [user_id] => 8
+    [email] => hosigod30@gmail.com
+    [csrf_token] => c0ea3a8e57161d557292929f984103633875ea54d413d338f0e3e7999e68473b
+)
+
+User query result: Array
+(
+    [name] => محمد
+    [email] => hosigod30@gmail.com
+)
+
+Session at start of order.php: Array
+(
+    [user_id] => 8
+    [email] => hosigod30@gmail.com
+    [csrf_token] => c0ea3a8e57161d557292929f984103633875ea54d413d338f0e3e7999e68473b
+)
+
+User query result: Array
+(
+    [name] => محمد
+    [email] => hosigod30@gmail.com
+)
+
+Session at start of order.php: Array
+(
+    [user_id] => 8
+    [email] => hosigod30@gmail.com
+    [csrf_token] => c0ea3a8e57161d557292929f984103633875ea54d413d338f0e3e7999e68473b
+    [last_order] => Array
+        (
+            [user_id] => 8
+            [order_number] => ORD-64196
+            [name] => محمد
+            [email] => hosigod30@gmail.com
+            [phone] => 09199841187
+            [project_type] => webapp
+            [details] => 2
+            [budget] => 32222
+            [deadline] => 2025-07-13
+            [tracking_code] => 373439
+            [days] => 6
+            [order_id] => 4
+        )
+
+)
+
+User query result: Array
+(
+    [name] => محمد
+    [email] => hosigod30@gmail.com
+)
+
+Session at start of order.php: Array
+(
+    [user_id] => 8
+    [email] => hosigod30@gmail.com
+    [csrf_token] => c0ea3a8e57161d557292929f984103633875ea54d413d338f0e3e7999e68473b
+    [last_order] => Array
+        (
+            [user_id] => 8
+            [order_number] => ORD-64196
+            [name] => محمد
+            [email] => hosigod30@gmail.com
+            [phone] => 09199841187
+            [project_type] => webapp
+            [details] => 2
+            [budget] => 32222
+            [deadline] => 2025-07-13
+            [tracking_code] => 373439
+            [days] => 6
+            [order_id] => 4
+        )
+
+)
+
+User query result: Array
+(
+    [name] => محمد
+    [email] => hosigod30@gmail.com
+)
+
+Session at start of order.php: Array
+(
+    [user_id] => 8
+    [email] => hosigod30@gmail.com
+    [csrf_token] => c0ea3a8e57161d557292929f984103633875ea54d413d338f0e3e7999e68473b
+    [last_order] => Array
+        (
+            [user_id] => 8
+            [order_number] => ORD-64196
+            [name] => محمد
+            [email] => hosigod30@gmail.com
+            [phone] => 09199841187
+            [project_type] => webapp
+            [details] => 2
+            [budget] => 32222
+            [deadline] => 2025-07-13
+            [tracking_code] => 373439
+            [days] => 6
+            [order_id] => 4
+        )
+
+)
+
+User query result: Array
+(
+    [name] => محمد
+    [email] => hosigod30@gmail.com
+)
+
+Session at start of order.php: Array
+(
+    [user_id] => 7
+    [email] => amitata2380@gmail.com
+    [csrf_token] => c0ea3a8e57161d557292929f984103633875ea54d413d338f0e3e7999e68473b
+    [last_order] => Array
+        (
+            [user_id] => 8
+            [order_number] => ORD-74734
+            [name] => محمد
+            [email] => hosigod30@gmail.com
+            [phone] => 09199841187
+            [project_type] => website
+            [details] => نن
+            [budget] => 30000000
+            [deadline] => 2025-08-21
+            [tracking_code] => 564980
+            [days] => 45
+            [order_id] => 5
+        )
+
+)
+
+User query result: Array
+(
+    [name] => ata
+    [email] => amitata2380@gmail.com
+)
+
+Session at start of order.php: Array
+(
+    [user_id] => 7
+    [email] => amitata2380@gmail.com
+    [csrf_token] => c0ea3a8e57161d557292929f984103633875ea54d413d338f0e3e7999e68473b
+    [last_order] => Array
+        (
+            [user_id] => 8
+            [order_number] => ORD-74734
+            [name] => محمد
+            [email] => hosigod30@gmail.com
+            [phone] => 09199841187
+            [project_type] => website
+            [details] => نن
+            [budget] => 30000000
+            [deadline] => 2025-08-21
+            [tracking_code] => 564980
+            [days] => 45
+            [order_id] => 5
+        )
+
+)
+
+User query result: Array
+(
+    [name] => ata
+    [email] => amitata2380@gmail.com
+)
+
+SQL Parameters: Array
+(
+    [:user_id] => 7
+    [:order_number] => ORD-47463
+    [:name] => ata
+    [:email] => amitata2380@gmail.com
+    [:phone] => 09199841187
+    [:project_type] => ecommerce
+    [:details] => ذ
+    [:budget] => 30000000
+    [:deadline] => 2025-07-11
+    [:tracking_code] => 374783
+    [:days] => 4
+    [:status] => pending
+)
+
+Session at start of order.php: Array
+(
+    [user_id] => 7
+    [email] => amitata2380@gmail.com
+    [csrf_token] => c0ea3a8e57161d557292929f984103633875ea54d413d338f0e3e7999e68473b
+    [last_order] => Array
+        (
+            [user_id] => 7
+            [order_number] => ORD-47463
+            [name] => ata
+            [email] => amitata2380@gmail.com
+            [phone] => 09199841187
+            [project_type] => ecommerce
+            [details] => ذ
+            [budget] => 30000000
+            [deadline] => 2025-07-11
+            [tracking_code] => 374783
+            [days] => 4
+            [order_id] => 6
+        )
+
+)
+
+User query result: Array
+(
+    [name] => ata
+    [email] => amitata2380@gmail.com
+)
+
+Session at start of order_form.php: Array
+(
+    [user_id] => 7
+    [email] => amitata2380@gmail.com
+    [csrf_token] => c0ea3a8e57161d557292929f984103633875ea54d413d338f0e3e7999e68473b
+    [last_order] => Array
+        (
+            [user_id] => 7
+            [order_number] => ORD-47463
+            [name] => ata
+            [email] => amitata2380@gmail.com
+            [phone] => 09199841187
+            [project_type] => ecommerce
+            [details] => ذ
+            [budget] => 30000000
+            [deadline] => 2025-07-11
+            [tracking_code] => 374783
+            [days] => 4
+            [order_id] => 6
+        )
+
+)
+
+Session at start of order_form.php: Array
+(
+    [user_id] => 8
+    [email] => hosigod30@gmail.com
+    [csrf_token] => c0ea3a8e57161d557292929f984103633875ea54d413d338f0e3e7999e68473b
+    [last_order] => Array
+        (
+            [user_id] => 7
+            [order_number] => ORD-47463
+            [name] => ata
+            [email] => amitata2380@gmail.com
+            [phone] => 09199841187
+            [project_type] => ecommerce
+            [details] => ذ
+            [budget] => 30000000
+            [deadline] => 2025-07-11
+            [tracking_code] => 374783
+            [days] => 4
+            [order_id] => 6
+        )
+
+    [error_message] => لطفاً ابتدا وارد حساب کاربری خود شوید.
+)
+
+Session at start of order_form.php: Array
+(
+    [user_id] => 8
+    [email] => hosigod30@gmail.com
+    [csrf_token] => c0ea3a8e57161d557292929f984103633875ea54d413d338f0e3e7999e68473b
+    [last_order] => Array
+        (
+            [user_id] => 7
+            [order_number] => ORD-47463
+            [name] => ata
+            [email] => amitata2380@gmail.com
+            [phone] => 09199841187
+            [project_type] => ecommerce
+            [details] => ذ
+            [budget] => 30000000
+            [deadline] => 2025-07-11
+            [tracking_code] => 374783
+            [days] => 4
+            [order_id] => 6
+        )
+
+)
+
+Session at start of order_form.php: Array
+(
+    [user_id] => 8
+    [email] => hosigod30@gmail.com
+    [csrf_token] => c0ea3a8e57161d557292929f984103633875ea54d413d338f0e3e7999e68473b
+    [last_order] => Array
+        (
+            [user_id] => 7
+            [order_number] => ORD-47463
+            [name] => ata
+            [email] => amitata2380@gmail.com
+            [phone] => 09199841187
+            [project_type] => ecommerce
+            [details] => ذ
+            [budget] => 30000000
+            [deadline] => 2025-07-11
+            [tracking_code] => 374783
+            [days] => 4
+            [order_id] => 6
+        )
+
+    [error_message] => لطفاً ابتدا وارد حساب کاربری خود شوید.
+)
+
+Session at start of order_form.php: Array
+(
+    [user_id] => 8
+    [email] => hosigod30@gmail.com
+    [csrf_token] => c0ea3a8e57161d557292929f984103633875ea54d413d338f0e3e7999e68473b
+    [last_order] => Array
+        (
+            [user_id] => 7
+            [order_number] => ORD-47463
+            [name] => ata
+            [email] => amitata2380@gmail.com
+            [phone] => 09199841187
+            [project_type] => ecommerce
+            [details] => ذ
+            [budget] => 30000000
+            [deadline] => 2025-07-11
+            [tracking_code] => 374783
+            [days] => 4
+            [order_id] => 6
+        )
+
+    [error_message] => لطفاً ابتدا وارد حساب کاربری خود شوید.
+)
+
+Session at start of order.php: Array
+(
+    [user_id] => 8
+    [email] => hosigod30@gmail.com
+    [csrf_token] => c0ea3a8e57161d557292929f984103633875ea54d413d338f0e3e7999e68473b
+    [last_order] => Array
+        (
+            [user_id] => 7
+            [order_number] => ORD-47463
+            [name] => ata
+            [email] => amitata2380@gmail.com
+            [phone] => 09199841187
+            [project_type] => ecommerce
+            [details] => ذ
+            [budget] => 30000000
+            [deadline] => 2025-07-11
+            [tracking_code] => 374783
+            [days] => 4
+            [order_id] => 6
+        )
+
+)
+
+User query result: Array
+(
+    [name] => محمد
+    [email] => hosigod30@gmail.com
+)
+
+Session at start of order_form.php: Array
+(
+    [user_id] => 8
+    [email] => hosigod30@gmail.com
+    [csrf_token] => c0ea3a8e57161d557292929f984103633875ea54d413d338f0e3e7999e68473b
+    [last_order] => Array
+        (
+            [user_id] => 7
+            [order_number] => ORD-47463
+            [name] => ata
+            [email] => amitata2380@gmail.com
+            [phone] => 09199841187
+            [project_type] => ecommerce
+            [details] => ذ
+            [budget] => 30000000
+            [deadline] => 2025-07-11
+            [tracking_code] => 374783
+            [days] => 4
+            [order_id] => 6
+        )
+
+)
+
+Session at start of order.php: Array
+(
+    [user_id] => 8
+    [email] => hosigod30@gmail.com
+    [csrf_token] => c0ea3a8e57161d557292929f984103633875ea54d413d338f0e3e7999e68473b
+    [last_order] => Array
+        (
+            [user_id] => 7
+            [order_number] => ORD-47463
+            [name] => ata
+            [email] => amitata2380@gmail.com
+            [phone] => 09199841187
+            [project_type] => ecommerce
+            [details] => ذ
+            [budget] => 30000000
+            [deadline] => 2025-07-11
+            [tracking_code] => 374783
+            [days] => 4
+            [order_id] => 6
+        )
+
+    [error_message] => لطفاً ابتدا وارد حساب کاربری خود شوید.
+)
+
+User query result: Array
+(
+    [name] => محمد
+    [email] => hosigod30@gmail.com
+)
+
+Session at start of order.php: Array
+(
+    [user_id] => 8
+    [email] => hosigod30@gmail.com
+    [csrf_token] => c0ea3a8e57161d557292929f984103633875ea54d413d338f0e3e7999e68473b
+    [last_order] => Array
+        (
+            [user_id] => 7
+            [order_number] => ORD-47463
+            [name] => ata
+            [email] => amitata2380@gmail.com
+            [phone] => 09199841187
+            [project_type] => ecommerce
+            [details] => ذ
+            [budget] => 30000000
+            [deadline] => 2025-07-11
+            [tracking_code] => 374783
+            [days] => 4
+            [order_id] => 6
+        )
+
+    [error_message] => لطفاً ابتدا وارد حساب کاربری خود شوید.
+)
+
+User query result: Array
+(
+    [name] => محمد
+    [email] => hosigod30@gmail.com
+)
+
+Session at start of order_form.php: Array
+(
+    [user_id] => 8
+    [email] => hosigod30@gmail.com
+    [csrf_token] => c0ea3a8e57161d557292929f984103633875ea54d413d338f0e3e7999e68473b
+    [last_order] => Array
+        (
+            [user_id] => 7
+            [order_number] => ORD-47463
+            [name] => ata
+            [email] => amitata2380@gmail.com
+            [phone] => 09199841187
+            [project_type] => ecommerce
+            [details] => ذ
+            [budget] => 30000000
+            [deadline] => 2025-07-11
+            [tracking_code] => 374783
+            [days] => 4
+            [order_id] => 6
+        )
+
+    [error_message] => لطفاً ابتدا وارد حساب کاربری خود شوید.
+)
+
+Session at start of order_form.php: Array
+(
+    [user_id] => 8
+    [email] => hosigod30@gmail.com
+    [csrf_token] => c0ea3a8e57161d557292929f984103633875ea54d413d338f0e3e7999e68473b
+    [last_order] => Array
+        (
+            [user_id] => 7
+            [order_number] => ORD-47463
+            [name] => ata
+            [email] => amitata2380@gmail.com
+            [phone] => 09199841187
+            [project_type] => ecommerce
+            [details] => ذ
+            [budget] => 30000000
+            [deadline] => 2025-07-11
+            [tracking_code] => 374783
+            [days] => 4
+            [order_id] => 6
+        )
+
+)
+
+Session at start of order_form.php: Array
+(
+    [user_id] => 8
+    [email] => hosigod30@gmail.com
+    [csrf_token] => c0ea3a8e57161d557292929f984103633875ea54d413d338f0e3e7999e68473b
+    [last_order] => Array
+        (
+            [user_id] => 7
+            [order_number] => ORD-47463
+            [name] => ata
+            [email] => amitata2380@gmail.com
+            [phone] => 09199841187
+            [project_type] => ecommerce
+            [details] => ذ
+            [budget] => 30000000
+            [deadline] => 2025-07-11
+            [tracking_code] => 374783
+            [days] => 4
+            [order_id] => 6
+        )
+
+)
+
+Session at start of order_form.php: Array
+(
+    [user_id] => 8
+    [email] => hosigod30@gmail.com
+    [csrf_token] => c0ea3a8e57161d557292929f984103633875ea54d413d338f0e3e7999e68473b
+    [last_order] => Array
+        (
+            [user_id] => 7
+            [order_number] => ORD-47463
+            [name] => ata
+            [email] => amitata2380@gmail.com
+            [phone] => 09199841187
+            [project_type] => ecommerce
+            [details] => ذ
+            [budget] => 30000000
+            [deadline] => 2025-07-11
+            [tracking_code] => 374783
+            [days] => 4
+            [order_id] => 6
+        )
+
+)
+
+Session at start of order_form.php: Array
+(
+    [user_id] => 8
+    [email] => hosigod30@gmail.com
+    [csrf_token] => c0ea3a8e57161d557292929f984103633875ea54d413d338f0e3e7999e68473b
+    [last_order] => Array
+        (
+            [user_id] => 7
+            [order_number] => ORD-47463
+            [name] => ata
+            [email] => amitata2380@gmail.com
+            [phone] => 09199841187
+            [project_type] => ecommerce
+            [details] => ذ
+            [budget] => 30000000
+            [deadline] => 2025-07-11
+            [tracking_code] => 374783
+            [days] => 4
+            [order_id] => 6
+        )
+
+    [error_message] => لطفاً ابتدا وارد حساب کاربری خود شوید.
+)
+
+Session at start of order_form.php: Array
+(
+    [user_id] => 8
+    [email] => hosigod30@gmail.com
+    [csrf_token] => c0ea3a8e57161d557292929f984103633875ea54d413d338f0e3e7999e68473b
+    [last_order] => Array
+        (
+            [user_id] => 7
+            [order_number] => ORD-47463
+            [name] => ata
+            [email] => amitata2380@gmail.com
+            [phone] => 09199841187
+            [project_type] => ecommerce
+            [details] => ذ
+            [budget] => 30000000
+            [deadline] => 2025-07-11
+            [tracking_code] => 374783
+            [days] => 4
+            [order_id] => 6
+        )
+
+)
+
+Session at start of order_form.php: Array
+(
+    [user_id] => 8
+    [email] => hosigod30@gmail.com
+    [csrf_token] => c0ea3a8e57161d557292929f984103633875ea54d413d338f0e3e7999e68473b
+    [last_order] => Array
+        (
+            [user_id] => 7
+            [order_number] => ORD-47463
+            [name] => ata
+            [email] => amitata2380@gmail.com
+            [phone] => 09199841187
+            [project_type] => ecommerce
+            [details] => ذ
+            [budget] => 30000000
+            [deadline] => 2025-07-11
+            [tracking_code] => 374783
+            [days] => 4
+            [order_id] => 6
+        )
+
+)
+
+Session at start of order_form.php: Array
+(
+    [user_id] => 8
+    [email] => hosigod30@gmail.com
+    [csrf_token] => c0ea3a8e57161d557292929f984103633875ea54d413d338f0e3e7999e68473b
+    [last_order] => Array
+        (
+            [user_id] => 7
+            [order_number] => ORD-47463
+            [name] => ata
+            [email] => amitata2380@gmail.com
+            [phone] => 09199841187
+            [project_type] => ecommerce
+            [details] => ذ
+            [budget] => 30000000
+            [deadline] => 2025-07-11
+            [tracking_code] => 374783
+            [days] => 4
+            [order_id] => 6
+        )
+
+)
+
+Session at start of order_form.php: Array
+(
+    [user_id] => 8
+    [email] => hosigod30@gmail.com
+    [csrf_token] => c0ea3a8e57161d557292929f984103633875ea54d413d338f0e3e7999e68473b
+    [last_order] => Array
+        (
+            [user_id] => 7
+            [order_number] => ORD-47463
+            [name] => ata
+            [email] => amitata2380@gmail.com
+            [phone] => 09199841187
+            [project_type] => ecommerce
+            [details] => ذ
+            [budget] => 30000000
+            [deadline] => 2025-07-11
+            [tracking_code] => 374783
+            [days] => 4
+            [order_id] => 6
+        )
+
+)
+
+Session at start of order_form.php: Array
+(
+    [user_id] => 8
+    [email] => hosigod30@gmail.com
+    [csrf_token] => c0ea3a8e57161d557292929f984103633875ea54d413d338f0e3e7999e68473b
+    [last_order] => Array
+        (
+            [user_id] => 7
+            [order_number] => ORD-47463
+            [name] => ata
+            [email] => amitata2380@gmail.com
+            [phone] => 09199841187
+            [project_type] => ecommerce
+            [details] => ذ
+            [budget] => 30000000
+            [deadline] => 2025-07-11
+            [tracking_code] => 374783
+            [days] => 4
+            [order_id] => 6
+        )
+
+)
+
+Session at start of order_form.php: Array
+(
+    [user_id] => 8
+    [email] => hosigod30@gmail.com
+    [csrf_token] => c0ea3a8e57161d557292929f984103633875ea54d413d338f0e3e7999e68473b
+    [last_order] => Array
+        (
+            [user_id] => 7
+            [order_number] => ORD-47463
+            [name] => ata
+            [email] => amitata2380@gmail.com
+            [phone] => 09199841187
+            [project_type] => ecommerce
+            [details] => ذ
+            [budget] => 30000000
+            [deadline] => 2025-07-11
+            [tracking_code] => 374783
+            [days] => 4
+            [order_id] => 6
+        )
+
+)
+
+Session at start of order_form.php: Array
+(
+)
+
+Redirecting to login.php from order_form.php: user_id not set
+Session at start of order_form.php: Array
+(
+    [user_id] => 8
+    [email] => hosigod30@gmail.com
+)
+
+Session at start of order_form.php: Array
+(
+    [user_id] => 8
+    [email] => hosigod30@gmail.com
+)
+
+Session at start of order_form.php: Array
+(
+    [user_id] => 8
+    [email] => hosigod30@gmail.com
+)
+
+Session at start of order_form.php: Array
+(
+    [user_id] => 8
+    [email] => hosigod30@gmail.com
+    [error_message] => لطفاً ابتدا وارد حساب کاربری خود شوید.
+)
+
+Session at start of order_form.php: Array
+(
+    [user_id] => 8
+    [email] => hosigod30@gmail.com
+)
+
+Session at start of order_form.php: Array
+(
+    [user_id] => 8
+    [email] => hosigod30@gmail.com
+)
+
+Session at start of order_form.php: Array
+(
+    [user_id] => 8
+    [email] => hosigod30@gmail.com
+)
+
+Session at start of order_form.php: Array
+(
+    [user_id] => 8
+    [email] => hosigod30@gmail.com
+)
+
+Session at start of order_form.php: Array
+(
+    [user_id] => 8
+    [email] => hosigod30@gmail.com
+    [csrf_token] => 08c2647ed4d79b3686e6561eeb67cdb8ea80f34552315b6b9de974e55436ae66
+)
+
+Session at start of order.php: Array
+(
+    [user_id] => 8
+    [email] => hosigod30@gmail.com
+    [csrf_token] => 08c2647ed4d79b3686e6561eeb67cdb8ea80f34552315b6b9de974e55436ae66
+    [error_message] => لطفاً ابتدا وارد حساب کاربری خود شوید.
+)
+
+User query result: Array
+(
+    [name] => محمد
+    [email] => hosigod30@gmail.com
+)
+
+Session at start of order.php: Array
+(
+    [user_id] => 7
+    [email] => amitata2380@gmail.com
+)
+
+User query result: Array
+(
+    [name] => ata
+    [email] => amitata2380@gmail.com
+)
+
+Session at start of order.php: Array
+(
+    [user_id] => 7
+    [email] => amitata2380@gmail.com
+)
+
+User query result: Array
+(
+    [name] => ata
+    [email] => amitata2380@gmail.com
+)
+
+SQL Parameters: Array
+(
+    [:user_id] => 7
+    [:order_number] => ORD-71588
+    [:name] => ata
+    [:email] => amitata2380@gmail.com
+    [:phone] => 09199841187
+    [:project_type] => social
+    [:details] => g
+    [:budget] => 30000000
+    [:deadline] => 2025-07-12
+    [:tracking_code] => 961562
+    [:days] => 5
+    [:status] => pending
+)
+
+Session at start of order.php: Array
+(
+    [user_id] => 7
+    [email] => amitata2380@gmail.com
+    [last_order] => Array
+        (
+            [user_id] => 7
+            [order_number] => ORD-71588
+            [name] => ata
+            [email] => amitata2380@gmail.com
+            [phone] => 09199841187
+            [project_type] => social
+            [details] => g
+            [budget] => 30000000
+            [deadline] => 2025-07-12
+            [tracking_code] => 961562
+            [days] => 5
+            [order_id] => 7
+        )
+
+)
+
+User query result: Array
+(
+    [name] => ata
+    [email] => amitata2380@gmail.com
+)
+
+Session at start of order.php: Array
+(
+    [user_id] => 7
+    [email] => amitata2380@gmail.com
+    [last_order] => Array
+        (
+            [user_id] => 7
+            [order_number] => ORD-71588
+            [name] => ata
+            [email] => amitata2380@gmail.com
+            [phone] => 09199841187
+            [project_type] => social
+            [details] => g
+            [budget] => 30000000
+            [deadline] => 2025-07-12
+            [tracking_code] => 961562
+            [days] => 5
+            [order_id] => 7
+        )
+
+)
+
+User query result: Array
+(
+    [name] => ata
+    [email] => amitata2380@gmail.com
+)
+
+Session at start of order_form.php: Array
+(
+    [user_id] => 7
+    [email] => amitata2380@gmail.com
+    [last_order] => Array
+        (
+            [user_id] => 7
+            [order_number] => ORD-71588
+            [name] => ata
+            [email] => amitata2380@gmail.com
+            [phone] => 09199841187
+            [project_type] => social
+            [details] => g
+            [budget] => 30000000
+            [deadline] => 2025-07-12
+            [tracking_code] => 961562
+            [days] => 5
+            [order_id] => 7
+        )
+
+)
+
+Session at start of order_form.php: Array
+(
+)
+
+Redirecting to login.php from order_form.php: user_id not set
+Session at start of order_form.php: Array
+(
+)
+
+Redirecting to login.php from order_form.php: user_id not set
+Session at start of order.php: Array
+(
+)
+
+Redirecting to login.php: user_id not set
+Session at start of order_form.php: Array
+(
+)
+
+Redirecting to login.php from order_form.php: user_id not set
+Session at start of order_form.php: Array
+(
+    [user_id] => 7
+    [email] => amitata2380@gmail.com
+)
+
+Session at start of order.php: Array
+(
+    [user_id] => 7
+    [email] => amitata2380@gmail.com
+    [csrf_token] => 55385f6faee2c5fd8f733479edce61abd398fbfe66d33ed9f04e64ad9311516c
+    [error_message] => لطفاً ابتدا وارد حساب کاربری خود شوید.
+)
+
+User query result: Array
+(
+    [name] => ata
+    [email] => amitata2380@gmail.com
+)
+
+Session at start of order_form.php: Array
+(
+    [user_id] => 7
+    [email] => amitata2380@gmail.com
+    [csrf_token] => 55385f6faee2c5fd8f733479edce61abd398fbfe66d33ed9f04e64ad9311516c
+    [error_message] => لطفاً ابتدا وارد حساب کاربری خود شوید.
+)
+
+Session at start of order_form.php: Array
+(
+    [user_id] => 7
+    [email] => amitata2380@gmail.com
+    [csrf_token] => 55385f6faee2c5fd8f733479edce61abd398fbfe66d33ed9f04e64ad9311516c
+)
+
+Session at start of order.php: Array
+(
+    [user_id] => 7
+    [email] => amitata2380@gmail.com
+    [csrf_token] => 55385f6faee2c5fd8f733479edce61abd398fbfe66d33ed9f04e64ad9311516c
+)
+
+User query result: Array
+(
+    [name] => ata
+    [email] => amitata2380@gmail.com
+)
+
+Session at start of order.php: Array
+(
+    [user_id] => 7
+    [email] => amitata2380@gmail.com
+    [csrf_token] => 55385f6faee2c5fd8f733479edce61abd398fbfe66d33ed9f04e64ad9311516c
+)
+
+User query result: Array
+(
+    [name] => ata
+    [email] => amitata2380@gmail.com
+)
+
+Session at start of order_form.php: Array
+(
+    [user_id] => 7
+    [email] => amitata2380@gmail.com
+    [csrf_token] => 55385f6faee2c5fd8f733479edce61abd398fbfe66d33ed9f04e64ad9311516c
+)
+
+Session at start of order.php: Array
+(
+)
+
+Redirecting to login.php: user_id not set
+Session at start of order.php: Array
+(
+    [user_id] => 7
+    [email] => Javadooshakhlari@gmail.com
+)
+
+User query result: Array
+(
+    [name] => Javad
+    [email] => Javadooshakhlari@gmail.com
+)
+
+Session at start of order.php: Array
+(
+    [user_id] => 7
+    [email] => Javadooshakhlari@gmail.com
+)
+
+User query result: Array
+(
+    [name] => Javad
+    [email] => Javadooshakhlari@gmail.com
+)
+
+SQL Parameters: Array
+(
+    [:user_id] => 7
+    [:order_number] => ORD-25889
+    [:name] => Javad
+    [:email] => Javadooshakhlari@gmail.com
+    [:phone] => 09913532852
+    [:project_type] => test
+    [:details] => s
+    [:budget] => 2111
+    [:deadline] => 2025-07-08
+    [:tracking_code] => 145231
+    [:days] => 1
+    [:status] => pending
+)
+
+Session at start of order.php: Array
+(
+    [user_id] => 7
+    [email] => Javadooshakhlari@gmail.com
+    [last_order] => Array
+        (
+            [user_id] => 7
+            [order_number] => ORD-25889
+            [name] => Javad
+            [email] => Javadooshakhlari@gmail.com
+            [phone] => 09913532852
+            [project_type] => test
+            [details] => s
+            [budget] => 2111
+            [deadline] => 2025-07-08
+            [tracking_code] => 145231
+            [days] => 1
+            [order_id] => 4
+        )
+
+)
+
+User query result: Array
+(
+    [name] => Javad
+    [email] => Javadooshakhlari@gmail.com
+)
+
+Session at start of order.php: Array
+(
+    [user_id] => 7
+    [email] => Javadooshakhlari@gmail.com
+    [last_order] => Array
+        (
+            [user_id] => 7
+            [order_number] => ORD-25889
+            [name] => Javad
+            [email] => Javadooshakhlari@gmail.com
+            [phone] => 09913532852
+            [project_type] => test
+            [details] => s
+            [budget] => 2111
+            [deadline] => 2025-07-08
+            [tracking_code] => 145231
+            [days] => 1
+            [order_id] => 4
+        )
+
+)
+
+User query result: Array
+(
+    [name] => Javad
+    [email] => Javadooshakhlari@gmail.com
+)
+
+Session at start of order.php: Array
+(
+    [user_id] => 7
+    [email] => Javadooshakhlari@gmail.com
+    [last_order] => Array
+        (
+            [user_id] => 7
+            [order_number] => ORD-25889
+            [name] => Javad
+            [email] => Javadooshakhlari@gmail.com
+            [phone] => 09913532852
+            [project_type] => test
+            [details] => s
+            [budget] => 2111
+            [deadline] => 2025-07-08
+            [tracking_code] => 145231
+            [days] => 1
+            [order_id] => 4
+        )
+
+)
+
+User query result: Array
+(
+    [name] => Javad
+    [email] => Javadooshakhlari@gmail.com
+)
+
+Session at start of order.php: Array
+(
+)
+
+Redirecting to login.php: user_id not set
+Session at start of order.php: Array
+(
+    [user_id] => 7
+    [email] => Javadooshakhlari@gmail.com
+)
+
+User query result: Array
+(
+    [name] => Javad
+    [email] => Javadooshakhlari@gmail.com
+)
+
+Session at start of order.php: Array
+(
+    [user_id] => 7
+    [email] => Javadooshakhlari@gmail.com
+)
+
+User query result: Array
+(
+    [name] => Javad
+    [email] => Javadooshakhlari@gmail.com
+)
+
+Session at start of order.php: Array
+(
+    [user_id] => 7
+    [email] => Javadooshakhlari@gmail.com
+)
+
+User query result: Array
+(
+    [name] => Javad
+    [email] => Javadooshakhlari@gmail.com
+)
+
+Session at start of order.php: Array
+(
+    [user_id] => 7
+    [email] => Javadooshakhlari@gmail.com
+)
+
+User query result: Array
+(
+    [name] => Javad
+    [email] => Javadooshakhlari@gmail.com
+)
+
+Session at start of order.php: Array
+(
+    [user_id] => 7
+    [email] => Javadooshakhlari@gmail.com
+)
+
+User query result: Array
+(
+    [name] => Javad
+    [email] => Javadooshakhlari@gmail.com
+)
+
+Session at start of order.php: Array
+(
+    [user_id] => 7
+    [email] => Javadooshakhlari@gmail.com
+)
+
+User query result: Array
+(
+    [name] => Javad
+    [email] => Javadooshakhlari@gmail.com
+)
+
+Session at start of order.php: Array
+(
+    [user_id] => 7
+    [email] => Javadooshakhlari@gmail.com
+)
+
+User query result: Array
+(
+    [name] => Javad
+    [email] => Javadooshakhlari@gmail.com
+)
+
+Session at start of order.php: Array
+(
+    [user_id] => 7
+    [email] => Javadooshakhlari@gmail.com
+)
+
+User query result: Array
+(
+    [name] => Javad
+    [email] => Javadooshakhlari@gmail.com
+)
+
+Session at start of order.php: Array
+(
+    [user_id] => 7
+    [email] => Javadooshakhlari@gmail.com
+)
+
+User query result: Array
+(
+    [name] => Javad
+    [email] => Javadooshakhlari@gmail.com
+)
+
+Session at start of order.php: Array
+(
+    [user_id] => 7
+    [email] => Javadooshakhlari@gmail.com
+)
+
+User query result: Array
+(
+    [name] => Javad
+    [email] => Javadooshakhlari@gmail.com
+)
+
+Session at start of order.php: Array
+(
+    [user_id] => 7
+    [email] => Javadooshakhlari@gmail.com
+)
+
+User query result: Array
+(
+    [name] => Javad
+    [email] => Javadooshakhlari@gmail.com
+)
+
+Session at start of order.php: Array
+(
+    [user_id] => 7
+    [email] => Javadooshakhlari@gmail.com
+)
+
+User query result: Array
+(
+    [name] => Javad
+    [email] => Javadooshakhlari@gmail.com
+)
+
+Session at start of order.php: Array
+(
+    [user_id] => 7
+    [email] => Javadooshakhlari@gmail.com
+)
+
+User query result: Array
+(
+    [name] => Javad
+    [email] => Javadooshakhlari@gmail.com
+)
+
+Session at start of order.php: Array
+(
+    [user_id] => 7
+    [email] => Javadooshakhlari@gmail.com
+)
+
+User query result: Array
+(
+    [name] => Javad
+    [email] => Javadooshakhlari@gmail.com
+)
+
+Session at start of order.php: Array
+(
+    [user_id] => 7
+    [email] => Javadooshakhlari@gmail.com
+)
+
+User query result: Array
+(
+    [name] => Javad
+    [email] => Javadooshakhlari@gmail.com
+)
+
+Session at start of order.php: Array
+(
+    [user_id] => 7
+    [email] => Javadooshakhlari@gmail.com
+)
+
+User query result: Array
+(
+    [name] => Javad
+    [email] => Javadooshakhlari@gmail.com
+)
+
+Session at start of order.php: Array
+(
+    [user_id] => 7
+    [email] => Javadooshakhlari@gmail.com
+)
+
+User query result: Array
+(
+    [name] => Javad
+    [email] => Javadooshakhlari@gmail.com
+)
+
+Session at start of order.php: Array
+(
+    [user_id] => 7
+    [email] => Javadooshakhlari@gmail.com
+)
+
+User query result: Array
+(
+    [name] => Javad
+    [email] => Javadooshakhlari@gmail.com
+)
+
+Session at start of order.php: Array
+(
+    [user_id] => 7
+    [email] => Javadooshakhlari@gmail.com
+)
+
+User query result: Array
+(
+    [name] => Javad
+    [email] => Javadooshakhlari@gmail.com
+)
+
+Session at start of order.php: Array
+(
+    [user_id] => 7
+    [email] => Javadooshakhlari@gmail.com
+)
+
+User query result: Array
+(
+    [name] => Javad
+    [email] => Javadooshakhlari@gmail.com
+)
+
+Session at start of order.php: Array
+(
+    [user_id] => 7
+    [email] => Javadooshakhlari@gmail.com
+)
+
+User query result: Array
+(
+    [name] => Javad
+    [email] => Javadooshakhlari@gmail.com
+)
+
+Session at start of order.php: Array
+(
+    [user_id] => 7
+    [email] => Javadooshakhlari@gmail.com
+)
+
+User query result: Array
+(
+    [name] => Javad
+    [email] => Javadooshakhlari@gmail.com
+)
+
+Session at start of order.php: Array
+(
+    [user_id] => 7
+    [email] => Javadooshakhlari@gmail.com
+)
+
+User query result: Array
+(
+    [name] => Javad
+    [email] => Javadooshakhlari@gmail.com
+)
+
+Session at start of order.php: Array
+(
+    [user_id] => 7
+    [email] => Javadooshakhlari@gmail.com
+)
+
+User query result: Array
+(
+    [name] => Javad
+    [email] => Javadooshakhlari@gmail.com
+)
+
+Session at start of order.php: Array
+(
+    [user_id] => 7
+    [email] => Javadooshakhlari@gmail.com
+)
+
+User query result: Array
+(
+    [name] => Javad
+    [email] => Javadooshakhlari@gmail.com
+)
+
+Session at start of order.php: Array
+(
+    [user_id] => 7
+    [email] => Javadooshakhlari@gmail.com
+)
+
+User query result: Array
+(
+    [name] => Javad
+    [email] => Javadooshakhlari@gmail.com
+)
+
+Session at start of order.php: Array
+(
+    [user_id] => 7
+    [email] => Javadooshakhlari@gmail.com
+)
+
+User query result: Array
+(
+    [name] => Javad
+    [email] => Javadooshakhlari@gmail.com
+)
+
+Session at start of order.php: Array
+(
+    [user_id] => 7
+    [email] => Javadooshakhlari@gmail.com
+)
+
+User query result: Array
+(
+    [name] => Javad
+    [email] => Javadooshakhlari@gmail.com
+)
+
+Session at start of order.php: Array
+(
+    [user_id] => 7
+    [email] => Javadooshakhlari@gmail.com
+)
+
+User query result: Array
+(
+    [name] => Javad
+    [email] => Javadooshakhlari@gmail.com
+)
+
+Session at start of order.php: Array
+(
+)
+
+Redirecting to login.php: user_id not set
+Session at start of order.php: Array
+(
+    [user_id] => 7
+    [email] => Javadooshakhlari@gmail.com
+)
+
+User query result: Array
+(
+    [name] => Javad
+    [email] => Javadooshakhlari@gmail.com
+)
+
+Session at start of order.php: Array
+(
+    [user_id] => 7
+    [email] => Javadooshakhlari@gmail.com
+)
+
+User query result: Array
+(
+    [name] => Javad
+    [email] => Javadooshakhlari@gmail.com
+)
+
+Session at start of order.php: Array
+(
+    [user_id] => 7
+    [email] => Javadooshakhlari@gmail.com
+)
+
+User query result: Array
+(
+    [name] => Javad
+    [email] => Javadooshakhlari@gmail.com
+)
+
+Session at start of order.php: Array
+(
+    [user_id] => 7
+    [email] => Javadooshakhlari@gmail.com
+)
+
+User query result: Array
+(
+    [name] => Javad
+    [email] => Javadooshakhlari@gmail.com
+)
+
+Session at start of order.php: Array
+(
+    [user_id] => 7
+    [email] => Javadooshakhlari@gmail.com
+)
+
+User query result: Array
+(
+    [name] => Javad
+    [email] => Javadooshakhlari@gmail.com
+)
+
+Session at start of order.php: Array
+(
+    [user_id] => 7
+    [email] => Javadooshakhlari@gmail.com
+)
+
+User query result: Array
+(
+    [name] => Javad
+    [email] => Javadooshakhlari@gmail.com
+)
+
+Session at start of order.php: Array
+(
+    [user_id] => 7
+    [email] => Javadooshakhlari@gmail.com
+)
+
+User query result: Array
+(
+    [name] => Javad
+    [email] => Javadooshakhlari@gmail.com
+)
+
+Session at start of order.php: Array
+(
+    [user_id] => 7
+    [email] => Javadooshakhlari@gmail.com
+)
+
+User query result: Array
+(
+    [name] => Javad
+    [email] => Javadooshakhlari@gmail.com
+)
+
+Session at start of order.php: Array
+(
+    [user_id] => 7
+    [email] => Javadooshakhlari@gmail.com
+)
+
+User query result: Array
+(
+    [name] => Javad
+    [email] => Javadooshakhlari@gmail.com
+)
+
+Session at start of order.php: Array
+(
+    [user_id] => 7
+    [email] => Javadooshakhlari@gmail.com
+)
+
+User query result: Array
+(
+    [name] => Javad
+    [email] => Javadooshakhlari@gmail.com
+)
+
+Session at start of order.php: Array
+(
+    [user_id] => 7
+    [email] => Javadooshakhlari@gmail.com
+)
+
+User query result: Array
+(
+    [name] => Javad
+    [email] => Javadooshakhlari@gmail.com
+)
+
+Session at start of order.php: Array
+(
+    [user_id] => 7
+    [email] => Javadooshakhlari@gmail.com
+)
+
+User query result: Array
+(
+    [name] => Javad
+    [email] => Javadooshakhlari@gmail.com
+)
+
+Session at start of order.php: Array
+(
+    [user_id] => 7
+    [email] => Javadooshakhlari@gmail.com
+)
+
+User query result: Array
+(
+    [name] => Javad
+    [email] => Javadooshakhlari@gmail.com
+)
+
+Session at start of order.php: Array
+(
+    [user_id] => 7
+    [email] => Javadooshakhlari@gmail.com
+)
+
+User query result: Array
+(
+    [name] => Javad
+    [email] => Javadooshakhlari@gmail.com
+)
+
+Session at start of order.php: Array
+(
+    [user_id] => 7
+    [email] => Javadooshakhlari@gmail.com
+)
+
+User query result: Array
+(
+    [name] => Javad
+    [email] => Javadooshakhlari@gmail.com
+)
+
+Session at start of order.php: Array
+(
+    [user_id] => 7
+    [email] => Javadooshakhlari@gmail.com
+)
+
+User query result: Array
+(
+    [name] => Javad
+    [email] => Javadooshakhlari@gmail.com
+)
+
+Session at start of order.php: Array
+(
+    [user_id] => 7
+    [email] => Javadooshakhlari@gmail.com
+)
+
+User query result: Array
+(
+    [name] => Javad
+    [email] => Javadooshakhlari@gmail.com
+)
+
+Session at start of order.php: Array
+(
+    [user_id] => 7
+    [email] => Javadooshakhlari@gmail.com
+)
+
+User query result: Array
+(
+    [name] => Javad
+    [email] => Javadooshakhlari@gmail.com
+)
+
+Session at start of order.php: Array
+(
+    [user_id] => 7
+    [email] => Javadooshakhlari@gmail.com
+)
+
+User query result: Array
+(
+    [name] => Javad
+    [email] => Javadooshakhlari@gmail.com
+)
+
+Session at start of order.php: Array
+(
+    [user_id] => 7
+    [email] => Javadooshakhlari@gmail.com
+)
+
+User query result: Array
+(
+    [name] => Javad
+    [email] => Javadooshakhlari@gmail.com
+)
+
+Session at start of order.php: Array
+(
+    [user_id] => 7
+    [email] => Javadooshakhlari@gmail.com
+)
+
+User query result: Array
+(
+    [name] => Javad
+    [email] => Javadooshakhlari@gmail.com
+)
+
+Session at start of order.php: Array
+(
+    [user_id] => 7
+    [email] => Javadooshakhlari@gmail.com
+)
+
+User query result: Array
+(
+    [name] => Javad
+    [email] => Javadooshakhlari@gmail.com
+)
+
+Session at start of order.php: Array
+(
+    [user_id] => 7
+    [email] => Javadooshakhlari@gmail.com
+)
+
+User query result: Array
+(
+    [name] => Javad
+    [email] => Javadooshakhlari@gmail.com
+)
+
+Session at start of order.php: Array
+(
+    [user_id] => 7
+    [email] => Javadooshakhlari@gmail.com
+)
+
+User query result: Array
+(
+    [name] => Javad
+    [email] => Javadooshakhlari@gmail.com
+)
+
+Session at start of order.php: Array
+(
+)
+
+Redirecting to login.php: user_id not set
+Session at start of order.php: Array
+(
+    [user_id] => 7
+    [email] => Javadooshakhlari@gmail.com
+)
+
+User query result: Array
+(
+    [name] => Javad
+    [email] => Javadooshakhlari@gmail.com
+)
+
+Session at start of order.php: Array
+(
+    [user_id] => 7
+    [email] => Javadooshakhlari@gmail.com
+)
+
+User query result: Array
+(
+    [name] => Javad
+    [email] => Javadooshakhlari@gmail.com
+)
+
+Session at start of order.php: Array
+(
+    [user_id] => 7
+    [email] => Javadooshakhlari@gmail.com
+)
+
+User query result: Array
+(
+    [name] => Javad
+    [email] => Javadooshakhlari@gmail.com
+)
+
+Session at start of order.php: Array
+(
+    [user_id] => 7
+    [email] => Javadooshakhlari@gmail.com
+)
+
+User query result: Array
+(
+    [name] => Javad
+    [email] => Javadooshakhlari@gmail.com
+)
+
+Session at start of order.php: Array
+(
+    [user_id] => 7
+    [email] => Javadooshakhlari@gmail.com
+)
+
+User query result: Array
+(
+    [name] => Javad
+    [email] => Javadooshakhlari@gmail.com
+)
+
+Session at start of order.php: Array
+(
+    [user_id] => 7
+    [email] => Javadooshakhlari@gmail.com
+)
+
+User query result: Array
+(
+    [name] => Javad
+    [email] => Javadooshakhlari@gmail.com
+)
+
+Session at start of order.php: Array
+(
+    [user_id] => 7
+    [email] => Javadooshakhlari@gmail.com
+)
+
+User query result: Array
+(
+    [name] => Javad
+    [email] => Javadooshakhlari@gmail.com
+)
+
+Session at start of order.php: Array
+(
+    [user_id] => 7
+    [email] => Javadooshakhlari@gmail.com
+)
+
+User query result: Array
+(
+    [name] => Javad
+    [email] => Javadooshakhlari@gmail.com
+)
+
+Session at start of order.php: Array
+(
+    [user_id] => 7
+    [email] => Javadooshakhlari@gmail.com
+)
+
+User query result: Array
+(
+    [name] => Javad
+    [email] => Javadooshakhlari@gmail.com
+)
+
+Session at start of order.php: Array
+(
+    [user_id] => 7
+    [email] => Javadooshakhlari@gmail.com
+)
+
+User query result: Array
+(
+    [name] => Javad
+    [email] => Javadooshakhlari@gmail.com
+)
+
+Session at start of order.php: Array
+(
+    [user_id] => 7
+    [email] => Javadooshakhlari@gmail.com
+)
+
+User query result: Array
+(
+    [name] => Javad
+    [email] => Javadooshakhlari@gmail.com
+)
+
+Session at start of order.php: Array
+(
+    [user_id] => 7
+    [email] => Javadooshakhlari@gmail.com
+)
+
+User query result: Array
+(
+    [name] => Javad
+    [email] => Javadooshakhlari@gmail.com
+)
+
+Session at start of order.php: Array
+(
+    [user_id] => 7
+    [email] => Javadooshakhlari@gmail.com
+)
+
+User query result: Array
+(
+    [name] => Javad
+    [email] => Javadooshakhlari@gmail.com
+)
+
+Session at start of order.php: Array
+(
+    [user_id] => 7
+    [email] => Javadooshakhlari@gmail.com
+)
+
+User query result: Array
+(
+    [name] => Javad
+    [email] => Javadooshakhlari@gmail.com
+)
+
+Session at start of order.php: Array
+(
+    [user_id] => 7
+    [email] => Javadooshakhlari@gmail.com
+)
+
+User query result: Array
+(
+    [name] => Javad
+    [email] => Javadooshakhlari@gmail.com
+)
+
+Session at start of order.php: Array
+(
+    [user_id] => 7
+    [email] => Javadooshakhlari@gmail.com
+)
+
+User query result: Array
+(
+    [name] => Javad
+    [email] => Javadooshakhlari@gmail.com
+)
+
+Session at start of order.php: Array
+(
+    [user_id] => 7
+    [email] => Javadooshakhlari@gmail.com
+)
+
+User query result: Array
+(
+    [name] => Javad
+    [email] => Javadooshakhlari@gmail.com
+)
+
+Session at start of order.php: Array
+(
+    [user_id] => 7
+    [email] => Javadooshakhlari@gmail.com
+)
+
+User query result: Array
+(
+    [name] => Javad
+    [email] => Javadooshakhlari@gmail.com
+)
+
+Session at start of order.php: Array
+(
+    [user_id] => 7
+    [email] => Javadooshakhlari@gmail.com
+)
+
+User query result: Array
+(
+    [name] => Javad
+    [email] => Javadooshakhlari@gmail.com
+)
+
+Session at start of order.php: Array
+(
+    [user_id] => 7
+    [email] => Javadooshakhlari@gmail.com
+)
+
+User query result: Array
+(
+    [name] => Javad
+    [email] => Javadooshakhlari@gmail.com
+)
+
+Session at start of order.php: Array
+(
+    [user_id] => 7
+    [email] => Javadooshakhlari@gmail.com
+)
+
+User query result: Array
+(
+    [name] => Javad
+    [email] => Javadooshakhlari@gmail.com
+)
+
+SQL Parameters: Array
+(
+    [:user_id] => 7
+    [:order_number] => ORD-19832
+    [:name] => Javad
+    [:email] => Javadooshakhlari@gmail.com
+    [:phone] => 09999999999
+    [:project_type] => website
+    [:details] => 9
+    [:budget] => 9
+    [:deadline] => 2025-07-08
+    [:tracking_code] => 260568
+    [:days] => 1
+    [:status] => pending
+)
+
+Session at start of order.php: Array
+(
+    [user_id] => 7
+    [email] => Javadooshakhlari@gmail.com
+    [last_order] => Array
+        (
+            [user_id] => 7
+            [order_number] => ORD-19832
+            [name] => Javad
+            [email] => Javadooshakhlari@gmail.com
+            [phone] => 09999999999
+            [project_type] => website
+            [details] => 9
+            [budget] => 9
+            [deadline] => 2025-07-08
+            [tracking_code] => 260568
+            [days] => 1
+            [order_id] => 5
+        )
+
+)
+
+User query result: Array
+(
+    [name] => Javad
+    [email] => Javadooshakhlari@gmail.com
+)
+
+Session at start of order.php: Array
+(
+    [user_id] => 7
+    [email] => Javadooshakhlari@gmail.com
+    [last_order] => Array
+        (
+            [user_id] => 7
+            [order_number] => ORD-19832
+            [name] => Javad
+            [email] => Javadooshakhlari@gmail.com
+            [phone] => 09999999999
+            [project_type] => website
+            [details] => 9
+            [budget] => 9
+            [deadline] => 2025-07-08
+            [tracking_code] => 260568
+            [days] => 1
+            [order_id] => 5
+        )
+
+)
+
+User query result: Array
+(
+    [name] => Javad
+    [email] => Javadooshakhlari@gmail.com
+)
+
+Session at start of order.php: Array
+(
+    [user_id] => 7
+    [email] => Javadooshakhlari@gmail.com
+    [last_order] => Array
+        (
+            [user_id] => 7
+            [order_number] => ORD-19832
+            [name] => Javad
+            [email] => Javadooshakhlari@gmail.com
+            [phone] => 09999999999
+            [project_type] => website
+            [details] => 9
+            [budget] => 9
+            [deadline] => 2025-07-08
+            [tracking_code] => 260568
+            [days] => 1
+            [order_id] => 5
+        )
+
+)
+
+User query result: Array
+(
+    [name] => Javad
+    [email] => Javadooshakhlari@gmail.com
+)
+
+Session at start of order.php: Array
+(
+    [user_id] => 7
+    [email] => Javadooshakhlari@gmail.com
+    [last_order] => Array
+        (
+            [user_id] => 7
+            [order_number] => ORD-19832
+            [name] => Javad
+            [email] => Javadooshakhlari@gmail.com
+            [phone] => 09999999999
+            [project_type] => website
+            [details] => 9
+            [budget] => 9
+            [deadline] => 2025-07-08
+            [tracking_code] => 260568
+            [days] => 1
+            [order_id] => 5
+        )
+
+)
+
+User query result: Array
+(
+    [name] => Javad
+    [email] => Javadooshakhlari@gmail.com
+)
+
+Session at start of order.php: Array
+(
+    [user_id] => 7
+    [email] => Javadooshakhlari@gmail.com
+    [last_order] => Array
+        (
+            [user_id] => 7
+            [order_number] => ORD-19832
+            [name] => Javad
+            [email] => Javadooshakhlari@gmail.com
+            [phone] => 09999999999
+            [project_type] => website
+            [details] => 9
+            [budget] => 9
+            [deadline] => 2025-07-08
+            [tracking_code] => 260568
+            [days] => 1
+            [order_id] => 5
+        )
+
+)
+
+User query result: Array
+(
+    [name] => Javad
+    [email] => Javadooshakhlari@gmail.com
+)
+
+Session at start of order.php: Array
+(
+    [user_id] => 7
+    [email] => Javadooshakhlari@gmail.com
+    [last_order] => Array
+        (
+            [user_id] => 7
+            [order_number] => ORD-19832
+            [name] => Javad
+            [email] => Javadooshakhlari@gmail.com
+            [phone] => 09999999999
+            [project_type] => website
+            [details] => 9
+            [budget] => 9
+            [deadline] => 2025-07-08
+            [tracking_code] => 260568
+            [days] => 1
+            [order_id] => 5
+        )
+
+)
+
+User query result: Array
+(
+    [name] => Javad
+    [email] => Javadooshakhlari@gmail.com
+)
+
+Session at start of order.php: Array
+(
+    [user_id] => 7
+    [email] => Javadooshakhlari@gmail.com
+    [last_order] => Array
+        (
+            [user_id] => 7
+            [order_number] => ORD-19832
+            [name] => Javad
+            [email] => Javadooshakhlari@gmail.com
+            [phone] => 09999999999
+            [project_type] => website
+            [details] => 9
+            [budget] => 9
+            [deadline] => 2025-07-08
+            [tracking_code] => 260568
+            [days] => 1
+            [order_id] => 5
+        )
+
+)
+
+User query result: Array
+(
+    [name] => Javad
+    [email] => Javadooshakhlari@gmail.com
+)
+
+SQL Parameters: Array
+(
+    [:user_id] => 7
+    [:order_number] => ORD-86423
+    [:name] => Javad
+    [:email] => Javadooshakhlari@gmail.com
+    [:phone] => 09999999999
+    [:project_type] => website
+    [:details] => i
+    [:budget] => 9
+    [:deadline] => 2025-07-10
+    [:tracking_code] => 533160
+    [:days] => 3
+    [:status] => pending
+)
+
+Session at start of order.php: Array
+(
+    [user_id] => 7
+    [email] => Javadooshakhlari@gmail.com
+    [last_order] => Array
+        (
+            [user_id] => 7
+            [order_number] => ORD-86423
+            [name] => Javad
+            [email] => Javadooshakhlari@gmail.com
+            [phone] => 09999999999
+            [project_type] => website
+            [details] => i
+            [budget] => 9
+            [deadline] => 2025-07-10
+            [tracking_code] => 533160
+            [days] => 3
+            [order_id] => 6
+        )
+
+)
+
+User query result: Array
+(
+    [name] => Javad
+    [email] => Javadooshakhlari@gmail.com
+)
+
+Session at start of order.php: Array
+(
+    [user_id] => 7
+    [email] => Javadooshakhlari@gmail.com
+    [last_order] => Array
+        (
+            [user_id] => 7
+            [order_number] => ORD-86423
+            [name] => Javad
+            [email] => Javadooshakhlari@gmail.com
+            [phone] => 09999999999
+            [project_type] => website
+            [details] => i
+            [budget] => 9
+            [deadline] => 2025-07-10
+            [tracking_code] => 533160
+            [days] => 3
+            [order_id] => 6
+        )
+
+)
+
+User query result: Array
+(
+    [name] => Javad
+    [email] => Javadooshakhlari@gmail.com
+)
+
+Session at start of order.php: Array
+(
+    [user_id] => 7
+    [email] => Javadooshakhlari@gmail.com
+    [last_order] => Array
+        (
+            [user_id] => 7
+            [order_number] => ORD-86423
+            [name] => Javad
+            [email] => Javadooshakhlari@gmail.com
+            [phone] => 09999999999
+            [project_type] => website
+            [details] => i
+            [budget] => 9
+            [deadline] => 2025-07-10
+            [tracking_code] => 533160
+            [days] => 3
+            [order_id] => 6
+        )
+
+)
+
+User query result: Array
+(
+    [name] => Javad
+    [email] => Javadooshakhlari@gmail.com
+)
+
+Session at start of order.php: Array
+(
+    [user_id] => 7
+    [email] => Javadooshakhlari@gmail.com
+    [last_order] => Array
+        (
+            [user_id] => 7
+            [order_number] => ORD-86423
+            [name] => Javad
+            [email] => Javadooshakhlari@gmail.com
+            [phone] => 09999999999
+            [project_type] => website
+            [details] => i
+            [budget] => 9
+            [deadline] => 2025-07-10
+            [tracking_code] => 533160
+            [days] => 3
+            [order_id] => 6
+        )
+
+)
+
+User query result: Array
+(
+    [name] => Javad
+    [email] => Javadooshakhlari@gmail.com
+)
+
+Session at start of order.php: Array
+(
+    [user_id] => 7
+    [email] => Javadooshakhlari@gmail.com
+    [last_order] => Array
+        (
+            [user_id] => 7
+            [order_number] => ORD-86423
+            [name] => Javad
+            [email] => Javadooshakhlari@gmail.com
+            [phone] => 09999999999
+            [project_type] => website
+            [details] => i
+            [budget] => 9
+            [deadline] => 2025-07-10
+            [tracking_code] => 533160
+            [days] => 3
+            [order_id] => 6
+        )
+
+)
+
+User query result: Array
+(
+    [name] => Javad
+    [email] => Javadooshakhlari@gmail.com
+)
+
+Session at start of order.php: Array
+(
+    [user_id] => 7
+    [email] => Javadooshakhlari@gmail.com
+    [last_order] => Array
+        (
+            [user_id] => 7
+            [order_number] => ORD-86423
+            [name] => Javad
+            [email] => Javadooshakhlari@gmail.com
+            [phone] => 09999999999
+            [project_type] => website
+            [details] => i
+            [budget] => 9
+            [deadline] => 2025-07-10
+            [tracking_code] => 533160
+            [days] => 3
+            [order_id] => 6
+        )
+
+)
+
+User query result: Array
+(
+    [name] => Javad
+    [email] => Javadooshakhlari@gmail.com
+)
+
+Session at start of order.php: Array
+(
+    [user_id] => 7
+    [email] => Javadooshakhlari@gmail.com
+    [last_order] => Array
+        (
+            [user_id] => 7
+            [order_number] => ORD-86423
+            [name] => Javad
+            [email] => Javadooshakhlari@gmail.com
+            [phone] => 09999999999
+            [project_type] => website
+            [details] => i
+            [budget] => 9
+            [deadline] => 2025-07-10
+            [tracking_code] => 533160
+            [days] => 3
+            [order_id] => 6
+        )
+
+)
+
+User query result: Array
+(
+    [name] => Javad
+    [email] => Javadooshakhlari@gmail.com
+)
+
+Session at start of order.php: Array
+(
+    [user_id] => 7
+    [email] => Javadooshakhlari@gmail.com
+    [last_order] => Array
+        (
+            [user_id] => 7
+            [order_number] => ORD-86423
+            [name] => Javad
+            [email] => Javadooshakhlari@gmail.com
+            [phone] => 09999999999
+            [project_type] => website
+            [details] => i
+            [budget] => 9
+            [deadline] => 2025-07-10
+            [tracking_code] => 533160
+            [days] => 3
+            [order_id] => 6
+        )
+
+)
+
+User query result: Array
+(
+    [name] => Javad
+    [email] => Javadooshakhlari@gmail.com
+)
+
+Session at start of order.php: Array
+(
+    [user_id] => 7
+    [email] => Javadooshakhlari@gmail.com
+    [last_order] => Array
+        (
+            [user_id] => 7
+            [order_number] => ORD-86423
+            [name] => Javad
+            [email] => Javadooshakhlari@gmail.com
+            [phone] => 09999999999
+            [project_type] => website
+            [details] => i
+            [budget] => 9
+            [deadline] => 2025-07-10
+            [tracking_code] => 533160
+            [days] => 3
+            [order_id] => 6
+        )
+
+)
+
+User query result: Array
+(
+    [name] => Javad
+    [email] => Javadooshakhlari@gmail.com
+)
+
+Session at start of order.php: Array
+(
+    [user_id] => 7
+    [email] => Javadooshakhlari@gmail.com
+    [last_order] => Array
+        (
+            [user_id] => 7
+            [order_number] => ORD-86423
+            [name] => Javad
+            [email] => Javadooshakhlari@gmail.com
+            [phone] => 09999999999
+            [project_type] => website
+            [details] => i
+            [budget] => 9
+            [deadline] => 2025-07-10
+            [tracking_code] => 533160
+            [days] => 3
+            [order_id] => 6
+        )
+
+)
+
+User query result: Array
+(
+    [name] => Javad
+    [email] => Javadooshakhlari@gmail.com
+)
+
+Session at start of order.php: Array
+(
+    [user_id] => 7
+    [email] => Javadooshakhlari@gmail.com
+    [last_order] => Array
+        (
+            [user_id] => 7
+            [order_number] => ORD-86423
+            [name] => Javad
+            [email] => Javadooshakhlari@gmail.com
+            [phone] => 09999999999
+            [project_type] => website
+            [details] => i
+            [budget] => 9
+            [deadline] => 2025-07-10
+            [tracking_code] => 533160
+            [days] => 3
+            [order_id] => 6
+        )
+
+)
+
+User query result: Array
+(
+    [name] => Javad
+    [email] => Javadooshakhlari@gmail.com
+)
+
+Session at start of order.php: Array
+(
+    [user_id] => 7
+    [email] => Javadooshakhlari@gmail.com
+    [last_order] => Array
+        (
+            [user_id] => 7
+            [order_number] => ORD-86423
+            [name] => Javad
+            [email] => Javadooshakhlari@gmail.com
+            [phone] => 09999999999
+            [project_type] => website
+            [details] => i
+            [budget] => 9
+            [deadline] => 2025-07-10
+            [tracking_code] => 533160
+            [days] => 3
+            [order_id] => 6
+        )
+
+)
+
+User query result: Array
+(
+    [name] => Javad
+    [email] => Javadooshakhlari@gmail.com
+)
+
+Session at start of order.php: Array
+(
+    [user_id] => 7
+    [email] => Javadooshakhlari@gmail.com
+    [last_order] => Array
+        (
+            [user_id] => 7
+            [order_number] => ORD-86423
+            [name] => Javad
+            [email] => Javadooshakhlari@gmail.com
+            [phone] => 09999999999
+            [project_type] => website
+            [details] => i
+            [budget] => 9
+            [deadline] => 2025-07-10
+            [tracking_code] => 533160
+            [days] => 3
+            [order_id] => 6
+        )
+
+)
+
+User query result: Array
+(
+    [name] => Javad
+    [email] => Javadooshakhlari@gmail.com
+)
+
+Session at start of order.php: Array
+(
+    [user_id] => 7
+    [email] => Javadooshakhlari@gmail.com
+    [last_order] => Array
+        (
+            [user_id] => 7
+            [order_number] => ORD-86423
+            [name] => Javad
+            [email] => Javadooshakhlari@gmail.com
+            [phone] => 09999999999
+            [project_type] => website
+            [details] => i
+            [budget] => 9
+            [deadline] => 2025-07-10
+            [tracking_code] => 533160
+            [days] => 3
+            [order_id] => 6
+        )
+
+)
+
+User query result: Array
+(
+    [name] => Javad
+    [email] => Javadooshakhlari@gmail.com
+)
+
+Session at start of order.php: Array
+(
+    [user_id] => 7
+    [email] => Javadooshakhlari@gmail.com
+    [last_order] => Array
+        (
+            [user_id] => 7
+            [order_number] => ORD-86423
+            [name] => Javad
+            [email] => Javadooshakhlari@gmail.com
+            [phone] => 09999999999
+            [project_type] => website
+            [details] => i
+            [budget] => 9
+            [deadline] => 2025-07-10
+            [tracking_code] => 533160
+            [days] => 3
+            [order_id] => 6
+        )
+
+)
+
+User query result: Array
+(
+    [name] => Javad
+    [email] => Javadooshakhlari@gmail.com
+)
+
+Session at start of order.php: Array
+(
+    [user_id] => 7
+    [email] => Javadooshakhlari@gmail.com
+    [last_order] => Array
+        (
+            [user_id] => 7
+            [order_number] => ORD-86423
+            [name] => Javad
+            [email] => Javadooshakhlari@gmail.com
+            [phone] => 09999999999
+            [project_type] => website
+            [details] => i
+            [budget] => 9
+            [deadline] => 2025-07-10
+            [tracking_code] => 533160
+            [days] => 3
+            [order_id] => 6
+        )
+
+)
+
+User query result: Array
+(
+    [name] => Javad
+    [email] => Javadooshakhlari@gmail.com
+)
+
+Session at start of order.php: Array
+(
+    [user_id] => 7
+    [email] => Javadooshakhlari@gmail.com
+    [last_order] => Array
+        (
+            [user_id] => 7
+            [order_number] => ORD-86423
+            [name] => Javad
+            [email] => Javadooshakhlari@gmail.com
+            [phone] => 09999999999
+            [project_type] => website
+            [details] => i
+            [budget] => 9
+            [deadline] => 2025-07-10
+            [tracking_code] => 533160
+            [days] => 3
+            [order_id] => 6
+        )
+
+)
+
+User query result: Array
+(
+    [name] => Javad
+    [email] => Javadooshakhlari@gmail.com
+)
+
+Session at start of order.php: Array
+(
+    [user_id] => 7
+    [email] => Javadooshakhlari@gmail.com
+    [last_order] => Array
+        (
+            [user_id] => 7
+            [order_number] => ORD-86423
+            [name] => Javad
+            [email] => Javadooshakhlari@gmail.com
+            [phone] => 09999999999
+            [project_type] => website
+            [details] => i
+            [budget] => 9
+            [deadline] => 2025-07-10
+            [tracking_code] => 533160
+            [days] => 3
+            [order_id] => 6
+        )
+
+)
+
+User query result: Array
+(
+    [name] => Javad
+    [email] => Javadooshakhlari@gmail.com
+)
+
+Session at start of order.php: Array
+(
+    [user_id] => 7
+    [email] => Javadooshakhlari@gmail.com
+    [last_order] => Array
+        (
+            [user_id] => 7
+            [order_number] => ORD-86423
+            [name] => Javad
+            [email] => Javadooshakhlari@gmail.com
+            [phone] => 09999999999
+            [project_type] => website
+            [details] => i
+            [budget] => 9
+            [deadline] => 2025-07-10
+            [tracking_code] => 533160
+            [days] => 3
+            [order_id] => 6
+        )
+
+)
+
+User query result: Array
+(
+    [name] => Javad
+    [email] => Javadooshakhlari@gmail.com
+)
+
+Session at start of order.php: Array
+(
+    [user_id] => 7
+    [email] => Javadooshakhlari@gmail.com
+    [last_order] => Array
+        (
+            [user_id] => 7
+            [order_number] => ORD-86423
+            [name] => Javad
+            [email] => Javadooshakhlari@gmail.com
+            [phone] => 09999999999
+            [project_type] => website
+            [details] => i
+            [budget] => 9
+            [deadline] => 2025-07-10
+            [tracking_code] => 533160
+            [days] => 3
+            [order_id] => 6
+        )
+
+)
+
+User query result: Array
+(
+    [name] => Javad
+    [email] => Javadooshakhlari@gmail.com
+)
+
+Session at start of order.php: Array
+(
+    [user_id] => 7
+    [email] => Javadooshakhlari@gmail.com
+)
+
+User query result: Array
+(
+    [name] => Javad
+    [email] => Javadooshakhlari@gmail.com
+)
+
+Session at start of order.php: Array
+(
+    [user_id] => 7
+    [email] => Javadooshakhlari@gmail.com
+    [last_order] => Array
+        (
+            [user_id] => 7
+            [order_number] => ORD-86423
+            [name] => Javad
+            [email] => Javadooshakhlari@gmail.com
+            [phone] => 09999999999
+            [project_type] => website
+            [details] => i
+            [budget] => 9
+            [deadline] => 2025-07-10
+            [tracking_code] => 533160
+            [days] => 3
+            [order_id] => 6
+        )
+
+)
+
+User query result: Array
+(
+    [name] => Javad
+    [email] => Javadooshakhlari@gmail.com
+)
+
+Session at start of order.php: Array
+(
+    [user_id] => 7
+    [email] => Javadooshakhlari@gmail.com
+    [last_order] => Array
+        (
+            [user_id] => 7
+            [order_number] => ORD-86423
+            [name] => Javad
+            [email] => Javadooshakhlari@gmail.com
+            [phone] => 09999999999
+            [project_type] => website
+            [details] => i
+            [budget] => 9
+            [deadline] => 2025-07-10
+            [tracking_code] => 533160
+            [days] => 3
+            [order_id] => 6
+        )
+
+)
+
+User query result: Array
+(
+    [name] => Javad
+    [email] => Javadooshakhlari@gmail.com
+)
+
+Session at start of order.php: Array
+(
+    [user_id] => 7
+    [email] => Javadooshakhlari@gmail.com
+    [last_order] => Array
+        (
+            [user_id] => 7
+            [order_number] => ORD-86423
+            [name] => Javad
+            [email] => Javadooshakhlari@gmail.com
+            [phone] => 09999999999
+            [project_type] => website
+            [details] => i
+            [budget] => 9
+            [deadline] => 2025-07-10
+            [tracking_code] => 533160
+            [days] => 3
+            [order_id] => 6
+        )
+
+)
+
+User query result: Array
+(
+    [name] => Javad
+    [email] => Javadooshakhlari@gmail.com
+)
+
+Session at start of order.php: Array
+(
+    [user_id] => 7
+    [email] => Javadooshakhlari@gmail.com
+    [last_order] => Array
+        (
+            [user_id] => 7
+            [order_number] => ORD-86423
+            [name] => Javad
+            [email] => Javadooshakhlari@gmail.com
+            [phone] => 09999999999
+            [project_type] => website
+            [details] => i
+            [budget] => 9
+            [deadline] => 2025-07-10
+            [tracking_code] => 533160
+            [days] => 3
+            [order_id] => 6
+        )
+
+)
+
+User query result: Array
+(
+    [name] => Javad
+    [email] => Javadooshakhlari@gmail.com
+)
+
+Session at start of order.php: Array
+(
+    [user_id] => 7
+    [email] => Javadooshakhlari@gmail.com
+    [last_order] => Array
+        (
+            [user_id] => 7
+            [order_number] => ORD-86423
+            [name] => Javad
+            [email] => Javadooshakhlari@gmail.com
+            [phone] => 09999999999
+            [project_type] => website
+            [details] => i
+            [budget] => 9
+            [deadline] => 2025-07-10
+            [tracking_code] => 533160
+            [days] => 3
+            [order_id] => 6
+        )
+
+)
+
+User query result: Array
+(
+    [name] => Javad
+    [email] => Javadooshakhlari@gmail.com
+)
+
+Session at start of order.php: Array
+(
+    [user_id] => 7
+    [email] => Javadooshakhlari@gmail.com
+    [last_order] => Array
+        (
+            [user_id] => 7
+            [order_number] => ORD-86423
+            [name] => Javad
+            [email] => Javadooshakhlari@gmail.com
+            [phone] => 09999999999
+            [project_type] => website
+            [details] => i
+            [budget] => 9
+            [deadline] => 2025-07-10
+            [tracking_code] => 533160
+            [days] => 3
+            [order_id] => 6
+        )
+
+)
+
+User query result: Array
+(
+    [name] => Javad
+    [email] => Javadooshakhlari@gmail.com
+)
+
+Session at start of order.php: Array
+(
+    [user_id] => 7
+    [email] => Javadooshakhlari@gmail.com
+    [last_order] => Array
+        (
+            [user_id] => 7
+            [order_number] => ORD-86423
+            [name] => Javad
+            [email] => Javadooshakhlari@gmail.com
+            [phone] => 09999999999
+            [project_type] => website
+            [details] => i
+            [budget] => 9
+            [deadline] => 2025-07-10
+            [tracking_code] => 533160
+            [days] => 3
+            [order_id] => 6
+        )
+
+)
+
+User query result: Array
+(
+    [name] => Javad
+    [email] => Javadooshakhlari@gmail.com
+)
+
+Session at start of order.php: Array
+(
+    [user_id] => 7
+    [email] => Javadooshakhlari@gmail.com
+    [last_order] => Array
+        (
+            [user_id] => 7
+            [order_number] => ORD-86423
+            [name] => Javad
+            [email] => Javadooshakhlari@gmail.com
+            [phone] => 09999999999
+            [project_type] => website
+            [details] => i
+            [budget] => 9
+            [deadline] => 2025-07-10
+            [tracking_code] => 533160
+            [days] => 3
+            [order_id] => 6
+        )
+
+)
+
+User query result: Array
+(
+    [name] => Javad
+    [email] => Javadooshakhlari@gmail.com
+)
+
+Session at start of order.php: Array
+(
+    [user_id] => 7
+    [email] => Javadooshakhlari@gmail.com
+    [last_order] => Array
+        (
+            [user_id] => 7
+            [order_number] => ORD-86423
+            [name] => Javad
+            [email] => Javadooshakhlari@gmail.com
+            [phone] => 09999999999
+            [project_type] => website
+            [details] => i
+            [budget] => 9
+            [deadline] => 2025-07-10
+            [tracking_code] => 533160
+            [days] => 3
+            [order_id] => 6
+        )
+
+)
+
+User query result: Array
+(
+    [name] => Javad
+    [email] => Javadooshakhlari@gmail.com
+)
+
+SQL Parameters: Array
+(
+    [:user_id] => 7
+    [:order_number] => ORD-91516
+    [:name] => Javad
+    [:email] => Javadooshakhlari@gmail.com
+    [:phone] => 09999999999
+    [:project_type] => website
+    [:details] => 4
+    [:budget] => 9
+    [:deadline] => 2025-07-13
+    [:tracking_code] => 427201
+    [:days] => 6
+    [:status] => pending
+)
+
+Session at start of order.php: Array
+(
+    [user_id] => 7
+    [email] => Javadooshakhlari@gmail.com
+    [last_order] => Array
+        (
+            [user_id] => 7
+            [order_number] => ORD-91516
+            [name] => Javad
+            [email] => Javadooshakhlari@gmail.com
+            [phone] => 09999999999
+            [project_type] => website
+            [details] => 4
+            [budget] => 9
+            [deadline] => 2025-07-13
+            [tracking_code] => 427201
+            [days] => 6
+            [order_id] => 7
+        )
+
+)
+
+User query result: Array
+(
+    [name] => Javad
+    [email] => Javadooshakhlari@gmail.com
+)
+
+Session at start of order.php: Array
+(
+    [user_id] => 7
+    [email] => Javadooshakhlari@gmail.com
+    [last_order] => Array
+        (
+            [user_id] => 7
+            [order_number] => ORD-91516
+            [name] => Javad
+            [email] => Javadooshakhlari@gmail.com
+            [phone] => 09999999999
+            [project_type] => website
+            [details] => 4
+            [budget] => 9
+            [deadline] => 2025-07-13
+            [tracking_code] => 427201
+            [days] => 6
+            [order_id] => 7
+        )
+
+)
+
+User query result: Array
+(
+    [name] => Javad
+    [email] => Javadooshakhlari@gmail.com
+)
+
+Session at start of order.php: Array
+(
+    [user_id] => 7
+    [email] => Javadooshakhlari@gmail.com
+    [last_order] => Array
+        (
+            [user_id] => 7
+            [order_number] => ORD-91516
+            [name] => Javad
+            [email] => Javadooshakhlari@gmail.com
+            [phone] => 09999999999
+            [project_type] => website
+            [details] => 4
+            [budget] => 9
+            [deadline] => 2025-07-13
+            [tracking_code] => 427201
+            [days] => 6
+            [order_id] => 7
+        )
+
+)
+
+User query result: Array
+(
+    [name] => Javad
+    [email] => Javadooshakhlari@gmail.com
+)
+
+Session at start of order.php: Array
+(
+    [user_id] => 7
+    [email] => Javadooshakhlari@gmail.com
+    [last_order] => Array
+        (
+            [user_id] => 7
+            [order_number] => ORD-91516
+            [name] => Javad
+            [email] => Javadooshakhlari@gmail.com
+            [phone] => 09999999999
+            [project_type] => website
+            [details] => 4
+            [budget] => 9
+            [deadline] => 2025-07-13
+            [tracking_code] => 427201
+            [days] => 6
+            [order_id] => 7
+        )
+
+)
+
+User query result: Array
+(
+    [name] => Javad
+    [email] => Javadooshakhlari@gmail.com
+)
+
+Session at start of order.php: Array
+(
+    [user_id] => 7
+    [email] => Javadooshakhlari@gmail.com
+    [last_order] => Array
+        (
+            [user_id] => 7
+            [order_number] => ORD-91516
+            [name] => Javad
+            [email] => Javadooshakhlari@gmail.com
+            [phone] => 09999999999
+            [project_type] => website
+            [details] => 4
+            [budget] => 9
+            [deadline] => 2025-07-13
+            [tracking_code] => 427201
+            [days] => 6
+            [order_id] => 7
+        )
+
+)
+
+User query result: Array
+(
+    [name] => Javad
+    [email] => Javadooshakhlari@gmail.com
+)
+
+Session at start of order.php: Array
+(
+    [user_id] => 7
+    [email] => Javadooshakhlari@gmail.com
+    [last_order] => Array
+        (
+            [user_id] => 7
+            [order_number] => ORD-91516
+            [name] => Javad
+            [email] => Javadooshakhlari@gmail.com
+            [phone] => 09999999999
+            [project_type] => website
+            [details] => 4
+            [budget] => 9
+            [deadline] => 2025-07-13
+            [tracking_code] => 427201
+            [days] => 6
+            [order_id] => 7
+        )
+
+)
+
+User query result: Array
+(
+    [name] => Javad
+    [email] => Javadooshakhlari@gmail.com
+)
+
+Session at start of order.php: Array
+(
+    [user_id] => 7
+    [email] => Javadooshakhlari@gmail.com
+    [last_order] => Array
+        (
+            [user_id] => 7
+            [order_number] => ORD-91516
+            [name] => Javad
+            [email] => Javadooshakhlari@gmail.com
+            [phone] => 09999999999
+            [project_type] => website
+            [details] => 4
+            [budget] => 9
+            [deadline] => 2025-07-13
+            [tracking_code] => 427201
+            [days] => 6
+            [order_id] => 7
+        )
+
+)
+
+User query result: Array
+(
+    [name] => Javad
+    [email] => Javadooshakhlari@gmail.com
+)
+
+Session at start of order.php: Array
+(
+    [user_id] => 7
+    [email] => Javadooshakhlari@gmail.com
+    [last_order] => Array
+        (
+            [user_id] => 7
+            [order_number] => ORD-91516
+            [name] => Javad
+            [email] => Javadooshakhlari@gmail.com
+            [phone] => 09999999999
+            [project_type] => website
+            [details] => 4
+            [budget] => 9
+            [deadline] => 2025-07-13
+            [tracking_code] => 427201
+            [days] => 6
+            [order_id] => 7
+        )
+
+)
+
+User query result: Array
+(
+    [name] => Javad
+    [email] => Javadooshakhlari@gmail.com
+)
+
+Session at start of order.php: Array
+(
+    [user_id] => 7
+    [email] => Javadooshakhlari@gmail.com
+    [last_order] => Array
+        (
+            [user_id] => 7
+            [order_number] => ORD-91516
+            [name] => Javad
+            [email] => Javadooshakhlari@gmail.com
+            [phone] => 09999999999
+            [project_type] => website
+            [details] => 4
+            [budget] => 9
+            [deadline] => 2025-07-13
+            [tracking_code] => 427201
+            [days] => 6
+            [order_id] => 7
+        )
+
+)
+
+User query result: Array
+(
+    [name] => Javad
+    [email] => Javadooshakhlari@gmail.com
+)
+
+Session at start of order.php: Array
+(
+    [user_id] => 7
+    [email] => Javadooshakhlari@gmail.com
+    [last_order] => Array
+        (
+            [user_id] => 7
+            [order_number] => ORD-91516
+            [name] => Javad
+            [email] => Javadooshakhlari@gmail.com
+            [phone] => 09999999999
+            [project_type] => website
+            [details] => 4
+            [budget] => 9
+            [deadline] => 2025-07-13
+            [tracking_code] => 427201
+            [days] => 6
+            [order_id] => 7
+        )
+
+)
+
+User query result: Array
+(
+    [name] => Javad
+    [email] => Javadooshakhlari@gmail.com
+)
+
+Session at start of order.php: Array
+(
+    [user_id] => 7
+    [email] => Javadooshakhlari@gmail.com
+    [last_order] => Array
+        (
+            [user_id] => 7
+            [order_number] => ORD-91516
+            [name] => Javad
+            [email] => Javadooshakhlari@gmail.com
+            [phone] => 09999999999
+            [project_type] => website
+            [details] => 4
+            [budget] => 9
+            [deadline] => 2025-07-13
+            [tracking_code] => 427201
+            [days] => 6
+            [order_id] => 7
+        )
+
+)
+
+User query result: Array
+(
+    [name] => Javad
+    [email] => Javadooshakhlari@gmail.com
+)
+
+Session at start of order.php: Array
+(
+    [user_id] => 7
+    [email] => Javadooshakhlari@gmail.com
+    [last_order] => Array
+        (
+            [user_id] => 7
+            [order_number] => ORD-91516
+            [name] => Javad
+            [email] => Javadooshakhlari@gmail.com
+            [phone] => 09999999999
+            [project_type] => website
+            [details] => 4
+            [budget] => 9
+            [deadline] => 2025-07-13
+            [tracking_code] => 427201
+            [days] => 6
+            [order_id] => 7
+        )
+
+)
+
+User query result: Array
+(
+    [name] => Javad
+    [email] => Javadooshakhlari@gmail.com
+)
+
+SQL Parameters: Array
+(
+    [:user_id] => 7
+    [:order_number] => ORD-97792
+    [:name] => Javad
+    [:email] => Javadooshakhlari@gmail.com
+    [:phone] => 09999999999
+    [:project_type] => website
+    [:details] => 5
+    [:budget] => 9
+    [:deadline] => 2025-07-08
+    [:tracking_code] => 703064
+    [:days] => 1
+    [:status] => pending
+)
+
+Session at start of order.php: Array
+(
+    [user_id] => 7
+    [email] => Javadooshakhlari@gmail.com
+    [last_order] => Array
+        (
+            [user_id] => 7
+            [order_number] => ORD-97792
+            [name] => Javad
+            [email] => Javadooshakhlari@gmail.com
+            [phone] => 09999999999
+            [project_type] => website
+            [details] => 5
+            [budget] => 9
+            [deadline] => 2025-07-08
+            [tracking_code] => 703064
+            [days] => 1
+            [order_id] => 8
+        )
+
+)
+
+User query result: Array
+(
+    [name] => Javad
+    [email] => Javadooshakhlari@gmail.com
+)
+
+Session at start of order.php: Array
+(
+    [user_id] => 7
+    [email] => Javadooshakhlari@gmail.com
+)
+
+User query result: Array
+(
+    [name] => Javad
+    [email] => Javadooshakhlari@gmail.com
+)
+
+Session at start of order.php: Array
+(
+    [user_id] => 7
+    [email] => Javadooshakhlari@gmail.com
+    [last_order] => Array
+        (
+            [user_id] => 7
+            [order_number] => ORD-97792
+            [name] => Javad
+            [email] => Javadooshakhlari@gmail.com
+            [phone] => 09999999999
+            [project_type] => website
+            [details] => 5
+            [budget] => 9
+            [deadline] => 2025-07-08
+            [tracking_code] => 703064
+            [days] => 1
+            [order_id] => 8
+        )
+
+)
+
+User query result: Array
+(
+    [name] => Javad
+    [email] => Javadooshakhlari@gmail.com
+)
+
+Session at start of order.php: Array
+(
+    [user_id] => 7
+    [email] => Javadooshakhlari@gmail.com
+    [last_order] => Array
+        (
+            [user_id] => 7
+            [order_number] => ORD-97792
+            [name] => Javad
+            [email] => Javadooshakhlari@gmail.com
+            [phone] => 09999999999
+            [project_type] => website
+            [details] => 5
+            [budget] => 9
+            [deadline] => 2025-07-08
+            [tracking_code] => 703064
+            [days] => 1
+            [order_id] => 8
+        )
+
+)
+
+User query result: Array
+(
+    [name] => Javad
+    [email] => Javadooshakhlari@gmail.com
+)
+
+Session at start of order.php: Array
+(
+    [user_id] => 7
+    [email] => Javadooshakhlari@gmail.com
+    [last_order] => Array
+        (
+            [user_id] => 7
+            [order_number] => ORD-97792
+            [name] => Javad
+            [email] => Javadooshakhlari@gmail.com
+            [phone] => 09999999999
+            [project_type] => website
+            [details] => 5
+            [budget] => 9
+            [deadline] => 2025-07-08
+            [tracking_code] => 703064
+            [days] => 1
+            [order_id] => 8
+        )
+
+)
+
+User query result: Array
+(
+    [name] => Javad
+    [email] => Javadooshakhlari@gmail.com
+)
+
+Session at start of order.php: Array
+(
+    [user_id] => 7
+    [email] => Javadooshakhlari@gmail.com
+    [last_order] => Array
+        (
+            [user_id] => 7
+            [order_number] => ORD-97792
+            [name] => Javad
+            [email] => Javadooshakhlari@gmail.com
+            [phone] => 09999999999
+            [project_type] => website
+            [details] => 5
+            [budget] => 9
+            [deadline] => 2025-07-08
+            [tracking_code] => 703064
+            [days] => 1
+            [order_id] => 8
+        )
+
+)
+
+User query result: Array
+(
+    [name] => Javad
+    [email] => Javadooshakhlari@gmail.com
+)
+
+Session at start of order.php: Array
+(
+    [user_id] => 7
+    [email] => Javadooshakhlari@gmail.com
+    [last_order] => Array
+        (
+            [user_id] => 7
+            [order_number] => ORD-97792
+            [name] => Javad
+            [email] => Javadooshakhlari@gmail.com
+            [phone] => 09999999999
+            [project_type] => website
+            [details] => 5
+            [budget] => 9
+            [deadline] => 2025-07-08
+            [tracking_code] => 703064
+            [days] => 1
+            [order_id] => 8
+        )
+
+)
+
+User query result: Array
+(
+    [name] => Javad
+    [email] => Javadooshakhlari@gmail.com
+)
+
+Session at start of order.php: Array
+(
+    [user_id] => 7
+    [email] => Javadooshakhlari@gmail.com
+    [last_order] => Array
+        (
+            [user_id] => 7
+            [order_number] => ORD-97792
+            [name] => Javad
+            [email] => Javadooshakhlari@gmail.com
+            [phone] => 09999999999
+            [project_type] => website
+            [details] => 5
+            [budget] => 9
+            [deadline] => 2025-07-08
+            [tracking_code] => 703064
+            [days] => 1
+            [order_id] => 8
+        )
+
+)
+
+User query result: Array
+(
+    [name] => Javad
+    [email] => Javadooshakhlari@gmail.com
+)
+
+Session at start of order.php: Array
+(
+    [user_id] => 7
+    [email] => Javadooshakhlari@gmail.com
+    [last_order] => Array
+        (
+            [user_id] => 7
+            [order_number] => ORD-97792
+            [name] => Javad
+            [email] => Javadooshakhlari@gmail.com
+            [phone] => 09999999999
+            [project_type] => website
+            [details] => 5
+            [budget] => 9
+            [deadline] => 2025-07-08
+            [tracking_code] => 703064
+            [days] => 1
+            [order_id] => 8
+        )
+
+)
+
+User query result: Array
+(
+    [name] => Javad
+    [email] => Javadooshakhlari@gmail.com
+)
+
+Session at start of order.php: Array
+(
+    [user_id] => 7
+    [email] => Javadooshakhlari@gmail.com
+    [last_order] => Array
+        (
+            [user_id] => 7
+            [order_number] => ORD-97792
+            [name] => Javad
+            [email] => Javadooshakhlari@gmail.com
+            [phone] => 09999999999
+            [project_type] => website
+            [details] => 5
+            [budget] => 9
+            [deadline] => 2025-07-08
+            [tracking_code] => 703064
+            [days] => 1
+            [order_id] => 8
+        )
+
+)
+
+User query result: Array
+(
+    [name] => Javad
+    [email] => Javadooshakhlari@gmail.com
+)
+
+Session at start of order.php: Array
+(
+    [user_id] => 7
+    [email] => Javadooshakhlari@gmail.com
+    [last_order] => Array
+        (
+            [user_id] => 7
+            [order_number] => ORD-97792
+            [name] => Javad
+            [email] => Javadooshakhlari@gmail.com
+            [phone] => 09999999999
+            [project_type] => website
+            [details] => 5
+            [budget] => 9
+            [deadline] => 2025-07-08
+            [tracking_code] => 703064
+            [days] => 1
+            [order_id] => 8
+        )
+
+)
+
+User query result: Array
+(
+    [name] => Javad
+    [email] => Javadooshakhlari@gmail.com
+)
+
+Session at start of order.php: Array
+(
+    [user_id] => 7
+    [email] => Javadooshakhlari@gmail.com
+    [last_order] => Array
+        (
+            [user_id] => 7
+            [order_number] => ORD-97792
+            [name] => Javad
+            [email] => Javadooshakhlari@gmail.com
+            [phone] => 09999999999
+            [project_type] => website
+            [details] => 5
+            [budget] => 9
+            [deadline] => 2025-07-08
+            [tracking_code] => 703064
+            [days] => 1
+            [order_id] => 8
+        )
+
+)
+
+User query result: Array
+(
+    [name] => Javad
+    [email] => Javadooshakhlari@gmail.com
+)
+
+Session at start of order.php: Array
+(
+    [user_id] => 7
+    [email] => Javadooshakhlari@gmail.com
+    [last_order] => Array
+        (
+            [user_id] => 7
+            [order_number] => ORD-97792
+            [name] => Javad
+            [email] => Javadooshakhlari@gmail.com
+            [phone] => 09999999999
+            [project_type] => website
+            [details] => 5
+            [budget] => 9
+            [deadline] => 2025-07-08
+            [tracking_code] => 703064
+            [days] => 1
+            [order_id] => 8
+        )
+
+)
+
+User query result: Array
+(
+    [name] => Javad
+    [email] => Javadooshakhlari@gmail.com
+)
+
+Session at start of order.php: Array
+(
+    [user_id] => 7
+    [email] => Javadooshakhlari@gmail.com
+    [last_order] => Array
+        (
+            [user_id] => 7
+            [order_number] => ORD-97792
+            [name] => Javad
+            [email] => Javadooshakhlari@gmail.com
+            [phone] => 09999999999
+            [project_type] => website
+            [details] => 5
+            [budget] => 9
+            [deadline] => 2025-07-08
+            [tracking_code] => 703064
+            [days] => 1
+            [order_id] => 8
+        )
+
+)
+
+User query result: Array
+(
+    [name] => Javad
+    [email] => Javadooshakhlari@gmail.com
+)
+
+Session at start of order.php: Array
+(
+    [user_id] => 7
+    [email] => Javadooshakhlari@gmail.com
+    [last_order] => Array
+        (
+            [user_id] => 7
+            [order_number] => ORD-97792
+            [name] => Javad
+            [email] => Javadooshakhlari@gmail.com
+            [phone] => 09999999999
+            [project_type] => website
+            [details] => 5
+            [budget] => 9
+            [deadline] => 2025-07-08
+            [tracking_code] => 703064
+            [days] => 1
+            [order_id] => 8
+        )
+
+)
+
+User query result: Array
+(
+    [name] => Javad
+    [email] => Javadooshakhlari@gmail.com
+)
+
+Session at start of order.php: Array
+(
+    [user_id] => 7
+    [email] => Javadooshakhlari@gmail.com
+    [last_order] => Array
+        (
+            [user_id] => 7
+            [order_number] => ORD-97792
+            [name] => Javad
+            [email] => Javadooshakhlari@gmail.com
+            [phone] => 09999999999
+            [project_type] => website
+            [details] => 5
+            [budget] => 9
+            [deadline] => 2025-07-08
+            [tracking_code] => 703064
+            [days] => 1
+            [order_id] => 8
+        )
+
+)
+
+User query result: Array
+(
+    [name] => Javad
+    [email] => Javadooshakhlari@gmail.com
+)
+
+Session at start of order.php: Array
+(
+    [user_id] => 7
+    [email] => Javadooshakhlari@gmail.com
+    [last_order] => Array
+        (
+            [user_id] => 7
+            [order_number] => ORD-97792
+            [name] => Javad
+            [email] => Javadooshakhlari@gmail.com
+            [phone] => 09999999999
+            [project_type] => website
+            [details] => 5
+            [budget] => 9
+            [deadline] => 2025-07-08
+            [tracking_code] => 703064
+            [days] => 1
+            [order_id] => 8
+        )
+
+)
+
+User query result: Array
+(
+    [name] => Javad
+    [email] => Javadooshakhlari@gmail.com
+)
+
+Session at start of order.php: Array
+(
+    [user_id] => 7
+    [email] => Javadooshakhlari@gmail.com
+)
+
+User query result: Array
+(
+    [name] => Javad
+    [email] => Javadooshakhlari@gmail.com
+)
+
+Session at start of order.php: Array
+(
+)
+
+Redirecting to login.php: user_id not set
+Session at start of order.php: Array
+(
+    [user_id] => 7
+    [email] => Javadooshakhlari@gmail.com
+)
+
+User query result: Array
+(
+    [name] => Javad
+    [email] => Javadooshakhlari@gmail.com
+)
+
+Session at start of order.php: Array
+(
+    [user_id] => 7
+    [email] => Javadooshakhlari@gmail.com
+    [last_order] => Array
+        (
+            [user_id] => 7
+            [order_number] => ORD-97792
+            [name] => Javad
+            [email] => Javadooshakhlari@gmail.com
+            [phone] => 09999999999
+            [project_type] => website
+            [details] => 5
+            [budget] => 9
+            [deadline] => 2025-07-08
+            [tracking_code] => 703064
+            [days] => 1
+            [order_id] => 8
+        )
+
+)
+
+User query result: Array
+(
+    [name] => Javad
+    [email] => Javadooshakhlari@gmail.com
+)
+
+Session at start of order.php: Array
+(
+    [user_id] => 7
+    [email] => Javadooshakhlari@gmail.com
+    [last_order] => Array
+        (
+            [user_id] => 7
+            [order_number] => ORD-97792
+            [name] => Javad
+            [email] => Javadooshakhlari@gmail.com
+            [phone] => 09999999999
+            [project_type] => website
+            [details] => 5
+            [budget] => 9
+            [deadline] => 2025-07-08
+            [tracking_code] => 703064
+            [days] => 1
+            [order_id] => 8
+        )
+
+)
+
+User query result: Array
+(
+    [name] => Javad
+    [email] => Javadooshakhlari@gmail.com
+)
+
+Session at start of order.php: Array
+(
+    [user_id] => 7
+    [email] => Javadooshakhlari@gmail.com
+    [last_order] => Array
+        (
+            [user_id] => 7
+            [order_number] => ORD-97792
+            [name] => Javad
+            [email] => Javadooshakhlari@gmail.com
+            [phone] => 09999999999
+            [project_type] => website
+            [details] => 5
+            [budget] => 9
+            [deadline] => 2025-07-08
+            [tracking_code] => 703064
+            [days] => 1
+            [order_id] => 8
+        )
+
+)
+
+User query result: Array
+(
+    [name] => Javad
+    [email] => Javadooshakhlari@gmail.com
+)
+
+Session at start of order.php: Array
+(
+    [user_id] => 7
+    [email] => Javadooshakhlari@gmail.com
+    [last_order] => Array
+        (
+            [user_id] => 7
+            [order_number] => ORD-97792
+            [name] => Javad
+            [email] => Javadooshakhlari@gmail.com
+            [phone] => 09999999999
+            [project_type] => website
+            [details] => 5
+            [budget] => 9
+            [deadline] => 2025-07-08
+            [tracking_code] => 703064
+            [days] => 1
+            [order_id] => 8
+        )
+
+)
+
+User query result: Array
+(
+    [name] => Javad
+    [email] => Javadooshakhlari@gmail.com
+)
+
+Session at start of order.php: Array
+(
+    [user_id] => 7
+    [email] => Javadooshakhlari@gmail.com
+    [last_order] => Array
+        (
+            [user_id] => 7
+            [order_number] => ORD-97792
+            [name] => Javad
+            [email] => Javadooshakhlari@gmail.com
+            [phone] => 09999999999
+            [project_type] => website
+            [details] => 5
+            [budget] => 9
+            [deadline] => 2025-07-08
+            [tracking_code] => 703064
+            [days] => 1
+            [order_id] => 8
+        )
+
+)
+
+User query result: Array
+(
+    [name] => Javad
+    [email] => Javadooshakhlari@gmail.com
+)
+
+Session at start of order.php: Array
+(
+    [user_id] => 7
+    [email] => Javadooshakhlari@gmail.com
+    [last_order] => Array
+        (
+            [user_id] => 7
+            [order_number] => ORD-97792
+            [name] => Javad
+            [email] => Javadooshakhlari@gmail.com
+            [phone] => 09999999999
+            [project_type] => website
+            [details] => 5
+            [budget] => 9
+            [deadline] => 2025-07-08
+            [tracking_code] => 703064
+            [days] => 1
+            [order_id] => 8
+        )
+
+)
+
+User query result: Array
+(
+    [name] => Javad
+    [email] => Javadooshakhlari@gmail.com
+)
+
+Session at start of order.php: Array
+(
+    [user_id] => 7
+    [email] => Javadooshakhlari@gmail.com
+    [last_order] => Array
+        (
+            [user_id] => 7
+            [order_number] => ORD-97792
+            [name] => Javad
+            [email] => Javadooshakhlari@gmail.com
+            [phone] => 09999999999
+            [project_type] => website
+            [details] => 5
+            [budget] => 9
+            [deadline] => 2025-07-08
+            [tracking_code] => 703064
+            [days] => 1
+            [order_id] => 8
+        )
+
+)
+
+User query result: Array
+(
+    [name] => Javad
+    [email] => Javadooshakhlari@gmail.com
+)
+
+Session at start of order.php: Array
+(
+    [user_id] => 7
+    [email] => Javadooshakhlari@gmail.com
+    [last_order] => Array
+        (
+            [user_id] => 7
+            [order_number] => ORD-97792
+            [name] => Javad
+            [email] => Javadooshakhlari@gmail.com
+            [phone] => 09999999999
+            [project_type] => website
+            [details] => 5
+            [budget] => 9
+            [deadline] => 2025-07-08
+            [tracking_code] => 703064
+            [days] => 1
+            [order_id] => 8
+        )
+
+)
+
+User query result: Array
+(
+    [name] => Javad
+    [email] => Javadooshakhlari@gmail.com
+)
+
+Session at start of order.php: Array
+(
+    [user_id] => 7
+    [email] => Javadooshakhlari@gmail.com
+    [last_order] => Array
+        (
+            [user_id] => 7
+            [order_number] => ORD-97792
+            [name] => Javad
+            [email] => Javadooshakhlari@gmail.com
+            [phone] => 09999999999
+            [project_type] => website
+            [details] => 5
+            [budget] => 9
+            [deadline] => 2025-07-08
+            [tracking_code] => 703064
+            [days] => 1
+            [order_id] => 8
+        )
+
+)
+
+User query result: Array
+(
+    [name] => Javad
+    [email] => Javadooshakhlari@gmail.com
+)
+
+Session at start of order.php: Array
+(
+    [user_id] => 7
+    [email] => Javadooshakhlari@gmail.com
+    [last_order] => Array
+        (
+            [user_id] => 7
+            [order_number] => ORD-97792
+            [name] => Javad
+            [email] => Javadooshakhlari@gmail.com
+            [phone] => 09999999999
+            [project_type] => website
+            [details] => 5
+            [budget] => 9
+            [deadline] => 2025-07-08
+            [tracking_code] => 703064
+            [days] => 1
+            [order_id] => 8
+        )
+
+)
+
+User query result: Array
+(
+    [name] => Javad
+    [email] => Javadooshakhlari@gmail.com
+)
+

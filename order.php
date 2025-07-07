@@ -1,13 +1,23 @@
 <?php
 session_start();
+ini_set('display_errors', 1);
+ini_set('display_startup_errors', 1);
+error_reporting(E_ALL);
+
+// Log session for debugging
+file_put_contents('debug.log', "Session at start of order.php: " . print_r($_SESSION, true) . "\n", FILE_APPEND);
 
 // Check if user is logged in
 if (!isset($_SESSION['user_id'])) {
+    file_put_contents('debug.log', "Redirecting to login.php: user_id not set\n", FILE_APPEND);
     header("Location: login.php");
     exit;
 }
 
 // Database connection
+if (!file_exists('database/db.php')) {
+    die('خطا: فایل db.php یافت نشد.');
+}
 require_once 'database/db.php';
 
 // Include PHPMailer via Composer autoloader
@@ -18,59 +28,120 @@ use PHPMailer\PHPMailer\Exception;
 
 $confirmation = null;
 $error = null;
-$phone_error = null;
 
 try {
-    if ($_SERVER["REQUEST_METHOD"] == "POST") {
-        $name         = trim($_POST['name']);
-        $email        = trim($_POST['email']);
-        $phone        = trim($_POST['phone']);
-        $project_type = trim($_POST['project-type']);
-        $details      = trim($_POST['details']);
-        $budget       = str_replace(',', '', trim($_POST['budget']));
-        $days         = trim($_POST['days']);
-        $user_id      = $_SESSION['user_id'];
+    if (!isset($conn) || !$conn instanceof PDO) {
+        throw new Exception('اتصال دیتابیس ($conn) معتبر نیست.');
+    }
 
-        // Validate phone number (must be 11 digits, start with 09)
+    // Set PDO attributes for better error handling
+    $conn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
+
+    // Fetch user data to prefill form
+    $stmt = $conn->prepare("SELECT name, email FROM users WHERE id = ?");
+    $stmt->execute([$_SESSION['user_id']]);
+    $user = $stmt->fetch(PDO::FETCH_ASSOC);
+
+    // Log query result
+    file_put_contents('debug.log', "User query result: " . print_r($user, true) . "\n", FILE_APPEND);
+
+    if (!$user) {
+        file_put_contents('debug.log', "Redirecting to login.php: user not found for user_id {$_SESSION['user_id']}\n", FILE_APPEND);
+        session_unset();
+        session_destroy();
+        header("Location: login.php");
+        exit;
+    }
+
+    if ($_SERVER["REQUEST_METHOD"] == "POST") {
+        $name         = trim($_POST['name'] ?? '');
+        $email        = filter_var(trim($_POST['email'] ?? ''), FILTER_SANITIZE_EMAIL);
+        $phone        = trim($_POST['phone'] ?? '');
+        $project_type = trim($_POST['project-type'] ?? '');
+        $details      = trim($_POST['details'] ?? '');
+        $budget       = str_replace(',', '', trim($_POST['budget'] ?? ''));
+        $days         = trim($_POST['days'] ?? '');
+        $user_id      = (int)$_SESSION['user_id'];
+
+        // Validate inputs
+        if (empty($name) || empty($email) || empty($phone) || empty($project_type) || empty($details) || empty($budget) || empty($days)) {
+            throw new Exception("لطفاً تمام فیلدها را پر کنید.");
+        }
+        if (!filter_var($email, FILTER_VALIDATE_EMAIL)) {
+            throw new Exception("لطفاً ایمیل معتبر وارد کنید.");
+        }
         if (!preg_match('/^09[0-9]{9}$/', $phone)) {
             throw new Exception("لطفاً شماره تماس معتبر (۱۱ رقم، شروع با ۰۹) وارد کنید.");
         }
-
-        // Validate days
+        if (!is_numeric($budget) || $budget <= 0) {
+            throw new Exception("لطفاً بودجه معتبر (بزرگ‌تر از صفر) وارد کنید.");
+        }
         if (!is_numeric($days) || $days <= 0) {
             throw new Exception("لطفاً تعداد روزهای معتبر (بزرگ‌تر از صفر) وارد کنید.");
         }
+        if (strlen($project_type) > 100) {
+            throw new Exception("نوع پروژه نمی‌تواند بیش از ۱۰۰ کاراکتر باشد.");
+        }
+        if (strlen($details) > 1000) {
+            throw new Exception("جزئیات پروژه نمی‌تواند بیش از ۱۰۰۰ کاراکتر باشد.");
+        }
+
+        // Check order limit per day
+        $stmt = $conn->prepare("SELECT COUNT(*) FROM orders WHERE user_id = ? AND order_date > NOW() - INTERVAL 1 DAY");
+        $stmt->execute([$user_id]);
+       
 
         // Calculate deadline date
         $deadline = date('Y-m-d', strtotime("+$days days"));
 
-        // Generate unique 6-digit tracking code
+        // Generate unique 6-digit tracking code and order number
         do {
             $tracking_code = rand(100000, 999999);
-            $stmt = $conn->prepare("SELECT COUNT(*) FROM orders WHERE tracking_code = :tracking_code");
-            $stmt->execute([':tracking_code' => $tracking_code]);
+            $stmt = $conn->prepare("SELECT COUNT(*) FROM orders WHERE tracking_code = ?");
+            $stmt->execute([$tracking_code]);
             $exists = $stmt->fetchColumn();
         } while ($exists);
 
-        // Insert into database
-        $stmt = $conn->prepare("INSERT INTO orders (user_id, name, email, phone, project_type, details, budget, deadline, tracking_code, days) 
-                              VALUES (:user_id, :name, :email, :phone, :project_type, :details, :budget, :deadline, :tracking_code, :days)");
-        $stmt->execute([
-            ':user_id'      => $user_id,
+        do {
+            $order_number = 'ORD-' . rand(10000, 99999);
+            $stmt = $conn->prepare("SELECT COUNT(*) FROM orders WHERE order_number = ?");
+            $stmt->execute([$order_number]);
+            $exists = $stmt->fetchColumn();
+        } while ($exists);
+
+        // Prepare data for insertion
+        $params = [
+            ':user_id'      => (int)$user_id,
+            ':order_number' => $order_number,
             ':name'         => $name,
             ':email'        => $email,
             ':phone'        => $phone,
             ':project_type' => $project_type,
             ':details'      => $details,
-            ':budget'       => $budget,
+            ':budget'       => (float)$budget,
             ':deadline'     => $deadline,
-            ':tracking_code' => $tracking_code,
-            ':days'         => $days
-        ]);
+            ':tracking_code' => (string)$tracking_code,
+            ':days'         => (int)$days,
+            ':status'       => 'pending'
+        ];
+
+        // Log parameters for debugging
+        file_put_contents('debug.log', "SQL Parameters: " . print_r($params, true) . "\n", FILE_APPEND);
+
+        // Insert into database
+        $query = "INSERT INTO orders (user_id, order_number, name, email, phone, project_type, details, budget, deadline, tracking_code, days, order_date, status) 
+                  VALUES (:user_id, :order_number, :name, :email, :phone, :project_type, :details, :budget, :deadline, :tracking_code, :days, NOW(), :status)";
+        
+        $stmt = $conn->prepare($query);
+        if (!$stmt->execute($params)) {
+            throw new Exception('خطا در ثبت سفارش در دیتابیس: ' . implode(' ', $stmt->errorInfo()));
+        }
 
         // Store in session for invoice
+        unset($_SESSION['last_order']);
         $_SESSION['last_order'] = [
             'user_id'       => $user_id,
+            'order_number'  => $order_number,
             'name'          => $name,
             'email'         => $email,
             'phone'         => $phone,
@@ -91,8 +162,8 @@ try {
             $mail->Host = 'smtp.gmail.com';
             $mail->SMTPAuth = true;
             $mail->Username = 'myitland.ir@gmail.com';
-            $mail->Password = 'tcae fqhb huxl unqh';
-            $mail->SMTPSecure = 'tls';
+            $mail->Password = 'tcae fqhb huxl unqh'; // Use an App Password for Gmail
+            $mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS;
             $mail->Port = 587;
 
             $mail->setFrom('myitland.ir@gmail.com', 'وبسایت آیتی لند');
@@ -113,8 +184,8 @@ try {
                     }
                     body {
                         font-family: \'Vazir\', Arial, sans-serif;
-                        background: linear-gradient(135deg, #0f0c29 0%, #302b63 50%, #24243e 100%);
-                        color: #ffffff;
+                       
+                        color:rgb(21, 21, 21);
                         direction: rtl;
                         margin: 0;
                         padding: 0;
@@ -131,7 +202,7 @@ try {
                         font-size: 24px;
                         margin-bottom: 20px;
                         text-align: center;
-                        color: #ff7e5f;
+                        color:rgb(98, 255, 95);
                     }
                     .invoice-details {
                         font-size: 16px;
@@ -143,7 +214,7 @@ try {
                         margin-bottom: 10px;
                     }
                     .invoice-details strong {
-                        color: #ff7e5f;
+                        color:rgb(95, 255, 116);
                     }
                     .footer {
                         text-align: center;
@@ -152,7 +223,7 @@ try {
                         color: #ffffff;
                     }
                     .footer a {
-                        color: #ff7e5f;
+                        color:rgb(95, 255, 156);
                         text-decoration: none;
                     }
                     .footer a:hover {
@@ -165,13 +236,15 @@ try {
                     <h2>جزئیات سفارش شما</h2>
                     <div class="invoice-details">
                         <p><strong>کد رهگیری:</strong> ' . htmlspecialchars($tracking_code) . '</p>
+                        <p><strong>شماره سفارش:</strong> ' . htmlspecialchars($order_number) . '</p>
                         <p><strong>نام و نام خانوادگی:</strong> ' . htmlspecialchars($name) . '</p>
                         <p><strong>ایمیل:</strong> ' . htmlspecialchars($email) . '</p>
                         <p><strong>شماره تماس:</strong> ' . htmlspecialchars($phone) . '</p>
                         <p><strong>نوع پروژه:</strong> ' . htmlspecialchars($project_type) . '</p>
-                        <p><strong>جزئیات پروژه:</strong> ' . htmlspecialchars($details) . '</p>
+                        <p><strong>جزئیات پروژه:</strong> ' . nl2br(htmlspecialchars($details)) . '</p>
                         <p><strong>بودجه تقریبی:</strong> ' . number_format($budget) . ' تومان</p>
                         <p><strong>مهلت تحویل (روز):</strong> ' . htmlspecialchars($days) . ' روز</p>
+                        <p><strong>تاریخ سررسید:</strong> ' . htmlspecialchars($deadline) . '</p>
                     </div>
                     <div class="footer">
                         <p>© 2025 طراحی شده توسط وبسایت آیتی لند | <a href="#">شرایط و ضوابط</a></p>
@@ -181,268 +254,517 @@ try {
             </html>';
 
             $mail->send();
+            $confirmation = "سفارش شما با موفقیت ثبت شد! فاکتور به ایمیل شما ارسال شد. به صفحه فاکتور هدایت می‌شوید...";
+            header("Refresh:2; url=factor.php");
         } catch (Exception $e) {
-            $error = "خطا در ارسال ایمیل: " . $mail->ErrorInfo;
+            $error = "خطا در ارسال ایمیل: " . htmlspecialchars($e->getMessage());
         }
-
-        // Set confirmation message
-        $confirmation = "سفارش شما با موفقیت ثبت شد! فاکتور به ایمیل شما ارسال شد. به صفحه فاکتور هدایت می‌شوید...";
-        
-        // Redirect to factor.php after 2 seconds
-        header("Refresh:2; url=factor.php");
     }
 } catch (Exception $e) {
-    $error = "خطا در ثبت سفارش: " . $e->getMessage();
+    $error = "خطا در ثبت سفارش: " . htmlspecialchars($e->getMessage());
 }
 ?>
+
+
 <!DOCTYPE html>
-<html lang="fa">
+<html lang="fa" dir="rtl">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>سفارش پروژه</title>
     <style>
-        @font-face {
-            font-family: 'Vazir';
-            src: url('https://cdn.fontcdn.ir/Font/Persian/Vazir/Vazir.woff2') format('woff2');
-            font-weight: normal;
-            font-style: normal;
-        }
+       
+            @font-face {
+  font-family: iranSans;
+  font-style: normal;
+  font-weight: bolder;
+  src: url(yekan/Yekan-Bakh-FaNum-07-Heavy.woff);
+}
+
+@font-face {
+  font-family: iranSans;
+  font-style: normal;
+  font-weight: bold;
+  src: url(yekan/Yekan-Bakh-FaNum-06-Bold.woff);
+}
+
+@font-face {
+  font-family: iranSans;
+  font-style: normal;
+  font-weight: 900;
+  src: url(yekan/Yekan-Bakh-FaNum-08-Fat.woff);
+}
+
+@font-face {
+  font-family: iranSans;
+  font-style: normal;
+  font-weight: 700;
+  src: url(yekan/Yekan-Bakh-FaNum-05-Medium.woff);
+}
+
+
+
+@font-face {
+  font-family: iranSans;
+  font-style: normal;
+  font-weight: 300;
+  src: url(yekan/Yekan-Bakh-FaNum-04-Regular.woff);
+}
 
         * {
+            font-family: iranSans;
             margin: 0;
             padding: 0;
             box-sizing: border-box;
-            font-family: 'Vazir', sans-serif;
         }
 
         body {
-            background: linear-gradient(135deg, #0f0c29 0%, #302b63 50%, #24243e 100%);
-            color: #ffffff;
+            
+            background-color: #f5f5f5;
             direction: rtl;
-            overflow-x: hidden;
+            margin: 0;
+            padding: 0;
+            overflow-x: hidden!important;
         }
 
-        header {
-            background: linear-gradient(90deg, #ff7e5f, #feb47b);
-            padding: 2rem;
-            text-align: center;
-            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
-        }
+/* افکت گرادیانت متحرک برای header */
+@keyframes headerGradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
 
-        header h1 {
-            font-size: 2.5rem;
-            font-weight: bold;
-        }
+header {
+  background: linear-gradient(270deg, rgb(25, 25, 25), rgb(50, 50, 50));
+  background-size: 400% 400%;
+  animation: headerGradient 8s ease infinite;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  border-bottom: 2px solid rgb(255, 255, 255);
+}
 
-        .container {
-            max-width: 1000px;
-            margin: 2rem auto;
-            padding: 0 1rem;
-        }
+h1 {
+  font-size: 36px;
+  margin: 0;
+}
 
-        .form-container {
-            background: rgba(255, 255, 255, 0.1);
-            backdrop-filter: blur(12px);
-            padding: 2rem;
-            border-radius: 15px;
-            box-shadow: 0 6px 20px rgba(0, 0, 0, 0.2);
-        }
+.container {
+  width: 80%;
+  margin: 30px auto;
+}
 
-        .steps-container {
-            display: flex;
-            justify-content: center;
-            gap: 1rem;
-            margin-bottom: 2rem;
-        }
+/* فرم کانتینر با افکت هاور انیمیشنی */
+.form-container {
+  background-color: white;
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: 0 2px 15px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  display: flex;
+  flex-direction: column;
+}
+.stepsSec{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 
-        .step {
-            width: 50px;
-            height: 50px;
-            background: #2c2c54;
-            color: #ffffff;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            border-radius: 50%;
-            font-size: 1.2rem;
-            transition: all 0.3s ease;
-            position: relative;
-        }
+.steps-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 40px;
+  gap: 0px;
+  position: relative;
+  margin-left: 1rem;
+  max-width: 920px;
+  width: 100%;
+}
 
-        .step.active {
-            background: #ff7e5f;
-            transform: scale(1.15);
-            box-shadow: 0 0 12px rgba(255, 126, 95, 0.7);
-        }
+.step:first-child {
+  border-radius: 0 20px 20px 0;
+}
+.step:last-child {
+  border-radius: 20px 0px 0px 20px;
+}
 
-        .step img {
-            position: absolute;
-            top: -35px;
-            width: 30px;
-            transition: opacity 0.3s ease;
-        }
+/* افکت پالس برای مرحله فعال */
+@keyframes pulse {
+  0% { box-shadow: 0 0 0 0 rgba(60, 217, 114, 0.7); }
+  70% { box-shadow: 0 0 0 10px transparent; }
+  100% { box-shadow: 0 0 0 0 rgba(60, 217, 114, 0.7); }
+}
+.active {
+    color: white !important;
+  background-color: rgb(13, 224, 115);
+  animation: pulse 2s infinite;
+}
 
-        .form-group {
-            margin-bottom: 1.5rem;
-        }
+.step {
+  z-index: 1;
+  position: relative;
+  width: 25%;
+  text-align: center;
+  padding: 10px;
+  font-size: 18px;
+  border: 5px solid rgb(38, 40, 40);
+  color: rgb(38, 40, 40);
+  min-width: 50px;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
 
-        .form-group label {
-            font-size: 1.1rem;
-            color: #ffffff;
-            margin-bottom: 0.5rem;
-            display: block;
-        }
 
-        .form-group input,
-        .form-group textarea,
-        .form-group select {
-            width: 100%;
-            padding: 0.8rem;
-            font-size: 1rem;
-            border: none;
-            border-radius: 10px;
-            background: rgba(255, 255, 255, 0.15);
-            color: #ffffff;
-            transition: all 0.3s ease;
-        }
+.step img {
+  position: absolute;
+  right: 40%;
+  top: -49px;
+  width: 45px;
+  z-index: 100;
+  animation: lampGlow 3s ease-in-out infinite alternate;
+}
+@keyframes lampGlow {
+  from { filter: brightness(1); }
+  to { filter: brightness(1.2); }
+}
 
-        .form-group select option {
-            background: #2c2c54;
-            color: #ffffff;
-        }
+.cable {
+  position: absolute;
+  right: 57%;
+  top: -53px;
+  height: 50px;
+  width: 88%;
+  animation: cableSwing 4s ease-in-out infinite;
+}
+@keyframes cableSwing {
+  0% { transform: rotate(0deg); }
+  50% { transform: rotate(2deg); }
+  100% { transform: rotate(0deg); }
+}
 
-        .form-group input:focus,
-        .form-group textarea:focus,
-        .form-group select:focus {
-            outline: none;
-            background: rgba(255, 255, 255, 0.25);
-            box-shadow: 0 0 10px rgba(255, 126, 95, 0.5);
-        }
+#cable1 {
+  z-index: 10;
+}
+#cable2 {
+  z-index: 10;
+}
+#cable3 {
+  z-index: 10;
+}
+.rotCable {
+  transform: rotate(180deg);
+}
 
-        .error-text {
+#step1 {
+  border-left: unset;
+}
+#step2 {
+  border-left: unset;
+  border-right: unset;
+}
+#step3 {
+  border-left: unset;
+  border-right: unset;
+}
+#step4 {
+  border-right: unset;
+}
+
+@media screen and (max-width:770px) {
+    .steps-container{
+        margin: 0px -60px;
+        margin-top: -45%;
+        scale: 0.85;
+    }
+    .category-box{
+        font-size: 13px;
+    }
+    .category-boxes{
+        gap: 0px;
+    }
+  .step:first-child {
+    border-radius: 20px 20px 0 0;
+  }
+  .step:last-child {
+    border-radius: 0 0 20px 20px;
+  }
+  .form-container {
+    flex-direction: row;
+  }
+  .form-container button {
+    font-size: 12px!important;
+  }
+  .step img {
+    position: absolute;
+    right: -38px;
+    top: 6px;
+    transform: rotate(90deg);
+    width: 35px;
+  }
+  .cable {
+    display: none;
+  }
+  .step {
+    border: 5px solid rgb(38, 40, 40);
+  }
+  #step1 {
+    border-bottom: unset;
+    border-left: 5px solid rgb(38, 40, 40);
+  }
+  #step2 {
+    border-bottom: unset;
+    border-top: unset;
+    border-right: 5px solid rgb(38, 40, 40);
+    border-left: 5px solid rgb(38, 40, 40);
+  }
+  #step3 {
+    border-bottom: unset;
+    border-top: unset;
+    border-right: 5px solid rgb(38, 40, 40);
+    border-left: 5px solid rgb(38, 40, 40);
+  }
+  #step4 {
+    border-top: unset;
+    border-right: 5px solid rgb(38, 40, 40);
+  }
+}
+
+.form-container {
+  margin-bottom: 20px;
+}
+
+.form-container label {
+  font-size: 18px;
+  color: #333;
+  margin-bottom: 8px;
+  display: block;
+}
+
+.form-container input,
+.form-container textarea,
+.form-container select {
+  width: 100%;
+  padding: 12px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-top: 5px;
+  transition: border-color 0.3s ease;
+}
+.form-container input:hover,
+.form-container textarea:hover,
+.form-container select:hover {
+  border-color: #3cd972;
+}
+
+.form-container input:focus,
+.form-container textarea:focus,
+.form-container select:focus {
+  border-color: #3cd972;
+  outline: none;
+}
+
+.form-container button {
+  background-color: rgb(38, 40, 40);
+  color: white;
+  padding: 10px 15px;
+  font-size: 18px;
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+  margin-top: 0.4rem;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+.form-container button:hover {
+  background-color: #3cd972;
+  transform: translateY(-2px);
+  box-shadow: 0 5px 15px rgba(60, 217, 114, 0.3);
+}
+
+.footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 15px;
+  margin-top: 40px;
+}
+
+footer a {
+  color: #3cd972;
+  text-decoration: none;
+  font-weight: bold;
+}
+footer a:hover {
+  text-decoration: underline;
+}
+
+/* Mobile responsive design */
+@media (max-width: 768px) {
+  .container {
+    width: 95%;
+  }
+  header h1 {
+    font-size: 28px;
+  }
+  .steps-container {
+    flex-direction: column;
+  }
+  .category-boxes {
+    flex-direction: column;
+    gap: -40px;
+    scale: 0.8;
+    
+  }
+  .category-box{
+    margin: -30px auto;
+  }
+  #graphCat {
+    margin-top: -2rem;
+  }
+  .form-group label{
+    font-size: 16px !important;
+  }
+}
+
+.category-boxes {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.3rem;
+}
+.category-box {
+  padding: 0.2rem 0.8rem;
+  text-align: center;
+  background-color: #333;
+  border-radius: 12px;
+  transition: all 0.2s ease-out;
+  font-size: x-large;
+  color: #f5f5f5;
+  margin-bottom: 2rem;
+  cursor: pointer;
+}
+.category-box:hover {
+  transform: translateY(-3px);
+}
+
+
+/* Mobile responsive design */
+@media (max-width: 768px) {
+  .container {
+    width: 95%;
+  }
+  header h1 {
+    font-size: 28px;
+  }
+  .step-container {
+    flex-direction: column;
+  }
+  .category-boxes {
+    flex-direction: column;
+  }
+  #graphCat {
+    margin-top: -2rem;
+  }
+  #testCat {
+    margin-top: -2rem;
+  }
+}
+
+.category-boxes {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.3rem;
+ margin-top: 0.3rem;
+}
+.category-box {
+  padding: 0.2rem 0.8rem;
+  text-align: center;
+  background-color: #333;
+  border-radius: 12px;
+  transition: all 0.2s ease-out;
+  font-size: x-large;
+  color: #f5f5f5;
+  margin-bottom: 2rem;
+  cursor: pointer;
+ 
+}
+.category-box:hover {
+  transform: translateY(-3px);
+}
+.active-cat {
+  background-color: #3cd972;
+  transform: translateY(-1px);
+}
+
+form {
+  position: relative;
+  min-height: 500px;       /* حداقل ارتفاع فرم */
+  padding-bottom: 40px;    /* فضای کافی برای دکمه‌ها */
+}
+
+.steps-wrapper {
+  overflow: hidden;        /* مخفی کردن مراحل غیرفعال */
+  position: relative;
+}
+
+
+/* نمایش مرحله‌ی فعال */
+
+
+/* استایل ثابت باکس دکمه‌ها */
+.formButtons {
+  display: flex;
+  position: absolute;
+  bottom: 100px;
+  left: 50%;
+  transform: translateX(-50%);
+  text-align: center;
+  width: 100%;
+  z-index: 10;            
+  min-width: 250px;
+}
+
+.formButtons button {
+  margin: 0 8px;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+ .error-text {
             color: #ff4d4d;
             font-size: 0.9rem;
             margin-top: 0.3rem;
             display: none;
         }
 
-        .category-boxes {
-            display: flex;
-            gap: 1rem;
-            justify-content: center;
-            margin-bottom: 1.5rem;
-        }
-
-        .category-box {
-            padding: 0.8rem 1.5rem;
-            background: #2c2c54;
-            border-radius: 10px;
-            color: #ffffff;
-            cursor: pointer;
-            transition: all 0.3s ease;
-            font-size: 1.1rem;
-        }
-
-        .category-box.active {
-            background: #ff7e5f;
-            transform: translateY(-2px);
-        }
-
-        .category-box:hover {
-            background: #feb47b;
-            transform: translateY(-2px);
-        }
-
-        .form-buttons {
-            display: flex;
-            justify-content: center;
-            gap: 1rem;
-            margin-top: 1.5rem;
-        }
-
-        .form-buttons button {
-            padding: 0.8rem 1.5rem;
-            font-size: 1rem;
-            border: none;
-            border-radius: 10px;
-            background: #ff7e5f;
-            color: #ffffff;
-            cursor: pointer;
-            transition: all 0.3s ease;
-        }
-
-        .form-buttons button:disabled {
-            background: #555;
-            cursor: not-allowed;
-            transform: none;
-            box-shadow: none;
-        }
-
-        .form-buttons button:hover:not(:disabled) {
-            background: #feb47b;
-            transform: translateY(-2px);
-            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
-        }
-
-        .message {
+          .message {
             text-align: center;
-            margin-bottom: 1rem;
+            margin-bottom: 3rem;
             font-size: 1.1rem;
             padding: 1rem;
             border-radius: 10px;
         }
-
         .confirmation-message {
             color: #ffffff;
             background: #28a745;
         }
-
         .error-message {
             color: #ffffff;
             background: #dc3545;
         }
 
-        footer {
-            background: #0f0c29;
-            padding: 1.5rem;
-            text-align: center;
-            color: #ffffff;
-        }
-
-        footer a {
-            color: #ff7e5f;
-            text-decoration: none;
-            font-weight: bold;
-        }
-
-        footer a:hover {
-            text-decoration: underline;
-        }
-
-        @media (max-width: 768px) {
-            header h1 {
-                font-size: 1.8rem;
-            }
-
-            .container {
-                width: 95%;
-            }
-
-            .steps-container {
-                flex-direction: column;
-                align-items: center;
-            }
-
-            .step {
-                width: 40px;
-                height: 40px;
-                font-size: 1rem;
-            }
-
-            .category-boxes {
-                flex-direction: column;
-            }
+         .form-buttons button:disabled {
+            background: #555;
+            cursor: not-allowed;
+            transform: none;
+            box-shadow: none;
         }
     </style>
 </head>
@@ -454,9 +776,9 @@ try {
     <div class="container">
         <div class="form-container">
             <?php if (isset($confirmation)): ?>
-                <p class="message confirmation-message"><?php echo $confirmation; ?></p>
+                <p class="message confirmation-message"><?php echo htmlspecialchars($confirmation); ?></p>
             <?php elseif (isset($error)): ?>
-                <p class="message error-message"><?php echo $error; ?></p>
+                <p class="message error-message"><?php echo htmlspecialchars($error); ?></p>
             <?php endif; ?>
 
             <div class="steps-container">
@@ -479,11 +801,11 @@ try {
                 <div id="form-step-1">
                     <div class="form-group">
                         <label for="name">نام و نام خانوادگی:</label>
-                        <input type="text" id="name" name="name" required>
+                        <input type="text" id="name" name="name" value="<?php echo htmlspecialchars($user['name'] ?? ''); ?>" required>
                     </div>
                     <div class="form-group">
                         <label for="email">ایمیل:</label>
-                        <input type="email" id="email" name="email" required>
+                        <input type="email" id="email" name="email" value="<?php echo htmlspecialchars($user['email'] ?? ''); ?>" required>
                     </div>
                     <div class="form-group">
                         <label for="phone">شماره تماس:</label>
@@ -498,7 +820,7 @@ try {
                 <!-- Step 2 -->
                 <div id="form-step-2" style="display: none;">
                     <div class="category-boxes">
-                        <div class="category-box active" onclick="selectCategory('web')">وبسایت</div>
+                        <div class="category-box active-cat" onclick="selectCategory('web')">وبسایت</div>
                         <div class="category-box" onclick="selectCategory('graph')">گرافیک</div>
                         <div class="category-box" onclick="selectCategory('test')">تست نفوذ</div>
                     </div>
@@ -585,7 +907,7 @@ try {
         function selectCategory(category) {
             currentCategory = category;
             document.querySelectorAll('.category-box').forEach(box => {
-                box.classList.toggle('active', box.textContent === {web: 'وبسایت', graph: 'گرافیک', test: 'تست نفوذ'}[category]);
+                box.classList.toggle('active-cat', box.textContent === {web: 'وبسایت', graph: 'گرافیک', test: 'تست نفوذ'}[category]);
             });
             document.getElementById('web-form').style.display = category === 'web' ? 'block' : 'none';
             document.getElementById('graph-form').style.display = category === 'graph' ? 'block' : 'none';
@@ -630,7 +952,8 @@ try {
             const email = document.getElementById('email').value.trim();
             const phone = document.getElementById('phone').value.trim();
             const nextButton = document.getElementById('next-step-1');
-            nextButton.disabled = !(name && email && phone);
+            const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+            nextButton.disabled = !(name && email && emailRegex.test(email) && phone);
         }
 
         function checkStep2() {
@@ -646,10 +969,10 @@ try {
         }
 
         function checkStep4() {
-            const budget = document.getElementById('budget').value.trim();
+            const budget = document.getElementById('budget').value.replace(/,/g, '').trim();
             const days = document.getElementById('days').value.trim();
             const submitButton = document.getElementById('submit-button');
-            submitButton.disabled = !(budget && days && Number(days) > 0);
+            submitButton.disabled = !(budget && Number(budget) > 0 && days && Number(days) > 0);
         }
 
         const budgetInput = document.getElementById('budget');

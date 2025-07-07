@@ -1,6 +1,7 @@
 <?php 
 session_start();
 ?>
+
 <?php 
 include './database/db.php';
 
@@ -394,9 +395,79 @@ tr.row-1.odd {
 													</ul>
 					</nav>
 					<!-- #site-navigation -->
-           <a class="btn primary hidden lg:block font-bold h-fit" style="margin-top: auto;" href="./login.php">
-							<span class="font-serif tracking-normal h-fit text-base"> ورود </span>
-						</a>
+          <style>
+    @font-face {
+        font-family: iranSans;
+        font-style: normal;
+        font-weight: bold;
+        src: url(./yekan/Yekan-Bakh-FaNum-06-Bold.woff);
+    }
+    
+    
+    .profile-circle {
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        overflow: hidden;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background: #f5f5f5;
+        border: 2px solid #28a745;
+        transition: border-color 0.3s ease-in-out;
+        margin-top: 20px;
+        margin-left: 20px;
+    }
+
+    .profile-circle:hover {
+        border-color: #5cd67a;
+    }
+    .profile-circle svg {
+        width: 24px;
+        height: 24px;
+        fill: #333;
+    }
+    .hidden.lg\:block {
+        display: none;
+    }
+    @media (min-width: 1024px) {
+        .hidden.lg\:block {
+            display: flex;
+            align-items: center;
+        }
+        .profile-circle{
+          display: none;
+        }
+    }
+    .btn.primary {
+    fill: #fff;
+    --tw-text-opacity: 1;
+    color: rgb(255 255 255 / var(--tw-text-opacity));
+    background-color: var(--btn-color);
+    margin-top: 20px;
+    margin-right: auto;
+}
+    .pry2 {
+    fill: #fff;
+    --tw-text-opacity: 1;
+    color: rgb(255 255 255 / var(--tw-text-opacity));
+    background-color: var(--btn-color);
+    
+}
+
+</style>
+
+<?php if (isset($_SESSION['user_id'])): ?>
+    <a class="profile-circle hidden lg:block" href="dashboard.php?section=profile" title="پروفایل">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+            <path d="M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z"/>
+        </svg>
+    </a>
+<?php else: ?>
+    <a class="btn primary pry2 hidden lg:block font-bold h-fit" href="./login.php">
+        <span class="font-serif tracking-normal h-fit text-base ">ورود</span>
+    </a>
+<?php endif; ?>
 					<div class="flex items-center justify-between w-full">
 						
 						<button onclick="window.showDrawer()" class="p-3 lg:hidden">
@@ -407,10 +478,18 @@ tr.row-1.odd {
             	<a href="https://myitland.ir" title=" آیتی لند" rel="home">
 							<img width="96" height="55" src="tasavir/ItLogo.png" class="w-24 lg:hidden" alt=" ابتی لند" decoding="async">
 						</a>
-						
-						<a class="btn primary p-1 lg:hidden font-bold" href="./login.php">
+						<?php if (isset($_SESSION['user_id'])): ?>
+    <a class="profile-circle lg:hidden " style="margin-top: -0.5rem;"  href="dashboard.php?section=profile" title="پروفایل">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+            <path d="M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z"/>
+        </svg>
+    </a>
+<?php else: ?>
+   	<a class="btn primary p-1 lg:hidden font-bold" href="./login.php">
 							<span class="font-serif tracking-normal text-base"><svg width="30px" height="30px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path opacity="0.5" d="M15.9998 2L14.9998 2C12.1714 2 10.7576 2.00023 9.87891 2.87891C9.00023 3.75759 9.00023 5.1718 9.00023 8.00023L9.00023 16.0002C9.00023 18.8287 9.00023 20.2429 9.87891 21.1215C10.7574 22 12.1706 22 14.9976 22L14.9998 22L15.9998 22C18.8282 22 20.2424 22 21.1211 21.1213C21.9998 20.2426 21.9998 18.8284 21.9998 16L21.9998 8L21.9998 7.99998C21.9998 5.17157 21.9998 3.75736 21.1211 2.87868C20.2424 2 18.8282 2 15.9998 2Z" fill="#cfcfcf"></path> <path fill-rule="evenodd" clip-rule="evenodd" d="M1.25098 11.999C1.25098 11.5848 1.58676 11.249 2.00098 11.249L13.9735 11.249L12.0129 9.56845C11.6984 9.29889 11.662 8.82541 11.9315 8.51092C12.2011 8.19642 12.6746 8.16 12.9891 8.42957L16.4891 11.4296C16.6553 11.5721 16.751 11.7801 16.751 11.999C16.751 12.218 16.6553 12.426 16.4891 12.5685L12.9891 15.5685C12.6746 15.838 12.2011 15.8016 11.9315 15.4871C11.662 15.1726 11.6984 14.6991 12.0129 14.4296L13.9735 12.749L2.00098 12.749C1.58676 12.749 1.25098 12.4132 1.25098 11.999Z" fill="#cfcfcf"></path> </g></svg></span>
 						</a>
+<?php endif; ?>
+					
 						              <!-- <a class="btn primary" href="#"> ثبت نام</a> -->
 					</div>
 

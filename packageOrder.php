@@ -1,12 +1,53 @@
 <?php
+ob_start();
 session_start();
 
-$package = $_GET['package'] ?? 'نامشخص';
+// Log session for debugging
+file_put_contents('debug.log', "Session at start of order_form.php: " . print_r($_SESSION, true) . "\n", FILE_APPEND);
 
+// Check if user is logged in
+if (!isset($_SESSION['user_id'])) {
+    file_put_contents('debug.log', "Redirecting to login.php from order_form.php: user_id not set\n", FILE_APPEND);
+    header("Location: login.php");
+    exit;
+}
+
+// Database connection to fetch user data
+if (!file_exists('database/db.php')) {
+    die('خطا: فایل db.php یافت نشد.');
+}
+require_once 'database/db.php';
+
+try {
+    if (!isset($conn) || !$conn instanceof PDO) {
+        throw new Exception('اتصال دیتابیس ($conn) معتبر نیست.');
+    }
+    $stmt = $conn->prepare("SELECT name, email FROM users WHERE id = ?");
+    $stmt->execute([$_SESSION['user_id']]);
+    $user = $stmt->fetch(PDO::FETCH_ASSOC);
+
+    if (!$user) {
+        file_put_contents('debug.log', "Redirecting to login.php from order_form.php: user not found for user_id {$_SESSION['user_id']}\n", FILE_APPEND);
+        session_unset();
+        session_destroy();
+        header("Location: login.php");
+        exit;
+    }
+} catch (Exception $e) {
+    file_put_contents('debug.log', "Error in order_form.php: " . $e->getMessage() . "\n", FILE_APPEND);
+    die("خطا: " . htmlspecialchars($e->getMessage()));
+}
+
+// Generate CSRF token
+if (!isset($_SESSION['csrf_token'])) {
+    $_SESSION['csrf_token'] = bin2hex(random_bytes(32));
+}
+
+$package = $_GET['package'] ?? 'نامشخص';
 $successMessage = $_SESSION['success_message'] ?? '';
 $errorMessage = $_SESSION['error_message'] ?? '';
 
-// پاک کردن پیام‌ها بعد از خواندن
+// Clear session messages
 unset($_SESSION['success_message'], $_SESSION['error_message']);
 ?>
 <!DOCTYPE html>
@@ -25,7 +66,7 @@ unset($_SESSION['success_message'], $_SESSION['error_message']);
         <div class="line"></div>
       </div>
 
-      <!-- نمایش پیام‌ها -->
+      <!-- Display messages -->
       <?php if ($successMessage): ?>
         <div style="background-color:#d4edda; color:#155724; padding:10px; margin-bottom:15px; border-radius:5px;">
           <?php echo htmlspecialchars($successMessage); ?>
@@ -40,6 +81,7 @@ unset($_SESSION['success_message'], $_SESSION['error_message']);
 
       <div class="gridContainer">
         <form action="submit_order.php" method="post" novalidate>
+          <input type="hidden" name="csrf_token" value="<?php echo htmlspecialchars($_SESSION['csrf_token']); ?>">
           <input type="hidden" name="package" value="<?php echo htmlspecialchars($package); ?>">
 
           <div class="form-groups">
@@ -48,7 +90,7 @@ unset($_SESSION['success_message'], $_SESSION['error_message']);
                 <label for="fullname">نام کامل</label>
                 <!-- آیکون -->
               </div>
-              <input type="text" id="fullname" name="fullname" required />
+              <input type="text" id="fullname" name="fullname" value="<?php echo htmlspecialchars($user['name']); ?>" readonly required />
             </div>
 
             <div class="form-group grid2">
@@ -66,7 +108,7 @@ unset($_SESSION['success_message'], $_SESSION['error_message']);
                 <label for="user_email">ایمیل</label>
                 <!-- آیکون -->
               </div>
-              <input type="email" id="user_email" name="user_email" />
+              <input type="email" id="user_email" name="user_email" value="<?php echo htmlspecialchars($user['email']); ?>"  readonly required />
             </div>
 
             <div class="form-group grid4">
@@ -84,6 +126,23 @@ unset($_SESSION['success_message'], $_SESSION['error_message']);
               <!-- آیکون -->
             </div>
             <textarea id="description" name="description" rows="4"></textarea>
+          </div>
+
+          <!-- Added fields for budget and days -->
+          <div class="form-group">
+            <div class="svg-flex">
+              <label for="budget">بودجه (تومان)</label>
+              <!-- آیکون -->
+            </div>
+            <input type="text" id="budget" name="budget" required />
+          </div>
+
+          <div class="form-group">
+            <div class="svg-flex">
+              <label for="days">مهلت تحویل (روز)</label>
+              <!-- آیکون -->
+            </div>
+            <input type="number" id="days" name="days" required />
           </div>
 
           <button type="submit">ثبت سفارش</button>

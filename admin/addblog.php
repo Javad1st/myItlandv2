@@ -1,3 +1,4 @@
+<?php include 'header.php' ?>
 
 
 <?php 
@@ -8,7 +9,6 @@ include '../jdf.php';
 include '../database/db.php'; 
 
 $date = jdate('Y/m/d'); 
-session_start();
 
 if (isset($_POST['sub'])) {
 
@@ -66,7 +66,6 @@ if (isset($_POST['sub'])) {
 </head>
 <body dir="rtl" >
     <div class="container">
-        <?php include 'header.php' ?>
 
         <h1>بخش افزودن مقاله</h1>
         <?php echo $date ?>

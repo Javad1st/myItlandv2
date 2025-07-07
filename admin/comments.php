@@ -1,3 +1,6 @@
+
+<?php  include 'header.php' ?>
+
 <?php include '../jdf.php';
 
 
@@ -34,7 +37,6 @@ $coments=$coment->fetchAll(PDO::FETCH_ASSOC);
 <body dir="rtl" >
     <div class="container">
    
-    <?php  include 'header.php' ?>
 
     <h1>بخش مشاهده نظرات   </h1>
     <?php  echo $date ?>

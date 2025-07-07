@@ -1,3 +1,6 @@
+
+<?php include 'header.php'; ?>
+
 <?php 
 include '../jdf.php';
 include '../database/db.php';
@@ -27,7 +30,6 @@ $blog = $select->fetchAll(PDO::FETCH_ASSOC);
 </head>
 <body dir="rtl">
     <div class="container">
-        <?php include 'header.php'; ?>
 
         <h1>بخش مشاهده نویسندگان</h1>
         <?php echo $date; ?>

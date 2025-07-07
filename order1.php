@@ -1,4 +1,7 @@
 <?php
+ob_start();
+session_start();
+
 // اتصال به دیتابیس
 // اتصال به دیتابیس از طریق db.php
 include 'database/db.php'; // مسیر فایل db.php
