@@ -6155,3 +6155,15 @@ User query result: Array
     [email] => javadooshakhlari@gmail.com
 )
 
+Session at start of order.php: Array
+(
+    [user_id] => 7
+    [email] => javadooshakhlari@gmail.com
+)
+
+User query result: Array
+(
+    [name] => javad
+    [email] => javadooshakhlari@gmail.com
+)
+
