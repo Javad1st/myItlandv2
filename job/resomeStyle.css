@@ -128,7 +128,7 @@
   
   .job-description ul li {
     margin-bottom: 8px;
-    background-color: #0bd65f18;
+    background-color: #08341a18;
     border-radius: 8px;
     padding: 0.3rem;
   }
@@ -146,7 +146,7 @@
   }
   
   #applyBtn {
-    background: linear-gradient(45deg, #05c71f, #06db7f);
+    background-color: #141313;
     border: none;
     border-radius: 8px;
     padding: 12px 25px;
@@ -157,8 +157,8 @@
   }
   
   #applyBtn:hover {
-   background: #00984f;
-
+   background-color: #4e4e4e;
+    transform: translateY(-3px);
   }
   
  
@@ -307,7 +307,7 @@
 .submit-btn {
   width: 100%;
   padding: 10px;
-  background: linear-gradient(45deg, #019e20, #01b159);
+  background-color: #141313;
   border: none;
   color: #fff;
   font-size: 18px;
@@ -318,7 +318,7 @@
 }
 
 .submit-btn:hover {
-  background: linear-gradient(45deg, #54e278, #29d820);
+  background-color: #00a941;
 }
 
 

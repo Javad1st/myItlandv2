@@ -1,0 +1,232 @@
+User 7 accessing submit_order
+SQL params: {":user_id":7,":order_code":"GVB6O",":fullname":"ata",":user_phone":"09199841187",":user_email":"hosigod30@gmail.com",":user_telegram":"uuio",":package":"پایه",":team_phone":"09301832546",":description":"mm",":status":"pending",":days":2}
+Email sent successfully to hosigod30@gmail.com and support@myitland.ir
+Session before redirect to invoice.php: Array
+(
+    [user_id] => 7
+    [email] => hosigod30@gmail.com
+    [csrf_token] => b63cf0efd15565496c47f8f824efec502d844f5831304613048ffccc3b68390f
+    [success_message] => سفارش شما ثبت شد. کد سفارش: GVB6O
+)
+
+Session at start of invoice.php: Array
+(
+    [user_id] => 7
+    [email] => hosigod30@gmail.com
+    [csrf_token] => b63cf0efd15565496c47f8f824efec502d844f5831304613048ffccc3b68390f
+    [success_message] => سفارش شما ثبت شد. کد سفارش: GVB6O
+)
+
+User 7 accessing submit_order
+User 7 accessing submit_order
+SQL params: {":user_id":7,":order_code":"1LA70",":fullname":"ata",":user_phone":"09199841187",":user_email":"hosigod30@gmail.com",":user_telegram":"uuio",":package":"پایه",":team_phone":"09301832546",":description":"33",":status":"pending",":days":3}
+Email sent successfully to hosigod30@gmail.com and support@myitland.ir
+Session before redirect to invoice.php: Array
+(
+    [user_id] => 7
+    [email] => hosigod30@gmail.com
+    [csrf_token] => b63cf0efd15565496c47f8f824efec502d844f5831304613048ffccc3b68390f
+    [success_message] => سفارش شما ثبت شد. کد سفارش: 1LA70
+)
+
+Session at start of invoice.php: Array
+(
+    [user_id] => 7
+    [email] => hosigod30@gmail.com
+    [csrf_token] => b63cf0efd15565496c47f8f824efec502d844f5831304613048ffccc3b68390f
+    [success_message] => سفارش شما ثبت شد. کد سفارش: 1LA70
+)
+
+Session at start of invoice.php: Array
+(
+    [user_id] => 7
+    [email] => hosigod30@gmail.com
+    [csrf_token] => b63cf0efd15565496c47f8f824efec502d844f5831304613048ffccc3b68390f
+    [logged_in] => 1
+)
+
+User 7 accessing submit_order
+User 7 accessing submit_order
+SQL params: {":user_id":7,":order_code":"Q7CAI",":fullname":"ata",":user_phone":"09199841187",":user_email":"hosigod30@gmail.com",":user_telegram":"uuio",":package":"پایه",":team_phone":"09301832546",":description":"ee",":status":"pending",":days":4}
+Email sent successfully to hosigod30@gmail.com and support@myitland.ir
+Session before redirect to invoice.php: Array
+(
+    [user_id] => 7
+    [email] => hosigod30@gmail.com
+    [csrf_token] => b63cf0efd15565496c47f8f824efec502d844f5831304613048ffccc3b68390f
+    [logged_in] => 1
+    [last_order] => Array
+        (
+            [user_id] => 7
+            [order_number] => ORD-54100
+            [name] => ata
+            [email] => hosigod30@gmail.com
+            [phone] => 09199841187
+            [project_type] => banner
+            [details] => tgffgdf
+            [budget] => 30000000
+            [deadline] => 2025-08-21
+            [tracking_code] => 776706
+            [days] => 44
+            [order_id] => 11
+        )
+
+    [success_message] => سفارش شما ثبت شد. کد سفارش: Q7CAI
+)
+
+User 7 accessing submit_order
+SQL params: {":user_id":7,":order_code":"92LV8",":fullname":"ata",":user_phone":"09199841187",":user_email":"hosigod30@gmail.com",":user_telegram":"uuio",":package":"پایه",":team_phone":"09301832546",":description":"ee",":status":"pending",":days":4}
+Email sent successfully to hosigod30@gmail.com and support@myitland.ir
+Session before redirect to invoice.php: Array
+(
+    [user_id] => 7
+    [email] => hosigod30@gmail.com
+    [csrf_token] => b63cf0efd15565496c47f8f824efec502d844f5831304613048ffccc3b68390f
+    [logged_in] => 1
+    [last_order] => Array
+        (
+            [user_id] => 7
+            [order_number] => ORD-54100
+            [name] => ata
+            [email] => hosigod30@gmail.com
+            [phone] => 09199841187
+            [project_type] => banner
+            [details] => tgffgdf
+            [budget] => 30000000
+            [deadline] => 2025-08-21
+            [tracking_code] => 776706
+            [days] => 44
+            [order_id] => 11
+        )
+
+    [success_message] => سفارش شما ثبت شد. کد سفارش: 92LV8
+)
+
+User 7 accessing submit_order
+SQL params: {":user_id":7,":order_code":"15LG8",":fullname":"ata",":user_phone":"09199841187",":user_email":"hosigod30@gmail.com",":user_telegram":"uuio",":package":"پایه",":team_phone":"09301832546",":description":"ee",":status":"pending",":days":4}
+Email sent successfully to hosigod30@gmail.com and support@myitland.ir
+Session before redirect to invoice.php: Array
+(
+    [user_id] => 7
+    [email] => hosigod30@gmail.com
+    [csrf_token] => b63cf0efd15565496c47f8f824efec502d844f5831304613048ffccc3b68390f
+    [logged_in] => 1
+    [last_order] => Array
+        (
+            [user_id] => 7
+            [order_number] => ORD-54100
+            [name] => ata
+            [email] => hosigod30@gmail.com
+            [phone] => 09199841187
+            [project_type] => banner
+            [details] => tgffgdf
+            [budget] => 30000000
+            [deadline] => 2025-08-21
+            [tracking_code] => 776706
+            [days] => 44
+            [order_id] => 11
+        )
+
+    [success_message] => سفارش شما ثبت شد. کد سفارش: 15LG8
+)
+
+User 7 accessing submit_order
+SQL params: {":user_id":7,":order_code":"LHE1I",":fullname":"ata",":user_phone":"09199841187",":user_email":"hosigod30@gmail.com",":user_telegram":"uuio",":package":"پایه",":team_phone":"09301832546",":description":"ee",":status":"pending",":days":4}
+Email sent successfully to hosigod30@gmail.com and support@myitland.ir
+Session before redirect to invoice.php: Array
+(
+    [user_id] => 7
+    [email] => hosigod30@gmail.com
+    [csrf_token] => b63cf0efd15565496c47f8f824efec502d844f5831304613048ffccc3b68390f
+    [logged_in] => 1
+    [last_order] => Array
+        (
+            [user_id] => 7
+            [order_number] => ORD-54100
+            [name] => ata
+            [email] => hosigod30@gmail.com
+            [phone] => 09199841187
+            [project_type] => banner
+            [details] => tgffgdf
+            [budget] => 30000000
+            [deadline] => 2025-08-21
+            [tracking_code] => 776706
+            [days] => 44
+            [order_id] => 11
+        )
+
+    [success_message] => سفارش شما ثبت شد. کد سفارش: LHE1I
+)
+
+User 7 accessing submit_order
+SQL params: {":user_id":7,":order_code":"719AP",":fullname":"ata",":user_phone":"09199841187",":user_email":"hosigod30@gmail.com",":user_telegram":"uuio",":package":"پایه",":team_phone":"09301832546",":description":"ee",":status":"pending",":days":4}
+Email sent successfully to hosigod30@gmail.com and support@myitland.ir
+Session before redirect to invoice.php: Array
+(
+    [user_id] => 7
+    [email] => hosigod30@gmail.com
+    [csrf_token] => b63cf0efd15565496c47f8f824efec502d844f5831304613048ffccc3b68390f
+    [logged_in] => 1
+    [last_order] => Array
+        (
+            [user_id] => 7
+            [order_number] => ORD-54100
+            [name] => ata
+            [email] => hosigod30@gmail.com
+            [phone] => 09199841187
+            [project_type] => banner
+            [details] => tgffgdf
+            [budget] => 30000000
+            [deadline] => 2025-08-21
+            [tracking_code] => 776706
+            [days] => 44
+            [order_id] => 11
+        )
+
+    [success_message] => سفارش شما ثبت شد. کد سفارش: 719AP
+)
+
+Session at start of invoice.php: Array
+(
+    [user_id] => 7
+    [email] => hosigod30@gmail.com
+    [csrf_token] => b63cf0efd15565496c47f8f824efec502d844f5831304613048ffccc3b68390f
+    [logged_in] => 1
+    [last_order] => Array
+        (
+            [user_id] => 7
+            [order_number] => ORD-54100
+            [name] => ata
+            [email] => hosigod30@gmail.com
+            [phone] => 09199841187
+            [project_type] => banner
+            [details] => tgffgdf
+            [budget] => 30000000
+            [deadline] => 2025-08-21
+            [tracking_code] => 776706
+            [days] => 44
+            [order_id] => 11
+        )
+
+    [success_message] => سفارش شما ثبت شد. کد سفارش: 719AP
+)
+
+User 8 accessing submit_order
+SQL params: {":user_id":8,":order_code":"O1TX1",":fullname":"mehdi",":user_phone":"09905565817",":user_email":"mahdimohammadi.1387.wolf@gmail.com",":user_telegram":"mehdi",":package":"پیشرفته",":team_phone":"09301832546",":description":"تم سایت سفید باشه",":status":"pending",":days":9}
+Email sent successfully to mahdimohammadi.1387.wolf@gmail.com and support@myitland.ir
+Session before redirect to invoice.php: Array
+(
+    [user_id] => 8
+    [email] => mahdimohammadi.1387.wolf@gmail.com
+    [csrf_token] => 02fa089d6c6b7a2b3d824e79018c99eab15317a3524450b246007706aa1806b7
+    [success_message] => سفارش شما ثبت شد. کد سفارش: O1TX1
+)
+
+Session at start of invoice.php: Array
+(
+    [user_id] => 8
+    [email] => mahdimohammadi.1387.wolf@gmail.com
+    [csrf_token] => 02fa089d6c6b7a2b3d824e79018c99eab15317a3524450b246007706aa1806b7
+    [success_message] => سفارش شما ثبت شد. کد سفارش: O1TX1
+)
+

@@ -56,57 +56,49 @@
       line-height: 1.5;
     }
     
-    header {
-    
-      color: #000000;
-      padding: 30px;
-      text-align: center;
-      font-size: 26px;
-      font-weight: bold;
-      letter-spacing: 0px;
-      box-shadow: 0 4px 10px rgba(0,0,0,0.2);
-      margin-bottom: 20px;
-    }
-    .container {
+
+    .jobSec {
       max-width: 1200px;
       margin: auto;
       padding: 0 20px 40px;
+      margin-top: 2rem;
     }
     
-    .categories {
+    .jobSec .categories {
       display: flex;
       justify-content: center;
       flex-wrap: wrap;
       gap: 15px;
       margin-bottom: 40px;
     }
-    .category {
+    .jobSec .category {
       position: relative;
       padding: 12px 30px;
-      background: linear-gradient(45deg, #d8eedb, #e4ebe8);
+      background: #f8f8f8;
       border-radius: 30px;
       cursor: pointer;
-      transition: transform 0.3s, box-shadow 0.3s;
+      transition: all ease-out 0.2s;
       color: #181717;
       font-weight: bold;
-     
+      box-shadow: 0 3px 10px rgba(0, 0, 0, 0.393);
     }
-    .category:hover {
-      transform: translateY(-5px);
-     
+    .jobSec .category:hover {
+      transform: translateY(-2.5px);
+     background: #000000a7;
+     color: white;
     }
-    .category.active {
+    .jobSec .category.active {
       background: linear-gradient(45deg, #09e880, #16c103);
       box-shadow: 0 0 15px rgba(0, 170, 71, 0.7);
       color: white;
     }
   
-    .job-list {
+    .jobSec .job-list {
       display: grid;
       grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
       gap: 30px;
     }
-    .job-card {
+    .jobSec .job-card {
       position: relative;
       background: #fff;
       border-radius: 15px;
@@ -115,11 +107,11 @@
       overflow: hidden;
       transition: transform 0.3s, box-shadow 0.3s, opacity 0.3s;
     }
-    .job-card:hover {
+    .jobSec .job-card:hover {
       transform: translateY(-2px);
       box-shadow: 0 16px 30px rgba(0,0,0,0.150);
     }
-    .job-card::before {
+    .jobSec .job-card::before {
       content: "";
       position: absolute;
       top: -50%;
@@ -131,10 +123,10 @@
       pointer-events: none;
       transition: transform 0.5s ease-out;
     }
-    .job-card:hover::before {
+    .jobSec .job-card:hover::before {
       transform: scale(1);
     }
-    .job-card .badge {
+    .jobSec .job-card .badge {
       display: inline-block;
       padding: 6px 12px;
       font-size: 12px;
@@ -146,32 +138,34 @@
       transition: transform 0.3s;
     }
   
-    .job-card .title {
+    .jobSec .job-card .title {
       font-size: 20px;
       font-weight: bold;
       margin-bottom: 12px;
       color: #333;
     }
-    .job-card .details {
+    .jobSec .job-card .details {
       font-size: 14px;
       color: #666;
       margin-bottom: 18px;
       line-height: 1.7;
     }
-    .job-card .details span {
+    .jobSec .job-card .details span {
       display: block;
       margin-bottom: 4px;
     }
-    .job-card .apply-link {
+    .jobSec .job-card .apply-link {
       text-decoration: none;
       font-size: 20px;
-      
       padding: 10px 20px;
-      border-radius: 30px;
+      border-radius: 12px;
          color: white;
-      background: linear-gradient(45deg, #019e5a, #27b101);
-      
-      
+        background-color: #141313;
+      transition: all ease-out 250ms;
+      width: fit-content;
+    }
+    .jobSec .job-card .apply-link:hover{
+      background-color: #09c94f;
     }
    
    
@@ -180,23 +174,23 @@
         font-size: 22px;
         padding: 20px;
     }
-    .job-card {
+    .jobSec .job-card {
       padding: 20px;
     }
-    .job-card .title {
+    .jobSec .job-card .title {
       font-size: 18px;
     }
   }
- .job-card a{
-    color: #019e26;
+ .jobSec .job-card a{
+    color: #000000;
     display: flex;
     gap: 0.1rem;
     transition: all ease-out 150ms;
   }
-    .job-card svg{
+    .jobSec .job-card svg{
       transition: all ease-out 150ms;
   }
- .job-card a:hover svg{
+ .jobSec .job-card a:hover svg{
     margin-right: 0.4rem;
   }
 .categMobile
@@ -204,7 +198,7 @@
     display:none;
 }
  @media (min-width: 700px) {
-     .job-card {
+     .jobSec .job-card {
     max-width:400px;
     }
     }

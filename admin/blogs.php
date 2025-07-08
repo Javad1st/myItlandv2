@@ -1,3 +1,6 @@
+
+<?php include 'header.php'; ?>
+
 <?php include '../jdf.php';
 
 
@@ -34,7 +37,6 @@ $blog=$select->fetchAll(PDO::FETCH_ASSOC);
 <body dir="rtl" >
     <div class="container">
    
-    <?php  include 'header.php' ?>
 
     <h1>بخش مشاهده مقاله منتشر شده </h1>
     <?php  echo $date ?>
