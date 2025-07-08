@@ -162,9 +162,16 @@
          color: white;
         background-color: #141313;
       transition: all ease-out 250ms;
+<<<<<<< HEAD
       width: fit-content;
     }
     .jobSec .job-card .apply-link:hover{
+      background-color: #09c94f;
+=======
+      
+>>>>>>> d8f6a27a32a4f2108f88791e9e2fc4dd65461ece
+    }
+    .job-card .apply-link:hover{
       background-color: #09c94f;
     }
    
@@ -181,7 +188,11 @@
       font-size: 18px;
     }
   }
+<<<<<<< HEAD
  .jobSec .job-card a{
+=======
+ .job-card a{
+>>>>>>> d8f6a27a32a4f2108f88791e9e2fc4dd65461ece
     color: #000000;
     display: flex;
     gap: 0.1rem;

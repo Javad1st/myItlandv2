@@ -79,7 +79,11 @@ $order = array_merge([
             box-sizing: border-box;
         }
         body {
+<<<<<<< HEAD
             background: rgba(0, 0, 0, 0.03);
+=======
+          
+>>>>>>> d8f6a27a32a4f2108f88791e9e2fc4dd65461ece
             color:rgb(26, 26, 26);
             direction: rtl;
             overflow-x: hidden;
@@ -101,7 +105,11 @@ $order = array_merge([
             padding: 0 1rem;
         }
         .invoice-container {
+<<<<<<< HEAD
             background: rgb(255, 255, 255);
+=======
+            background: rgba(0, 0, 0, 0.1);
+>>>>>>> d8f6a27a32a4f2108f88791e9e2fc4dd65461ece
             backdrop-filter: blur(12px);
             padding: 2rem;
             border-radius: 15px;

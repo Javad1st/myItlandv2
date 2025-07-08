@@ -3,12 +3,20 @@ ob_start();
 session_start();
 
 // Log session for debugging
+<<<<<<< HEAD
 file_put_contents('debug.log', "Session at start of packageOrder.php: " . print_r($_SESSION, true) . "\n", FILE_APPEND);
 
 // Check if user is logged in
 if (!isset($_SESSION['user_id'])) {
     file_put_contents('debug.log', "Redirecting to login.php from packageOrder.php: user_id not set\n", FILE_APPEND);
     $_SESSION['error_message'] = 'لطفاً ابتدا وارد شوید.';
+=======
+file_put_contents('debug.log', "Session at start of order_form.php: " . print_r($_SESSION, true) . "\n", FILE_APPEND);
+
+// Check if user is logged in
+if (!isset($_SESSION['user_id'])) {
+    file_put_contents('debug.log', "Redirecting to login.php from order_form.php: user_id not set\n", FILE_APPEND);
+>>>>>>> d8f6a27a32a4f2108f88791e9e2fc4dd65461ece
     header("Location: login.php");
     exit;
 }
@@ -28,15 +36,25 @@ try {
     $user = $stmt->fetch(PDO::FETCH_ASSOC);
 
     if (!$user) {
+<<<<<<< HEAD
         file_put_contents('debug.log', "Redirecting to login.php from packageOrder.php: user not found for user_id {$_SESSION['user_id']}\n", FILE_APPEND);
         session_unset();
         session_destroy();
         $_SESSION['error_message'] = 'کاربر یافت نشد. لطفاً دوباره وارد شوید.';
+=======
+        file_put_contents('debug.log', "Redirecting to login.php from order_form.php: user not found for user_id {$_SESSION['user_id']}\n", FILE_APPEND);
+        session_unset();
+        session_destroy();
+>>>>>>> d8f6a27a32a4f2108f88791e9e2fc4dd65461ece
         header("Location: login.php");
         exit;
     }
 } catch (Exception $e) {
+<<<<<<< HEAD
     file_put_contents('debug.log', "Error in packageOrder.php: " . $e->getMessage() . "\n", FILE_APPEND);
+=======
+    file_put_contents('debug.log', "Error in order_form.php: " . $e->getMessage() . "\n", FILE_APPEND);
+>>>>>>> d8f6a27a32a4f2108f88791e9e2fc4dd65461ece
     die("خطا: " . htmlspecialchars($e->getMessage()));
 }
 
@@ -45,7 +63,11 @@ if (!isset($_SESSION['csrf_token'])) {
     $_SESSION['csrf_token'] = bin2hex(random_bytes(32));
 }
 
+<<<<<<< HEAD
 $package = htmlspecialchars($_GET['package'] ?? 'نامشخص', ENT_QUOTES, 'UTF-8');
+=======
+$package = $_GET['package'] ?? 'نامشخص';
+>>>>>>> d8f6a27a32a4f2108f88791e9e2fc4dd65461ece
 $successMessage = $_SESSION['success_message'] ?? '';
 $errorMessage = $_SESSION['error_message'] ?? '';
 
@@ -174,6 +196,7 @@ unset($_SESSION['success_message'], $_SESSION['error_message']);
                 <div class="line"></div>
             </div>
 
+<<<<<<< HEAD
             <?php if ($successMessage): ?>
                 <div style="background-color:#d4edda; color:#155724; padding:10px; margin-bottom:15px; border-radius:5px;">
                     <?php echo htmlspecialchars($successMessage); ?>
@@ -248,7 +271,95 @@ unset($_SESSION['success_message'], $_SESSION['error_message']);
                 </form>
             </div>
         </div>
+=======
+      <!-- Display messages -->
+      <?php if ($successMessage): ?>
+        <div style="background-color:#d4edda; color:#155724; padding:10px; margin-bottom:15px; border-radius:5px;">
+          <?php echo htmlspecialchars($successMessage); ?>
+        </div>
+      <?php endif; ?>
+
+      <?php if ($errorMessage): ?>
+        <div style="background-color:#f8d7da; color:#721c24; padding:10px; margin-bottom:15px; border-radius:5px;">
+          <?php echo htmlspecialchars($errorMessage); ?>
+        </div>
+      <?php endif; ?>
+
+      <div class="gridContainer">
+        <form action="submit_order.php" method="post" novalidate>
+          <input type="hidden" name="csrf_token" value="<?php echo htmlspecialchars($_SESSION['csrf_token']); ?>">
+          <input type="hidden" name="package" value="<?php echo htmlspecialchars($package); ?>">
+
+          <div class="form-groups">
+            <div class="form-group grid1">
+              <div class="svg-flex">
+                <label for="fullname">نام کامل</label>
+                <!-- آیکون -->
+              </div>
+              <input type="text" id="fullname" name="fullname" value="<?php echo htmlspecialchars($user['name']); ?>" readonly required />
+            </div>
+
+            <div class="form-group grid2">
+              <div class="svg-flex">
+                <label for="user_phone">شماره تماس</label>
+                <!-- آیکون -->
+              </div>
+              <input type="tel" id="user_phone" name="user_phone" required />
+            </div>
+          </div>
+
+          <div class="form-groups">
+            <div class="form-group grid3">
+              <div class="svg-flex">
+                <label for="user_email">ایمیل</label>
+                <!-- آیکون -->
+              </div>
+              <input type="email" id="user_email" name="user_email" value="<?php echo htmlspecialchars($user['email']); ?>"  readonly required />
+            </div>
+
+            <div class="form-group grid4">
+              <div class="svg-flex">
+                <label for="user_telegram">آیدی تلگرام یا ایتا</label>
+                <!-- آیکون -->
+              </div>
+              <input type="text" id="user_telegram" name="user_telegram" />
+            </div>
+          </div>
+
+          <div class="form-group">
+            <div class="svg-flex">
+              <label for="description">توضیحات</label>
+              <!-- آیکون -->
+            </div>
+            <textarea id="description" name="description" rows="4"></textarea>
+          </div>
+
+          <!-- Added fields for budget and days -->
+          <div class="form-group">
+            <div class="svg-flex">
+              <label for="budget">بودجه (تومان)</label>
+              <!-- آیکون -->
+            </div>
+            <input type="text" id="budget" name="budget" required />
+          </div>
+
+          <div class="form-group">
+            <div class="svg-flex">
+              <label for="days">مهلت تحویل (روز)</label>
+              <!-- آیکون -->
+            </div>
+            <input type="number" id="days" name="days" required />
+          </div>
+
+          <button type="submit">ثبت سفارش</button>
+        </form>
+      </div>
+>>>>>>> d8f6a27a32a4f2108f88791e9e2fc4dd65461ece
     </div>
 </body>
+<<<<<<< HEAD
 </html>
 <?php ob_end_flush(); ?>
+=======
+</html>
+>>>>>>> d8f6a27a32a4f2108f88791e9e2fc4dd65461ece

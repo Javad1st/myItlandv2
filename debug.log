@@ -4523,6 +4523,7 @@ User query result: Array
     [email] => Javadooshakhlari@gmail.com
 )
 
+<<<<<<< HEAD
 Session at start of order.php: Array
 (
     [user_id] => 7
@@ -5931,6 +5932,149 @@ Session at start of order.php: Array
             [order_id] => 11
         )
 
+)
+
+User query result: Array
+(
+    [name] => javad
+    [email] => javadooshakhlari@gmail.com
+)
+
+=======
+>>>>>>> d8f6a27a32a4f2108f88791e9e2fc4dd65461ece
+Session at start of order.php: Array
+(
+    [user_id] => 7
+    [email] => javadooshakhlari@gmail.com
+    [last_order] => Array
+        (
+            [user_id] => 7
+            [order_number] => ORD-53260
+            [name] => javad
+            [email] => javadooshakhlari@gmail.com
+            [phone] => 09999999999
+            [project_type] => website
+            [details] => 9
+            [budget] => 8
+            [deadline] => 2025-07-16
+            [tracking_code] => 526823
+            [days] => 8
+            [order_id] => 11
+        )
+
+)
+
+User query result: Array
+(
+    [name] => javad
+    [email] => javadooshakhlari@gmail.com
+)
+
+Session at start of order.php: Array
+(
+)
+
+Redirecting to login.php: user_id not set
+Session at start of order.php: Array
+(
+    [user_id] => 7
+    [email] => javadooshakhlari@gmail.com
+)
+
+User query result: Array
+(
+    [name] => javad
+    [email] => javadooshakhlari@gmail.com
+)
+
+Session at start of order.php: Array
+(
+    [user_id] => 7
+    [email] => javadooshakhlari@gmail.com
+)
+
+User query result: Array
+(
+    [name] => javad
+    [email] => javadooshakhlari@gmail.com
+)
+
+Session at start of order.php: Array
+(
+    [user_id] => 7
+    [email] => javadooshakhlari@gmail.com
+)
+
+User query result: Array
+(
+    [name] => javad
+    [email] => javadooshakhlari@gmail.com
+)
+
+Session at start of order.php: Array
+(
+    [user_id] => 7
+    [email] => javadooshakhlari@gmail.com
+)
+
+User query result: Array
+(
+    [name] => javad
+    [email] => javadooshakhlari@gmail.com
+)
+
+Session at start of order.php: Array
+(
+    [user_id] => 7
+    [email] => javadooshakhlari@gmail.com
+)
+
+User query result: Array
+(
+    [name] => javad
+    [email] => javadooshakhlari@gmail.com
+)
+
+Session at start of order.php: Array
+(
+    [user_id] => 7
+    [email] => javadooshakhlari@gmail.com
+)
+
+User query result: Array
+(
+    [name] => javad
+    [email] => javadooshakhlari@gmail.com
+)
+
+Session at start of order.php: Array
+(
+    [user_id] => 7
+    [email] => javadooshakhlari@gmail.com
+)
+
+User query result: Array
+(
+    [name] => javad
+    [email] => javadooshakhlari@gmail.com
+)
+
+Session at start of order.php: Array
+(
+    [user_id] => 7
+    [email] => javadooshakhlari@gmail.com
+)
+
+User query result: Array
+(
+    [name] => javad
+    [email] => javadooshakhlari@gmail.com
+)
+
+Session at start of order.php: Array
+(
+    [user_id] => 7
+    [email] => javadooshakhlari@gmail.com
 )
 
 User query result: Array
