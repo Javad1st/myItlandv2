@@ -1,25 +1,25 @@
 function selectCategory(elem) {
   // حذف کلاس 'active' از تمام دسته‌بندی‌ها
-  document.querySelectorAll('.category').forEach(cat => {
+  document.querySelectorAll('.categorySec').forEach(cat => {
     cat.classList.remove('active');
   });
 
   // اضافه کردن کلاس 'active' به دسته‌بندی انتخاب شده
-  elem.classList.add('active');
+  elem.classList.add('activeSec');
 
   // دریافت دسته‌بندی بر اساس data-id
-  const categoryId = elem.getAttribute('data-id');
+  const categoryIdsec = elem.getAttribute('data-id');
 
   // فیلتر کردن آگهی‌ها بر اساس دسته‌بندی انتخابی
-  filterJobs(categoryId);
+  filterJobs(categoryIdsec);
 }
 
-function filterJobs(categoryId) {
-  const jobCards = document.querySelectorAll('.job-card');
+function filterJobs(categoryIdsec) {
+  const jobCardssec = document.querySelectorAll('.job-card');
 
-  if (categoryId === "همه") {
+  if (categoryIdsec === "همه") {
     // نمایش تمام آگهی‌ها
-    jobCards.forEach(card => {
+    jobCardssec.forEach(card => {
       card.style.opacity = "0";
       card.style.display = "block";
       setTimeout(() => {
@@ -28,8 +28,8 @@ function filterJobs(categoryId) {
     });
   } else {
     // فیلتر کردن آگهی‌ها بر اساس دسته‌بندی
-    jobCards.forEach(card => {
-      if (card.dataset.category == categoryId) {
+    jobCardssec.forEach(card => {
+      if (card.dataset.category == categoryIdsec) {
         // آگهی‌هایی که با دسته‌بندی مطابقت دارند نمایش داده می‌شوند
         card.style.opacity = "0";
         card.style.display = "block";

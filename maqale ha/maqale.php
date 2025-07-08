@@ -258,50 +258,43 @@ tr.row-1.odd {
   </div>
 </div>
 <script>
-    const slider = document.getElementById('cats1');
+    const sliderY = document.getElementById('cats1');
 let isDragging = false;
 let startX, startScroll;
 
 /* بررسی اینکه اسکرول در ابتدا یا انتها باشه */
 function atEdge() {
-  return slider.scrollLeft === 0
-      || slider.scrollLeft >= slider.scrollWidth - slider.clientWidth;
+  return sliderY.scrollLeft === 0
+      || sliderY.scrollLeft >= sliderY.scrollWidth - sliderY.clientWidth;
 }
 
 /* شروع درگ با pointer events */
-slider.addEventListener('pointerdown', e => {
-  if (!atEdge()) return;            // فقط وقتی در لبه‌ایم
-  isDragging = true;
-  startX = e.clientX;
-  startScroll = slider.scrollLeft;
-  slider.setPointerCapture(e.pointerId);
-  slider.style.cursor = 'grabbing';
-});
+// sliderY.addEventListener('pointerdown', e => {
+//   if (!atEdge()) return;            // فقط وقتی در لبه‌ایم
+//   isDragging = true;
+//   startX = e.clientX;
+//   startScroll = sliderY.scrollLeft;
+//   sliderY.setPointerCapture(e.pointerId);
+//   sliderY.style.cursor = 'grabbing';
+// });
 
-slider.addEventListener('click', e => {
-  if (!atEdge()) return;            // فقط وقتی در لبه‌ایم
-  isDragging = true;
-  startX = e.clientX;
-  startScroll = slider.scrollLeft;
-  slider.setPointerCapture(e.pointerId);
-  slider.style.cursor = 'grabbing';
-});
 
-slider.addEventListener('pointermove', e => {
+
+sliderY.addEventListener('pointermove', e => {
   if (!isDragging) return;
   const delta = e.clientX - startX;
-  slider.scrollLeft = startScroll - delta;
+  sliderY.scrollLeft = startScroll - delta;
 });
 
-slider.addEventListener('pointerup', e => {
+sliderY.addEventListener('pointerup', e => {
   isDragging = false;
-  slider.releasePointerCapture(e.pointerId);
-  slider.style.cursor = 'grab';
+  sliderY.releasePointerCapture(e.pointerId);
+  sliderY.style.cursor = 'grab';
 });
 
-slider.addEventListener('pointerleave', () => {
+sliderY.addEventListener('pointerleave', () => {
   isDragging = false;
-  slider.style.cursor = 'grab';
+  sliderY.style.cursor = 'grab';
 });
 </script>
 

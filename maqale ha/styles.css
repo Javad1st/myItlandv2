@@ -98,8 +98,8 @@ body {
 }
 :root {
   --base-color: #356745;
-  --bg-color: #e8f6ec;
-  --cat-bg: #4cca81;
+  --bg-color: #ebebeb;
+  --cat-bg: #0c0c0c;
 }
 
 .categories {

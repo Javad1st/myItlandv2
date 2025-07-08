@@ -917,10 +917,16 @@ tr.row-1.odd {
 			<div class="transition duration-300 h-full relative z-10 bg-white">
 				<div class="container mx-auto flex h-full flex-wrap md:flex-row flex-row-reverse bg-white justify-between">
 					<!-- .site-branding -->
-
+            <style>
+    @media screen and (min-width:1023px) {
+      .itlogo{
+        display: block;
+      }
+    }
+  </style>
 					<div class="site-branding flex items-center md:ml-14 ml-6">
 						<a href="https://myitland.ir" title=" آیتی لند" rel="home">
-							<img width="96" height="55" src="tasavir/ItLogo.png" class="w-24 hidden itlogo" alt=" ابتی لند" decoding="async">
+							<img width="96" height="55" src="./tasavir/ItLogo.png" class="w-24 hidden itlogo" alt=" ابتی لند" decoding="async">
 						</a>
 					
 					</div>

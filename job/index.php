@@ -35,82 +35,176 @@ session_start();
   <title>فرصت‌های شغلی</title>
   <link rel="stylesheet" href="style.css">
   <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-   <link rel="stylesheet" href="../style.css">
+   
      </style>
-<style id="safe-svg-svg-icon-style-inline-css" type="text/css">
-.safe-svg-cover{text-align:center}.safe-svg-cover .safe-svg-inside{display:inline-block;max-width:100%}.safe-svg-cover svg{height:100%;max-height:100%;max-width:100%;width:100%}
 
-</style>
-<style id="classic-theme-styles-inline-css" type="text/css">
-/*! This file is auto-generated */
-.wp-block-button__link{color:#fff;background-color:#32373c;border-radius:9999px;box-shadow:none;text-decoration:none;padding:calc(.667em + 2px) calc(1.333em + 2px);font-size:1.125em}.wp-block-file__button{background:#32373c;color:#fff;text-decoration:none}
-</style>
-<link rel="stylesheet" id="simple-image-popup-css" href="../srcfiles/simple-image-popup.css" type="text/css" media="all">
-<script type="text/javascript" src="../srcfiles/jquery.js" id="jquery-js"></script>
+	 <style>
+		.mrFooter{
+  height: 10%;
+  transition: all ease-in-out;
+  transition-duration: 500ms;
+  /* background-image: url(tasavir/baKeyfiayat.jpg); */
+  background-position: center ;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-top: 2rem;
+  position: relative;
+  isolation: isolate;
+  opacity: 90%;
+  width: 100%;
+  padding: 2rem;
+  color: var(--primary-color);
+  background-color: #000000e8 !important;
+  
+  filter: blur(200);
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 3rem;
+  border-radius: 1rem;
+  
+}
+.mrFooter::before{ 
+  content: '';
+   position: absolute;
+  z-index: -1;
+  inset: 0;
+  opacity: 80%;
+ } 
+ .foot{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  gap: 0.4rem;
+ }
+.mrFooter li{
+  list-style: none;
+}
 
-<link rel="stylesheet" href="../srcfiles/classic.css"><link rel="stylesheet" href="../srcfiles/style.7a857bdd.css">	<link rel="stylesheet" as="style" href="../srcfiles/font.css" onload="this.onload=null;this.rel='stylesheet'">
-	
-<style type="text/css" id="wp-custom-css">
-			figure table tbody tr td, table, td {
-border: 1px solid #d2d2d2;
-padding: 15px;
+.footerSection{
+  color: white;
+  display: flex;
+  flex-direction: column;
+  gap: 0.7rem;
+  
 }
-th.has-text-align-center, thead {
-border: 1px solid #d2d2d2;
-padding: 15px;
+.footerSection h1{
+  font-weight: 900 !important;
+  font-size: 2.1rem !important;
 }
-table {
-	width: -webkit-fill-available;
+.footerSection ul{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  font-size: x-large;
+  gap: 1rem;
+  
 }
-code {
-	  background: #f4f4f4;
-    border: 1px solid #ddd;
-    border-left: 3px solid #262626!important;
-    color: #666;
-    page-break-inside: avoid;
-    font-family: monospace;
-    font-size: 15px;
-    line-height: 1.6;
-    margin-bottom: 1.6em;
-    max-width: 100%;
-    overflow: auto;
-    padding: 1em 1.5em;
-    display: block;
-    word-wrap: break-word;
+.footerSection1{
+  width: 40%;
 }
-thead:first-child {
-    background-color: #d2d2d2;
+.footerSection ul li{
+  display: flex;
+  align-items: start;
+  justify-content: start;
+  gap: 8px;
 }
-th.has-text-align-center {
-    border-left-color: #fff;
+.foot2{
+  width: inherit;
+  justify-content: space-around;
 }
-.post-content.figure-img-m-auto.basis-full.lg\:basis-8\/12.text-lg.font-serif.pt-0 {
-    overflow: hidden;
+
+.footSec{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 1rem;
 }
-figure.wp-block-table {
-overflow: scroll;
+
+.footSec hr{
+  width: 100px;
+  opacity: 0.4;
 }
-td.has-text-align-right {
-    width: 50% !important;
+.footSec img{
+  width: 200px;
 }
-img.aligncenter {
-    margin: 0 auto;
+
+.headerTitle{
+  font-size: xx-large;
 }
-.simple-image-popup-plugin__inner, .simple-image-popup-plugin__image {
-	border-radius: 15px;
+
+.textTitle{
+  font-size: xx-large;
 }
-tr.row-1.odd {
-    background-color: #d8d8d8;
+
+.contact {
+  gap: 1rem;
+  flex-wrap: wrap;
+  
 }
-.tracking-wide {
-    letter-spacing: 0px!important;
-}		</style>
-		
-	<link rel="stylesheet" href="../srcfiles/aos.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
-	<noscript>
-		<!-- <link rel="stylesheet" href="https://myitland.ir/wp-content/themes/myitland/assets/css/aos-noscripy.css "> -->
-	</noscript>
-    
+
+#theme-switch {
+  right: 1rem;
+  top: 1rem;
+}
+
+.infoButton {
+  padding: 0.5rem;
+}
+.mrFooter li{
+  font-size: medium;
+}
+
+.mrFooter ul {
+  display: inline-grid;
+  grid-auto-flow: row;
+  grid-gap: 50px;
+  justify-items: center;
+  margin: auto;
+}
+
+@media (min-width: 500px) {
+ .mrFooter ul {
+    grid-auto-flow: column;
+  }
+}
+
+.mrFooter a {
+  transition: all ease-in-out;
+  transition-duration: 200ms;
+  padding: 0.7rem;
+  color: var(--base-color);
+  text-decoration: none;
+  /* box-shadow: inset 0 -1px 0 var(--grad1); */
+  display: flex;
+}
+
+
+.mrFooter a:hover {
+  box-shadow: inset 0 -3.9em 0 #868686;
+  border-radius: 30%;
+}
+
+
+
+/* below is just for demo styling */
+
+
+
+@keyframes wave-animation {
+  0%,
+  100% {
+    transform: rotate(0deg);
+  }
+  25% {
+    transform: rotate(20deg);
+  }
+  75% {
+    transform: rotate(-15deg);
+  }
+}
+	 </style>
 
 </head>
 
@@ -193,695 +287,6 @@ tr.row-1.odd {
 
 </svg>
 
-<header id="masthead" class="site-header h-24 z-40 select-none fixed left-0 top-0 bg-white right-0" style="transform: translateY(0px);">
-			<div class="transition duration-300 h-full relative z-10 bg-white">
-				<div class="container mx-auto flex h-full flex-wrap md:flex-row flex-row-reverse bg-white justify-between">
-					<!-- .site-branding -->
-
-					<div class="site-branding flex items-center md:ml-14 ml-6">
-						<a href="https://myitland.ir" title=" آیتی لند" rel="home">
-							<img width="96" height="55" src="../tasavir/ItLogo.png" class="w-24 hidden itlogo" alt=" ابتی لند" decoding="async">
-						</a>
-					
-					</div>
-
-					<nav id="site-navigation" class="z-30 main-navigation flex-grow hidden lg:block font-serif pt-0">
-						<ul class="header-desktop-menu h-full">
-																<li class="inline-block h-full ml-6 xl:ml-10 last:ml-0">
-										<a data-id="22" data-megatemplate="" class="h-full inline-flex items-center mt-1-px text-[#494647] hover:text-[#04cc72]" href="../#orders">
-											<span>سفارش</span>
-																					</a>
-									</li>
-																<li class="inline-block h-full ml-6 xl:ml-10 last:ml-0">
-										<a data-id="19" data-megatemplate="" class="h-full inline-flex items-center mt-1-px text-[#494647] hover:text-[#04cc72]" href="../#NemooneKar">
-											<span>نمونه کار</span>
-																					</a>
-									</li>
-																<li class="inline-block h-full ml-6 xl:ml-10 last:ml-0">
-										<a data-id="35" data-megatemplate="1" class="h-full inline-flex items-center mt-1-px text-[#494647] mega" href="#">
-											<span>خدمات </span>
-											<svg width="25" height="24" viewBox="0 0 25 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M17.8696 9.16994C17.6822 8.98369 17.4288 8.87915 17.1646 8.87915C16.9004 8.87915 16.6469 8.98369 16.4596 9.16994L12.8696 12.7099L9.32958 9.16994C9.14221 8.98369 8.88876 8.87915 8.62458 8.87915C8.36039 8.87915 8.10694 8.98369 7.91958 9.16994C7.82585 9.26291 7.75145 9.37351 7.70069 9.49537C7.64992 9.61723 7.62378 9.74793 7.62378 9.87994C7.62378 10.012 7.64992 10.1427 7.70069 10.2645C7.75145 10.3864 7.82585 10.497 7.91958 10.5899L12.1596 14.8299C12.2525 14.9237 12.3631 14.9981 12.485 15.0488C12.6069 15.0996 12.7376 15.1257 12.8696 15.1257C13.0016 15.1257 13.1323 15.0996 13.2542 15.0488C13.376 14.9981 13.4866 14.9237 13.5796 14.8299L17.8696 10.5899C17.9633 10.497 18.0377 10.3864 18.0885 10.2645C18.1392 10.1427 18.1654 10.012 18.1654 9.87994C18.1654 9.74793 18.1392 9.61723 18.0885 9.49537C18.0377 9.37351 17.9633 9.26291 17.8696 9.16994Z" fill="#262626"></path></svg>										</a>
-									</li>
-									
-																<li class="inline-block h-full ml-6 xl:ml-10 last:ml-0">
-										<a data-id="60" data-megatemplate="3" class="h-full inline-flex items-center mt-1-px text-[#494647] mega" href="#">
-											<span> آیتی‌لند</span>
-											<svg width="25" height="24" viewBox="0 0 25 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M17.8696 9.16994C17.6822 8.98369 17.4288 8.87915 17.1646 8.87915C16.9004 8.87915 16.6469 8.98369 16.4596 9.16994L12.8696 12.7099L9.32958 9.16994C9.14221 8.98369 8.88876 8.87915 8.62458 8.87915C8.36039 8.87915 8.10694 8.98369 7.91958 9.16994C7.82585 9.26291 7.75145 9.37351 7.70069 9.49537C7.64992 9.61723 7.62378 9.74793 7.62378 9.87994C7.62378 10.012 7.64992 10.1427 7.70069 10.2645C7.75145 10.3864 7.82585 10.497 7.91958 10.5899L12.1596 14.8299C12.2525 14.9237 12.3631 14.9981 12.485 15.0488C12.6069 15.0996 12.7376 15.1257 12.8696 15.1257C13.0016 15.1257 13.1323 15.0996 13.2542 15.0488C13.376 14.9981 13.4866 14.9237 13.5796 14.8299L17.8696 10.5899C17.9633 10.497 18.0377 10.3864 18.0885 10.2645C18.1392 10.1427 18.1654 10.012 18.1654 9.87994C18.1654 9.74793 18.1392 9.61723 18.0885 9.49537C18.0377 9.37351 17.9633 9.26291 17.8696 9.16994Z" fill="#262626"></path></svg>										</a>
-									</li>
-																<li class="inline-block h-full ml-6 xl:-mr-4 last:ml-0">
-										<div style="width:1px" class="inline-block align-middle h-5 bg-gray-300"></div>
-									</li>
-																	<li class="inline-block h-full ml-6 xl:ml-10 last:ml-0">
-										<a data-id="71" data-megatemplate="" class="h-full inline-flex items-center mt-1-px text-[#494647] hover:text-[#04cc72]" href="../#joinTeam">
-											<span> همکاری با ایتی لند</span>
-																					</a>
-									</li>
-													</ul>
-					</nav>
-					<!-- #site-navigation -->
-          <style>
-    @font-face {
-        font-family: iranSans;
-        font-style: normal;
-        font-weight: bold;
-        src: url(./yekan/Yekan-Bakh-FaNum-06-Bold.woff);
-    }
-    
-    
-    .profile-circle {
-        width: 40px;
-        height: 40px;
-        border-radius: 50%;
-        overflow: hidden;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        background: #f5f5f5;
-        border: 2px solid #28a745;
-        transition: border-color 0.3s ease-in-out;
-        margin-top: 20px;
-        margin-left: 20px;
-    }
-
-    .profile-circle:hover {
-        border-color: #5cd67a;
-    }
-    .profile-circle svg {
-        width: 24px;
-        height: 24px;
-        fill: #333;
-    }
-    .hidden.lg\:block {
-        display: none;
-    }
-    @media (min-width: 1024px) {
-        .hidden.lg\:block {
-            display: flex;
-            align-items: center;
-        }
-        .profile-circle{
-          display: none;
-        }
-    }
-    .btn.primary {
-    fill: #fff;
-    --tw-text-opacity: 1;
-    color: rgb(255 255 255 / var(--tw-text-opacity));
-    background-color: var(--btn-color);
-    margin-top: 20px;
-    margin-right: auto;
-}
-    .pry2 {
-    fill: #fff;
-    --tw-text-opacity: 1;
-    color: rgb(255 255 255 / var(--tw-text-opacity));
-    background-color: var(--btn-color);
-    
-}
-
-</style>
-
-<?php if (isset($_SESSION['user_id'])): ?>
-    <a class="profile-circle hidden lg:block" href="../dashboard.php?section=profile" title="پروفایل">
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
-            <path d="M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z"/>
-        </svg>
-    </a>
-<?php else: ?>
-    <a class="btn primary pry2 hidden lg:block font-bold h-fit" href="../login.php">
-        <span class="font-serif tracking-normal h-fit text-base ">ورود</span>
-    </a>
-<?php endif; ?>
-					<div class="flex items-center justify-between w-full">
-						
-						<button onclick="window.showDrawer()" class="p-3 lg:hidden">
-							<svg class="w-6 h-6">
-								<use href="#icon-drawer-menu"></use>
-							</svg>
-						</button>
-            	<a href="https://myitland.ir" title=" آیتی لند" rel="home">
-							<img width="96" height="55" src="../tasavir/ItLogo.png" class="w-24 lg:hidden" alt=" ابتی لند" decoding="async">
-						</a>
-						<?php if (isset($_SESSION['user_id'])): ?>
-    <a class="profile-circle lg:hidden " style="margin-top: -0.5rem;"  href="../dashboard.php?section=profile" title="پروفایل">
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
-            <path d="M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z"/>
-        </svg>
-    </a>
-<?php else: ?>
-   	<a class="btn primary p-1 lg:hidden font-bold" href="../login.php">
-							<span class="font-serif tracking-normal text-base"><svg width="30px" height="30px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path opacity="0.5" d="M15.9998 2L14.9998 2C12.1714 2 10.7576 2.00023 9.87891 2.87891C9.00023 3.75759 9.00023 5.1718 9.00023 8.00023L9.00023 16.0002C9.00023 18.8287 9.00023 20.2429 9.87891 21.1215C10.7574 22 12.1706 22 14.9976 22L14.9998 22L15.9998 22C18.8282 22 20.2424 22 21.1211 21.1213C21.9998 20.2426 21.9998 18.8284 21.9998 16L21.9998 8L21.9998 7.99998C21.9998 5.17157 21.9998 3.75736 21.1211 2.87868C20.2424 2 18.8282 2 15.9998 2Z" fill="#cfcfcf"></path> <path fill-rule="evenodd" clip-rule="evenodd" d="M1.25098 11.999C1.25098 11.5848 1.58676 11.249 2.00098 11.249L13.9735 11.249L12.0129 9.56845C11.6984 9.29889 11.662 8.82541 11.9315 8.51092C12.2011 8.19642 12.6746 8.16 12.9891 8.42957L16.4891 11.4296C16.6553 11.5721 16.751 11.7801 16.751 11.999C16.751 12.218 16.6553 12.426 16.4891 12.5685L12.9891 15.5685C12.6746 15.838 12.2011 15.8016 11.9315 15.4871C11.662 15.1726 11.6984 14.6991 12.0129 14.4296L13.9735 12.749L2.00098 12.749C1.58676 12.749 1.25098 12.4132 1.25098 11.999Z" fill="#cfcfcf"></path> </g></svg></span>
-						</a>
-<?php endif; ?>
-					
-						              <!-- <a class="btn primary" href="#"> ثبت نام</a> -->
-					</div>
-
-					<!--    Search menu      -->
-					<div id="header-search-menu" class="z-20 transition -transform-y-1 absolute opacity-0 invisible left-0 right-0 top-full border-t-2 border-gray-50 -translate-y-2">
-						<div class="relative left-0 right-0 top-0 bottom-0 bg-white z-30">
-							<div class="container py-8 mx-auto">
-								<div class="relative mx-auto max-w-5xl">
-									<form action="/">
-										<input style="background-color:#F2F2F2" type="text" name="s" placeholder="جستجو در آیتی‌لند" class="w-full font-normal h-12 font-serif bg-white rounded-lg border-1 text-sm pr-12 py-3">
-										<button type="submit" class="absolute right-5 top-0 bottom-0 my-auto w-5 h-5">
-											<svg class="w-5 h-5">
-												<use href="#icon-search"></use>
-											</svg>
-										</button>
-									</form>
-								</div>
-							</div>
-						</div>
-
-						<div style="min-height:20px" class="shadow-mega-menu absolute z-0 bottom-0 left-0 right-0"></div>
-					</div>
-					<!--    Mega menu        -->
-					<div id="header-mega-menu" class="z-20 transition -transform-y-1 absolute opacity-0 invisible z-30 left-0 right-0 top-full min-h-[200px] border-t-2 border-gray-50">
-						<div class="relative left-0 right-0 top-0 bottom-0 bg-white z-30 overflow-x-auto">
-							<div class="container relative py-8 mx-auto flex justify-between">
-								<div class="submenus basis-6/6 font-serif">
-																			<div class="menu-35 flex hidden">
-																							<ul style="min-width:200px;max-width: 350px" class="ml-8 xl:ml-16 last:ml-0">
-													
-
-																											<ul>
-																															<li class="mb-10 last:mb-0">
-																	<a class="block" href="../order.php">
-																		<div class="flex items-center transition duration-300 hover:-translate-x-1">
-																			<div class="media flex items-center ml-5 w-12 h-12 p-0 bg-[#FAFAFA] rounded-lg">
-																				<img style="border-radius: 12px;" src="../tasavir/headIcons/web.png" alt="">																			</div>
-
-																			<div>
-																				<div class="font-medium block mb-2"> طراحی وبسایت</div>
-																																									<p class="text-sm text-gray-400">
-																						طراحی سایت های استاتیک و پویا																					</p>
-																																							</div>
-																		</div>
-																	</a>
-																</li>
-																															<li class="mb-10 last:mb-0">
-																	<a class="block" href="../order.php">
-																		<div class="flex items-center transition duration-300 hover:-translate-x-1">
-																			<div class="media flex items-center ml-5 w-12 h-12 p-0 bg-[#FAFAFA] rounded-lg">
-																				<img style="border-radius: 12px;" src="../tasavir/headIcons/app.png" alt="">																			</div>
-
-																			<div>
-																				<div class="font-medium block mb-2"> طراحی وب اپلیکیشن </div>
-																																									<p class="text-sm text-gray-400">
-																						طراحی سایت های اپلیکیشنی...																					</p>
-																																							</div>
-																		</div>
-																	</a>
-																</li>
-																															<li class="mb-10 last:mb-0">
-																	<a class="block" href="../order.php">
-																		<div class="flex items-center transition duration-300 hover:-translate-x-1">
-																			<div class="media flex items-center ml-5 w-12 h-12 p-0 bg-[#FAFAFA] rounded-lg">
-				<img style="border-radius: 12px;" src="../tasavir/headIcons/ui.png" alt="">																			</div>
-
-																			<div>
-																				<div class="font-medium block mb-2"> طراحی واسط گرافیکی</div>
-																																									<p class="text-sm text-gray-400">
-																						طراحی UI و UX																				</p>
-																																							</div>
-																		</div>
-																	</a>
-																</li>
-																													</ul>
-																									</ul>
-
-
-										
-																							<ul style="min-width:200px;max-width: 350px" class="ml-8 xl:ml-16 last:ml-0">
-													
-
-																											<ul>
-																															<li class="mb-10 last:mb-0">
-																	<a class="block" href="../order.php"">
-																		<div class="flex items-center transition duration-300 hover:-translate-x-1">
-																			<div class="media flex items-center ml-5 w-12 h-12 p-0 bg-[#FAFAFA] rounded-lg">
-																				<img style="border-radius: 12px;" src="../tasavir/headIcons/poster.png" alt="">																			</div>
-
-																			<div>
-																				<div class="font-medium block mb-2"> طراحی پوستر</div>
-																																									<p class="text-sm text-gray-400">
-																						پوستر و بنر برای پرزنت حرفه ای																				</p>
-																																							</div>
-																		</div>
-																	</a>
-																</li>
-																															<li class="mb-10 last:mb-0">
-																	<a class="block" href="../order.php">
-																		<div class="flex items-center transition duration-300 hover:-translate-x-1">
-																			<div class="media flex items-center ml-5 w-12 h-12 p-0 bg-[#FAFAFA] rounded-lg">
-																				<img style="border-radius: 12px;" src="../tasavir/headIcons/test.png" alt="">																		</div>
-
-																			<div>
-																				<div class="font-medium block mb-2">تست نفوذ</div>
-																																									<p class="text-sm text-gray-400">
-																						نقاط ضعف سایت خود را پیش‌‌‌ از مهاجمان بشناسید...																					</p>
-																																							</div>
-																		</div>
-																	</a>
-																</li>
-																															<li class="mb-10 last:mb-0">
-																	<a class="block" href="../order.php">
-																		<div class="flex items-center transition duration-300 hover:-translate-x-1">
-																			<div class="media flex items-center ml-5 w-12 h-12 p-0 bg-[#FAFAFA]">
-																				<img style="border-radius: 12px;" src="../tasavir/headIcons/motion.png" alt="">																			</div>
-
-																			<div>
-																				<div class="font-medium block mb-2">موشن گرافیک</div>
-																																									<p class="text-sm text-gray-400">
-																						انجام خدمات موشن گرافیک																					</p>
-																																							</div>
-																		</div>
-																	</a>
-																</li>
-																													</ul>
-																									</ul>
-
-
-												
-																							<ul style="min-width:200px;max-width: 350px" class="ml-8 xl:ml-16 last:ml-0">
-													
-
-																											<ul>
-																															<li class="mb-10 last:mb-0">
-																	<a class="block" href="../support/support.php">
-																		<div class="flex items-center transition duration-300 hover:-translate-x-1">
-																			<div class="media flex items-center ml-5 w-12 h-12 p-0 bg-[#FAFAFA] rounded-lg">
-																				<img style="border-radius: 12px;" src="../tasavir/headIcons/support.png" alt="">																			</div>
-
-																			<div>
-																				<div class="font-medium block mb-2">پشتیبانی رایگان</div>
-																																									<p class="text-sm text-gray-400">
-																						پشتیبانی رایگان پس از بستن قرارداد																					</p>
-																																							</div>
-																		</div>
-																	</a>
-																</li>
-																							
-																													</ul>
-																									</ul>
-
-
-												
-																						
-
-
-												
-																					</div>
-	
-																			<div class="menu-60 flex hidden">
-																							<ul style="min-width:200px;max-width: 350px" class="ml-8 xl:ml-16 last:ml-0">
-													
-
-																											<ul>
-																															<li class="mb-10 last:mb-0">
-																	<a class="block" href="../support/support.php">
-																		<div class="flex items-center transition duration-300 hover:-translate-x-1">
-																			<div class="media flex items-center ml-5 w-12 h-12 p-0 bg-[#FAFAFA] rounded-lg">
-																				
-                                        <svg class="mr-auto ml-auto" width="26px" height="26px" viewBox="0 0 512 512" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" fill="none"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <title>support</title> <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"> <g id="support" fill="#000000" transform="translate(42.666667, 42.666667)"> <path fill-rule="evenodd" clip-rule="evenodd" d="M379.734355,174.506667 C373.121022,106.666667 333.014355,-2.13162821e-14 209.067688,-2.13162821e-14 C85.1210217,-2.13162821e-14 45.014355,106.666667 38.4010217,174.506667 C15.2012632,183.311569 -0.101643453,205.585799 0.000508304259,230.4 L0.000508304259,260.266667 C0.000508304259,293.256475 26.7445463,320 59.734355,320 C92.7241638,320 119.467688,293.256475 119.467688,260.266667 L119.467688,230.4 C119.360431,206.121456 104.619564,184.304973 82.134355,175.146667 C86.4010217,135.893333 107.307688,42.6666667 209.067688,42.6666667 C310.827688,42.6666667 331.521022,135.893333 335.787688,175.146667 C313.347976,184.324806 298.68156,206.155851 298.667688,230.4 L298.667688,260.266667 C298.760356,283.199651 311.928618,304.070103 332.587688,314.026667 C323.627688,330.88 300.801022,353.706667 244.694355,360.533333 C233.478863,343.50282 211.780225,336.789048 192.906491,344.509658 C174.032757,352.230268 163.260418,372.226826 167.196286,392.235189 C171.132153,412.243552 188.675885,426.666667 209.067688,426.666667 C225.181549,426.577424 239.870491,417.417465 247.041022,402.986667 C338.561022,392.533333 367.787688,345.386667 376.961022,317.653333 C401.778455,309.61433 418.468885,286.351502 418.134355,260.266667 L418.134355,230.4 C418.23702,205.585799 402.934114,183.311569 379.734355,174.506667 Z M76.8010217,260.266667 C76.8010217,269.692326 69.1600148,277.333333 59.734355,277.333333 C50.3086953,277.333333 42.6676884,269.692326 42.6676884,260.266667 L42.6676884,230.4 C42.6676884,224.302667 45.9205765,218.668499 51.2010216,215.619833 C56.4814667,212.571166 62.9872434,212.571166 68.2676885,215.619833 C73.5481336,218.668499 76.8010217,224.302667 76.8010217,230.4 L76.8010217,260.266667 Z M341.334355,230.4 C341.334355,220.97434 348.975362,213.333333 358.401022,213.333333 C367.826681,213.333333 375.467688,220.97434 375.467688,230.4 L375.467688,260.266667 C375.467688,269.692326 367.826681,277.333333 358.401022,277.333333 C348.975362,277.333333 341.334355,269.692326 341.334355,260.266667 L341.334355,230.4 Z" fill="url(#svg_puzzle_piece_230895513647265675)">  </path> </g> </g> </g> <defs><linearGradient id="svg_puzzle_piece_230895513647265675" x1="2.242" y1="21.307" x2="22.073" y2="17.824" gradientUnits="userSpaceOnUse"><stop stop-color="#0ff2a3"></stop><stop offset=".359" stop-color="#04ccbb"></stop><stop offset=".677" stop-color="#47ff5f"></stop><stop offset="1" stop-color="#00aed1"></stop></linearGradient></defs> </svg>																	
-                                      </div>
-
-																			<div>
-																				<div class="font-medium block mb-2"> مشاوره آنلاین</div>
-																																									<p class="text-sm text-gray-400">
-																						مشاوره رایگان قبل سفارش																				</p>
-																																							</div>
-																		</div>
-																	</a>
-																</li>
-																															<li class="mb-10 last:mb-0">
-																	<a class="block" href="#joinTeam">
-																		<div class="flex items-center transition duration-300 hover:-translate-x-1">
-																			<div class="media flex items-center ml-5 w-12 h-12 p-0 bg-[#FAFAFA] rounded-lg">
-																				
-                                        <svg class="mr-auto ml-auto" width="34px" height="34px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" fill="none"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <!-- Uploaded to: SVG Repo, www.svgrepo.com, Generator: SVG Repo Mixer Tools --> <title>ic_fluent_team_add_24_filled</title> <desc>Created with Sketch.</desc> <g id="🔍-Product-Icons" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"> <g id="ic_fluent_team_add_24_filled" fill="#212121" fill-rule="nonzero"> <path fill-rule="evenodd" clip-rule="evenodd" d="M17.5,12 C20.5375661,12 23,14.4624339 23,17.5 C23,20.5375661 20.5375661,23 17.5,23 C14.4624339,23 12,20.5375661 12,17.5 C12,14.4624339 14.4624339,12 17.5,12 Z M17.5,13.9992349 L17.4101244,14.0072906 C17.2060313,14.0443345 17.0450996,14.2052662 17.0080557,14.4093593 L17,14.4992349 L16.9996498,16.9992349 L14.4976498,17 L14.4077742,17.0080557 C14.2036811,17.0450996 14.0427494,17.2060313 14.0057055,17.4101244 L13.9976498,17.5 L14.0057055,17.5898756 C14.0427494,17.7939687 14.2036811,17.9549004 14.4077742,17.9919443 L14.4976498,18 L17.0006498,17.9992349 L17.0011076,20.5034847 L17.0091633,20.5933603 C17.0462073,20.7974534 17.207139,20.9583851 17.411232,20.995429 L17.5011076,21.0034847 L17.5909833,20.995429 C17.7950763,20.9583851 17.956008,20.7974534 17.993052,20.5933603 L18.0011076,20.5034847 L18.0006498,17.9992349 L20.5045655,18 L20.5944411,17.9919443 C20.7985342,17.9549004 20.9594659,17.7939687 20.9965098,17.5898756 L21.0045655,17.5 L20.9965098,17.4101244 C20.9594659,17.2060313 20.7985342,17.0450996 20.5944411,17.0080557 L20.5045655,17 L17.9996498,16.9992349 L18,14.4992349 L17.9919443,14.4093593 C17.9549004,14.2052662 17.7939687,14.0443345 17.5898756,14.0072906 L17.5,13.9992349 Z M14.2540247,10 C15.0885672,10 15.8169906,10.4543496 16.2054276,11.1291814 C13.23532,11.7296535 11,14.3537833 11,17.5 C11,18.7891565 11.3752958,19.9906579 12.0225923,21.0012092 L12.002976,21 C9.51711551,21 7.50192738,18.9848119 7.50192738,16.4989513 L7.50192738,12.25 C7.50192738,11.0073593 8.5092867,10 9.75192738,10 L14.2540247,10 Z M7.40645343,10.000271 C6.89290875,10.5355324 6.56080951,11.2462228 6.50902592,12.0334718 L6.50192738,12.25 L6.50192738,16.4989513 C6.50192738,17.3455959 6.69319107,18.1475684 7.03486751,18.8640179 C6.70577369,18.9530495 6.35898976,19 6.00123996,19 C3.79141615,19 2,17.2085839 2,14.99876 L2,12.25 C2,11.059136 2.92516159,10.0843551 4.09595119,10.0051908 L4.25,10 L7.40645343,10.000271 Z M19.75,10 C20.9926407,10 22,11.0073593 22,12.25 L22.0008195,12.8103588 C20.8328473,11.6891263 19.2469007,11 17.5,11 L17.2568191,11.0044649 L17.2568191,11.0044649 C17.1013063,10.6296432 16.8768677,10.2893694 16.5994986,10.000271 L19.75,10 Z M18.5,4 C19.8807119,4 21,5.11928813 21,6.5 C21,7.88071187 19.8807119,9 18.5,9 C17.1192881,9 16,7.88071187 16,6.5 C16,5.11928813 17.1192881,4 18.5,4 Z M12,3 C13.6568542,3 15,4.34314575 15,6 C15,7.65685425 13.6568542,9 12,9 C10.3431458,9 9,7.65685425 9,6 C9,4.34314575 10.3431458,3 12,3 Z M5.5,4 C6.88071187,4 8,5.11928813 8,6.5 C8,7.88071187 6.88071187,9 5.5,9 C4.11928813,9 3,7.88071187 3,6.5 C3,5.11928813 4.11928813,4 5.5,4 Z" id="🎨-Color" fill="url(#svg_4_small_circles_together_430524822986955606)"> </path> </g> </g> </g><defs><linearGradient id="svg_4_small_circles_together_430524822986955606" x1="2.523" y1="23.533" x2="24.832" y2="19.614" gradientUnits="userSpaceOnUse"><stop stop-color="#0ff2a3"></stop><stop offset=".359" stop-color="#04ccbb"></stop><stop offset=".677" stop-color="#47ff5f"></stop><stop offset="1" stop-color="#00aed1"></stop></linearGradient></defs> </svg>																			
-                                      </div>
-
-																			<div>
-																				<div class="font-medium block mb-2">همکاری با آیتی‌لند</div>
-																																									<p class="text-sm text-gray-400">
-																						  تولید محتوا در آیتی‌لند																					</p>
-																																							</div>
-																		</div>
-																	</a>
-																</li>
-																															<li class="mb-10 last:mb-0">
-																	<a class="block" href="members/members.php">
-																		<div class="flex items-center transition duration-300 hover:-translate-x-1">
-																			<div class="media flex items-center ml-5 w-12 h-12 p-0 bg-[#FAFAFA] rounded-lg">
-																				<svg class="mr-auto ml-auto" width="24" height="25" viewBox="0 0 10 34" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M5.177 3.443 7.44 4.749v2.614L5.177 8.669 2.914 7.363V4.749l2.263-1.306ZM9.94 7.408V4.704c0-.865-.461-1.664-1.21-2.097L6.388 1.255a2.421 2.421 0 0 0-2.421 0L1.625 2.607a2.421 2.421 0 0 0-1.21 2.097v2.704c0 .865.46 1.664 1.21 2.097l2.342 1.352a2.42 2.42 0 0 0 2.42 0L8.73 9.505a2.421 2.421 0 0 0 1.21-2.097Zm0 9.591v-.654c0-.68-.363-1.308-.952-1.648l-2.6-1.502a2.421 2.421 0 0 0-2.421 0l-2.342 1.352a2.421 2.421 0 0 0-1.21 2.097v12.832a2.42 2.42 0 0 0 1.21 2.097l2.342 1.352a2.42 2.42 0 0 0 2.42 0l2.343-1.352a2.42 2.42 0 0 0 1.21-2.097V17Zm-2.5 0v12.432l-2.263 1.306-2.263-1.306V16.689l2.263-1.306L7.44 16.69V17Z" fill="url(#a)"></path><defs><linearGradient id="a" x1="1.415" y1="31.947" x2="10.519" y2="31.475" gradientUnits="userSpaceOnUse"><stop stop-color="#0ff2a3"></stop><stop offset=".359" stop-color="#04ccbb"></stop><stop offset=".677" stop-color="#47ff5f"></stop><stop offset="1" stop-color="#00aed1"></stop></linearGradient></defs></svg>																			</div>
-
-																			<div>
-																				
-																				<div class="font-medium block mb-2"> اعضای آیتی‌لند</div>
-																																									<p class="text-sm text-gray-400">
-																						آشنایی با اعضای تیم																					</p>
-																																							</div>
-																		</div>
-																	</a>
-																</li>
-																													</ul>
-																									</ul>
-
-
-												
-																							<ul style="min-width:200px;max-width: 350px" class="ml-8 xl:ml-16 last:ml-0">
-													
-
-																											<ul>
-																															<li class="mb-10 last:mb-0">
-																	<a class="block" href="https://resanehbartar.ir">
-																		<div class="flex items-center transition duration-300 hover:-translate-x-1">
-																			<div class="media flex items-center ml-5 w-12 h-12 p-0 bg-[#FAFAFA] rounded-lg">
-																				<svg class="mr-auto ml-auto" width="24" height="25" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M11.668 6.667h.833a.833.833 0 0 0 0-1.667h-.833a.833.833 0 0 0 0 1.667m0 3.333h.833a.833.833 0 0 0 0-1.667h-.833a.833.833 0 0 0 0 1.667M7.501 6.667h.834a.833.833 0 1 0 0-1.667H7.5a.833.833 0 1 0 0 1.667M7.5 10h.834a.833.833 0 0 0 0-1.667H7.5A.833.833 0 0 0 7.5 10m10 6.666h-.833V2.5a.833.833 0 0 0-.833-.833H4.168a.833.833 0 0 0-.833.833v14.167H2.5a.833.833 0 1 0 0 1.666h15a.833.833 0 0 0 0-1.666m-6.666 0H9.168v-3.333h1.667zm4.166 0h-2.5V12.5a.833.833 0 0 0-.833-.834H8.335a.833.833 0 0 0-.834.834v4.166h-2.5V3.333h10z" fill="url(#a)"></path><defs><linearGradient id="a" x1="3.42" y1="17.661" x2="18.913" y2="14.94" gradientUnits="userSpaceOnUse"><stop stop-color="#0ff2a3"></stop><stop offset=".359" stop-color="#04ccbb"></stop><stop offset=".677" stop-color="#47ff5f"></stop><stop offset="1" stop-color="#00aed1"></stop></linearGradient></defs></svg>																			</div>
-
-																			<div>
-																				<div class="font-medium block mb-2"> مجتمع رسانه قم </div>
-																																									<p class="text-sm text-gray-400">
-																						افتخار همکاری با مجتمع رسانه																			</p>
-																																							</div>
-																		</div>
-																	</a>
-																</li>
-																													</ul>
-																									</ul>
-
-
-												
-																					</div>
-																	</div>
-
-								<div style="min-height:280px" class="body-bg mega-template basis-2/6 rounded-3xl">
-
-																			<div class="template-1 hidden font-serif h-full flex flex-col items-center justify-center px-8 py-4 mr-20">
-																					</div>
-																			<div class="template-2 hidden font-serif h-full flex flex-col items-center justify-center px-8 py-4 ">
-											<div>
-  <h5 class="font-medium text-lg mb-4 text-gray-600">بیشتر بخوانید</h5>
-
-  <ul>
-            <li class="mb-2">
-            <a href="https://myitland.ir/-events/-in-khuzestan/" rel="bookmark">
-            <div class="rounded-lg flex items-center bg-white py-4 px-6">
-                <div class="shrink-0 w-16 h-12 bg-[#eee] relative ml-5 rounded-lg overflow-hidden">
-                                      <img class="w-full h-full absolute left-0 right-0 top-0 bottom-0 object-cover m-auto" src="srcfiles/Conference-3-1-150x150.webp" alt="آیتی‌لند در خوزستان">
-                              </div>
-                <div>
-                    <div class="font-medium block mb-2">آیتی‌لند در خوزستان</div>
-                    <p class="text-sm text-gray-400">
-                  آیتی‌لند، فعالیت خود را از سال ۱۳۹۸...                    </p>
-                </div>
-            </div>
-            </a>
-        </li>
-            <li class="mb-2">
-            <a href="https://myitland.ir/-events/-managed-threat-hunting/" rel="bookmark">
-            <div class="rounded-lg flex items-center bg-white py-4 px-6">
-                <div class="shrink-0 w-16 h-12 bg-[#eee] relative ml-5 rounded-lg overflow-hidden">
-                                      <img class="w-full h-full absolute left-0 right-0 top-0 bottom-0 object-cover m-auto" src="srcfiles/-Managed-Threat-Hunting-150x150.webp" alt=" Managed Threat Hunting">
-                              </div>
-                <div>
-                    <div class="font-medium block mb-2"> Managed Threat Hunting</div>
-                    <p class="text-sm text-gray-400">
-                  دربارۀ وبینار در این وبینار، به بررسی...                    </p>
-                </div>
-            </div>
-            </a>
-        </li>
-      </ul>
-</div>
-										</div>
-																			<div class="template-3 hidden font-serif h-full flex flex-col items-center justify-center px-8 py-4 mr-20">
-											<div class="relative">
-  
-
-  <img src="tasavir/ItLogo.png" alt="">
-
-
-</div>
-										</div>
-																		<div class="absolute w-full h-full top-0 bg-repeat left-0 z-0 " style="background: url(https://myitland.ir/wp-content/themes/academy/public/dotdotbg.png); opacity: 0.07; display: block; background-size: 400px; background-color: #dfdfdf;"></div>
-								</div>
-							</div>
-						</div>
-
-						<div style="min-height:50px" class="shadow-mega-menu absolute z-0 bottom-0 left-0 right-0"></div>
-						<script>
-							const otherNavbarItem = [
-								document.querySelector("#site-navigation > ul > li:nth-child(4) > a"),
-								document.querySelector("#site-navigation > ul > li:nth-child(5) > a"),
-							];
-
-							const khadamatSazemani = document.querySelector(
-								"#site-navigation > ul > li:nth-child(3) > a"
-							);
-
-							const boxDetail = document.querySelector(
-								"#header-mega-menu > div.relative.left-0.right-0.top-0.bottom-0.bg-white.z-30.overflow-x-auto > div > div.body-bg.mega-template.basis-2\\/6.rounded-3xl"
-							);
-							const parentMegaMenu = document.querySelector(
-								"#header-mega-menu > div.relative.left-0.right-0.top-0.bottom-0.bg-white.z-30.overflow-x-auto > div > div.submenus.basis-4\\/6.font-serif"
-							);
-
-							khadamatSazemani.addEventListener("mouseenter", () => {
-								boxDetail.style = "display:none;";
-								parentMegaMenu.classList.remove("basis-4/6");
-							});
-
-							otherNavbarItem.forEach((item) => {
-								item.addEventListener("mouseenter", () => { 
-									boxDetail.style = "";
-									parentMegaMenu.classList.add("basis-4/6");
-								});
-							});
-						</script>
-					</div>
-				</div>
-			</div>
-			<div id="header-shadow" style="min-height:20px" class="shadow-mega-menu transition absolute z-0 bottom-0 left-0 right-0 opacity-100"></div>
-			<div class="progress-bar transition absolute left-0 right-0 -bottom-1 w-full h-1 bg-black bg-opacity-5 opacity-0">
-				<div style="width: 0;" class="bg-black bg-opacity-70 h-full"></div>
-			</div>
-		</header>
-    <div id="header-space" style="height: 96px;"></div>
-    <div class="space">
-    
-    </div>
-    <div id="menu-drawer" class="drawer-wrapper transition duration-500 invisible opacity-0 fixed z-50 left-0 top-0 right-0 bottom-0 bg-black backdrop-blur bg-opacity-40 " style="z-index: 1001;">
-			<div onclick="window.showDrawer()" class="absolute z-30 left-0 top-0 right-0 bottom-0"></div>
-			<div class="drawer-box z-50 bg-white overflow-y-auto transition duration-500 absolute -translate-x-full left-0 top-0 bottom-0 w-[300px] sm:w-[400px] mw350:w-[85%] h-full shadow-2xl">
-				<nav id="site-mobile-navigation" class="main-mobile-navigation font-medium flex-grow
-			            left-0 top-0 bottom-0 bg-white font-serif pt-8 pb-16">
-                  <style>
-                    .fade-out {
-                      transition: opacity 0.5s ease;
-                      opacity: 0;
-                              }
-                  </style>
-					<ul id="header-drawer-menu" class="menu "><li data-delay="100" id="menu-item-617" class="menu-item refreshBtn menu-item-type-post_type menu-item-object-page menu-item-617"><a href="#orders" id="refreshBtn" class="block pb-3 text-lg px-8 pt-4 click-next-uls-open">  سفارش</a></li>
-    
-
-
-
-
-
-
-<li  id="menu-item-618" data-delay="100" class="menu-item refreshBtn menu-item-type-post_type menu-item-object-page menu-item-618"><a href="#NemooneKar" class="block pb-3 text-lg px-8 pt-4 click-next-uls-open">نمونه کار ها</a></li>
-  
-
-<li id="menu-item-619" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children dropdown menu-item-619"><a href="#" class="block flex pb-3 text-lg gap-2 pt-4 click-next-uls-open"> خدمات <svg style="margin-top: 4px;" fill="#000000" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="14px" height="14px" viewBox="0 0 199.404 199.404" xml:space="preserve"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <g> <polygon points="135.412,0 35.709,99.702 135.412,199.404 163.695,171.119 92.277,99.702 163.695,28.285 "></polygon> </g> </g></svg></a>
-<ul class="sub-menu hidden h-0" style="height: 0px;">
-  	
-					
-					<div>
-						
-          <p class="text-sm text-right text-gray-400 mt-5 h-5"></p>
-					</div>
-				
-  <li id="menu-item-1758" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-1758">
-    
-																															<li class="mb-10 last:mb-0">
-																	<a class="block" href="../order.php">
-																		<div class="flex items-center transition duration-300 hover:-translate-x-1" style="padding: 0px 1.5rem;">
-																			<div class="media flex items-center ml-5 w-12 h-12 p-0 bg-[#FAFAFA] rounded-lg">
-																				<img style="border-radius: 12px;" src="../tasavir/headIcons/web.png" alt="">																			</div>
-
-																			<div>
-																				<div class="font-medium block mb-2"> طراحی وبسایت</div>
-																																									<p class="text-sm text-gray-400">
-																						طراحی سایت های استاتیک و پویا																					</p>
-																																							</div>
-																		</div>
-																	</a>
-																</li>
-																															<li class="mb-10 last:mb-0">
-																	<a class="block" href="../order.php">
-																		<div class="flex items-center transition duration-300 hover:-translate-x-1" style="padding: 0px 1.5rem;">
-																			<div class="media flex items-center ml-5 w-12 h-12 p-0 bg-[#FAFAFA] rounded-lg">
-																				<img style="border-radius: 12px;" src="../tasavir/headIcons/app.png" alt="">																			</div>
-
-																			<div>
-																				<div class="font-medium block mb-2"> طراحی وب اپلیکیشن </div>
-																																									<p class="text-sm text-gray-400">
-																						طراحی سایت های اپلیکیشنی...																					</p>
-																																							</div>
-																		</div>
-																	</a>
-																</li>
-																															<li class="mb-10 last:mb-0">
-																	<a class="block" href="../order.php">
-																		<div class="flex items-center transition duration-300 hover:-translate-x-1" style="padding: 0px 1.5rem;">
-																			<div class="media flex items-center ml-5 w-12 h-12 p-0 bg-[#FAFAFA] rounded-lg">
-																				<img style="border-radius: 12px;" src="../tasavir/headIcons/ui.png" alt="">																			</div>
-
-																			<div>
-																				<div class="font-medium block mb-2"> طراحی واسط گرافیکی</div>
-																																									<p class="text-sm text-gray-400">
-																						طراحی UI و UX																				</p>
-																																							</div>
-																		</div>
-																	</a>
-																</li>
-                                                               
-																															<li class="mb-10 last:mb-0">
-																	<a class="block" href="../order.php">
-																		<div class="flex items-center transition duration-300 hover:-translate-x-1" style="padding: 0px 1.5rem;">
-																			<div class="media flex items-center ml-5 w-12 h-12 p-0 bg-[#FAFAFA] rounded-lg">
-																				<img style="border-radius: 12px;" src="../tasavir/headIcons/poster.png" alt="">																			</div>
-
-																			<div>
-																				<div class="font-medium block mb-2"> طراحی پوستر</div>
-																																									<p class="text-sm text-gray-400">
-																						پوستر و بنر برای پرزنت حرفه ای																				</p>
-																																							</div>
-																		</div>
-																	</a>
-																</li>
-																															<li class="mb-10 last:mb-0">
-																	<a class="block" href="../order.php">
-																		<div class="flex items-center transition duration-300 hover:-translate-x-1" style="padding: 0px 1.5rem;">
-																			<div class="media flex items-center ml-5 w-12 h-12 p-0 bg-[#FAFAFA] rounded-lg">
-																				<img style="border-radius: 12px;" src="../tasavir/headIcons/test.png" alt="">																			</div>
-
-																			<div>
-																				<div class="font-medium block mb-2">تست نفوذ</div>
-																																									<p class="text-sm text-gray-400">
-																						نقاط ضعف سایت خود را پیش‌‌‌ از مهاجمان بشناسید...																					</p>
-																																							</div>
-																		</div>
-																	</a>
-																</li>
-																															<li class="mb-10 last:mb-0">
-																	<a class="block" href="../order.php">
-																		<div class="flex items-center transition duration-300 hover:-translate-x-1" style="padding: 0px 1.5rem;">
-																			<div class="media flex items-center ml-5 w-12 h-12 p-0 bg-[#FAFAFA] rounded-lg">
-																				<img style="border-radius: 12px;" src="../tasavir/headIcons/motion.png" alt="">																			</div>
-
-																			<div>
-																				<div class="font-medium block mb-2">موشن گرافیک</div>
-																																									<p class="text-sm text-gray-400">
-																						انجام خدمات موشن گرافیک																					</p>
-																																							</div>
-																		</div>
-																	</a>
-																</li>
-																													
-                                                                <li class="mb-10 last:mb-0">
-																	<a class="block" href="../support/support.php">
-																		<div class="flex items-center transition duration-300 hover:-translate-x-1" style="padding: 0px 1.5rem;">
-																			<div class="media flex items-center ml-5 w-12 h-12 p-0 bg-[#FAFAFA] rounded-lg">
-																				<img style="border-radius: 12px;" src="../tasavir/headIcons/support.png" alt="">																			</div>
-
-																			<div>
-																				<div class="font-medium block mb-2">پشتیبانی رایگان</div>
-																																									<p class="text-sm text-gray-400">
-																						پشتیبانی رایگان پس از بستن قرارداد																					</p>
-																																							</div>
-																		</div>
-																	</a>
-																</li>
-  </li>
-																													</ul>
-                                                                                                                    
-</li>
-
-<li id="menu-item-1757" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children dropdown menu-item-1757"><a href="#" class="block pb-3 text-lg flex gap-2 pt-4 click-next-uls-open">آیتی‌لند <svg style="margin-top: 4px;" fill="#000000" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="14px" height="14px" viewBox="0 0 199.404 199.404" xml:space="preserve"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <g> <polygon points="135.412,0 35.709,99.702 135.412,199.404 163.695,171.119 92.277,99.702 163.695,28.285 "></polygon> </g> </g></svg></a>
-<ul class="sub-menu hidden h-0" style="height: 0px;">
-	<li id="menu-item-1758" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-1758">
-	<ul class="sub-menu hidden h-0" style="height: 0px;">
-		<li id="menu-item-1759" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1759"><a href="../support/support.php" class="block pb-3 text-lg text-gray-400 mx-8 mt-10 relative"><div class="">
-				<div class="ml-auto flex items-center">
-					<svg class="ml-5" width="26px" height="26px" viewBox="0 0 512 512" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" fill="none"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <title>support</title> <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"> <g id="support" fill="#000000" transform="translate(42.666667, 42.666667)"> <path fill-rule="evenodd" clip-rule="evenodd" d="M379.734355,174.506667 C373.121022,106.666667 333.014355,-2.13162821e-14 209.067688,-2.13162821e-14 C85.1210217,-2.13162821e-14 45.014355,106.666667 38.4010217,174.506667 C15.2012632,183.311569 -0.101643453,205.585799 0.000508304259,230.4 L0.000508304259,260.266667 C0.000508304259,293.256475 26.7445463,320 59.734355,320 C92.7241638,320 119.467688,293.256475 119.467688,260.266667 L119.467688,230.4 C119.360431,206.121456 104.619564,184.304973 82.134355,175.146667 C86.4010217,135.893333 107.307688,42.6666667 209.067688,42.6666667 C310.827688,42.6666667 331.521022,135.893333 335.787688,175.146667 C313.347976,184.324806 298.68156,206.155851 298.667688,230.4 L298.667688,260.266667 C298.760356,283.199651 311.928618,304.070103 332.587688,314.026667 C323.627688,330.88 300.801022,353.706667 244.694355,360.533333 C233.478863,343.50282 211.780225,336.789048 192.906491,344.509658 C174.032757,352.230268 163.260418,372.226826 167.196286,392.235189 C171.132153,412.243552 188.675885,426.666667 209.067688,426.666667 C225.181549,426.577424 239.870491,417.417465 247.041022,402.986667 C338.561022,392.533333 367.787688,345.386667 376.961022,317.653333 C401.778455,309.61433 418.468885,286.351502 418.134355,260.266667 L418.134355,230.4 C418.23702,205.585799 402.934114,183.311569 379.734355,174.506667 Z M76.8010217,260.266667 C76.8010217,269.692326 69.1600148,277.333333 59.734355,277.333333 C50.3086953,277.333333 42.6676884,269.692326 42.6676884,260.266667 L42.6676884,230.4 C42.6676884,224.302667 45.9205765,218.668499 51.2010216,215.619833 C56.4814667,212.571166 62.9872434,212.571166 68.2676885,215.619833 C73.5481336,218.668499 76.8010217,224.302667 76.8010217,230.4 L76.8010217,260.266667 Z M341.334355,230.4 C341.334355,220.97434 348.975362,213.333333 358.401022,213.333333 C367.826681,213.333333 375.467688,220.97434 375.467688,230.4 L375.467688,260.266667 C375.467688,269.692326 367.826681,277.333333 358.401022,277.333333 C348.975362,277.333333 341.334355,269.692326 341.334355,260.266667 L341.334355,230.4 Z" fill="url(#svg_puzzle_piece_23089551364726567)">  </path> </g> </g> </g> <defs><linearGradient id="svg_puzzle_piece_23089551364726567" x1="2.242" y1="21.307" x2="22.073" y2="17.824" gradientUnits="userSpaceOnUse"><stop stop-color="#0ff2a3"></stop><stop offset=".359" stop-color="#04ccbb"></stop><stop offset=".677" stop-color="#47ff5f"></stop><stop offset="1" stop-color="#00aed1"></stop></linearGradient></defs> </svg>
-					<div>
-						<p> مشاوره آنلاین </p>
-						<p class="text-sm text-right text-gray-400 mt-5">مشاوره رایگان قبل سفارش پروژه</p>
-					</div>
-				</div>
-			</div></a></li>
-		<li id="menu-item-1761" class="menu-item menu-item-type-post_type refreshBtn menu-item-object-page menu-item-1761" data-delay="100"><a href="#joinTeam" class="block pb-3 text-lg border-b border-b-solid border-b-gray mx-8 mt-10 relative"><div class="">
-				<div class="ml-auto flex items-center">
-					<svg class="ml-5" width="34px" height="34px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" fill="none"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <!-- Uploaded to: SVG Repo, www.svgrepo.com, Generator: SVG Repo Mixer Tools --> <title>ic_fluent_team_add_24_filled</title> <desc>Created with Sketch.</desc> <g id="🔍-Product-Icons" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"> <g id="ic_fluent_team_add_24_filled" fill="#212121" fill-rule="nonzero"> <path fill-rule="evenodd" clip-rule="evenodd" d="M17.5,12 C20.5375661,12 23,14.4624339 23,17.5 C23,20.5375661 20.5375661,23 17.5,23 C14.4624339,23 12,20.5375661 12,17.5 C12,14.4624339 14.4624339,12 17.5,12 Z M17.5,13.9992349 L17.4101244,14.0072906 C17.2060313,14.0443345 17.0450996,14.2052662 17.0080557,14.4093593 L17,14.4992349 L16.9996498,16.9992349 L14.4976498,17 L14.4077742,17.0080557 C14.2036811,17.0450996 14.0427494,17.2060313 14.0057055,17.4101244 L13.9976498,17.5 L14.0057055,17.5898756 C14.0427494,17.7939687 14.2036811,17.9549004 14.4077742,17.9919443 L14.4976498,18 L17.0006498,17.9992349 L17.0011076,20.5034847 L17.0091633,20.5933603 C17.0462073,20.7974534 17.207139,20.9583851 17.411232,20.995429 L17.5011076,21.0034847 L17.5909833,20.995429 C17.7950763,20.9583851 17.956008,20.7974534 17.993052,20.5933603 L18.0011076,20.5034847 L18.0006498,17.9992349 L20.5045655,18 L20.5944411,17.9919443 C20.7985342,17.9549004 20.9594659,17.7939687 20.9965098,17.5898756 L21.0045655,17.5 L20.9965098,17.4101244 C20.9594659,17.2060313 20.7985342,17.0450996 20.5944411,17.0080557 L20.5045655,17 L17.9996498,16.9992349 L18,14.4992349 L17.9919443,14.4093593 C17.9549004,14.2052662 17.7939687,14.0443345 17.5898756,14.0072906 L17.5,13.9992349 Z M14.2540247,10 C15.0885672,10 15.8169906,10.4543496 16.2054276,11.1291814 C13.23532,11.7296535 11,14.3537833 11,17.5 C11,18.7891565 11.3752958,19.9906579 12.0225923,21.0012092 L12.002976,21 C9.51711551,21 7.50192738,18.9848119 7.50192738,16.4989513 L7.50192738,12.25 C7.50192738,11.0073593 8.5092867,10 9.75192738,10 L14.2540247,10 Z M7.40645343,10.000271 C6.89290875,10.5355324 6.56080951,11.2462228 6.50902592,12.0334718 L6.50192738,12.25 L6.50192738,16.4989513 C6.50192738,17.3455959 6.69319107,18.1475684 7.03486751,18.8640179 C6.70577369,18.9530495 6.35898976,19 6.00123996,19 C3.79141615,19 2,17.2085839 2,14.99876 L2,12.25 C2,11.059136 2.92516159,10.0843551 4.09595119,10.0051908 L4.25,10 L7.40645343,10.000271 Z M19.75,10 C20.9926407,10 22,11.0073593 22,12.25 L22.0008195,12.8103588 C20.8328473,11.6891263 19.2469007,11 17.5,11 L17.2568191,11.0044649 L17.2568191,11.0044649 C17.1013063,10.6296432 16.8768677,10.2893694 16.5994986,10.000271 L19.75,10 Z M18.5,4 C19.8807119,4 21,5.11928813 21,6.5 C21,7.88071187 19.8807119,9 18.5,9 C17.1192881,9 16,7.88071187 16,6.5 C16,5.11928813 17.1192881,4 18.5,4 Z M12,3 C13.6568542,3 15,4.34314575 15,6 C15,7.65685425 13.6568542,9 12,9 C10.3431458,9 9,7.65685425 9,6 C9,4.34314575 10.3431458,3 12,3 Z M5.5,4 C6.88071187,4 8,5.11928813 8,6.5 C8,7.88071187 6.88071187,9 5.5,9 C4.11928813,9 3,7.88071187 3,6.5 C3,5.11928813 4.11928813,4 5.5,4 Z" id="🎨-Color" fill="url(#svg_4_small_circles_together_43052482298695560)"> </path> </g> </g> </g><defs><linearGradient id="svg_4_small_circles_together_43052482298695560" x1="2.523" y1="23.533" x2="24.832" y2="19.614" gradientUnits="userSpaceOnUse"><stop stop-color="#0ff2a3"></stop><stop offset=".359" stop-color="#04ccbb"></stop><stop offset=".677" stop-color="#47ff5f"></stop><stop offset="1" stop-color="#00aed1"></stop></linearGradient></defs> </svg>
-					<div>
-						<p>همکاری با آیتی‌لند</p>
-						<p class="text-sm text-right text-gray-400 mt-5">  تولید محتوا در آیتی‌لند</p>
-					</div>
-				</div>
-			</div></a></li>
-		<li id="menu-item-2401" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2401"><a href="./members/members.php" class="block pb-3 text-lg border-b border-b-solid border-b-gray mx-8 mt-10 relative"><div class="">
-				<div class="ml-auto flex items-center">
-					<svg class="ml-5" width="24" height="25" viewBox="0 0 10 34" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M5.177 3.443 7.44 4.749v2.614L5.177 8.669 2.914 7.363V4.749l2.263-1.306ZM9.94 7.408V4.704c0-.865-.461-1.664-1.21-2.097L6.388 1.255a2.421 2.421 0 0 0-2.421 0L1.625 2.607a2.421 2.421 0 0 0-1.21 2.097v2.704c0 .865.46 1.664 1.21 2.097l2.342 1.352a2.42 2.42 0 0 0 2.42 0L8.73 9.505a2.421 2.421 0 0 0 1.21-2.097Zm0 9.591v-.654c0-.68-.363-1.308-.952-1.648l-2.6-1.502a2.421 2.421 0 0 0-2.421 0l-2.342 1.352a2.421 2.421 0 0 0-1.21 2.097v12.832a2.42 2.42 0 0 0 1.21 2.097l2.342 1.352a2.42 2.42 0 0 0 2.42 0l2.343-1.352a2.42 2.42 0 0 0 1.21-2.097V17Zm-2.5 0v12.432l-2.263 1.306-2.263-1.306V16.689l2.263-1.306L7.44 16.69V17Z" fill="url(#a)"></path><defs><linearGradient id="a" x1="1.415" y1="31.947" x2="10.519" y2="31.475" gradientUnits="userSpaceOnUse"><stop stop-color="#F20F0F"></stop><stop offset=".359" stop-color="#00c76d"></stop><stop offset=".677" stop-color="#6047FF"></stop><stop offset="1" stop-color="#0088D1"></stop></linearGradient></defs></svg>
-					<div>
-						<p> اعضای تیم</p>
-						<p class="text-sm text-right text-gray-400 mt-5"> آشنایی با اعضای آیتی‌لند</p>
-					</div>
-				</div>
-			</div></a></li>
-	
-	</ul>
-</li>
-</ul>
-</li>
-
-</ul>
-					
-				</nav>
-			</div>
-		</div>
-  </div>
-    <script>
-            
- const buttons = document.querySelectorAll('.refreshBtn');
-
-  
-  function handleRefreshClick(e) {
-    const btn = e.currentTarget;
-   
-    const delay = parseInt(btn.dataset.delay, 10) || 1000;
-
-
-    btn.disabled = true;
-    btn.textContent = `لطفا صبر کنید...`;
-
-
-    btn.classList.add('fade-out');
-
-   
-    setTimeout(() => {
-      location.reload();
-    }, delay);
-  }
-
- 
-  buttons.forEach(btn => {
-    btn.addEventListener('click', handleRefreshClick);
-  });
-          </script>
 
 
 <div class="jobSec">
@@ -889,9 +294,9 @@ tr.row-1.odd {
   <!-- فرم فیلتر دسته‌بندی‌ها -->
   <div class="categories">
       
-    <div class="category <?= !$selectedCategoryId ? 'active' : '' ?>" data-id="">همه</div>
+    <div class="categorySec <?= !$selectedCategoryId ? 'activeSec' : '' ?>" data-id="">همه</div>
     <?php foreach ($categories as $category): ?>
-      <div class="category <?= $selectedCategoryId == $category['id'] ? 'active' : '' ?>" data-id="<?= $category['id'] ?>">
+      <div class="categorySec <?= $selectedCategoryId == $category['id'] ? 'activeSec' : '' ?>" data-id="<?= $category['id'] ?>">
         <?= $category['name'] ?>
       </div>
     <?php endforeach; ?>
@@ -903,11 +308,11 @@ tr.row-1.odd {
       <div class="job-card" data-category="<?= $job['category_id'] ?>">
         <div class="title"><?= $job['title'] ?></div>
         <div class="details">
-          <span><svg width="18px" height="18px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M7.24 2H5.34C3.15 2 2 3.15 2 5.33V7.23C2 9.41 3.15 10.56 5.33 10.56H7.23C9.41 10.56 10.56 9.41 10.56 7.23V5.33C10.57 3.15 9.42 2 7.24 2Z" fill="#1dba70"></path> <path opacity="0.4" d="M18.6695 2H16.7695C14.5895 2 13.4395 3.15 13.4395 5.33V7.23C13.4395 9.41 14.5895 10.56 16.7695 10.56H18.6695C20.8495 10.56 21.9995 9.41 21.9995 7.23V5.33C21.9995 3.15 20.8495 2 18.6695 2Z" fill="#1dba70"></path> <path d="M18.6695 13.4302H16.7695C14.5895 13.4302 13.4395 14.5802 13.4395 16.7602V18.6602C13.4395 20.8402 14.5895 21.9902 16.7695 21.9902H18.6695C20.8495 21.9902 21.9995 20.8402 21.9995 18.6602V16.7602C21.9995 14.5802 20.8495 13.4302 18.6695 13.4302Z" fill="#1dba70"></path> <path opacity="0.4" d="M7.24 13.4302H5.34C3.15 13.4302 2 14.5802 2 16.7602V18.6602C2 20.8502 3.15 22.0002 5.33 22.0002H7.23C9.41 22.0002 10.56 20.8502 10.56 18.6702V16.7702C10.57 14.5802 9.42 13.4302 7.24 13.4302Z" fill="#1dba70"></path> </g></svg> <?= $job['category_name'] ?></span>
-          <span><svg fill="rgba(8, 199, 43, 0.78)" width="18px" height="18px" viewBox="0 0 24 24" id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M9,24H1a1,1,0,0,1,0-2H9a1,1,0,0,1,0,2Z M7,20H1a1,1,0,0,1,0-2H7a1,1,0,0,1,0,2Z M5,16H1a1,1,0,0,1,0-2H5a1,1,0,0,1,0,2Z M13,23.955a1,1,0,0,1-.089-2A10,10,0,1,0,2.041,11.09a1,1,0,0,1-1.992-.18A12,12,0,0,1,24,12,11.934,11.934,0,0,1,13.09,23.951C13.06,23.954,13.029,23.955,13,23.955Z M12,6a1,1,0,0,0-1,1v5a1,1,0,0,0,.293.707l3,3a1,1,0,0,0,1.414-1.414L13,11.586V7A1,1,0,0,0,12,6Z"></path></g></svg> <?= $job['job_type'] ?></span>
-          <span style="background-color: rgba(0, 197, 72, 0.16); padding: 4px; border-radius: 4px; width: fit-content;">سابقه: <?= $job['experience'] ?> </span>
+          <span style="display: flex; !important gap: 6px !important;"><svg width="18px" height="18px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M7.24 2H5.34C3.15 2 2 3.15 2 5.33V7.23C2 9.41 3.15 10.56 5.33 10.56H7.23C9.41 10.56 10.56 9.41 10.56 7.23V5.33C10.57 3.15 9.42 2 7.24 2Z" fill="#1dba70"></path> <path opacity="0.4" d="M18.6695 2H16.7695C14.5895 2 13.4395 3.15 13.4395 5.33V7.23C13.4395 9.41 14.5895 10.56 16.7695 10.56H18.6695C20.8495 10.56 21.9995 9.41 21.9995 7.23V5.33C21.9995 3.15 20.8495 2 18.6695 2Z" fill="#1dba70"></path> <path d="M18.6695 13.4302H16.7695C14.5895 13.4302 13.4395 14.5802 13.4395 16.7602V18.6602C13.4395 20.8402 14.5895 21.9902 16.7695 21.9902H18.6695C20.8495 21.9902 21.9995 20.8402 21.9995 18.6602V16.7602C21.9995 14.5802 20.8495 13.4302 18.6695 13.4302Z" fill="#1dba70"></path> <path opacity="0.4" d="M7.24 13.4302H5.34C3.15 13.4302 2 14.5802 2 16.7602V18.6602C2 20.8502 3.15 22.0002 5.33 22.0002H7.23C9.41 22.0002 10.56 20.8502 10.56 18.6702V16.7702C10.57 14.5802 9.42 13.4302 7.24 13.4302Z" fill="#1dba70"></path> </g></svg> <?= $job['category_name'] ?></span>
+          <span style="display: flex; !important gap: 6px !important;"><svg fill="rgba(8, 199, 43, 0.78)" width="18px" height="18px" viewBox="0 0 24 24" id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M9,24H1a1,1,0,0,1,0-2H9a1,1,0,0,1,0,2Z M7,20H1a1,1,0,0,1,0-2H7a1,1,0,0,1,0,2Z M5,16H1a1,1,0,0,1,0-2H5a1,1,0,0,1,0,2Z M13,23.955a1,1,0,0,1-.089-2A10,10,0,1,0,2.041,11.09a1,1,0,0,1-1.992-.18A12,12,0,0,1,24,12,11.934,11.934,0,0,1,13.09,23.951C13.06,23.954,13.029,23.955,13,23.955Z M12,6a1,1,0,0,0-1,1v5a1,1,0,0,0,.293.707l3,3a1,1,0,0,0,1.414-1.414L13,11.586V7A1,1,0,0,0,12,6Z"></path></g></svg> <?= $job['job_type'] ?></span>
+          <span style="background-color: rgba(85, 85, 85, 0.16); padding: 4px; border-radius: 4px; width: fit-content;">سابقه: <?= $job['experience'] ?> </span>
         </div>
-        <a href="resome.php?id=<?= $job['id'] ?>" class="apply-link"><p>ارسال رزومه</p> <svg width="29px" height="29px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M14.2893 5.70708C13.8988 5.31655 13.2657 5.31655 12.8751 5.70708L7.98768 10.5993C7.20729 11.3805 7.2076 12.6463 7.98837 13.427L12.8787 18.3174C13.2693 18.7079 13.9024 18.7079 14.293 18.3174C14.6835 17.9269 14.6835 17.2937 14.293 16.9032L10.1073 12.7175C9.71678 12.327 9.71678 11.6939 10.1073 11.3033L14.2893 7.12129C14.6799 6.73077 14.6799 6.0976 14.2893 5.70708Z" fill="#ffffff"></path> </g></svg> </a>
+        <a href="resome.php?id=<?= $job['id'] ?>" class="apply-link"><p style="color: white !important;">ارسال رزومه</p> <svg width="29px" height="29px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M14.2893 5.70708C13.8988 5.31655 13.2657 5.31655 12.8751 5.70708L7.98768 10.5993C7.20729 11.3805 7.2076 12.6463 7.98837 13.427L12.8787 18.3174C13.2693 18.7079 13.9024 18.7079 14.293 18.3174C14.6835 17.9269 14.6835 17.2937 14.293 16.9032L10.1073 12.7175C9.71678 12.327 9.71678 11.6939 10.1073 11.3033L14.2893 7.12129C14.6799 6.73077 14.6799 6.0976 14.2893 5.70708Z" fill="#ffffff"></path> </g></svg> </a>
       </div>
     <?php endforeach; ?>
   </div>
@@ -916,27 +321,89 @@ tr.row-1.odd {
 
 <script>
   // هنگامی که دسته‌بندی انتخاب می‌شود
-  $(".category").click(function() {
-    var categoryId = $(this).data("id");
+  $(".categorySec").click(function() {
+    var categoryIdSec = $(this).data("id");
 
     // هایلایت کردن دسته‌بندی انتخاب‌شده
-    $(".category").removeClass("active");
-    $(this).addClass("active");
+    $(".categorySec").removeClass("activeSec");
+    $(this).addClass("activeSec");
 
     // ارسال درخواست AJAX برای دریافت آگهی‌ها بر اساس دسته‌بندی انتخاب‌شده
     $.ajax({
       url: "", // صفحه‌ای که در حال حاضر هستید
       method: "POST",
-      data: { category_id: categoryId },
+      data: { category_id: categoryIdSec },
       success: function(response) {
         // فقط بخش آگهی‌ها را از پاسخ دریافت کرده و آن را به‌روزرسانی می‌کنیم
-        var jobListHtml = $(response).find("#job-list").html(); // استخراج محتوای بخش job-list
-        $("#job-list").html(jobListHtml); // به‌روزرسانی محتوای job-list
+        var jobListHtmlsec = $(response).find("#job-list").html(); // استخراج محتوای بخش job-list
+        $("#job-list").html(jobListHtmlsec); // به‌روزرسانی محتوای job-list
       }
     });
   });
 </script>
-     <script defer="defer" type="text/javascript" src="../srcfiles/main.f66c6c47.js"></script>
-<script defer="defer" src="../srcfiles/aos.js"></script>
+   <footer class="mrFooter">
+
+<div class="foot foot1">
+
+  <div class="footerSection footerSection1">
+  <h1>درباره ما</h1>
+  <p style="color:#cfcfcf;"> سایت آیتی‌لند در آبان 1402 با هدف ارائه خدمات نوین فناوری و آموزش‌های به‌روز در دنیای آی‌تی راه‌اندازی شد.
+در آیتی‌لند، مرزهای دانش را جستجو می‌کنیم و تلاش داریم پلی باشیم بین شما و آینده تکنولوژی.
+با ما همراه باشید تا در دنیای دیجیتال پیشرو باشید!
+</p>
+  </div>
+
+  <div class="footerSection footerSection2">
+    <h1>ارتباط با ما</h1>
+
+    <ul>
+      <li> <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" style="fill: rgb(255, 255, 255);"><path d="M20 4H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V6a2 2 0 0 0-2-2zm0 4.7-8 5.334L4 8.7V6.297l8 5.333 8-5.333V8.7z"></path></svg>info@myitland.ir</li>
+      <li><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" style="fill: rgb(255, 255, 255)"><path d="m20.665 3.717-17.73 6.837c-1.21.486-1.203 1.161-.222 1.462l4.552 1.42 10.532-6.645c.498-.303.953-.14.579.192l-8.533 7.701h-.002l.002.001-.314 4.692c.46 0 .663-.211.921-.46l2.211-2.15 4.599 3.397c.848.467 1.457.227 1.668-.785l3.019-14.228c.309-1.239-.473-1.8-1.282-1.434z"></path></svg>myitland@</li>
+    </ul>
+  </div>
+
+
+</div>
+
+
+
+
+<div class="foot foot2">
+
+<div class="footSec">
+  <hr>
+  <img src="../tasavir/Untitled-2.png" alt="">
+  <hr>
+</div>
+<div class="footSec">
+
+  <ul>
+    <li><a href="undeveloped.html">
+    <svg viewBox="0 0 24 24"  xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+    style="fill: rgba(255, 255, 255, 1);"> <path d="m5.968 23.942a6.624 6.624 0 0 1 -2.332-.83c-1.62-.929-2.829-2.593-3.217-4.426-.151-.717-.17-1.623-.15-7.207.019-6.009.005-5.699.291-6.689.142-.493.537-1.34.823-1.767 1.055-1.57 2.607-2.578 4.53-2.943.384-.073.94-.08 6.056-.08 6.251 0 6.045-.009 7.066.314a6.807 6.807 0 0 1 4.314 4.184c.33.937.346 1.087.369 3.555l.02 2.23-.391.268c-.558.381-1.29 1.06-2.316 2.15-1.182 1.256-2.376 2.42-2.982 2.907-1.309 1.051-2.508 1.651-3.726 1.864-.634.11-1.682.067-2.302-.095-.553-.144-.517-.168-.726.464a6.355 6.355 0 0 0 -.318 1.546l-.031.407-.146-.03c-1.215-.241-2.419-1.285-2.884-2.5a3.583 3.583 0 0 1 -.26-1.219l-.016-.34-.309-.284c-.644-.59-1.063-1.312-1.195-2.061-.212-1.193.34-2.542 1.538-3.756 1.264-1.283 3.127-2.29 4.953-2.68.658-.14 1.818-.177 2.403-.075 1.138.198 2.067.773 2.645 1.639.182.271.195.31.177.555a.812.812 0 0 1 -.183.493c-.465.651-1.848 1.348-3.336 1.68-2.625.585-4.294-.142-4.033-1.759.026-.163.04-.304.031-.313-.032-.032-.293.104-.575.3-.479.334-.903.984-1.05 1.607-.036.156-.05.406-.034.65.02.331.053.454.192.736.092.186.275.45.408.589l.24.251-.096.122a4.845 4.845 0 0 0 -.677 1.217 3.635 3.635 0 0 0 -.105 1.815c.103.461.421 1.095.739 1.468.242.285.797.764.886.764.024 0 .044-.048.044-.106.001-.23.184-.973.326-1.327.423-1.058 1.351-1.96 2.82-2.74.245-.13.952-.47 1.572-.757 1.36-.63 2.103-1.015 2.511-1.305 1.176-.833 1.903-2.065 2.14-3.625.086-.57.086-1.634 0-2.207-.368-2.438-2.195-4.096-4.818-4.37-2.925-.307-6.648 1.953-8.942 5.427-1.116 1.69-1.87 3.565-2.187 5.443-.123.728-.169 2.08-.093 2.75.193 1.704.822 3.078 1.903 4.156a6.531 6.531 0 0 0 1.87 1.313c2.368 1.13 4.99 1.155 7.295.071.996-.469 1.974-1.196 3.023-2.25 1.02-1.025 1.71-1.88 3.592-4.458 1.04-1.423 1.864-2.368 2.272-2.605l.15-.086-.019 3.091c-.018 2.993-.022 3.107-.123 3.561-.6 2.678-2.54 4.636-5.195 5.242l-.468.107-5.775.01c-4.734.008-5.85-.002-6.19-.056z"/></svg></a></li>
+          <li><a href="undeveloped.html"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+            style="fill: rgba(255, 255, 255, 1);">
+            <path
+            d="m18.73 5.41-1.28 1L12 10.46 6.55 6.37l-1.28-1A2 2 0 0 0 2 7.05v11.59A1.36 1.36 0 0 0 3.36 20h3.19v-7.72L12 16.37l5.45-4.09V20h3.19A1.36 1.36 0 0 0 22 18.64V7.05a2 2 0 0 0-3.27-1.64z">
+          </path>
+        </svg></a></li>
+        <li><a href="undeveloped.html"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+          style="fill: rgba(255, 255, 255, 1);">
+          <path
+          d="M20.947 8.305a6.53 6.53 0 0 0-.419-2.216 4.61 4.61 0 0 0-2.633-2.633 6.606 6.606 0 0 0-2.186-.42c-.962-.043-1.267-.055-3.709-.055s-2.755 0-3.71.055a6.606 6.606 0 0 0-2.185.42 4.607 4.607 0 0 0-2.633 2.633 6.554 6.554 0 0 0-.419 2.185c-.043.963-.056 1.268-.056 3.71s0 2.754.056 3.71c.015.748.156 1.486.419 2.187a4.61 4.61 0 0 0 2.634 2.632 6.584 6.584 0 0 0 2.185.45c.963.043 1.268.056 3.71.056s2.755 0 3.71-.056a6.59 6.59 0 0 0 2.186-.419 4.615 4.615 0 0 0 2.633-2.633c.263-.7.404-1.438.419-2.187.043-.962.056-1.267.056-3.71-.002-2.442-.002-2.752-.058-3.709zm-8.953 8.297c-2.554 0-4.623-2.069-4.623-4.623s2.069-4.623 4.623-4.623a4.623 4.623 0 0 1 0 9.246zm4.807-8.339a1.077 1.077 0 0 1-1.078-1.078 1.077 1.077 0 1 1 2.155 0c0 .596-.482 1.078-1.077 1.078z"></path>
+        <circle cx="11.994" cy="11.979" r="3.003"></circle>
+      </svg></a></li>
+      <li><a href="undeveloped.html"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" style="fill: rgba(255, 255, 255, 1);"><path d="m20.665 3.717-17.73 6.837c-1.21.486-1.203 1.161-.222 1.462l4.552 1.42 10.532-6.645c.498-.303.953-.14.579.192l-8.533 7.701h-.002l.002.001-.314 4.692c.46 0 .663-.211.921-.46l2.211-2.15 4.599 3.397c.848.467 1.457.227 1.668-.785l3.019-14.228c.309-1.239-.473-1.8-1.282-1.434z"></path></svg></a></li>
+      </ul>
+</div>
+
+</div>
+
+<div class="foot foot3">
+  <p style="color:rgba(255, 255, 255, 0.61); text-align:center;">
+  کليه حقوق و محتوای اين سایت متعلق به آیتی لند می باشد و هر گونه کپی برداری از محتوای سایت غیر مجازاست 
+www.Myitland.ir</p></div>
+    </footer>
+    
 </body>
 </html>

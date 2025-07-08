@@ -6167,3 +6167,240 @@ User query result: Array
     [email] => javadooshakhlari@gmail.com
 )
 
+Session at start of order.php: Array
+(
+    [user_id] => 7
+    [email] => javadooshakhlari@gmail.com
+)
+
+User query result: Array
+(
+    [name] => javad
+    [email] => javadooshakhlari@gmail.com
+)
+
+Session at start of order.php: Array
+(
+    [user_id] => 7
+    [email] => javadooshakhlari@gmail.com
+)
+
+User query result: Array
+(
+    [name] => javad
+    [email] => javadooshakhlari@gmail.com
+)
+
+Session at start of order.php: Array
+(
+    [user_id] => 7
+    [email] => javadooshakhlari@gmail.com
+)
+
+User query result: Array
+(
+    [name] => javad
+    [email] => javadooshakhlari@gmail.com
+)
+
+Session at start of order.php: Array
+(
+    [user_id] => 7
+    [email] => javadooshakhlari@gmail.com
+)
+
+User query result: Array
+(
+    [name] => javad
+    [email] => javadooshakhlari@gmail.com
+)
+
+Session at start of order.php: Array
+(
+)
+
+Redirecting to login.php: user_id not set
+Session at start of order.php: Array
+(
+    [user_id] => 7
+    [email] => javadooshakhlari@gmail.com
+)
+
+User query result: Array
+(
+    [name] => javad
+    [email] => javadooshakhlari@gmail.com
+)
+
+Session at start of order.php: Array
+(
+    [user_id] => 7
+    [email] => javadooshakhlari@gmail.com
+)
+
+User query result: Array
+(
+    [name] => javad
+    [email] => javadooshakhlari@gmail.com
+)
+
+Session at start of order.php: Array
+(
+    [user_id] => 7
+    [email] => javadooshakhlari@gmail.com
+)
+
+User query result: Array
+(
+    [name] => javad
+    [email] => javadooshakhlari@gmail.com
+)
+
+Session at start of order.php: Array
+(
+    [user_id] => 7
+    [email] => javadooshakhlari@gmail.com
+)
+
+User query result: Array
+(
+    [name] => javad
+    [email] => javadooshakhlari@gmail.com
+)
+
+Session at start of order.php: Array
+(
+    [user_id] => 7
+    [email] => javadooshakhlari@gmail.com
+)
+
+User query result: Array
+(
+    [name] => javad
+    [email] => javadooshakhlari@gmail.com
+)
+
+Session at start of order.php: Array
+(
+    [user_id] => 7
+    [email] => javadooshakhlari@gmail.com
+)
+
+User query result: Array
+(
+    [name] => javad
+    [email] => javadooshakhlari@gmail.com
+)
+
+Session at start of order.php: Array
+(
+    [user_id] => 7
+    [email] => javadooshakhlari@gmail.com
+)
+
+User query result: Array
+(
+    [name] => javad
+    [email] => javadooshakhlari@gmail.com
+)
+
+Session at start of order.php: Array
+(
+    [user_id] => 7
+    [email] => javadooshakhlari@gmail.com
+)
+
+User query result: Array
+(
+    [name] => javad
+    [email] => javadooshakhlari@gmail.com
+)
+
+Session at start of order.php: Array
+(
+    [user_id] => 7
+    [email] => javadooshakhlari@gmail.com
+)
+
+User query result: Array
+(
+    [name] => javad
+    [email] => javadooshakhlari@gmail.com
+)
+
+Session at start of order.php: Array
+(
+    [user_id] => 7
+    [email] => javadooshakhlari@gmail.com
+)
+
+User query result: Array
+(
+    [name] => javad
+    [email] => javadooshakhlari@gmail.com
+)
+
+Session at start of order.php: Array
+(
+    [user_id] => 7
+    [email] => javadooshakhlari@gmail.com
+)
+
+User query result: Array
+(
+    [name] => javad
+    [email] => javadooshakhlari@gmail.com
+)
+
+Session at start of order.php: Array
+(
+    [user_id] => 7
+    [email] => javadooshakhlari@gmail.com
+)
+
+User query result: Array
+(
+    [name] => javad
+    [email] => javadooshakhlari@gmail.com
+)
+
+Session at start of packageOrder.php: Array
+(
+    [user_id] => 7
+    [email] => javadooshakhlari@gmail.com
+)
+
+Session at start of packageOrder.php: Array
+(
+    [user_id] => 7
+    [email] => javadooshakhlari@gmail.com
+    [csrf_token] => 64cd4367bc365cb7cb17232ef54c5fe9685434dcc7538cf56babd1852a78f272
+)
+
+Session at start of packageOrder.php: Array
+(
+    [user_id] => 7
+    [email] => javadooshakhlari@gmail.com
+    [csrf_token] => 64cd4367bc365cb7cb17232ef54c5fe9685434dcc7538cf56babd1852a78f272
+)
+
+Session at start of packageOrder.php: Array
+(
+    [user_id] => 7
+    [email] => javadooshakhlari@gmail.com
+    [csrf_token] => 64cd4367bc365cb7cb17232ef54c5fe9685434dcc7538cf56babd1852a78f272
+)
+
+Session at start of order.php: Array
+(
+    [user_id] => 7
+    [email] => javadooshakhlari@gmail.com
+    [csrf_token] => 64cd4367bc365cb7cb17232ef54c5fe9685434dcc7538cf56babd1852a78f272
+)
+
+User query result: Array
+(
+    [name] => javad
+    [email] => javadooshakhlari@gmail.com
+)
+

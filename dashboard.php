@@ -274,7 +274,13 @@ tr.row-1.odd {
 			<div class="transition duration-300 h-full relative z-10 bg-white">
 				<div class="container mx-auto flex h-full flex-wrap md:flex-row flex-row-reverse bg-white justify-between">
 					<!-- .site-branding -->
-
+              <style>
+    @media screen and (min-width:1023px) {
+      .itlogo{
+        display: block;
+      }
+    }
+  </style>
 					<div class="site-branding flex items-center md:ml-14 ml-6">
 						<a href="https://myitland.ir" title=" آیتی لند" rel="home">
 							<img width="96" height="55" src="tasavir/ItLogo.png" class="w-24 hidden itlogo" alt=" ابتی لند" decoding="async">
@@ -285,12 +291,12 @@ tr.row-1.odd {
 					<nav id="site-navigation" class="z-30 main-navigation flex-grow hidden lg:block font-serif pt-0">
 						<ul class="header-desktop-menu h-full">
 																<li class="inline-block h-full ml-6 xl:ml-10 last:ml-0">
-										<a data-id="22" data-megatemplate="" class="h-full inline-flex items-center mt-1-px text-[#494647] hover:text-[#04cc72]" href="#orders">
+										<a data-id="22" data-megatemplate="" class="h-full inline-flex items-center mt-1-px text-[#494647] hover:text-[#04cc72]" href="./#orders">
 											<span>سفارش</span>
 																					</a>
 									</li>
 																<li class="inline-block h-full ml-6 xl:ml-10 last:ml-0">
-										<a data-id="19" data-megatemplate="" class="h-full inline-flex items-center mt-1-px text-[#494647] hover:text-[#04cc72]" href="#NemooneKar">
+										<a data-id="19" data-megatemplate="" class="h-full inline-flex items-center mt-1-px text-[#494647] hover:text-[#04cc72]" href="./#NemooneKar">
 											<span>نمونه کار</span>
 																					</a>
 									</li>
@@ -309,7 +315,7 @@ tr.row-1.odd {
 										<div style="width:1px" class="inline-block align-middle h-5 bg-gray-300"></div>
 									</li>
 																	<li class="inline-block h-full ml-6 xl:ml-10 last:ml-0">
-										<a data-id="71" data-megatemplate="" class="h-full inline-flex items-center mt-1-px text-[#494647] hover:text-[#04cc72]" href="#joinTeam">
+										<a data-id="71" data-megatemplate="" class="h-full inline-flex items-center mt-1-px text-[#494647] hover:text-[#04cc72]" href="./#joinTeam">
 											<span> همکاری با ایتی لند</span>
 																					</a>
 									</li>
