@@ -419,11 +419,7 @@ tr.row-1.odd {
   }
 }
 
-<<<<<<< HEAD
 .orederSec header {
-=======
-header {
->>>>>>> d8f6a27a32a4f2108f88791e9e2fc4dd65461ece
   background: linear-gradient(270deg, rgb(25, 25, 25), rgb(50, 50, 50));
   background-size: 400% 400%;
   animation: headerGradient 8s ease infinite;
@@ -433,30 +429,18 @@ header {
   border-bottom: 2px solid rgb(255, 255, 255);
 }
 
-<<<<<<< HEAD
 .orederSec h1 {
-=======
-h1 {
->>>>>>> d8f6a27a32a4f2108f88791e9e2fc4dd65461ece
   font-size: 36px;
   margin: 0;
 }
 
-<<<<<<< HEAD
 .orederSec{
-=======
-.container {
->>>>>>> d8f6a27a32a4f2108f88791e9e2fc4dd65461ece
   width: 80%;
   margin: 30px auto;
 }
 
 /* فرم کانتینر با افکت هاور انیمیشنی */
-<<<<<<< HEAD
 .orederSec .form-container {
-=======
-.form-container {
->>>>>>> d8f6a27a32a4f2108f88791e9e2fc4dd65461ece
   background-color: white;
   padding: 40px;
   border-radius: 10px;
@@ -465,17 +449,12 @@ h1 {
   display: flex;
   flex-direction: column;
 }
-<<<<<<< HEAD
 .orederSec .stepsSec{
-=======
-.stepsSec{
->>>>>>> d8f6a27a32a4f2108f88791e9e2fc4dd65461ece
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
-<<<<<<< HEAD
 .orederSec .steps-container {
   display: flex;
   justify-content: center;
@@ -485,31 +464,14 @@ h1 {
   gap: 0px;
   position: relative;
   /* margin-left: 1rem; */
-=======
-.steps-container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-bottom: 40px;
-  gap: 0px;
-  position: relative;
-  margin-left: 1rem;
->>>>>>> d8f6a27a32a4f2108f88791e9e2fc4dd65461ece
   max-width: 920px;
   width: 100%;
 }
 
-<<<<<<< HEAD
 .orederSec .step:first-child {
   border-radius: 0 20px 20px 0;
 }
  .orederSec .step:last-child {
-=======
-.step:first-child {
-  border-radius: 0 20px 20px 0;
-}
-.step:last-child {
->>>>>>> d8f6a27a32a4f2108f88791e9e2fc4dd65461ece
   border-radius: 20px 0px 0px 20px;
 }
 
@@ -519,7 +481,6 @@ h1 {
   70% { box-shadow: 0 0 0 10px transparent; }
   100% { box-shadow: 0 0 0 0 rgba(60, 217, 114, 0.7); }
 }
-<<<<<<< HEAD
 .orederSec .active {
     color: white !important;
   background-color: rgb(0, 12, 6);
@@ -527,15 +488,6 @@ h1 {
 }
 
 .orederSec .step {
-=======
-.active {
-    color: white !important;
-  background-color: rgb(13, 224, 115);
-  animation: pulse 2s infinite;
-}
-
-.step {
->>>>>>> d8f6a27a32a4f2108f88791e9e2fc4dd65461ece
   z-index: 1;
   position: relative;
   width: 25%;
@@ -549,11 +501,7 @@ h1 {
 }
 
 
-<<<<<<< HEAD
 .orederSec .step img {
-=======
-.step img {
->>>>>>> d8f6a27a32a4f2108f88791e9e2fc4dd65461ece
   position: absolute;
   right: 40%;
   top: -49px;
@@ -566,11 +514,7 @@ h1 {
   to { filter: brightness(1.2); }
 }
 
-<<<<<<< HEAD
 .orederSec .cable {
-=======
-.cable {
->>>>>>> d8f6a27a32a4f2108f88791e9e2fc4dd65461ece
   position: absolute;
   right: 57%;
   top: -53px;
@@ -597,7 +541,6 @@ h1 {
   transform: rotate(180deg);
 }
 
-<<<<<<< HEAD
 .orederSec #step1 {
   border-left: unset;
 }
@@ -610,25 +553,10 @@ h1 {
   border-right: unset;
 }
 .orederSec #step4 {
-=======
-#step1 {
-  border-left: unset;
-}
-#step2 {
-  border-left: unset;
-  border-right: unset;
-}
-#step3 {
-  border-left: unset;
-  border-right: unset;
-}
-#step4 {
->>>>>>> d8f6a27a32a4f2108f88791e9e2fc4dd65461ece
   border-right: unset;
 }
 
 @media screen and (max-width:770px) {
-<<<<<<< HEAD
   .orederSec .steps-container{
         scale: 0.85;
     }
@@ -656,39 +584,12 @@ h1 {
     font-size: 12px!important;
   }
   .orederSec .step img {
-=======
-    .steps-container{
-        margin: 0px -60px;
-        margin-top: -45%;
-        scale: 0.85;
-    }
-    .category-box{
-        font-size: 13px;
-    }
-    .category-boxes{
-        gap: 0px;
-    }
-  .step:first-child {
-    border-radius: 20px 20px 0 0;
-  }
-  .step:last-child {
-    border-radius: 0 0 20px 20px;
-  }
-  .form-container {
-    flex-direction: row;
-  }
-  .form-container button {
-    font-size: 12px!important;
-  }
-  .step img {
->>>>>>> d8f6a27a32a4f2108f88791e9e2fc4dd65461ece
     position: absolute;
     right: -38px;
     top: 6px;
     transform: rotate(90deg);
     width: 35px;
   }
-<<<<<<< HEAD
   .orederSec .cable {
     display: none;
   }
@@ -700,35 +601,17 @@ h1 {
     border-left: 5px solid rgb(38, 40, 40);
   }
   .orederSec #step2 {
-=======
-  .cable {
-    display: none;
-  }
-  .step {
-    border: 5px solid rgb(38, 40, 40);
-  }
-  #step1 {
-    border-bottom: unset;
-    border-left: 5px solid rgb(38, 40, 40);
-  }
-  #step2 {
->>>>>>> d8f6a27a32a4f2108f88791e9e2fc4dd65461ece
     border-bottom: unset;
     border-top: unset;
     border-right: 5px solid rgb(38, 40, 40);
     border-left: 5px solid rgb(38, 40, 40);
   }
-<<<<<<< HEAD
   .orederSec #step3 {
-=======
-  #step3 {
->>>>>>> d8f6a27a32a4f2108f88791e9e2fc4dd65461ece
     border-bottom: unset;
     border-top: unset;
     border-right: 5px solid rgb(38, 40, 40);
     border-left: 5px solid rgb(38, 40, 40);
   }
-<<<<<<< HEAD
   .orederSec #step4 {
     border-top: unset;
     border-right: 5px solid rgb(38, 40, 40);
@@ -741,34 +624,15 @@ h1 {
 }
 
 .orederSec .form-container label {
-=======
-  #step4 {
-    border-top: unset;
-    border-right: 5px solid rgb(38, 40, 40);
-  }
-}
-
-.form-container {
-  margin-bottom: 20px;
-}
-
-.form-container label {
->>>>>>> d8f6a27a32a4f2108f88791e9e2fc4dd65461ece
   font-size: 18px;
   color: #333;
   margin-bottom: 8px;
   display: block;
 }
 
-<<<<<<< HEAD
 .orederSec .form-container input,
 .orederSec .form-container textarea,
 .orederSec .form-container select {
-=======
-.form-container input,
-.form-container textarea,
-.form-container select {
->>>>>>> d8f6a27a32a4f2108f88791e9e2fc4dd65461ece
   width: 100%;
   padding: 12px;
   font-size: 16px;
@@ -777,7 +641,6 @@ h1 {
   margin-top: 5px;
   transition: border-color 0.3s ease;
 }
-<<<<<<< HEAD
 .orederSec .form-container input:hover,
 .orederSec .form-container textarea:hover,
 .orederSec .form-container select:hover {
@@ -787,26 +650,11 @@ h1 {
 .orederSec .form-container input:focus,
 .orederSec .form-container textarea:focus,
 .orederSec .form-container select:focus {
-=======
-.form-container input:hover,
-.form-container textarea:hover,
-.form-container select:hover {
-  border-color: #3cd972;
-}
-
-.form-container input:focus,
-.form-container textarea:focus,
-.form-container select:focus {
->>>>>>> d8f6a27a32a4f2108f88791e9e2fc4dd65461ece
   border-color: #3cd972;
   outline: none;
 }
 
-<<<<<<< HEAD
 .orederSec .form-container button {
-=======
-.form-container button {
->>>>>>> d8f6a27a32a4f2108f88791e9e2fc4dd65461ece
   background-color: rgb(38, 40, 40);
   color: white;
   padding: 10px 15px;
@@ -817,43 +665,18 @@ h1 {
   margin-top: 0.4rem;
   transition: background-color 0.3s ease, transform 0.3s ease;
 }
-<<<<<<< HEAD
 .orederSec .form-container button:hover {
-=======
-.form-container button:hover {
->>>>>>> d8f6a27a32a4f2108f88791e9e2fc4dd65461ece
   background-color: #3cd972;
   transform: translateY(-2px);
   box-shadow: 0 5px 15px rgba(60, 217, 114, 0.3);
 }
 
-<<<<<<< HEAD
-
-=======
-.footer {
-  background-color: #333;
-  color: white;
-  text-align: center;
-  padding: 15px;
-  margin-top: 40px;
-}
-
-footer a {
-  color: #3cd972;
-  text-decoration: none;
-  font-weight: bold;
-}
-footer a:hover {
-  text-decoration: underline;
-}
->>>>>>> d8f6a27a32a4f2108f88791e9e2fc4dd65461ece
 
 /* Mobile responsive design */
 @media (max-width: 768px) {
   .container {
     width: 95%;
   }
-<<<<<<< HEAD
   .orederSec header h1 {
     font-size: 28px;
   }
@@ -861,25 +684,12 @@ footer a:hover {
     /* flex-direction: column; */
   }
    .orederSec .category-boxes {
-=======
-  header h1 {
-    font-size: 28px;
-  }
-  .steps-container {
-    flex-direction: column;
-  }
-  .category-boxes {
->>>>>>> d8f6a27a32a4f2108f88791e9e2fc4dd65461ece
     flex-direction: column;
     gap: -40px;
     scale: 0.8;
     
   }
-<<<<<<< HEAD
   .orederSec .category-box{
-=======
-  .category-box{
->>>>>>> d8f6a27a32a4f2108f88791e9e2fc4dd65461ece
     margin: -30px auto;
   }
   #graphCat {
@@ -890,21 +700,13 @@ footer a:hover {
   }
 }
 
-<<<<<<< HEAD
  .orederSec .category-boxes {
-=======
-.category-boxes {
->>>>>>> d8f6a27a32a4f2108f88791e9e2fc4dd65461ece
   display: flex;
   justify-content: center;
   align-items: center;
   gap: 0.3rem;
 }
-<<<<<<< HEAD
 .orederSec .category-box {
-=======
-.category-box {
->>>>>>> d8f6a27a32a4f2108f88791e9e2fc4dd65461ece
   padding: 0.2rem 0.8rem;
   text-align: center;
   background-color: #333;
@@ -915,27 +717,22 @@ footer a:hover {
   margin-bottom: 2rem;
   cursor: pointer;
 }
-<<<<<<< HEAD
 .orederSec .category-box:hover {
-=======
-.category-box:hover {
->>>>>>> d8f6a27a32a4f2108f88791e9e2fc4dd65461ece
   transform: translateY(-3px);
 }
 
 
 /* Mobile responsive design */
-@media (max-width: 768px) {
+@media screen and (max-width: 768px) {
   .container {
     width: 95%;
   }
-<<<<<<< HEAD
+
   .orederSec header h1 {
     font-size: 28px;
   }
-  .orederSec .step-container {
-    flex-direction: column;
-  }
+   
+ 
   .orederSec .category-boxes {
     flex-direction: column;
   }
@@ -943,41 +740,16 @@ footer a:hover {
     margin-top: -2rem;
   }
  .orederSec #testCat {
-=======
-  header h1 {
-    font-size: 28px;
-  }
-  .step-container {
-    flex-direction: column;
-  }
-  .category-boxes {
-    flex-direction: column;
-  }
-  #graphCat {
-    margin-top: -2rem;
-  }
-  #testCat {
->>>>>>> d8f6a27a32a4f2108f88791e9e2fc4dd65461ece
-    margin-top: -2rem;
-  }
-}
 
-<<<<<<< HEAD
+  }
 .orederSec .category-boxes {
-=======
-.category-boxes {
->>>>>>> d8f6a27a32a4f2108f88791e9e2fc4dd65461ece
   display: flex;
   justify-content: center;
   align-items: center;
   gap: 0.3rem;
  margin-top: 0.3rem;
 }
-<<<<<<< HEAD
 .orederSec .category-box {
-=======
-.category-box {
->>>>>>> d8f6a27a32a4f2108f88791e9e2fc4dd65461ece
   padding: 0.2rem 0.8rem;
   text-align: center;
   background-color: #333;
@@ -989,50 +761,31 @@ footer a:hover {
   cursor: pointer;
  
 }
-<<<<<<< HEAD
 .orederSec .category-box:hover {
   transform: translateY(-3px);
 }
 .orederSec .active-cat {
-=======
-.category-box:hover {
-  transform: translateY(-3px);
-}
-.active-cat {
->>>>>>> d8f6a27a32a4f2108f88791e9e2fc4dd65461ece
   background-color: #3cd972;
   transform: translateY(-1px);
 }
 
-<<<<<<< HEAD
 .orederSec form {
-=======
-form {
->>>>>>> d8f6a27a32a4f2108f88791e9e2fc4dd65461ece
   position: relative;
   min-height: 500px;       /* حداقل ارتفاع فرم */
   padding-bottom: 40px;    /* فضای کافی برای دکمه‌ها */
 }
 
-<<<<<<< HEAD
 .orederSec .steps-wrapper {
-=======
-.steps-wrapper {
->>>>>>> d8f6a27a32a4f2108f88791e9e2fc4dd65461ece
   overflow: hidden;        /* مخفی کردن مراحل غیرفعال */
   position: relative;
 }
-
+}
 
 /* نمایش مرحله‌ی فعال */
 
 
 /* استایل ثابت باکس دکمه‌ها */
-<<<<<<< HEAD
 .orederSec .formButtons {
-=======
-.formButtons {
->>>>>>> d8f6a27a32a4f2108f88791e9e2fc4dd65461ece
   display: flex;
   position: absolute;
   bottom: 100px;
@@ -1044,60 +797,36 @@ form {
   min-width: 250px;
 }
 
-<<<<<<< HEAD
 .orederSec .formButtons button {
-=======
-.formButtons button {
->>>>>>> d8f6a27a32a4f2108f88791e9e2fc4dd65461ece
   margin: 0 8px;
   padding: 10px 20px;
   cursor: pointer;
 }
 
-<<<<<<< HEAD
  .orederSec .error-text {
-=======
- .error-text {
->>>>>>> d8f6a27a32a4f2108f88791e9e2fc4dd65461ece
             color: #ff4d4d;
             font-size: 0.9rem;
             margin-top: 0.3rem;
             display: none;
         }
 
-<<<<<<< HEAD
           .orederSec .message {
-=======
-          .message {
->>>>>>> d8f6a27a32a4f2108f88791e9e2fc4dd65461ece
             text-align: center;
             margin-bottom: 3rem;
             font-size: 1.1rem;
             padding: 1rem;
             border-radius: 10px;
         }
-<<<<<<< HEAD
         .orederSec .confirmation-message {
             color: #ffffff;
             background: #28a745;
         }
        .orederSec .error-message {
-=======
-        .confirmation-message {
-            color: #ffffff;
-            background: #28a745;
-        }
-        .error-message {
->>>>>>> d8f6a27a32a4f2108f88791e9e2fc4dd65461ece
             color: #ffffff;
             background: #dc3545;
         }
 
-<<<<<<< HEAD
         .orederSec .form-buttons button:disabled {
-=======
-         .form-buttons button:disabled {
->>>>>>> d8f6a27a32a4f2108f88791e9e2fc4dd65461ece
             background: #555;
             cursor: not-allowed;
             transform: none;
@@ -2011,11 +1740,7 @@ form {
 
         function selectCategory(category) {
             currentCategory = category;
-<<<<<<< HEAD
             document.querySelectorAll('.orederSec .category-box').forEach(box => {
-=======
-            document.querySelectorAll('.category-box').forEach(box => {
->>>>>>> d8f6a27a32a4f2108f88791e9e2fc4dd65461ece
                 box.classList.toggle('active-cat', box.textContent === {web: 'وبسایت', graph: 'گرافیک', test: 'تست نفوذ'}[category]);
             });
             document.getElementById('web-form').style.display = category === 'web' ? 'block' : 'none';
