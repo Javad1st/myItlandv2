@@ -425,7 +425,7 @@ tr.row-1.odd {
     color: rgb(255 255 255 / var(--tw-text-opacity));
     background-color: var(--btn-color);
     margin-top: 20px;
-    margin-right: auto;
+    
 }
     .pry2 {
     fill: #fff;

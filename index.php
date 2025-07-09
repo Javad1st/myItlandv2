@@ -445,7 +445,7 @@ tr.row-1.odd {
     color: rgb(255 255 255 / var(--tw-text-opacity));
     background-color: var(--btn-color);
     margin-top: 20px;
-    margin-right: auto;
+    /* margin-right: auto; */
 }
     .pry2 {
     fill: #fff;
@@ -475,7 +475,7 @@ tr.row-1.odd {
 								<use href="#icon-drawer-menu"></use>
 							</svg>
 						</button>
-            	<a href="https://myitland.ir" title=" آیتی لند" rel="home">
+            	<a href="https://myitland.ir" title=" آیتی لند" style="scale: 1.3;" rel="home">
 							<img width="96" height="55" src="tasavir/ItLogo.png" class="w-24 lg:hidden" alt=" ابتی لند" decoding="async">
 						</a>
 						<?php if (isset($_SESSION['user_id'])): ?>
@@ -1148,14 +1148,26 @@ tr.row-1.odd {
                       .animtextt{
                         
                         margin-left: -1rem;
-                        margin-right: 2rem;
+                        
                       }
                     }
-                    @media screen and (max-width:347px) {
-                       .animtextt{
-                        margin-top: 1rem;
-                        margin-left: -1rem;
-                        margin-right: unset;
+                    @media screen and (max-width:401px) {
+                       .content{
+                       scale: 0.8;
+                      }
+                      .animtextL{
+                        
+                      }
+                    }
+                    @media screen and (max-width:369px){
+                      .animtextt{
+                        
+                        margin-right: -4.5rem;
+                        margin-left: -4.5rem;
+                        
+                      }
+                      .animtext1{
+                        margin-right: 3.5rem !important;
                       }
                     }
                   </style>
@@ -1177,9 +1189,9 @@ tr.row-1.odd {
 
               </div>
             </div>
-    <div class="content basis-full text-center md:text-right md:basis-6/12 lg:basis-5/12 md:mb-0">
-        <h2 class="text-5xl lg:text-6xl leading-snug lg:leading-snug font-black mb-6 uppercase">
-            <div class="flex justify-center md:!justify-start flex-wrap">
+    <div class="content basis-full text-center md:text-right md:basis-6/12 lg:basis-5/12 md:mb-0" style="margin: 0 auto !important;">
+        <h2 class="text-5xl lg:text-6xl leading-snug lg:leading-snug font-black mb-6 uppercase textes">
+            <div class="flex justify-center md:!justify-start ">
                 <span class="animtext animtextt"> خدمات ⁮⁮</span>
                 <span class=" relative h-16 text-right" style="display: inline; width: 200px; ">
                     <span class="absolute transition duration-500 animRed animtext1 opacity-0" style="color:var(--color-red); display: inline; width: 340px; font-weight: 900;"> تست نفوذ</span>
@@ -1187,15 +1199,7 @@ tr.row-1.odd {
                     <span class="absolute transition  animtext1 duration-500 animPurple " animtext style="color:var(--color-purple);  display: inline; width: 340px; font-weight: 900;"> وب سایت </span>
                 </span>
                 <style>
-                    @media screen and (max-width:379px) {
-                        .animPurple{
-                            margin-right: 0.8rem;
-                        }
-                        .animRed{
-                            margin-right: 0.7rem;
-                        }
-                    
-                    }
+                  
                     .features{
                       position: relative;
                      background: linear-gradient(to bottom, rgba(197, 197, 197, 0.21),rgba(253, 253, 253, 1));
@@ -1227,9 +1231,9 @@ tr.row-1.odd {
 }
                 </style>
             </div>
-            <span class="relative inline-block animtext">  حرفه ای را</span>
+            <span class="relative inline-block animtext ">  حرفه ای را</span>
             <br>
-            <span class="relative inline-block animtext">به ما بسپارید.</span>
+            <span class="relative inline-block animtext animtextL" >به ما بسپارید.</span>
         </h2>
       
     
@@ -1508,8 +1512,17 @@ document.addEventListener('DOMContentLoaded', function () {
 <div id="joinTeam" class="container mx-auto">
 
     <div class="group rounded-2xl pb-20 md:py-20 relative flex items-center justify-center  mb-20 lg:mb-0 bg-white flex-col">
-
-                <div class="absolute rounded-2xl overflow-hidden left-0 right-0 top-0 bottom-0 z-0" style="background-image: url('tasavir/ItLogo.png');background-size: 70%; background-fit:center center; background-repeat:no-repeat ; opacity:.08"></div>
+                          <style>
+                            .joining{
+                              background-image: url('tasavir/ItLogo.png');
+                            }
+                            @media screen and (max-width:1279px){
+                                .joining{
+                                  background-image: none;
+                                }
+                            }
+                          </style>
+                <div class="absolute joining rounded-2xl overflow-hidden left-0 right-0 top-0 bottom-0 z-0" style="background-size: 70%; background-fit:center center; background-repeat:no-repeat ; opacity:.08"></div>
         
         
 
@@ -1525,7 +1538,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
                                     <div class="" id="work">
                                                     <a href="./job" id="openModalTriggerBtn_786" class="pt-3 pb-2.5 2xl:pt-3.5 2xl:pb-3 mx-auto font-medium text-lg btn group last:ml-0 primary mw600:font-size-14-px xs:font-size-12-px mw350:font-size-11-px text-center" style="background: #1b1819; transition: background 0.3s;" onmouseover="this.style.backgroundColor='#04cc72';" onmouseout="this.style.backgroundColor='#1b1819';">
-                                <span  class="mx-auto">همکاری با  آیتی‌لند</span>
+                                <span  class="mx-auto text-2xl md:text-lg">همکاری با  آیتی‌لند</span>
                               
 
                             </a>
@@ -1697,7 +1710,7 @@ document.addEventListener('DOMContentLoaded', function () {
       padding: 5px 10px;
     }
   </style>
-  <section id="NemooneKar" class="project-showcase">
+  <!-- <section id="NemooneKar" class="project-showcase">
     <h2 class="showcase-header">نمونه کارها</h2>
 
    
@@ -1723,7 +1736,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
  
     
-  </section>
+  </section> -->
 
   
   <div class="modal" id="modal">

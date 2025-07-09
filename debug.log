@@ -6404,3 +6404,45 @@ User query result: Array
     [email] => javadooshakhlari@gmail.com
 )
 
+Session at start of order.php: Array
+(
+)
+
+Redirecting to login.php: user_id not set
+Session at start of packageOrder.php: Array
+(
+)
+
+Redirecting to login.php from packageOrder.php: user_id not set
+Session at start of order.php: Array
+(
+    [error_message] => لطفاً ابتدا وارد شوید.
+)
+
+Redirecting to login.php: user_id not set
+Session at start of order.php: Array
+(
+    [error_message] => لطفاً ابتدا وارد شوید.
+    [user_id] => 7
+    [email] => javadooshakhlari@gmail.com
+)
+
+User query result: Array
+(
+    [name] => javad
+    [email] => javadooshakhlari@gmail.com
+)
+
+Session at start of order.php: Array
+(
+    [error_message] => لطفاً ابتدا وارد شوید.
+    [user_id] => 7
+    [email] => javadooshakhlari@gmail.com
+)
+
+User query result: Array
+(
+    [name] => javad
+    [email] => javadooshakhlari@gmail.com
+)
+

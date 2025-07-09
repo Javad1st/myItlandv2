@@ -133,88 +133,139 @@ tr.row-1.odd {
   src: url(../yekan/Yekan-Bakh-FaNum-04-Regular.woff);
 }
 
-    /* ریست اولیه */
-    * {
-      box-sizing: border-box;
-      margin: 0;
-      padding: 0;
-      font-family: iranSans;
-    }
+  /* ریست اولیه و تنظیم تایپوگرافی سیال */
+html {
+  font-size: clamp(14px, 1.5vw, 18px);
+  scroll-behavior: smooth;
+}
 
-    body {
-      
-      background: #f0f2f5;
-      color: #333;
-      line-height: 1.6;
-      padding: 20px;
-    }
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: iranSans, sans-serif;
+}
 
-    /* کانتینر کلی */
-    .support-page {
-      max-width: 800px;
-      margin: 0 auto;
-      background: #fff;
-      border-radius: 8px;
-      box-shadow: 0 4px 12px rgba(0,0,0,0.05);
-      overflow: hidden;
-    }
+body {
+  background: #f0f2f5;
+  color: #333;
+  line-height: 1.6;
+  padding: 1rem;
+}
 
-    /* هدر با تصویر */
-    .support-page header img {
-      display: block;
-      width: 100%;
-      height: auto;
-    }
+/* کانتینر موبایل‌فرست */
+.support-page {
+  width: 100%;
+  max-width: 800px;
+  margin: 1rem auto;
+  background: #fff;
+  border-radius: 0.5rem;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+  overflow: hidden;
+}
 
-    /* محتوای توضیحات */
-    .support-page main {
-      padding: 24px;
-    }
+/* هدر با تصویر تمام‌عرض */
+.support-page header img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
 
-    .support-page main h1 {
-      font-size: 1.8rem;
-      margin-bottom: 16px;
-      color: #04cc72;
-      font-weight: 500;
-    }
+/* محتوای اصلی با پدینگ انعطاف‌پذیر */
+.support-page main {
+  padding: 1.5rem;
+}
 
-    .support-page main p {
-      margin-bottom: 12px;
-    }
+.support-page main h1 {
+  font-size: clamp(1.8rem, 4vw, 2.4rem);
+  margin-bottom: 1rem;
+  color: #04cc72;
+  font-weight: 500;
+}
 
-    /* فوتر با دکمه‌ها */
-    .support-page footer {
-      padding: 20px;
-      background: #fafafa;
-      border-top: 1px solid #e0e0e0;
-    }
+.support-page main p {
+  margin-bottom: 1rem;
+}
 
-    .support-page .buttons {
-      display: flex;
-      gap: 12px;
-    }
+/* فوتر و دکمه‌ها */
+.support-page footer {
+  padding: 1.25rem;
+  background: #fafafa;
+  border-top: 1px solid #e0e0e0;
+}
 
-    .support-page .buttons button {
-      flex: 1;
-      padding: 14px 0;
-      background: #2b2b2b;
-      color: #fff;
-      border: none;
-      border-radius: 6px;
-      font-size: 1rem;
-      cursor: pointer;
-      transition: background 0.3s;
-    }
+.support-page .buttons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+}
 
-    .support-page .buttons button:hover {
-      background: #17f98f;
-    }
-  .support-page .flex-svg{
-        display: flex;
-        gap: 2px;
-        justify-content: center;
-        align-items: center;
-    }
+.support-page .buttons button {
+  flex: 1 1 100%;
+  padding: 0.75rem 0;
+  background: #2b2b2b;
+  color: #fff;
+  border: none;
+  border-radius: 0.5rem;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.support-page .buttons button:hover {
+  background: #17f98f;
+}
+
+/* آیکون‌های SVG کنار هم */
+.support-page .flex-svg {
+  display: flex;
+  gap: 0.5rem;
+  justify-content: center;
+  align-items: center;
+}
+
+/* مدیاکوئری‌ها برای نمایش‌های بزرگ‌تر */
+@media (min-width: 576px) {
+  .support-page .buttons button {
+    flex: 1 1 calc(50% - 0.75rem);
+  }
+}
+
+@media (min-width: 768px) {
+  .support-page {
+    margin: 2rem auto;
+  }
+  .support-page main {
+    padding: 2rem;
+  }
+  .support-page .buttons button {
+    flex: 1;
+    padding: 1rem 0;
+    font-size: 1.1rem;
+  }
+}
+
+@media (min-width: 992px) {
+  .support-page {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto 1fr auto;
+    grid-template-areas:
+      "header header"
+      "main  main"
+      "footer footer";
+  }
+  .support-page header {
+    grid-area: header;
+  }
+  .support-page main {
+    grid-area: main;
+  }
+  .support-page footer {
+    grid-area: footer;
+    padding: 2rem;
+  }
+}
   </style>
 </head>
 <body>
@@ -399,7 +450,7 @@ tr.row-1.odd {
     color: rgb(255 255 255 / var(--tw-text-opacity));
     background-color: var(--btn-color);
     margin-top: 20px;
-    margin-right: auto;
+    
 }
     .pry2 {
     fill: #fff;
@@ -1230,13 +1281,7 @@ tr.row-1.odd {
 
 <div class="foot foot1">
 
-  <div class="footerSection footerSection1">
-  <h1>درباره ما</h1>
-  <p style="color:#cfcfcf;"> سایت آیتی‌لند در آبان 1402 با هدف ارائه خدمات نوین فناوری و آموزش‌های به‌روز در دنیای آی‌تی راه‌اندازی شد.
-در آیتی‌لند، مرزهای دانش را جستجو می‌کنیم و تلاش داریم پلی باشیم بین شما و آینده تکنولوژی.
-با ما همراه باشید تا در دنیای دیجیتال پیشرو باشید!
-</p>
-  </div>
+
 
   <div class="footerSection footerSection2">
     <h1>ارتباط با ما</h1>
@@ -1255,11 +1300,7 @@ tr.row-1.odd {
 
 <div class="foot foot2">
 
-<div class="footSec">
-  <hr>
-  <img src="../tasavir/Untitled-2.png" alt="">
-  <hr>
-</div>
+
 <div class="footSec">
 
   <ul>
